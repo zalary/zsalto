@@ -1,0 +1,10 @@
+okta.Group Test_Admins@b {
+  objectClass = [
+    "okta:user_group",
+  ]
+  type = "OKTA_GROUP"
+  profile = {
+    name = "Test-Admins"
+  }
+  _alias = "Test-Admins"
+}

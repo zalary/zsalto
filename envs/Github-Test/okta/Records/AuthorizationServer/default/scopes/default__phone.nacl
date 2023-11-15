@@ -1,0 +1,16 @@
+okta.OAuth2Scope default__phone {
+  name = "phone"
+  displayName = "View your phone number."
+  description = "This allows the app to view your phone number."
+  system = true
+  metadataPublish = "ALL_CLIENTS"
+  consent = "IMPLICIT"
+  default = false
+  additionalProperties = {
+    optional = false
+  }
+  _parent = [
+    okta.AuthorizationServer.instance.default,
+  ]
+  _alias = "View your phone number."
+}

@@ -1,0 +1,8 @@
+okta.NetworkZone BlockedIpZone {
+  type = "IP"
+  name = "BlockedIpZone"
+  status = "ACTIVE"
+  usage = "BLOCKLIST"
+  system = true
+  _alias = "BlockedIpZone"
+}

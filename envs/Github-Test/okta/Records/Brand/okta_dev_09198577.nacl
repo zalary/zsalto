@@ -1,0 +1,10 @@
+okta.Brand okta_dev_09198577@b {
+  name = "okta-dev-09198577"
+  removePoweredByOkta = false
+  agreeToCustomPrivacyPolicy = false
+  isDefault = true
+  defaultApp = {
+    appInstanceId = okta.Application.instance.Okta_Dashboard@s
+  }
+  _alias = "okta-dev-09198577"
+}

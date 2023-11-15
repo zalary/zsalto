@@ -1,0 +1,8 @@
+okta.AppLogo Cloud_13@b {
+  fileName = "Cloud_13@b.png"
+  contentType = "png"
+  content = file("okta/AppLogo/Cloud_13@b.png")
+  _parent = [
+    okta.Application.instance.Cloud_13@b,
+  ]
+}

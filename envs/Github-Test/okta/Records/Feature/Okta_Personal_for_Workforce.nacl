@@ -1,0 +1,11 @@
+okta.Feature Okta_Personal_for_Workforce@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Okta Personal for Workforce"
+  description = "Okta Personal (https://www.oktapersonal.com) provides secure, unlimited storage for personal apps on all devices. Okta Personal for Workforce enables migration of personal apps from an Okta work account to a free Okta Personal account."
+  stage = {
+    value = "BETA"
+    state = "OPEN"
+  }
+  _alias = "Okta Personal for Workforce"
+}

@@ -1,0 +1,14 @@
+okta {
+  fetch = {
+    include = [
+      {
+        type = ".*"
+      },
+    ]
+    exclude = [
+    ]
+    convertUsersIds = true
+    includeGroupMemberships = false
+    includeProfileMappingProperties = true
+  }
+}

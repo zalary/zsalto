@@ -1,0 +1,10 @@
+okta.Feature Granular_permissions_to_manage_directories@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Granular permissions to manage directories"
+  description = "This feature enables you to assign permissions to view and manage directories as part of a customized admin role. Admins without universal application administrator permissions can handle directory-specific tasks."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Granular permissions to manage directories"
+}

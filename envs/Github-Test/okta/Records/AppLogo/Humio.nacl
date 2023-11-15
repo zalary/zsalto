@@ -1,0 +1,8 @@
+okta.AppLogo Humio {
+  fileName = "Humio.png"
+  contentType = "png"
+  content = file("okta/AppLogo/Humio.png")
+  _parent = [
+    okta.Application.instance.Humio,
+  ]
+}

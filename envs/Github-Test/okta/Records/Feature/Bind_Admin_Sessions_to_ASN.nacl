@@ -1,0 +1,10 @@
+okta.Feature Bind_Admin_Sessions_to_ASN@s {
+  type = "self-service"
+  status = "ENABLED"
+  name = "Bind Admin Sessions to ASN"
+  description = "Reauthenticate admins if their session is reused from an IP address with a different ASN (Autonomous System Number)."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Bind Admin Sessions to ASN"
+}

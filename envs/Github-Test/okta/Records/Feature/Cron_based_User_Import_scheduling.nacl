@@ -1,0 +1,10 @@
+okta.Feature Cron_based_User_Import_scheduling@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Cron based User Import scheduling"
+  description = "Enable user import scheduling with cron"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Cron based User Import scheduling"
+}

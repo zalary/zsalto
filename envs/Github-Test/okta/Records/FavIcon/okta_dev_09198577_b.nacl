@@ -1,0 +1,9 @@
+okta.FavIcon okta_dev_09198577_b@uum {
+  fileName = "okta_dev_09198577_b@uum.ico"
+  contentType = "ico"
+  content = file("okta/FavIcon/okta_dev_09198577_b@uum.ico")
+  _parent = [
+    okta.BrandTheme.instance.okta_dev_09198577_b@uum,
+    okta.Brand.instance.okta_dev_09198577@b,
+  ]
+}

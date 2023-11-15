@@ -1,0 +1,10 @@
+okta.Feature Conditions_for_admin_access@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Conditions for admin access"
+  description = "Super admins can now use conditions on roles to restrict access to user attributes that suit their organization?s specific needs."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Conditions for admin access"
+}

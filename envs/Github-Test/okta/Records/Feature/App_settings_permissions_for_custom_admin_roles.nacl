@@ -1,0 +1,10 @@
+okta.Feature App_settings_permissions_for_custom_admin_roles@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "App settings permissions for custom admin roles"
+  description = "Super admins can assign permissions for custom admin roles to manage all app settings, or only general app settings."
+  stage = {
+    value = "EA"
+  }
+  _alias = "App settings permissions for custom admin roles"
+}

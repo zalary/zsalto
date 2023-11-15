@@ -1,0 +1,76 @@
+okta.Application Humio {
+  label = "Humio"
+  status = "ACTIVE"
+  accessibility = {
+    selfService = false
+  }
+  visibility = {
+    autoLaunch = false
+    autoSubmitToolbar = false
+    hide = {
+      iOS = false
+      web = false
+    }
+  }
+  features = [
+    "SCIM_PROVISIONING",
+  ]
+  signOnMode = "SAML_2_0"
+  credentials = {
+    userNameTemplate = {
+      template = "\${source.email}"
+      type = "BUILT_IN"
+    }
+  }
+  settings = {
+    notifications = {
+      vpn = {
+        network = {
+          connection = "DISABLED"
+        }
+      }
+    }
+    manualProvisioning = false
+    implicitAssignment = false
+    notes = {
+      admin = ""
+      enduser = ""
+    }
+    signOn = {
+      signOnMode = "SAML_2_0"
+      defaultRelayState = "https://cloud.us.humio.com?idpId=7FVrptKQ6uDn0tCBlTPwKWeCkzt090rV"
+      ssoAcsUrl = "https://cloud.us.humio.com/api/v1/saml/acs"
+      idpIssuer = "http://www.okta.com/\${org.externalKey}"
+      audience = "https://cloud.us.humio.com/api/v1/saml/metadata"
+      recipient = "https://cloud.us.humio.com/api/v1/saml/acs"
+      destination = "https://cloud.us.humio.com/api/v1/saml/acs"
+      subjectNameIdTemplate = "\${user.userName}"
+      subjectNameIdFormat = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
+      responseSigned = true
+      assertionSigned = true
+      signatureAlgorithm = "RSA_SHA256"
+      digestAlgorithm = "SHA256"
+      honorForceAuthn = true
+      authnContextClassRef = "urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport"
+      requestCompressed = false
+      attributeStatements = [
+        {
+          type = "GROUP"
+          name = "group"
+          namespace = "urn:oasis:names:tc:SAML:2.0:attrname-format:basic"
+          filterType = "REGEX"
+          filterValue = ".*"
+        },
+      ]
+      allowMultipleAcsEndpoints = false
+      samlSignedRequestEnabled = false
+      slo = {
+        enabled = false
+      }
+    }
+  }
+  assignedGroups = [
+    okta.Group.instance.Test_Admins@b,
+  ]
+  _alias = "Humio"
+}

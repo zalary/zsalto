@@ -1,0 +1,34 @@
+okta.AppUserSchema Cloud_13_b@um {
+  title = "Cloud-13 User"
+  definitions = {
+    custom = {
+      id = "#custom"
+      type = "object"
+    }
+    base = {
+      id = "#base"
+      type = "object"
+      properties = {
+        additionalProperties = {
+          userName = {
+            title = "Username"
+            type = "string"
+            required = true
+            scope = "NONE"
+            maxLength = 100
+            master = {
+              type = "PROFILE_MASTER"
+            }
+          }
+        }
+      }
+      required = [
+        "userName",
+      ]
+    }
+  }
+  _parent = [
+    okta.Application.instance.Cloud_13@b,
+  ]
+  _alias = "Cloud-13 User"
+}

@@ -1,0 +1,10 @@
+okta.Feature Read_IAM_resources@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Read IAM resources"
+  description = "Allow view access to IAM resources, such as Roles, Policies and Bindings"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Read IAM resources"
+}

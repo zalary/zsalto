@@ -1,0 +1,6 @@
+okta.Domain dev_09198577_okta_com@bvv {
+  domain = "dev-09198577.okta.com"
+  certificateSourceType = "OKTA_MANAGED"
+  validationStatus = "COMPLETED"
+  brandId = okta.Brand.instance.okta_dev_09198577@b
+}
