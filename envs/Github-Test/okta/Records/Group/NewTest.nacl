@@ -6,5 +6,5 @@ okta.Group NewTest {
   profile = {
     name = "NewTest"
   }
-  _alias = "NewTest"
+  
 }
