@@ -1,0 +1,24 @@
+zendesk.macro "1P__srd__scott@f" {
+  title = "1P::srd::scott"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "priority"
+      value = "urgent"
+    },
+    {
+      field = "status"
+      value = "open"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>Regenerate Salto IDs</p>"
+    },
+  ]
+  attachments = [
+    zendesk.macro_attachment.instance.1P__srd__scott__image001__1__png@ffffuuuuuv,
+  ]
+  raw_title = "1P::srd::scott"
+  _alias = "1P::srd::scott"
+}

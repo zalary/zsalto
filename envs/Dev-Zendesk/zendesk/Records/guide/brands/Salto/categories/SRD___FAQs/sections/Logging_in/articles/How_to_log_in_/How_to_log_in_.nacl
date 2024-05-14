@@ -1,0 +1,17 @@
+zendesk.article How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssssuuuuuuuum {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Logging_in_SRD___FAQs_Salto_sbsu@suuuuum
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssssuuuuuuuum__Salto_en_us_ub@uuuuuuuuuuuuumuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "How to log in "
+}

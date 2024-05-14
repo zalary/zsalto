@@ -1,0 +1,8 @@
+zendesk.user_field__custom_field_options userdropdownfield__bbb {
+  raw_name = "bbb"
+  value = "bbb"
+  _parent = [
+    zendesk.user_field.instance.userdropdownfield,
+  ]
+  _alias = "bbb"
+}

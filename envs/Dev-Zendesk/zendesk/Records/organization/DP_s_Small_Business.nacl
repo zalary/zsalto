@@ -1,0 +1,21 @@
+zendesk.organization DP_s_Small_Business@tss {
+  name = "DP's Small Business"
+  shared_tickets = false
+  shared_comments = false
+  domain_names = [
+    "putman.com",
+    "putman.io",
+  ]
+  details = "This is a detail"
+  notes = "This is a note"
+  group_id = zendesk.group.instance.Support
+  tags = [
+    "v22",
+    "v1",
+  ]
+  organization_fields = {
+    orgfield2 = "v22"
+    org_field_1 = "v1"
+    org_size = 100
+  }
+}

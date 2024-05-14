@@ -1,0 +1,22 @@
+zendesk.ticket_field EC_Early_Product_Access_Type_clone_tagger@bssssu {
+  type = "tagger"
+  raw_title = "EC-Early Product Access Type clone"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "EC-Early Product Access Type clone"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__dark_mode_clone@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__feature_b_clone@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__feature_f_clone@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__feature_c_clone@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__feature_d_clone@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__feature_e_clone@uuuuuumuuuu,
+  ]
+  _alias = "EC-Early Product Access Type clone"
+}

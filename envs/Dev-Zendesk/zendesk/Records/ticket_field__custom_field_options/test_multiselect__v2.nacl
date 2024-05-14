@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options test_multiselect__v2 {
+  raw_name = "v2"
+  value = "v2"
+  _parent = [
+    zendesk.ticket_field.instance.test_multiselect,
+  ]
+  _alias = "v2"
+}

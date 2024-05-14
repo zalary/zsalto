@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options Customer_Tier_multiselect_su__paying@uumuu {
+  raw_name = "Paying"
+  value = "paying"
+  _parent = [
+    zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
+  ]
+  _alias = "Paying"
+}

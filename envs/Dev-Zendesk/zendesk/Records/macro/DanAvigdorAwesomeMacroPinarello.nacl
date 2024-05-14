@@ -1,0 +1,14 @@
+zendesk.macro DanAvigdorAwesomeMacroPinarello {
+  title = "DanAvigdorAwesomeMacroPinarello"
+  active = true
+  default = false
+  description = "Pinarello"
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.KingDanAvigdor_tagger
+      value = zendesk.ticket_field__custom_field_options.instance.missing_10402303135255
+    },
+  ]
+  raw_title = "DanAvigdorAwesomeMacroPinarello"
+  _alias = "DanAvigdorAwesomeMacroPinarello"
+}

@@ -1,0 +1,21 @@
+zendesk.article Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum@ssvuuuuuuuuuuuuuum {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum@sssvuuuuuuuum
+  source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum_ssvuuuuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuuuuuumuuuuuum,
+    zendesk.article_translation.instance.Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum_ssvuuuuuuuuuuuuuum__DP_Brand_s_es_umu@uuuuuuuuuuuuuuuuuumuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  attachments = [
+    zendesk.article_attachment.instance.Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum_ssvuuuuuuuuuuuuuum__dp_large_attachment_json_false@uuuuuuuuuuuuuuuuuumuuuuvu,
+  ]
+  _alias = "Article for 2.1"
+}

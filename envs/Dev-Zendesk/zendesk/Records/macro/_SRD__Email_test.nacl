@@ -1,0 +1,18 @@
+zendesk.macro _SRD__Email_test@hiss {
+  title = "[SRD] Email test"
+  active = true
+  default = false
+  description = "test macro"
+  actions = [
+    {
+      field = "status"
+      value = "pending"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p><br></p><p><br></p><p><a href=\"http://scott.dixon.dc@salto.io\" target=\"_blank\" rel=\"noreferrer\">scott.dixon.dc@salto.io</a><br></p><p><a href=\"http://scott.dixon.rdc@salto.io\" target=\"_blank\" rel=\"noreferrer\">scott.dixon.rdc@salto.io</a><br></p><p><a href=\"http://de.rdc.stuggart@lyreco.com\" target=\"_blank\" rel=\"noreferrer\">de.rdc.stuggart@lyreco.com</a></p><p><br></p><p>de.rdc.stuggart@lyreco.com<br></p>"
+    },
+  ]
+  raw_title = "[SRD] Email test"
+  _alias = "[SRD] Email test"
+}

@@ -1,0 +1,12 @@
+zendesk.section_translation Site_Navigation_FAQs_Salto_suu__Salto_en_us_ub@uuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "Site Navigation"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Site_Navigation_FAQs_Salto@suu,
+  ]
+  _alias = "en-us - Site Navigation"
+}

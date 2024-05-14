@@ -1,0 +1,23 @@
+zendesk.macro Take_it1_@sl {
+  title = "Take it1!"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "group_id"
+      value = "current_groups"
+    },
+    {
+      field = zendesk.ticket_field.instance.my_dropdown_1_tagger@ssu
+      value = zendesk.ticket_field__custom_field_options.instance.my_dropdown_1_tagger_ssu__v44@uuumuu
+    },
+  ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk.group.instance.Support,
+    ]
+  }
+  raw_title = "Take it1!"
+  _alias = "Take it1!"
+}

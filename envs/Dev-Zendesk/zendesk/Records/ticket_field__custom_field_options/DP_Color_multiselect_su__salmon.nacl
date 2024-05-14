@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP_Color_multiselect_su__salmon@uumuu {
+  raw_name = "Salmon"
+  value = "salmon"
+  _parent = [
+    zendesk.ticket_field.instance.DP_Color_multiselect@su,
+  ]
+  _alias = "Salmon"
+}

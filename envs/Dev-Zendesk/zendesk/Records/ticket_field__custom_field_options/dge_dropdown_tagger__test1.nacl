@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options dge_dropdown_tagger__test1 {
+  raw_name = "test1"
+  value = "test1"
+  _parent = [
+    zendesk.ticket_field.instance.dge_dropdown_tagger,
+  ]
+  _alias = "test1"
+}

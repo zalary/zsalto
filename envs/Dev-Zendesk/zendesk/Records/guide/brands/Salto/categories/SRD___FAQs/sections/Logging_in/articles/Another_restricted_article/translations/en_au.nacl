@@ -1,0 +1,12 @@
+zendesk.article_translation Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssuuuuuuuum__DP_Brand_s_en_au_umub@uuuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_au@umub
+  title = "Put another shrimp ahn tha bahbie"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssuuuuuuuum,
+  ]
+  _alias = "en-au - Another restricted article"
+}

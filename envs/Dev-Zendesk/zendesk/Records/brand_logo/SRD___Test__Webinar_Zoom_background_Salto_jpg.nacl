@@ -1,0 +1,9 @@
+zendesk.brand_logo SRD___Test__Webinar_Zoom_background_Salto_jpg@sbsuuuuuv {
+  filename = "Webinar_Zoom_background_Salto.jpg"
+  contentType = "image/jpeg"
+  content = file("zendesk/brand_logo/SRD - Test__Webinar_Zoom_background_Salto.jpg")
+  _parent = [
+    zendesk.brand.instance.SRD___Test@sbs,
+  ]
+  _alias = "Webinar_Zoom_background_Salto.jpg"
+}

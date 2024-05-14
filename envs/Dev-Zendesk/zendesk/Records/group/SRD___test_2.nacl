@@ -1,0 +1,8 @@
+zendesk.group SRD___test_2@sbss {
+  is_public = true
+  name = "SRD - test 2"
+  description = ""
+  default = false
+  deleted = false
+  _alias = "SRD - test 2"
+}

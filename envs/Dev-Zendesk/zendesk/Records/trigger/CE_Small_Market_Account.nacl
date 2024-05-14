@@ -1,0 +1,31 @@
+zendesk.trigger CE_Small_Market_Account@s {
+  title = "CE Small Market Account"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.customer_engineering,
+        zendesk.tag.instance.small_market_account,
+      ]
+    },
+    {
+      field = zendesk.ticket_field.instance.DP_My_Name_Field_text@bbbu
+      value = "Dan Putman"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.organization_field.instance.org_size
+        operator = "less_than"
+        value = "25"
+      },
+    ]
+  }
+  description = "Dan's Change"
+  raw_title = "CE Small Market Account"
+  category_id = zendesk.trigger_category.instance.Labeling
+  _alias = "CE Small Market Account"
+}

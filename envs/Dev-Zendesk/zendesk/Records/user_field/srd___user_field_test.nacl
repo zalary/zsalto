@@ -1,0 +1,10 @@
+zendesk.user_field srd___user_field_test {
+  type = "checkbox"
+  key = "srd___user_field_test"
+  raw_title = "SRD - User Field Test"
+  raw_description = ""
+  active = true
+  system = false
+  tag = zendesk.tag.instance.true
+  _alias = "SRD - User Field Test"
+}

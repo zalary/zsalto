@@ -1,0 +1,14 @@
+zendesk.section Move_Section_2_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum@ssuuuuuuuuuuum {
+  category_id = zendesk.category.instance.Move_This_Category_DP_Brand_s@ssuum
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  outdated = false
+  parent_section_id = zendesk.section.instance.Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum@sssuuuuuum
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.Move_Section_2_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum_ssuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuumuuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _alias = "Move Section 2"
+}

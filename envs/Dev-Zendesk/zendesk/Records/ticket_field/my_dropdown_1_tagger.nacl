@@ -1,0 +1,18 @@
+zendesk.ticket_field my_dropdown_1_tagger@ssu {
+  type = "tagger"
+  raw_title = "my dropdown 1"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "my dropdown 1"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.my_dropdown_1_tagger_ssu__v44@uuumuu,
+    zendesk.ticket_field__custom_field_options.instance.my_dropdown_1_tagger_ssu__v33@uuumuu,
+  ]
+  _alias = "my dropdown 1"
+}

@@ -1,0 +1,34 @@
+zendesk.automation SRD___new_automation@sbss {
+  title = "SRD - new automation"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "follower"
+      value = "scott.dixon@salto.io"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "greater_than"
+        value = "new"
+      },
+      {
+        field = "OPEN"
+        operator = "is"
+        value = "24"
+      },
+    ]
+    any = [
+      {
+        field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_f@uuuuumuuu
+      },
+    ]
+  }
+  raw_title = "SRD - new automation"
+  _alias = "SRD - new automation"
+}

@@ -1,0 +1,13 @@
+zendesk.article_translation SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu_sbssssauuuum__Salto_es_419_ub@uuuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_es_419@ub
+  title = "SRD - La locación del perfil"
+  body = "<p>Ve a esta página (después de haber iniciado sesión)</p>"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu@sbssssauuuum,
+  ]
+  _alias = "es-419 - SRD - Where is my profile?"
+}

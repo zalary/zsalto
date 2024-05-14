@@ -1,0 +1,41 @@
+zendesk {
+  client = {
+    retry = {
+      maxAttempts = 5
+      retryDelay = 5000
+    }
+    rateLimit = {
+      total = -1
+      get = 20
+    }
+  }
+  fetch = {
+    include = [
+      {
+        type = ".*"
+      },
+    ]
+    exclude = [
+      {
+        type = "organization"
+        criteria = {
+          name = "name.*"
+        }
+      },
+    ]
+    guide = {
+      brands = [".*"]
+    }
+    includeAuditDetails = true
+    handleIdenticalAttachmentConflicts = true
+    omitInactive = {
+      default = true
+      customizations = {
+        group = false
+      }
+    }
+  }
+  deploy = {
+    defaultMissingUserFallback = "##DEPLOYER##"
+  }
+}

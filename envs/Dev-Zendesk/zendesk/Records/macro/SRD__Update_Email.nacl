@@ -1,0 +1,17 @@
+zendesk.macro SRD__Update_Email@ffs {
+  title = "SRD::Update Email"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "open"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>Test macro</p><p><br></p><p>Thanks,</p><p><br></p><p><span class=\"atwho-inserted\">{{current_user.name}}</span>​&nbsp;</p>"
+    },
+  ]
+  raw_title = "SRD::Update Email"
+  _alias = "SRD::Update Email"
+}

@@ -1,0 +1,12 @@
+zendesk.section_translation Site_Navigation_FAQs_Salto_suu__Salto_es_419_ub@uuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_es_419@ub
+  title = "Navegar el sitio web"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Site_Navigation_FAQs_Salto@suu,
+  ]
+  _alias = "es-419 - Site Navigation"
+}

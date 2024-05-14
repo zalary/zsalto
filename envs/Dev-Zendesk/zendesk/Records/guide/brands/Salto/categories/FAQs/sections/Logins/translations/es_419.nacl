@@ -1,0 +1,12 @@
+zendesk.section_translation Logins_FAQs_Salto__Salto_es_419_ub@uuuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_es_419@ub
+  title = "Iniciar Sésion"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Logins_FAQs_Salto,
+  ]
+  _alias = "es-419 - Logins"
+}

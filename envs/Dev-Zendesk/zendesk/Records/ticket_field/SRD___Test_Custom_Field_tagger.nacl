@@ -1,0 +1,27 @@
+zendesk.ticket_field SRD___Test_Custom_Field_tagger@sbsssu {
+  type = "tagger"
+  raw_title = "SRD - Test Custom Field"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "SRD - Test Custom Field"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  agent_description = "testing"
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_a@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_b@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_c@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_d@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__fieldd@uuuuuumuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__dfield@uuuuuumuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_ds@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__atraso_de_pedido@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__atraso_do_pedido@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__atraso_pedido@uuuuuumuuu,
+  ]
+  _alias = "SRD - Test Custom Field"
+}

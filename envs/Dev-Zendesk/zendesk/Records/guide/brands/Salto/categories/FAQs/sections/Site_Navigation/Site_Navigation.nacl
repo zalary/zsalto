@@ -1,0 +1,14 @@
+zendesk.section Site_Navigation_FAQs_Salto@suu {
+  category_id = zendesk.category.instance.FAQs_Salto
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.Site_Navigation_FAQs_Salto_suu__Salto_en_us_ub@uuumuuuum,
+    zendesk.section_translation.instance.Site_Navigation_FAQs_Salto_suu__Salto_es_419_ub@uuumuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "Site Navigation"
+}

@@ -1,0 +1,21 @@
+zendesk.macro GWR_macro_to_exclude_by_available_for@sssssb {
+  title = "GWR macro to exclude by available-for"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance.gwrexclude,
+      ]
+    },
+  ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk.group.instance.Managers,
+    ]
+  }
+  raw_title = "GWR macro to exclude by available-for"
+  _alias = "GWR macro to exclude by available-for"
+}

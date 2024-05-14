@@ -1,0 +1,6 @@
+zendesk.guide_language_settings Eshed_Demo_s_en_us@umub {
+  locale = "en-us"
+  name = "Eshed Demo"
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _alias = "Eshed Demo en-us language settings"
+}

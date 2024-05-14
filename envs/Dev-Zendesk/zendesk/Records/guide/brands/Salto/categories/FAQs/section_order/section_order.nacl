@@ -1,0 +1,11 @@
+zendesk.section_order FAQs_Salto {
+  sections = [
+    zendesk.section.instance.Site_Navigation_FAQs_Salto@suu,
+    zendesk.section.instance.Logins_FAQs_Salto,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.FAQs_Salto,
+  ]
+  _alias = "FAQs Section Order"
+}

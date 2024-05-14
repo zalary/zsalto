@@ -1,0 +1,5 @@
+zendesk.permission_group Test_PG2 {
+  name = "Test_PG2"
+  built_in = false
+  _alias = "Test_PG2"
+}

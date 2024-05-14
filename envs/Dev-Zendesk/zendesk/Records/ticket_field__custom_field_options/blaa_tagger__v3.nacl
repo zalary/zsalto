@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options blaa_tagger__v3 {
+  raw_name = "v3"
+  value = "v3"
+  _parent = [
+    zendesk.ticket_field.instance.blaa_tagger,
+  ]
+  _alias = "v3"
+}

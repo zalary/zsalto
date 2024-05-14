@@ -1,0 +1,32 @@
+zendesk.trigger MKD___Preview_Access_Request__Beta_@sbssssjk {
+  title = "MKD - Preview Access Request (Beta)"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_group"
+      value = [
+        zendesk.group.instance.Support,
+        "Preview Access Request - Beta",
+        "{{current_user.email}} is interested in participating in our Beta Preview Access Program. Please reach out to them.  ",
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "value"
+        value = "pending"
+      },
+      {
+        field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu
+      },
+    ]
+  }
+  raw_title = "MKD - Preview Access Request (Beta)"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "MKD - Preview Access Request (Beta)"
+}

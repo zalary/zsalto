@@ -1,0 +1,9 @@
+zendesk.user_field gwr_txt_4 {
+  type = "text"
+  key = "gwr_txt_4"
+  raw_title = "gwr txt 4"
+  raw_description = ""
+  active = true
+  system = false
+  _alias = "gwr txt 4"
+}

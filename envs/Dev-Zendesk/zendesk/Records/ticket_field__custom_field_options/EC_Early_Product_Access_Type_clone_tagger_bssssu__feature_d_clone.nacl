@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options EC_Early_Product_Access_Type_clone_tagger_bssssu__feature_d_clone@uuuuuumuuuu {
+  raw_name = "Feature D"
+  value = "feature_d_clone"
+  _parent = [
+    zendesk.ticket_field.instance.EC_Early_Product_Access_Type_clone_tagger@bssssu,
+  ]
+  _alias = "Feature D"
+}

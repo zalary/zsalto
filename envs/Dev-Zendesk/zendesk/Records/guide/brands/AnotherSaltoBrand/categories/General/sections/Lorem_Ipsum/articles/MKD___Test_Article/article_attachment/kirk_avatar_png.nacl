@@ -1,0 +1,22 @@
+zendesk.article_attachment MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu {
+  file_name = "kirk_avatar.png"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/General/sections/Lorem_Ipsum/articles/MKD___Test_Article/article_attachment/kirk_avatar/19c6bf4a52_kirk_avatar.png")
+  _parent = [
+    zendesk.article.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu@sbssuuuum,
+  ]
+  _alias = "kirk_avatar.png - MKD - Test Article"
+}
+zendesk.article_attachment MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu {
+  file_name = "kirk_avatar.png"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/General/sections/Lorem_Ipsum/articles/MKD___Test_Article/article_attachment/kirk_avatar/19c6bf4a52_kirk_avatar.png")
+  _parent = [
+    zendesk.article.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu@sbssuuuum,
+  ]
+  _alias = "kirk_avatar.png - MKD - Test Article"
+}

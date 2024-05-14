@@ -1,0 +1,20 @@
+zendesk.ticket_field SRD___Shipping_Delay_Reason_tagger@sbsssu {
+  type = "tagger"
+  raw_title = "SRD - Shipping Delay Reason"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "SRD - Shipping Delay Reason"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__package_lost@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__inclement_weather@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__incorrect_address@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__other@uuuuuumuu,
+  ]
+  _alias = "SRD - Shipping Delay Reason"
+}

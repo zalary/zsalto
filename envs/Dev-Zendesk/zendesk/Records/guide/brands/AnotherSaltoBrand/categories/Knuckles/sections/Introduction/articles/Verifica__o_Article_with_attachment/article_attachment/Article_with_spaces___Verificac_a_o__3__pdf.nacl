@@ -1,0 +1,11 @@
+zendesk.article_attachment Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand__00231_00227sssuuu__Article_with_spaces___Verificac_a_o__3__pdf_false@uuuuuuuumuuuusssbs_00807_00771sjkvu {
+  file_name = "Article with spaces - Verificação (3).pdf"
+  content_type = "application/pdf"
+  inline = false
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/Verifica__o_Article_with_attachment/article_attachment/Article with spaces - Verificação (3)/78994004f0_Article with spaces - Verificação (3).pdf")
+  _parent = [
+    zendesk.article.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand@_00231_00227sssuuu,
+  ]
+  _alias = "Article with spaces - Verificação (3).pdf - Verificação Article with attachment"
+}

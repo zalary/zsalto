@@ -1,0 +1,9 @@
+zendesk.macro_attachment SRD___macro_attachment___CLONED__Webinar_Zoom_background_Salto_jpg@sbsssbsuuuuuv {
+  filename = "Webinar_Zoom_background_Salto.jpg"
+  contentType = "image/jpeg"
+  content = file("zendesk/macro_attachment/SRD - macro attachment - CLONED__Webinar_Zoom_background_Salto.jpg")
+  _parent = [
+    zendesk.macro.instance.SRD___macro_attachment___CLONED@sbsssbs,
+  ]
+  _alias = "Webinar_Zoom_background_Salto.jpg"
+}

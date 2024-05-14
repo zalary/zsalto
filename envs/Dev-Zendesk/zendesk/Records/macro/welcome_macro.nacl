@@ -1,0 +1,25 @@
+zendesk.macro welcome_macro@s {
+  title = "welcome macro"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "open"
+    },
+    {
+      field = zendesk.ticket_field.instance.SilverField_checkbox
+      value = "true"
+    },
+    {
+      field = "priority"
+      value = "high"
+    },
+    {
+      field = "ticket_form_id"
+      value = zendesk.ticket_form.instance.Demo_ticket_form@s
+    },
+  ]
+  raw_title = "welcome macro"
+  _alias = "welcome macro"
+}

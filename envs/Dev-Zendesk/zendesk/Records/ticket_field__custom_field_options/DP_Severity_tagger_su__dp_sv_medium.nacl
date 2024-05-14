@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP_Severity_tagger_su__dp_sv_medium@uumuuuu {
+  raw_name = "Medium"
+  value = "dp_sv_medium"
+  _parent = [
+    zendesk.ticket_field.instance.DP_Severity_tagger@su,
+  ]
+  _alias = "Medium"
+}

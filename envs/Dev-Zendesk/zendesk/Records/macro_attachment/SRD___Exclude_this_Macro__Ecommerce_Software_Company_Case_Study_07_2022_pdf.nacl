@@ -1,0 +1,9 @@
+zendesk.macro_attachment SRD___Exclude_this_Macro__Ecommerce_Software_Company_Case_Study_07_2022_pdf@sbsssuuuuuuuuv {
+  filename = "Ecommerce_Software_Company_Case_Study_07_2022.pdf"
+  contentType = "application/pdf"
+  content = file("zendesk/macro_attachment/SRD - Exclude this Macro__Ecommerce_Software_Company_Case_Study_07_2022.pdf")
+  _parent = [
+    zendesk.macro.instance.SRD___Exclude_this_Macro@sbsss,
+  ]
+  _alias = "Ecommerce_Software_Company_Case_Study_07_2022.pdf"
+}

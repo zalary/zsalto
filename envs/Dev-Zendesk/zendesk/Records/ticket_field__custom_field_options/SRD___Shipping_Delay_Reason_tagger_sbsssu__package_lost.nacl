@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options SRD___Shipping_Delay_Reason_tagger_sbsssu__package_lost@uuuuuumuuu {
+  raw_name = "Package Lost"
+  value = "package_lost"
+  _parent = [
+    zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,
+  ]
+  _alias = "Package Lost"
+}

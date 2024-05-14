@@ -1,0 +1,18 @@
+zendesk.ticket_field test_multiselect {
+  type = "multiselect"
+  raw_title = "test"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "test"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.test_multiselect__v1,
+    zendesk.ticket_field__custom_field_options.instance.test_multiselect__v2,
+  ]
+  _alias = "test"
+}

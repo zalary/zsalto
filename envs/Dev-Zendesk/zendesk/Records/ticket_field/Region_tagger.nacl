@@ -1,0 +1,19 @@
+zendesk.ticket_field Region_tagger {
+  type = "tagger"
+  raw_title = "Region"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "Region"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.Region_tagger__emea,
+    zendesk.ticket_field__custom_field_options.instance.Region_tagger__latam,
+    zendesk.ticket_field__custom_field_options.instance.Region_tagger__usa,
+  ]
+  _alias = "Region"
+}

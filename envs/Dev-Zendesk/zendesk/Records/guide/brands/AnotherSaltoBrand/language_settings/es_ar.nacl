@@ -1,0 +1,6 @@
+zendesk.guide_language_settings AnotherSaltoBrand_es_ar@ub {
+  locale = "es-ar"
+  name = "Salto spanish"
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _alias = "AnotherSaltoBrand es-ar language settings"
+}

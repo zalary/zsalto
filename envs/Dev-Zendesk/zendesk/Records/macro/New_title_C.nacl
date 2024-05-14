@@ -1,0 +1,14 @@
+zendesk.macro New_title_C@s {
+  title = "New title C"
+  active = true
+  default = false
+  description = "Description for C"
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.gwr_dedup3_tagger
+      value = zendesk.ticket_field__custom_field_options.instance.gwr_dedup3_tagger__gwr_dd3_1
+    },
+  ]
+  raw_title = "New title C"
+  _alias = "New title C"
+}

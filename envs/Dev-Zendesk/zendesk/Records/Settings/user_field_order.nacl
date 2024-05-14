@@ -1,0 +1,12 @@
+zendesk.user_field_order {
+  active = [
+    zendesk.user_field.instance.userdropdownfield,
+    zendesk.user_field.instance.userdatefield,
+    zendesk.user_field.instance.dasdass__dasdas,
+    zendesk.user_field.instance.gwr_user_field1,
+    zendesk.user_field.instance.srd___user_field_test,
+    zendesk.user_field.instance.gwr_txt_4,
+  ]
+  inactive = [
+  ]
+}

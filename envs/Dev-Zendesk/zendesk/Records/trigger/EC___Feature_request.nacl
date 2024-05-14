@@ -1,0 +1,38 @@
+zendesk.trigger EC___Feature_request@sbss {
+  title = "EC - Feature request"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_target"
+      value = [
+        zendesk.target.instance.EC___Email_email_target@sbsuu,
+        "hello",
+      ]
+    },
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.EC___update_jira_@sbsss,
+        '''
+{
+  "user" : "{{ticket.requester.email}}",
+  "subject" : "{{ticket.title}}"
+}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.EC_Early_Product_Access_Type_clone_tagger@bssssu
+        operator = "present"
+        value = ""
+      },
+    ]
+  }
+  raw_title = "EC - Feature request"
+  category_id = zendesk.trigger_category.instance.Custom_Events@s
+  _alias = "EC - Feature request"
+}

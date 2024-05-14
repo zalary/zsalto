@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options my_dropdown_1_tagger_ssu__v33@uuumuu {
+  raw_name = "v33"
+  value = "v33"
+  _parent = [
+    zendesk.ticket_field.instance.my_dropdown_1_tagger@ssu,
+  ]
+  _alias = "v33"
+}

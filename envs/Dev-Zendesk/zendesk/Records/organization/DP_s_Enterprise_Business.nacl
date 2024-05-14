@@ -1,0 +1,7 @@
+zendesk.organization DP_s_Enterprise_Business@tss {
+  name = "DP's Enterprise Business"
+  shared_tickets = false
+  shared_comments = false
+  details = ""
+  notes = ""
+}

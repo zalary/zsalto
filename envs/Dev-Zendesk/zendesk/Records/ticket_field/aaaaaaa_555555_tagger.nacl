@@ -1,0 +1,17 @@
+zendesk.ticket_field aaaaaaa_555555_tagger@bu {
+  type = "tagger"
+  raw_title = "aaaaaaa-555555"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "aaa11"
+  visible_in_portal = true
+  editable_in_portal = true
+  required_in_portal = true
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.aaaaaaa_555555_tagger_bu__smartphone_surfplatta3666@uumuud,
+  ]
+  _alias = "aaaaaaa-555555"
+}

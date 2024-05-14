@@ -1,0 +1,27 @@
+zendesk.automation GWR_Automation2___created_in_sb@ssbsss {
+  title = "GWR Automation2 - changed for prj 2"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+      value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__yellow@uumuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+      {
+        field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__blue@uumuu
+      },
+    ]
+  }
+  raw_title = "GWR Automation2 - changed for prj 2"
+  _alias = "GWR Automation2 - changed for prj 2"
+}

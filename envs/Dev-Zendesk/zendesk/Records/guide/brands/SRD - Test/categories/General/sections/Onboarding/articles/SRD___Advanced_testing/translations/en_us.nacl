@@ -1,0 +1,71 @@
+zendesk.article_translation SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "SRD - Advanced testing"
+  body = '''
+<p>Link <a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/article_attachments/${ zendesk.article_attachment.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__Screenshot_png_true@uuuuuuuuuuuuumuuvu }">that does work in ZD</a></p>
+<p><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/article_attachments/${ zendesk.article_attachment.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__Screenshot_png_true@uuuuuuuuuuuuumuuvu }">Link that should work</a></p>
+<p><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/guide-media/01H9T5Y17GMRQFPKM4ABAVAS9F">Link that shouldn't work</a></p>
+<p> </p>
+<p>Welcome to the world of Advanced Testing! In this guide, we'll delve into the realm of advanced testing techniques and methodologies that can help ensure the success of your change management initiatives. Whether you're dealing with intricate software updates or complex process optimizations, mastering advanced testing can make all the difference. Let's dive in!</p>
+<h3 id="h_01H98D9TQ58WCY0EE8765DW1FF"><strong>Understanding Advanced Testing</strong></h3>
+<p>Advanced testing goes beyond the basic functional tests and aims to simulate real-world scenarios, uncover hidden issues, and ensure that your changes can withstand the rigors of different environments. It involves thorough validation to catch potential defects, performance bottlenecks, and unintended consequences.</p>
+<h3 id="h_01H98D9TQ5Z8E3W7DJ68RDYAFW"><strong>Key Techniques for Advanced Testing</strong></h3>
+<ol>
+<li>
+<p><strong>Performance Testing:</strong> Evaluate how your changes impact system performance under various loads. Load testing, stress testing, and scalability testing are techniques that help you identify performance bottlenecks and ensure your application can handle increased demand.</p>
+</li>
+<li>
+<p><strong>Security Testing:</strong> Ensure that your changes don't introduce vulnerabilities. Conduct security testing to identify potential risks, such as data breaches or unauthorized access, and implement measures to mitigate them.</p>
+</li>
+<li>
+<p><strong>Regression Testing:</strong> As changes are made, ensure that previously working functionalities aren't negatively impacted. Automated regression testing can swiftly validate multiple scenarios to catch unexpected regressions.</p>
+</li>
+<li>
+<p><strong>User Acceptance Testing (UAT):</strong> Collaborate closely with end-users to validate changes from their perspective. UAT helps ensure that changes meet user expectations and that the user experience remains seamless.</p>
+</li>
+<li>
+<p><strong>Exploratory Testing:</strong> Encourage testers to explore the application in an unscripted manner, simulating real user behavior. This can uncover usability issues and scenarios that scripted tests might miss.</p>
+</li>
+</ol>
+<h3 id="h_01H98D9TQ5QZEC4VQXNG3F03XX"><strong>Implementing Advanced Testing</strong></h3>
+<ol>
+<li>
+<p><strong>Test Strategy:</strong> Define a comprehensive test strategy that outlines the types of tests to be conducted, the testing environments, and the allocation of resources. This strategy acts as a roadmap for your advanced testing efforts.</p>
+</li>
+<li>
+<p><strong>Test Automation:</strong> Leverage automation tools to run complex test scenarios efficiently. Automated tests can be repeated consistently, making them ideal for performance, regression, and security testing.</p>
+</li>
+<li>
+<p><strong>Realistic Data:</strong> Use realistic data in your test scenarios. Real data helps uncover issues that might not surface with artificial test data.</p>
+</li>
+<li>
+<p><strong>Collaboration:</strong> Foster collaboration between development, testing, and business teams. A multidisciplinary approach ensures that different perspectives are considered during testing.</p>
+</li>
+</ol>
+<h3 id="h_01H98D9TQ575KJPAPNE084KN42"><strong>Benefits of Advanced Testing</strong></h3>
+<ol>
+<li>
+<p><strong>Early Issue Detection:</strong> Advanced testing catches issues before they reach the production environment, reducing the risk of customer-facing problems.</p>
+</li>
+<li>
+<p><strong>Enhanced Quality:</strong> Rigorous testing ensures higher quality applications with fewer defects and better performance.</p>
+</li>
+<li>
+<p><strong>Cost Savings:</strong> Identifying and rectifying issues in the testing phase is significantly cheaper than addressing them after deployment.</p>
+</li>
+<li>
+<p><strong>Customer Satisfaction:</strong> Robust applications lead to better user experiences, ultimately improving customer satisfaction.</p>
+</li>
+</ol>
+<h3 id="h_01H98D9TQ58031FTDK40M2XS3S"><strong>Conclusion</strong></h3>
+<p>Advanced testing is a critical component of change management, guaranteeing that your changes are not only functional but also resilient, secure, and performant. By embracing advanced testing techniques, you empower your team to deliver changes with confidence, minimizing disruptions and maximizing the benefits of your change initiatives. Remember, investing in thorough testing today paves the way for a smoother and more successful tomorrow.</p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+  ]
+  _alias = "en-us - SRD - Advanced testing"
+}

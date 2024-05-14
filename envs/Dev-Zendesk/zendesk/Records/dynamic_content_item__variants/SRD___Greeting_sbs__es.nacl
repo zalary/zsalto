@@ -1,0 +1,11 @@
+zendesk.dynamic_content_item__variants SRD___Greeting_sbs__es@uuumuu {
+  content = "Hola"
+  locale_id = zendesk.locale.instance.es
+  
+  active = true
+  default = false
+  _parent = [
+    zendesk.dynamic_content_item.instance.SRD___Greeting@sbs,
+  ]
+  _alias = "SRD - Greeting - es"
+}

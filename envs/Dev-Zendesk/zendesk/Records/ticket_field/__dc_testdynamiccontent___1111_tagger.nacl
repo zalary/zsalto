@@ -1,0 +1,18 @@
+zendesk.ticket_field __dc_testdynamiccontent___1111_tagger@_00123_00123v_00125_00125bu {
+  type = "tagger"
+  raw_title = "{{${ zendesk.dynamic_content_item.instance.testDynamicContent }}}-1111"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "aaa11"
+  visible_in_portal = true
+  editable_in_portal = true
+  required_in_portal = true
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.__dc_testdynamiccontent___1111_tagger__00123_00123v_00125_00125bu__smartphone_surfplatta2@uuuuuuumuuuuuud,
+    zendesk.ticket_field__custom_field_options.instance.__dc_testdynamiccontent___1111_tagger__00123_00123v_00125_00125bu__dator2@uuuuuuumuuuuuu,
+  ]
+  _alias = "aabbccddeeffgghhiikk-1111"
+}

@@ -1,0 +1,26 @@
+zendesk.ticket_field GWR_Metals_tagger@su {
+  type = "tagger"
+  raw_title = "GWR Metals"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "GWR Metals"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_nickel@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_va@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__g_gold@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_silver@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__g_al@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_sb@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_chromium@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_tc@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__germanium42@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__scandium@uumuu,
+  ]
+  _alias = "GWR Metals"
+}

@@ -1,0 +1,17 @@
+zendesk.article testt_Background_Knuckles_Salto {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Background_Knuckles_Salto
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Test_user_segment@s
+  permission_group_id = zendesk.permission_group.instance.Test_PG2
+  translations = [
+    zendesk.article_translation.instance.testt_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "testt"
+}

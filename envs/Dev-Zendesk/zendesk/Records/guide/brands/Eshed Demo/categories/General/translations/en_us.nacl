@@ -1,0 +1,12 @@
+zendesk.category_translation General_Eshed_Demo_s_uum__Eshed_Demo_s_en_us_umub@uuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  title = "General"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _parent = [
+    zendesk.category.instance.General_Eshed_Demo_s@uum,
+  ]
+  _alias = "en-us - General"
+}

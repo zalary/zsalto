@@ -1,0 +1,16 @@
+zendesk.ticket_field Severity_integer {
+  type = "integer"
+  raw_title = "Severity"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  regexp_for_validation = "\\A[-+]?\\d+\\z"
+  raw_title_in_portal = "Severity"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  agent_description = "Ticket Severity by number"
+  _alias = "Severity"
+}

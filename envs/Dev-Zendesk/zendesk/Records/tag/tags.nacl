@@ -1,0 +1,127 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zendesk.tag _ustom@_00231 {
+  id = "çustom"
+  _alias = "çustom"
+}
+zendesk.tag bluetag {
+  id = "bluetag"
+  _alias = "bluetag"
+}
+zendesk.tag cusotmer_engineering {
+  id = "cusotmer_engineering"
+  _alias = "cusotmer_engineering"
+}
+zendesk.tag customer_engineering {
+  id = "customer_engineering"
+  _alias = "customer_engineering"
+}
+zendesk.tag enterprise_account {
+  id = "enterprise_account"
+  _alias = "enterprise_account"
+}
+zendesk.tag gwrdc1 {
+  id = "gwrdc1"
+  _alias = "gwrdc1"
+}
+zendesk.tag gwrexclude {
+  id = "gwrexclude"
+  _alias = "gwrexclude"
+}
+
+zendesk.tag ispurple {
+  id = "ispurple"
+  _alias = "ispurple"
+}
+zendesk.tag isred {
+  id = "isred"
+  _alias = "isred"
+}
+zendesk.tag isyellow {
+  id = "isyellow"
+  _alias = "isyellow"
+}
+zendesk.tag mid_market_account {
+  id = "mid_market_account"
+  _alias = "mid_market_account"
+}
+zendesk.tag preview_release_request_beta_tester@uufu {
+  id = "preview_release_request:beta_tester"
+  _alias = "preview_release_request:beta_tester"
+}
+zendesk.tag product_access_request_dark_mode@uufu {
+  id = "product_access_request:dark_mode"
+  _alias = "product_access_request:dark_mode"
+}
+zendesk.tag product_access_request_product_b@uufu {
+  id = "product_access_request:product_b"
+  _alias = "product_access_request:product_b"
+}
+
+zendesk.tag small_market_account {
+  id = "small_market_account"
+  _alias = "small_market_account"
+}
+
+zendesk.tag zgy {
+  id = "zgy"
+  _alias = "zgy"
+}
+zendesk.tag true {
+  id = "true"
+  _alias = "true"
+}
+zendesk.tag test {
+  id = "test"
+  _alias = "test"
+}
+zendesk.tag dp_user {
+  id = "dp_user"
+  _alias = "dp_user"
+}
+zendesk.tag silver {
+  id = "silver"
+  _alias = "silver"
+}
+zendesk.tag titanium {
+  id = "titanium"
+  _alias = "titanium"
+}
+zendesk.tag gwr_fetch_label {
+  id = "gwr_fetch_label"
+  _alias = "gwr_fetch_label"
+}
+zendesk.tag knuckle {
+  id = "knuckle"
+  _alias = "knuckle"
+}
+zendesk.tag nacl {
+  id = "nacl"
+  _alias = "nacl"
+}
+zendesk.tag salto {
+  id = "salto"
+  _alias = "salto"
+}

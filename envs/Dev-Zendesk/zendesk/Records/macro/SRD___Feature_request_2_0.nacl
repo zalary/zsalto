@@ -1,0 +1,26 @@
+zendesk.macro SRD___Feature_request_2_0@sbsssv {
+  title = "SRD - Feature request 2.0"
+  active = true
+  default = false
+  description = "A description, edited"
+  actions = [
+    {
+      field = "priority"
+      value = "urgent"
+    },
+    {
+      field = "status"
+      value = "open"
+    },
+    {
+      field = "ticket_form_id"
+      value = zendesk.ticket_form.instance.SRD___Enable_new_feature@sbsss
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>{{${ zendesk.dynamic_content_item.instance.SRD___Greeting@sbs }}} <span class=\"atwho-inserted\">{{ticket.requester.first_name}}</span>​, thank you for submitting your request.</p>"
+    },
+  ]
+  raw_title = "SRD - Feature request 2.0"
+  _alias = "SRD - Feature request 2.0"
+}

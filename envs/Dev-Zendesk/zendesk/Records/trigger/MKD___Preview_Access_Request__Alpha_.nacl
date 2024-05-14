@@ -1,0 +1,32 @@
+zendesk.trigger MKD___Preview_Access_Request__Alpha_@sbssssjk {
+  title = "MKD - Preview Access Request (Alpha)"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_group"
+      value = [
+        zendesk.group.instance.Support,
+        "Preview Access Request - Alpha",
+        "{{current_user.email}} is interested in participating in our Alpha Preview Access Program. Please reach out to them and vet them for suitability.  ",
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu
+      },
+      {
+        field = "status"
+        operator = "value"
+        value = "pending"
+      },
+    ]
+  }
+  raw_title = "MKD - Preview Access Request (Alpha)"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "MKD - Preview Access Request (Alpha)"
+}

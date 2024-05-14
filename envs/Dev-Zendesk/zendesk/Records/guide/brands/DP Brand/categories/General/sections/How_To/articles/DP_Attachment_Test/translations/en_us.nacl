@@ -1,0 +1,18 @@
+zendesk.article_translation DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "DP Attachment Test"
+  body = '''
+<p>This is the english example</p>
+<p><img src="${ zendesk.brand.instance.DP_Brand@s }/hc/article_attachments/${ zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__Screenshot_png_true@uuuuuuuuuumuuvu }" alt="Screenshot.png"><img src="${ zendesk.brand.instance.DP_Brand@s }/hc/article_attachments/${ zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__Screenshot_png_true@uuuuuuuuuumuuvu }" alt="Screenshot.png"><img src="${ zendesk.brand.instance.DP_Brand@s }/hc/article_attachments/${ zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__Screenshot_png_true@uuuuuuuuuumuuvu }" alt="Screenshot.png"></p>
+<p> </p>
+<p>And a download:<br><br></p>
+'''
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.article.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+  ]
+  _alias = "en-us - DP Attachment Test"
+}

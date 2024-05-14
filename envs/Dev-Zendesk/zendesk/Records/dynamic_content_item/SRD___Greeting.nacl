@@ -1,0 +1,12 @@
+zendesk.dynamic_content_item SRD___Greeting@sbs {
+  name = "SRD - Greeting"
+  placeholder = "{{dc.srd_-_greeting}}"
+  default_locale_id = zendesk.locale.instance.en_US@b
+  
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.SRD___Greeting_sbs__en_US_b@uuumuuum,
+    zendesk.dynamic_content_item__variants.instance.SRD___Greeting_sbs__es@uuumuu,
+    zendesk.dynamic_content_item__variants.instance.SRD___Greeting_sbs__he@uuumuu,
+  ]
+  _alias = "SRD - Greeting"
+}

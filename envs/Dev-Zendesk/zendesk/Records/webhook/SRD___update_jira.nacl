@@ -1,0 +1,19 @@
+zendesk.webhook SRD___update_jira@sbss {
+  name = "SRD - update jira"
+  description = ""
+  status = "active"
+  subscriptions = [
+    "conditional_ticket_events",
+  ]
+  endpoint = "https://srussdixon.atlassian.net/rest/api/3/issue"
+  http_method = "POST"
+  request_format = "json"
+  authentication = {
+    type = "basic_auth"
+    data = {
+      username = "dixon.scottr@gmail.com"
+    }
+    add_position = "header"
+  }
+  _alias = "SRD - update jira"
+}

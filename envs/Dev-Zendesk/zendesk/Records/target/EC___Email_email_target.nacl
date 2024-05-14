@@ -1,0 +1,8 @@
+zendesk.target EC___Email_email_target@sbsuu {
+  type = "email_target"
+  title = "EC - Email"
+  active = true
+  email = "email@server.com"
+  subject = "hello"
+  _alias = "EC - Email"
+}

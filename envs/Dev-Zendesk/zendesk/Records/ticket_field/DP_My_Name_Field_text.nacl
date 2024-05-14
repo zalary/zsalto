@@ -1,0 +1,15 @@
+zendesk.ticket_field DP_My_Name_Field_text@bbbu {
+  type = "text"
+  raw_title = "DP-My-Name-Field"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.DP_My_Name@b }}}"
+  visible_in_portal = true
+  editable_in_portal = true
+  required_in_portal = false
+  removable = true
+  agent_description = "DP's test field for dynamic content"
+  _alias = "DP-My-Name-Field"
+}

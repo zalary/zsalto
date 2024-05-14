@@ -1,0 +1,46 @@
+zendesk.trigger DP_Org_Test@s {
+  title = "DP Org Test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.customer_engineering,
+      ]
+    },
+    {
+      field = "notification_user"
+      value = [
+        "assignee_id",
+        "",
+        "Something",
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "role"
+        operator = "is"
+        value = "agent"
+      },
+      {
+        field = "locale_id"
+        operator = "is"
+        value = zendesk.locale.instance.he
+      },
+    ]
+    any = [
+      {
+        field = "locale_id"
+        operator = "is_not"
+        value = zendesk.locale.instance.en_US@b
+      },
+    ]
+  }
+  description = "A new description for testing"
+  raw_title = "DP Org Test"
+  category_id = zendesk.trigger_category.instance.DP
+  _alias = "DP Org Test"
+}

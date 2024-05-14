@@ -1,0 +1,13 @@
+zendesk.article_translation eshed___vintage_article_eshed___special_reserve_Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum_sbsssuuuuuuuum_sbssuuuuuuuuuuuuuuum_sbssuuuuuuuuuuuuuuuuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuuuuuuuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  title = "eshed - vintage article"
+  body = "<p>just a vintage article</p>"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _parent = [
+    zendesk.article.instance.eshed___vintage_article_eshed___special_reserve_Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum_sbsssuuuuuuuum_sbssuuuuuuuuuuuuuuum@sbssuuuuuuuuuuuuuuuuuuuuum,
+  ]
+  _alias = "en-us - eshed - vintage article"
+}

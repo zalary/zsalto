@@ -1,0 +1,12 @@
+zendesk.webhook GWR_trigger_webhook@s {
+  name = "GWR trigger webhook"
+  description = "asldkjasljfalkdfj"
+  status = "active"
+  subscriptions = [
+    "conditional_ticket_events",
+  ]
+  endpoint = "https://enspn18kaymy.x.pipedream.net/"
+  http_method = "POST"
+  request_format = "json"
+  _alias = "GWR trigger webhook"
+}

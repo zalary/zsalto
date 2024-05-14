@@ -1,0 +1,25 @@
+zendesk.trigger gwr_fetch_label@s {
+  title = "gwr fetch label"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance.gwr_fetch_label,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.GWR_Metals_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__g_gold@uumuuu
+      },
+    ]
+  }
+  raw_title = "gwr fetch label"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "gwr fetch label"
+}

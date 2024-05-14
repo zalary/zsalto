@@ -1,0 +1,23 @@
+zendesk.trigger welcome_trigger@s {
+  title = "welcome trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance._eshed__List_of_Fruit_tagger@hisssu
+      value = zendesk.ticket_field__custom_field_options.instance._eshed__List_of_Fruit_tagger_hisssu__citron@uuuuuumuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance._eshed__Categories_of_Newsletter_for_Dan_multiselect@hisssssu
+        operator = "includes"
+        value = zendesk.ticket_field__custom_field_options.instance._eshed__Categories_of_Newsletter_for_Dan_multiselect_hisssssu__fruit___vegetable@uuuuuuuumuuuuu
+      },
+    ]
+  }
+  raw_title = "welcome trigger"
+  category_id = zendesk.trigger_category.instance.Labeling
+  _alias = "welcome trigger"
+}

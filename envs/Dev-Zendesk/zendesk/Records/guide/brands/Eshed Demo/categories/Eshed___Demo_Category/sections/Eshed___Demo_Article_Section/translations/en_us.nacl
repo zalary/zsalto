@@ -1,0 +1,13 @@
+zendesk.section_translation Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum_sbsssuuuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  title = "Eshed - Demo Article Section"
+  body = "where the good stuff gets published"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _parent = [
+    zendesk.section.instance.Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum@sbsssuuuuuuuum,
+  ]
+  _alias = "en-us - Eshed - Demo Article Section"
+}

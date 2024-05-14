@@ -1,0 +1,17 @@
+zendesk.article Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto@ssssssssuuu {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.DevOps_General_Salto
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto_ssssssssuuu__Salto_en_us_ub@uuuuuuuuuuumuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "Devtron raises fresh capital for its cloud DevOps platform"
+}

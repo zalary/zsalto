@@ -1,0 +1,31 @@
+zendesk.trigger SRD___Email_Test@sbss {
+  title = "SRD - Email Test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.SRD___update_jira@sbss,
+        '''
+{
+  "user" : "{{ticket.requester.email}}",
+  "subject" : "{{ticket.title}}"
+}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu
+      },
+    ]
+  }
+  raw_title = "SRD - Email Test"
+  category_id = zendesk.trigger_category.instance.Custom_Events@s
+  _alias = "SRD - Email Test"
+}

@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options _eshed__Categories_of_Newsletter_for_Dan_multiselect_hisssssu__fruit___vegetable@uuuuuuuumuuuuu {
+  raw_name = "Fruit & Vegetable"
+  value = "fruit___vegetable"
+  _parent = [
+    zendesk.ticket_field.instance._eshed__Categories_of_Newsletter_for_Dan_multiselect@hisssssu,
+  ]
+  _alias = "Fruit & Vegetable"
+}

@@ -1,0 +1,17 @@
+zendesk.article_translation Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssuuuuuuuum__Salto_en_us_ub@uuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "Another restricted article"
+  body = '''
+<p>Sapien nec sagittis aliquam malesuada. Quam adipiscing vitae proin sagittis nisl rhoncus mattis.</p>
+<p> </p>
+<p><a href="${ zendesk.brand.instance.Salto }/hc/en-us/articles/${ zendesk.article.instance.Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@suuuuuuuum }" target="_self">Restricted article</a></p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssuuuuuuuum,
+  ]
+  _alias = "en-us - Another restricted article"
+}

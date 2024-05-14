@@ -1,0 +1,6 @@
+zendesk.guide_language_settings Salto_es_419@ub {
+  locale = "es-419"
+  name = "Salto en español"
+  brand = zendesk.brand.instance.Salto
+  _alias = "Salto es-419 language settings"
+}

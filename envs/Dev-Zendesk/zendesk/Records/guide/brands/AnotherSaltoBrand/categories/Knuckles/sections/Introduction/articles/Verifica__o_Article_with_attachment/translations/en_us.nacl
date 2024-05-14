@@ -1,0 +1,18 @@
+zendesk.article_translation Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand__00231_00227sssuuu__AnotherSaltoBrand_en_us_ub@uuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub
+  title = "Verificação Article with attachment"
+  body = '''
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed pulvinar proin gravida hendrerit. Vel pretium lectus quam id leo in vitae turpis massa. Felis donec et odio pellentesque diam volutpat commodo. Et tortor consequat id porta nibh. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Nunc sed blandit libero volutpat. Venenatis cras sed felis eget. Semper eget duis at tellus at urna condimentum. Non enim praesent elementum facilisis leo.</p>
+<p>Lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis. Tellus mauris a diam maecenas. Fringilla ut morbi tincidunt augue interdum velit euismod in. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Hac habitasse platea dictumst vestibulum. Gravida quis blandit turpis cursus in. Adipiscing bibendum est ultricies integer quis auctor elit sed. Sit amet nisl purus in mollis nunc sed. Augue lacus viverra vitae congue eu consequat ac. Dictum fusce ut placerat orci nulla pellentesque dignissim enim. Tristique senectus et netus et malesuada fames ac turpis egestas. Neque egestas congue quisque egestas diam. Odio pellentesque diam volutpat commodo.</p>
+<p>Tortor vitae purus faucibus ornare suspendisse sed nisi lacus sed. Nulla malesuada pellentesque elit eget. Sapien eget mi proin sed libero enim sed faucibus turpis. Lacinia at quis risus sed. Suscipit tellus mauris a diam maecenas sed. Maecenas sed enim ut sem viverra aliquet eget sit. Ut tristique et egestas quis ipsum. Nullam vehicula ipsum a arcu. Porttitor eget dolor morbi non arcu risus quis varius. Ac tortor vitae purus faucibus ornare suspendisse. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Id diam maecenas ultricies mi eget mauris pharetra. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin.</p>
+<p> </p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.article.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand@_00231_00227sssuuu,
+  ]
+  _alias = "en-us - Verificação Article with attachment"
+}

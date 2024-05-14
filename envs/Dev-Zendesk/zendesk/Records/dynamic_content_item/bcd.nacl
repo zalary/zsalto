@@ -1,0 +1,11 @@
+zendesk.dynamic_content_item bcd {
+  name = "bcd"
+  placeholder = "{{dc.bcdd}}"
+  default_locale_id = zendesk.locale.instance.he
+  
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.bcd__en_US_b@uuum,
+    zendesk.dynamic_content_item__variants.instance.bcd__he,
+  ]
+  _alias = "bcd"
+}

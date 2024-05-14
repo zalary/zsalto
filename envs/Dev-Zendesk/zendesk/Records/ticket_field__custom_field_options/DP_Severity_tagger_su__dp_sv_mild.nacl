@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP_Severity_tagger_su__dp_sv_mild@uumuuuu {
+  raw_name = "Mild"
+  value = "dp_sv_mild"
+  _parent = [
+    zendesk.ticket_field.instance.DP_Severity_tagger@su,
+  ]
+  _alias = "Mild"
+}

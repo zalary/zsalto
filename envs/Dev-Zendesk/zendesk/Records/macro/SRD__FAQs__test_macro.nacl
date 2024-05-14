@@ -1,0 +1,18 @@
+zendesk.macro SRD__FAQs__test_macro@ffffs {
+  title = "SRD::FAQs::test macro"
+  active = true
+  default = false
+  description = "a test macro"
+  actions = [
+    {
+      field = "ticket_form_id"
+      value = zendesk.ticket_form.instance.SRD___Enable_new_feature@sbsss
+    },
+    {
+      field = "subject"
+      value = "SRD FAQ"
+    },
+  ]
+  raw_title = "SRD::FAQs::test macro"
+  _alias = "SRD::FAQs::test macro"
+}

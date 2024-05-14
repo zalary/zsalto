@@ -1,0 +1,19 @@
+zendesk.ticket_field blaa_tagger {
+  type = "tagger"
+  raw_title = "blaa"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "blaa"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.blaa_tagger__v3,
+    zendesk.ticket_field__custom_field_options.instance.blaa_tagger__v55,
+  ]
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.blaa_tagger__v55
+  _alias = "blaa"
+}

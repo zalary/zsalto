@@ -1,0 +1,14 @@
+zendesk.macro New_title_E@s {
+  title = "New title E"
+  active = true
+  default = false
+  description = "Description for E"
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.gwr_dedup3_tagger
+      value = zendesk.ticket_field__custom_field_options.instance.gwr_dedup3_tagger__gwr_dd3_1
+    },
+  ]
+  raw_title = "New title E"
+  _alias = "New title E"
+}

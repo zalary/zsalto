@@ -1,0 +1,8 @@
+zendesk.workspace_order {
+  active = [
+    zendesk.workspace.instance.DP_Workspace@s,
+    zendesk.workspace.instance.SRD_Workspace@s,
+  ]
+  inactive = [
+  ]
+}

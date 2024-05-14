@@ -1,0 +1,12 @@
+zendesk.webhook dge_Triggered_Webhook@s {
+  name = "dge Triggered Webhook"
+  description = "dge_webhook"
+  status = "active"
+  subscriptions = [
+    "conditional_ticket_events",
+  ]
+  endpoint = "https://salto-zendesk-webhook.dev-site.io/update-signup-form"
+  http_method = "POST"
+  request_format = "json"
+  _alias = "dge Triggered Webhook"
+}

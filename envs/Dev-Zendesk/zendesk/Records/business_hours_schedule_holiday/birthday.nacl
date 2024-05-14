@@ -1,0 +1,9 @@
+zendesk.business_hours_schedule_holiday dge_holidays_b__birthday@umuu {
+  name = "birthday"
+  start_date = "2024-06-29"
+  end_date = "2024-06-29"
+  _parent = [
+    zendesk.business_hours_schedule.instance.dge_holidays@b,
+  ]
+  _alias = "birthday"
+}

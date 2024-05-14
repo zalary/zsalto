@@ -1,0 +1,25 @@
+zendesk.article DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.How_To_General_DP_Brand_s_uum@suuuum
+  source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuumuuuuuum,
+    zendesk.article_translation.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_es_umu@uuuuuuuuuumuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  attachments = [
+    zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__Screenshot_png_true@uuuuuuuuuumuuvu,
+    zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__Screenshot_png_true@uuuuuuuuuumuuvu,
+    zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__Screenshot_png_true@uuuuuuuuuumuuvu,
+    zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__dp_large_attachment_json_false@uuuuuuuuuumuuuuvu,
+    zendesk.article_attachment.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__dp_very_large_attachment_json_false@uuuuuuuuuumuuuuuvu,
+  ]
+  _alias = "DP Attachment Test"
+}

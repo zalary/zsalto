@@ -1,0 +1,11 @@
+zendesk.category_order Eshed_Demo_s@um {
+  categories = [
+    zendesk.category.instance.Eshed___Demo_Category_Eshed_Demo_s@sbssuum,
+    zendesk.category.instance.General_Eshed_Demo_s@uum,
+  ]
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _parent = [
+    zendesk.brand.instance.Eshed_Demo@s,
+  ]
+  _alias = "Eshed Demo Category Order"
+}

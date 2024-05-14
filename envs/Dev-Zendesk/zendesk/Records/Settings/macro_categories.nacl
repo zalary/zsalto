@@ -1,0 +1,10 @@
+zendesk.macro_categories {
+  categories = [
+    "1P",
+    "EC - Access request",
+    "MKD - Access Request",
+    "NPS Transcrição",
+    "SRD - Access request",
+    "SRD",
+  ]
+}

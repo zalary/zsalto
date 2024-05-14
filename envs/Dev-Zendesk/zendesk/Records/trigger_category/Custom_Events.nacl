@@ -1,0 +1,4 @@
+zendesk.trigger_category Custom_Events@s {
+  name = "Custom Events"
+  _alias = "Custom Events"
+}

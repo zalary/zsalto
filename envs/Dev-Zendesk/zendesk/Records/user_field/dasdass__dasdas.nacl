@@ -1,0 +1,12 @@
+zendesk.user_field dasdass__dasdas {
+  type = "dropdown"
+  key = "dasdass__dasdas"
+  raw_title = "dasdass::dasdas"
+  raw_description = ""
+  active = true
+  system = false
+  custom_field_options = [
+    zendesk.user_field__custom_field_options.instance.dasdass__dasdas__fdsadfadfsadfs,
+  ]
+  _alias = "dasdass::dasdas"
+}

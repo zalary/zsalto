@@ -1,0 +1,35 @@
+zendesk.trigger DP_Trigger@s {
+  title = "DP Trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.dp_user,
+      ]
+    },
+    {
+      field = zendesk.ticket_field.instance.DP_Severity_tagger@su
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_critical@uumuuuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "priority"
+        operator = "is"
+        value = "urgent"
+      },
+      {
+        field = "ticket_due_date"
+        operator = "is"
+        value = "false"
+      },
+    ]
+  }
+  raw_title = "DP Trigger"
+  category_id = zendesk.trigger_category.instance.DP
+  _alias = "DP Trigger"
+  description = "Just a great trigger!"
+}

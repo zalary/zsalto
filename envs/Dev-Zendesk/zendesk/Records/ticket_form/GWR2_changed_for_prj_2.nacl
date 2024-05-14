@@ -1,0 +1,18 @@
+zendesk.ticket_form GWR2_changed_for_prj_2@s {
+  raw_name = "GWR2 changed for prj 2"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "GWR2 changed for prj 2"
+}

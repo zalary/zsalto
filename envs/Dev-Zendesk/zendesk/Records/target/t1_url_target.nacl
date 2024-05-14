@@ -1,0 +1,10 @@
+zendesk.target t1_url_target {
+  type = "url_target"
+  title = "t1"
+  active = true
+  method = "get"
+  attribute = "hello"
+  username = "abc"
+  target_url = "http://www.example.com/a/path"
+  _alias = "t1"
+}

@@ -1,0 +1,85 @@
+zendesk.article_translation SRD___Advanced_usage_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "SRD - Advanced usage"
+  body = '''
+<div class="flex-1 overflow-hidden">
+<div class="react-scroll-to-bottom--css-iglqt-79elbk h-full dark:bg-gray-800" style="height: 761px;">
+<div class="react-scroll-to-bottom--css-iglqt-1n7m0yu" style="width: 1252px; height: 761px;">
+<div class="flex flex-col text-sm dark:bg-gray-800">
+<div class="group w-full text-token-text-primary border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]" style="width: 1244px;" data-testid="conversation-turn-9">
+<div class="p-4 justify-center text-base md:gap-6 md:py-6 lg:px-0 m-auto">
+<div class="flex flex-1 gap-4 text-base mx-auto md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl }">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]" style="width: calc(100% - 115px);">
+<div class="flex flex-grow flex-col gap-3 max-w-full">
+<div class="min-h-[20px] flex flex-col items-start gap-3 overflow-x-auto whitespace-pre-wrap break-words">
+<div class="markdown prose w-full break-words dark:prose-invert dark" style="width: 653px;">
+<p>Welcome back to our Change Management Platform! In this guide, we'll dive into the advanced features and strategies our platform offers to take your change management processes to the next level. If you're looking to harness the full potential of our tool, this FAQ-style article will provide insights into advanced usage.</p>
+<p><a href="hc/en-us/requests/new?ticket_form_id=15465940257047">-  Link to a form</a></p>
+<a href="hc/en-us/categories/10909293949719">-  Link to a category</a>
+<p>Note: this article assumes you have already reviewed the <a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Platform_basics_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum }">Platform Basics guide</a>.</p>
+<p><strong>Q1: What advanced features does the platform offer?</strong></p>
+<p>A1: Our platform goes beyond the basics with advanced features:</p>
+<ul>
+<li>
+<strong><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Automation_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbsuuuuuuuum }">Automation</a>:</strong> Set up automated workflows to streamline change processes.</li>
+<li>
+<strong><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Integration_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbsuuuuuuuum }">Integration</a>:</strong> Integrate with other tools like project management software for seamless collaboration.</li>
+<li>
+<strong><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum }">Advanced Testing</a>:</strong> Implement advanced testing scenarios to ensure complex changes work flawlessly.</li>
+<li>
+<strong><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Impact_Analysis_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum }">Impact Analysis</a>:</strong> Predict the potential impact of changes on various areas of your applications.</li>
+<li>
+<strong><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Release_Management_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum }">Release Management</a>:</strong> Manage the release of multiple changes with coordination and efficiency.</li>
+</ul>
+<p> </p>
+<p><strong>Q2: How can I use automation effectively?</strong></p>
+<p>A2: Automation is a game-changer. Design workflows that trigger automatically based on certain conditions, reducing manual intervention. For example, when a change is approved, an automated workflow can trigger testing and documentation processes.</p>
+<p><strong>Q3: Can I integrate the platform with other tools we use?</strong></p>
+<p>A3: Absolutely! Our platform supports integration with various tools like project management software, communication platforms, and version control systems. This fosters cross-functional collaboration and ensures everyone is on the same page.</p>
+<p><strong>Q4: How do I conduct advanced testing scenarios?</strong></p>
+<p>A4: Advanced testing involves simulating complex scenarios to identify potential issues. Our platform lets you create intricate test cases that mimic real-world interactions, ensuring the change behaves as expected in various scenarios.</p>
+<p><strong>Q5: How does impact analysis help?</strong></p>
+<p>A5: Impact analysis is a powerful tool for assessing the potential effects of a change. Our platform allows you to analyze how a change might impact different aspects of your applications, helping you make informed decisions and plan mitigations.</p>
+<p><strong>Q6: What's the benefit of release management?</strong></p>
+<p>A6: Release management is crucial when dealing with multiple changes. Our platform's release management feature helps you coordinate and organize the deployment of multiple changes, ensuring they are implemented in a structured and controlled manner.</p>
+<p><strong>Q7: Can I customize advanced features to suit my needs?</strong></p>
+<p>A7: Absolutely! Our platform's advanced features are designed to be customizable. Tailor automation workflows, integration points, and testing scenarios to match your organization's specific requirements.</p>
+<p><strong>Q8: Is there training available for advanced usage?</strong></p>
+<p>A8: Yes! We offer advanced training sessions to help you make the most of our platform's advanced features. Our support team is also available to assist with any questions or challenges you encounter.</p>
+<p><strong>Q9: How do I transition to advanced usage?</strong></p>
+<p>A9: Transitioning to advanced usage involves building upon your existing knowledge. Engage with our support team to understand how advanced features align with your change management strategies. Take advantage of our resources and training materials to empower your team.</p>
+<p>Thank you for exploring the advanced features of our Change Management Platform. If you're ready to elevate your change management practices, consider incorporating these advanced strategies into your workflows. As always, our support team is here to guide you through the journey.</p>
+</div>
+</div>
+</div>
+<div class="flex justify-between lg:block">
+<div class="text-gray-400 flex self-end lg:self-center justify-center mt-2 gap-2 md:gap-3 lg:gap-1 lg:absolute lg:top-0 lg:translate-x-full lg:right-0 lg:mt-0 lg:pl-2 visible">
+<div class="flex gap-1"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="h-32 md:h-48 flex-shrink-0" style="height: 12rem;"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent md:dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transparent dark:md:bg-vert-dark-gradient pt-2 md:pl-2 md:w-[calc(100%-.5rem)]" style="width: calc(100% - 0.5rem);">
+<div class="relative flex h-full flex-1 items-stretch md:flex-col" style="height: 112px;">
+<div>
+<div class="h-full flex ml-1 md:w-full md:m-auto md:mb-4 gap-0 md:gap-2 justify-center" style="width: 768px; height: 38px;"> </div>
+</div>
+</div>
+</div>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.SRD___Advanced_usage_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+  ]
+  _alias = "en-us - SRD - Advanced usage"
+}

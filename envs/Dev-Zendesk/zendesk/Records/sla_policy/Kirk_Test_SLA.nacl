@@ -1,0 +1,44 @@
+zendesk.sla_policy Kirk_Test_SLA@s {
+  title = "Kirk Test SLA"
+  description = "Test"
+  filter = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu
+      },
+    ]
+  }
+  policy_metrics = [
+    {
+      priority = "low"
+      metric = "first_reply_time"
+      target = 62
+      business_hours = false
+      target_in_seconds = 3661
+    },
+    {
+      priority = "normal"
+      metric = "first_reply_time"
+      target = 62
+      business_hours = false
+      target_in_seconds = 3661
+    },
+    {
+      priority = "high"
+      metric = "first_reply_time"
+      target = 62
+      business_hours = false
+      target_in_seconds = 3661
+    },
+    {
+      priority = "urgent"
+      metric = "first_reply_time"
+      target = 62
+      business_hours = false
+      target_in_seconds = 3661
+    },
+  ]
+  _alias = "Kirk Test SLA"
+}

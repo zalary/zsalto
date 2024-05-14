@@ -1,0 +1,14 @@
+zendesk.macro DP_Simple_Macro@s {
+  title = "DP Simple Macro"
+  active = true
+  default = false
+  description = "Active"
+  actions = [
+    {
+      field = "subject"
+      value = "Something "
+    },
+  ]
+  raw_title = "DP Simple Macro"
+  _alias = "DP Simple Macro"
+}

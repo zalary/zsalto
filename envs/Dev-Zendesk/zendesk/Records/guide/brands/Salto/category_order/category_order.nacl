@@ -1,0 +1,13 @@
+zendesk.category_order Salto {
+  categories = [
+    zendesk.category.instance.SRD___FAQs_Salto@sbsu,
+    zendesk.category.instance.Knuckles_Salto,
+    zendesk.category.instance.General_Salto,
+    zendesk.category.instance.FAQs_Salto,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.brand.instance.Salto,
+  ]
+  _alias = "Salto Category Order"
+}

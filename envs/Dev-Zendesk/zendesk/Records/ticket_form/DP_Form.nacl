@@ -1,0 +1,70 @@
+zendesk.ticket_form DP_Form@s {
+  raw_name = "DP Form"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.DP_Severity_tagger@su,
+    zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
+    zendesk.ticket_field.instance.Customer_Priority_tagger@su,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "DP Form"
+  agent_conditions = [
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Severity_tagger@su
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_critical@uumuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Customer_Tier_multiselect@su
+          is_required = true
+          required_on_statuses = {
+            type = "ALL_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Severity_tagger@su
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_high@uumuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Customer_Tier_multiselect@su
+          is_required = false
+          required_on_statuses = {
+            type = "SOME_STATUSES"
+            statuses = [
+              "new",
+            ]
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.Customer_Priority_tagger@su
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Customer_Tier_multiselect@su
+          is_required = false
+          required_on_statuses = {
+            type = "SOME_STATUSES"
+            statuses = [
+              "new",
+            ]
+          }
+        },
+      ]
+    },
+  ]
+}

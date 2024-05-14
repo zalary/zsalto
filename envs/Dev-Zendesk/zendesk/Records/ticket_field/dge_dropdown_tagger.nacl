@@ -1,0 +1,21 @@
+zendesk.ticket_field dge_dropdown_tagger {
+  type = "tagger"
+  raw_title = "dge_dropdown"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "dge_dropdown"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  agent_description = "Dans dropdown"
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.dge_dropdown_tagger__test1,
+    zendesk.ticket_field__custom_field_options.instance.dge_dropdown_tagger__test2,
+    zendesk.ticket_field__custom_field_options.instance.dge_dropdown_tagger__test3,
+  ]
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.dge_dropdown_tagger__test1
+  _alias = "dge_dropdown"
+}

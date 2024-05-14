@@ -1,0 +1,8 @@
+zendesk.organization_field__custom_field_options gwr_sensitive_field__gwr_value1 {
+  raw_name = "this is for you Josh :)"
+  value = "gwr_value11111111"
+  _parent = [
+    zendesk.organization_field.instance.gwr_sensitive_field,
+  ]
+  _alias = "this is for you Josh :)"
+}

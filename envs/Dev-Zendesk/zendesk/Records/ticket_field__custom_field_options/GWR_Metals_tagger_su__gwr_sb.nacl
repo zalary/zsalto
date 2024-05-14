@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_Metals_tagger_su__gwr_sb@uumuuu {
+  raw_name = "Tin"
+  value = "gwr_sb"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_Metals_tagger@su,
+  ]
+  _alias = "Tin"
+}

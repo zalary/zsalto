@@ -1,0 +1,27 @@
+zendesk.ticket_form dge_test_form {
+  raw_name = "dge_test_form"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.custom_number_integer@su,
+    zendesk.ticket_field.instance.Test_chkbox_checkbox@su,
+    zendesk.ticket_field.instance.Severity_integer,
+    zendesk.ticket_field.instance.Priority_priority,
+    zendesk.ticket_field.instance.Company_Size_decimal@su,
+    zendesk.ticket_field.instance.Customer_Priority_tagger@su,
+    zendesk.ticket_field.instance.CE_Notes_text@su,
+    zendesk.ticket_field.instance.dge_dynamic_text_text,
+    zendesk.ticket_field.instance.dge_dropdown_tagger,
+    zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "dge_test_form"
+}

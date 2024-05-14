@@ -1,0 +1,15 @@
+zendesk.ticket_field Strategic_account_checkbox@su {
+  type = "checkbox"
+  raw_title = "Strategic account"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "Strategic account"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  tag = ""
+  removable = true
+  _alias = "Strategic account"
+}

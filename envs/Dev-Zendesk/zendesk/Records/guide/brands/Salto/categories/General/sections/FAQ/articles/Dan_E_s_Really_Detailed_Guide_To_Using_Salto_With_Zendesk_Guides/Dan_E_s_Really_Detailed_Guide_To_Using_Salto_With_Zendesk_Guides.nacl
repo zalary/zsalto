@@ -1,0 +1,24 @@
+zendesk.article Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides_FAQ_General_Salto@stsssssssssuuu {
+  author_id = "dan.english@salto.io"
+  comments_disabled = true
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.FAQ_General_Salto
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides_FAQ_General_Salto_stsssssssssuuu__Salto_en_us_ub@uuuuuuuuuuuuuumuuuum,
+  ]
+  content_tag_ids = [
+    "01H163HB4TPPR7MTMMYEER6PMG",
+  ]
+  label_names = [
+    "Salto",
+    "dge_article",
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "Dan E's Really Detailed Guide To Using Salto With Zendesk Guides"
+}

@@ -1,0 +1,17 @@
+zendesk.article SRD___Impact_Analysis_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Onboarding_General_SRD___Test_sbs_uuuum@uuuuuum
+  source_locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.SRD___Impact_Analysis_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _alias = "SRD - Impact Analysis"
+}

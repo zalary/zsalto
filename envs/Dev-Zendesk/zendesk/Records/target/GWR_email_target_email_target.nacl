@@ -1,0 +1,8 @@
+zendesk.target GWR_email_target_email_target@ssuu {
+  type = "email_target"
+  title = "GWR email target"
+  active = true
+  email = "geoffrey.routledge@salto.io"
+  subject = "test"
+  _alias = "GWR email target"
+}

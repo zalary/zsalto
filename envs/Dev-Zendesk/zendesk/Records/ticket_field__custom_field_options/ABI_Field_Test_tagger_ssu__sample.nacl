@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options ABI_Field_Test_tagger_ssu__sample@uuumuu {
+  raw_name = "Sample"
+  value = "sample"
+  _parent = [
+    zendesk.ticket_field.instance.ABI_Field_Test_tagger@ssu,
+  ]
+  _alias = "Sample"
+}

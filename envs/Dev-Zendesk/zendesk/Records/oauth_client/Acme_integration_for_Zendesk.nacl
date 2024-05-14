@@ -1,0 +1,11 @@
+zendesk.oauth_client acme_integration_for_zendesk {
+  name = "Acme integration for Zendesk"
+  identifier = "acme_integration_for_zendesk"
+  company = "Neta standard sbx"
+  description = "Yada Yada Yada"
+  redirect_uri = [
+    "https://127.0.0.1",
+  ]
+  global = false
+  _alias = "Acme integration for Zendesk"
+}

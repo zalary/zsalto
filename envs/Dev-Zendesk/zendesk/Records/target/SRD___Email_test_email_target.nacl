@@ -1,0 +1,8 @@
+zendesk.target SRD___Email_test_email_target@sbssuu {
+  type = "email_target"
+  title = "SRD - Email test"
+  active = true
+  email = "scott.dixon.dc@salto.io"
+  subject = "Email test"
+  _alias = "SRD - Email test"
+}

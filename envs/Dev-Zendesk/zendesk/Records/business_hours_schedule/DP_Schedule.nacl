@@ -1,0 +1,30 @@
+zendesk.business_hours_schedule DP_Schedule@s {
+  name = "DP Schedule"
+  time_zone = "Eastern Time (US & Canada)"
+  intervals = [
+    {
+      start_time = 1980
+      end_time = 2460
+    },
+    {
+      start_time = 3420
+      end_time = 3900
+    },
+    {
+      start_time = 4860
+      end_time = 5340
+    },
+    {
+      start_time = 6300
+      end_time = 6780
+    },
+    {
+      start_time = 7740
+      end_time = 8220
+    },
+  ]
+  holidays = [
+    zendesk.business_hours_schedule_holiday.instance.DP_Schedule_s__4th_of_July@umuuss,
+  ]
+  _alias = "DP Schedule"
+}

@@ -1,0 +1,8 @@
+zendesk.organization_field__custom_field_options gwr_sensitive_field__gwr_value2 {
+  raw_name = "gwr_value2"
+  value = "gwr_value2"
+  _parent = [
+    zendesk.organization_field.instance.gwr_sensitive_field,
+  ]
+  _alias = "gwr_value2"
+}

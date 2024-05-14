@@ -1,0 +1,29 @@
+zendesk.automation SRD___test_automation_for_troubleshooting@sbssss {
+  title = "SRD - test automation for troubleshooting"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.SRD___Checkbox_demo_checkbox@sbssu
+      value = "false"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "OPEN"
+        operator = "is"
+        value = "24"
+      },
+      {
+        field = "current_tags"
+        operator = "includes"
+        value = [
+          zendesk.tag.instance.test,
+        ]
+      },
+    ]
+  }
+  raw_title = "SRD - test automation for troubleshooting"
+  _alias = "SRD - test automation for troubleshooting"
+}

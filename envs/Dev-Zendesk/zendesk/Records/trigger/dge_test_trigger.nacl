@@ -1,0 +1,44 @@
+zendesk.trigger dge_test_trigger {
+  title = "dge_test_trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_user"
+      value = [
+        "current_user",
+        "test",
+        "test from dge",
+      ]
+    },
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.dge_Triggered_Webhook@s,
+        '''
+{
+"mybody":"contains this data"
+}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    any = [
+      {
+        field = zendesk.ticket_field.instance.aaaaaaa_44444_tagger@bu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.aaaaaaa_44444_tagger_bu__dator44@uumuu
+      },
+      {
+        field = "organization_id"
+        operator = "is"
+        value = zendesk.organization.instance.SRD___org@sbs
+      },
+    ]
+  }
+  description = "do this stuff"
+  raw_title = "dge_test_trigger"
+  category_id = zendesk.trigger_category.instance.Custom_Events@s
+  _alias = "dge_test_trigger"
+}

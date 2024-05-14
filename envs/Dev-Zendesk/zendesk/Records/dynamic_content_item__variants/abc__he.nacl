@@ -1,0 +1,11 @@
+zendesk.dynamic_content_item__variants abc__he {
+  content = "אבג"
+  locale_id = zendesk.locale.instance.he
+  
+  active = true
+  default = false
+  _parent = [
+    zendesk.dynamic_content_item.instance.abc,
+  ]
+  _alias = "abc - he"
+}

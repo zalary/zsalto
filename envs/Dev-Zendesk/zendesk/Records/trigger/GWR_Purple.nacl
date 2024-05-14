@@ -1,0 +1,38 @@
+zendesk.trigger GWR_Purple@s {
+  title = "GWR Purple"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance.ispurple,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "pending"
+      },
+    ]
+    any = [
+      {
+        field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__red@uumuu
+      },
+      {
+        field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__blue@uumuu
+      },
+    ]
+  }
+  description = "new description"
+  raw_title = "GWR Purple"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "GWR Purple"
+}

@@ -1,0 +1,9 @@
+zendesk.user_field gwr_user_field1 {
+  type = "text"
+  key = "gwr_user_field1"
+  raw_title = "gwr user field1"
+  raw_description = "change to text"
+  active = true
+  system = false
+  _alias = "gwr user field1"
+}

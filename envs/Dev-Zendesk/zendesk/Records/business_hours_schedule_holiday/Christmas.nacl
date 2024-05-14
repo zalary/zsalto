@@ -1,0 +1,9 @@
+zendesk.business_hours_schedule_holiday SRD___schedule_sbs__Christmas@uuumuu {
+  name = "Christmas"
+  start_date = "2024-12-25"
+  end_date = "2024-12-25"
+  _parent = [
+    zendesk.business_hours_schedule.instance.SRD___schedule@sbs,
+  ]
+  _alias = "Christmas"
+}

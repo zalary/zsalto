@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP_Subcategory_1_tagger_ssu__dp_sub_1_2@uuumuuuuu {
+  raw_name = "DP Sub 1 2"
+  value = "dp_sub_1_2"
+  _parent = [
+    zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu,
+  ]
+  _alias = "DP Sub 1 2"
+}

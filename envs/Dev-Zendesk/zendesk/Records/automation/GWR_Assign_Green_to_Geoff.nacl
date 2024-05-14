@@ -1,0 +1,41 @@
+zendesk.automation GWR_Assign_Green_to_Geoff@s {
+  title = "GWR Assign Green to Geoff"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "assignee_id"
+      value = "geoffrey.routledge@salto.io"
+    },
+    {
+      field = "priority"
+      value = "urgent"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "NEW"
+        operator = "less_than_business_hours"
+        value = "1"
+      },
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+      {
+        field = "priority"
+        operator = "is"
+        value = "high"
+      },
+      {
+        field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__red@uumuu
+      },
+    ]
+  }
+  raw_title = "GWR Assign Green to Geoff"
+  _alias = "GWR Assign Green to Geoff"
+}

@@ -1,0 +1,27 @@
+zendesk.automation GWR_Automation1___created_in_sb@ssbsss {
+  title = "GWR Automation1 - changed for prj1"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+      value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__yellow@uumuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__green@uumuu
+      },
+      {
+        field = "type"
+        operator = "is"
+        value = "problem"
+      },
+    ]
+  }
+  raw_title = "GWR Automation1 - changed for prj1"
+  _alias = "GWR Automation1 - changed for prj1"
+}

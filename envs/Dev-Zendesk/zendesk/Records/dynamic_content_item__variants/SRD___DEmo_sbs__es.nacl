@@ -1,0 +1,15 @@
+zendesk.dynamic_content_item__variants SRD___DEmo_sbs__es@uuumuu {
+  content = '''
+La opción de SRD-Early Product Access Type es {{ticket.ticket_field_${ zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu }}}
+
+<a href="hc/en-us/requests/new?ticket_form_id=15465940257047"> Link </a>
+'''
+  locale_id = zendesk.locale.instance.es
+  
+  active = true
+  default = false
+  _parent = [
+    zendesk.dynamic_content_item.instance.SRD___DEmo@sbs,
+  ]
+  _alias = "SRD - Demo - es"
+}

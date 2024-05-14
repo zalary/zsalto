@@ -1,0 +1,5 @@
+zendesk.sla_policy_order {
+  active = [
+    zendesk.sla_policy.instance.Kirk_Test_SLA@s,
+  ]
+}

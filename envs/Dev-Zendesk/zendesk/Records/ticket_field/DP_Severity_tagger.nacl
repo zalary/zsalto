@@ -1,0 +1,20 @@
+zendesk.ticket_field DP_Severity_tagger@su {
+  type = "tagger"
+  raw_title = "DP Severity"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "DP Severity"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_mild@uumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_medium@uumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_high@uumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_critical@uumuuuu,
+  ]
+  _alias = "DP Severity"
+}

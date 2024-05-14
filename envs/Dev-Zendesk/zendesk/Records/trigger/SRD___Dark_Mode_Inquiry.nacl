@@ -1,0 +1,32 @@
+zendesk.trigger SRD___Dark_Mode_Inquiry@sbsss {
+  title = "SRD - Dark Mode Inquiry"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_group"
+      value = [
+        zendesk.group.instance.Support,
+        "User interested in Dark Mode",
+        "{{current_user.email}} is interested in using the upcoming Dark Mode feature. Please reach out to them.",
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu
+      },
+      {
+        field = "status"
+        operator = "value"
+        value = "open"
+      },
+    ]
+  }
+  raw_title = "SRD - Dark Mode Inquiry"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "SRD - Dark Mode Inquiry"
+}

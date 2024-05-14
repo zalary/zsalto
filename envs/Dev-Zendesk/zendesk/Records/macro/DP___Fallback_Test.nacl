@@ -1,0 +1,13 @@
+zendesk.macro DP___Fallback_Test@sbss {
+  title = "DP - Fallback Test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "assignee_id"
+      value = "dan.putman+zd@salto.io"
+    },
+  ]
+  raw_title = "DP - Fallback Test"
+  _alias = "DP - Fallback Test"
+}

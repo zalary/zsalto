@@ -1,0 +1,25 @@
+zendesk.trigger ZGY_Orgs@s {
+  title = "ZGY Orgs"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance.zgy,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "organization_id"
+        operator = "is"
+        value = zendesk.organization.instance.ZGY
+      },
+    ]
+  }
+  raw_title = "ZGY Orgs"
+  category_id = zendesk.trigger_category.instance.ZGY
+  _alias = "ZGY Orgs"
+}

@@ -1,0 +1,19 @@
+zendesk.ticket_form GWR_emaf@s {
+  raw_name = "GWR emaf project 3"
+  raw_display_name = "GWR even more Amazing form"
+  end_user_visible = true
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Priority_priority,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.Type_tickettype,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "GWR emaf project 3"
+}

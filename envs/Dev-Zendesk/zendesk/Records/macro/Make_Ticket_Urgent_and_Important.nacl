@@ -1,0 +1,18 @@
+zendesk.macro Make_Ticket_Urgent_and_Important@s {
+  title = "Make Ticket Urgent and Important"
+  active = true
+  default = false
+  description = "Makes this ticket both Urgent and Important and Critical"
+  actions = [
+    {
+      field = "status"
+      value = "open"
+    },
+    {
+      field = zendesk.ticket_field.instance.DP_Priority_tagger
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Priority_tagger__urgent_and_important
+    },
+  ]
+  raw_title = "Make Ticket Urgent and Important"
+  _alias = "Make Ticket Urgent and Important"
+}

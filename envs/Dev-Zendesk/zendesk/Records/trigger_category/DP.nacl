@@ -1,0 +1,4 @@
+zendesk.trigger_category DP {
+  name = "DP"
+  _alias = "DP"
+}

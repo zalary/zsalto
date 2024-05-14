@@ -1,0 +1,14 @@
+zendesk.automation_order {
+  active = [
+    zendesk.automation.instance.Close_ticket_4_days_after_status_is_set_to_solved@s,
+    zendesk.automation.instance.GWR_Automation1___created_in_sb@ssbsss,
+    zendesk.automation.instance.GWR_Automation2___created_in_sb@ssbsss,
+    zendesk.automation.instance.GWR_Assign_Green_to_Geoff@s,
+    zendesk.automation.instance.CE_Assignment@s,
+    zendesk.automation.instance.SRD___new_automation@sbss,
+    zendesk.automation.instance._SRD____Test_Automation@jksbss,
+    zendesk.automation.instance.SRD___test_automation_for_troubleshooting@sbssss,
+  ]
+  inactive = [
+  ]
+}

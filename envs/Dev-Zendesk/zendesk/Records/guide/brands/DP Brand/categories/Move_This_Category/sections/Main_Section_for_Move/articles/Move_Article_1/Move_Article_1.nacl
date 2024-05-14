@@ -1,0 +1,17 @@
+zendesk.article Move_Article_1_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum@ssuuuuuuuuuuum {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum@sssuuuuuum
+  source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Move_Article_1_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum_ssuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuumuuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _alias = "Move Article 1"
+}

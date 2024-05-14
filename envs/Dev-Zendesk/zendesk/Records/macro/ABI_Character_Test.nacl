@@ -1,0 +1,15 @@
+zendesk.macro ABI_Character_Test@s {
+  title = "ABI Character Test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance._ustom@_00231,
+      ]
+    },
+  ]
+  raw_title = "ABI Character Test"
+  _alias = "ABI Character Test"
+}

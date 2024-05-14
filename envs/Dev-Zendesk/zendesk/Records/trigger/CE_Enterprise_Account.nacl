@@ -1,0 +1,31 @@
+zendesk.trigger CE_Enterprise_Account@s {
+  title = "CE Enterprise Account"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.customer_engineering,
+        zendesk.tag.instance.enterprise_account,
+      ]
+    },
+    {
+      field = "priority"
+      value = "urgent"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.organization_field.instance.org_size
+        operator = "greater_than_equal"
+        value = "500"
+      },
+    ]
+  }
+  description = "Sort into enterprise bucket"
+  raw_title = "CE Enterprise Account"
+  category_id = zendesk.trigger_category.instance.Labeling
+  _alias = "CE Enterprise Account"
+}

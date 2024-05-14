@@ -1,0 +1,13 @@
+zendesk.category_translation Move_This_Category_DP_Brand_s_ssuum__DP_Brand_s_en_us_umub@uuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "Move This Category"
+  body = "To move for Demo"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.category.instance.Move_This_Category_DP_Brand_s@ssuum,
+  ]
+  _alias = "en-us - Move This Category"
+}

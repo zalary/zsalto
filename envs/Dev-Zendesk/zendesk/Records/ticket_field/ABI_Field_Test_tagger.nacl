@@ -1,0 +1,18 @@
+zendesk.ticket_field ABI_Field_Test_tagger@ssu {
+  type = "tagger"
+  raw_title = "ABI Field Test"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "ABI Field Test"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.ABI_Field_Test_tagger_ssu__sample@uuumuu,
+    zendesk.ticket_field__custom_field_options.instance.ABI_Field_Test_tagger_ssu__cambio_tel_fono@uuumuuu_00233,
+  ]
+  _alias = "ABI Field Test"
+}

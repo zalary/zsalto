@@ -1,0 +1,5 @@
+zendesk.organization Neta_standard_sbx@s {
+  name = "Neta standard sbx"
+  shared_tickets = false
+  shared_comments = false
+}

@@ -1,0 +1,87 @@
+zendesk.trigger_order {
+  order = [
+    {
+      category = zendesk.trigger_category.instance.Notifications
+      active = [
+        zendesk.trigger.instance.Notify_assignee_of_assignment@s,
+        zendesk.trigger.instance.Notify_assignee_of_comment_update@s,
+        zendesk.trigger.instance.Notify_assignee_of_reopened_ticket@s,
+        zendesk.trigger.instance.Notify_group_of_assignment@s,
+        zendesk.trigger.instance.Notify_requester_and_CCs_of_comment_update@s,
+        zendesk.trigger.instance.Notify_all_agents_of_received_request@s,
+        zendesk.trigger.instance.Notify_requester_of_new_proactive_ticket@s,
+        zendesk.trigger.instance.Notify_requester_and_CCs_of_received_request@s,
+        zendesk.trigger.instance.NH_Silver@s,
+        zendesk.trigger.instance.GWR_Purple@s,
+        zendesk.trigger.instance.GWR_Red@s,
+        zendesk.trigger.instance.GWR_Yellow@s,
+        zendesk.trigger.instance.GWR_Yellow_branch@s,
+        zendesk.trigger.instance.SRD___Dark_Mode_Inquiry@sbsss,
+        zendesk.trigger.instance.GWR_DC_Trigger1@s,
+        zendesk.trigger.instance.GWR_Blue@s,
+        zendesk.trigger.instance.GWR_org_trigger@s,
+        zendesk.trigger.instance.MKD___Preview_Access_Request__Beta_@sbssssjk,
+        zendesk.trigger.instance.MKD___Preview_Access_Request__Alpha_@sbssssjk,
+        zendesk.trigger.instance._SRD__test_trigger_ID_mapping@jkssss,
+        zendesk.trigger.instance.gwr_fetch_label@s,
+      ]
+      inactive = [
+      ]
+    },
+    {
+      category = zendesk.trigger_category.instance.Custom_Events@s
+      active = [
+        zendesk.trigger.instance.SRD___Feature_request@sbss,
+        zendesk.trigger.instance.EC___Feature_request@sbss,
+        zendesk.trigger.instance.SRD___Email_Test@sbss,
+        zendesk.trigger.instance.dge_test_trigger,
+      ]
+      inactive = [
+      ]
+    },
+    {
+      category = zendesk.trigger_category.instance.Labeling
+      active = [
+        zendesk.trigger.instance.CE_Enterprise_Account@s,
+        zendesk.trigger.instance.CE_Mid_Market_Account@s,
+        zendesk.trigger.instance.CE_Small_Market_Account@s,
+        zendesk.trigger.instance.welcome_trigger@s,
+      ]
+      inactive = [
+      ]
+    },
+    {
+      category = zendesk.trigger_category.instance.DP
+      active = [
+        zendesk.trigger.instance.DP_Org_Test@s,
+        zendesk.trigger.instance.DP_Trigger@s,
+      ]
+      inactive = [
+      ]
+    },
+    {
+      category = zendesk.trigger_category.instance.Field_Updates@s
+      active = [
+      ]
+      inactive = [
+      ]
+    },
+    {
+      category = zendesk.trigger_category.instance.Delete_These@s
+      active = [
+        zendesk.trigger.instance.DP___Delete_1@sbss,
+        zendesk.trigger.instance.DP___Delete_2@sbss,
+      ]
+      inactive = [
+      ]
+    },
+    {
+      category = zendesk.trigger_category.instance.ZGY
+      active = [
+        zendesk.trigger.instance.ZGY_Orgs@s,
+      ]
+      inactive = [
+      ]
+    },
+  ]
+}

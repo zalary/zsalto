@@ -1,0 +1,9 @@
+zendesk.macro_attachment SRD___macro_attachment___CLONED__error_screenshot_png@sbsssbsuuuv {
+  filename = "error_screenshot.png"
+  contentType = "image/png"
+  content = file("zendesk/macro_attachment/SRD - macro attachment - CLONED__error_screenshot.png")
+  _parent = [
+    zendesk.macro.instance.SRD___macro_attachment___CLONED@sbsssbs,
+  ]
+  _alias = "error_screenshot.png"
+}

@@ -1,0 +1,17 @@
+zendesk.macro Downgrade_and_inform2@s {
+  title = "Downgrade and inform2"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "priority"
+      value = "low"
+    },
+    {
+      field = "comment_value"
+      value = "We're currently experiencing unusually high traffic. We'll get back to you as soon as possible..."
+    },
+  ]
+  raw_title = "Downgrade and inform2"
+  _alias = "Downgrade and inform2"
+}

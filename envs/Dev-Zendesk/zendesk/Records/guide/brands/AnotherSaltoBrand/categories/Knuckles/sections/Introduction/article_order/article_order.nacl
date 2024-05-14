@@ -1,0 +1,10 @@
+zendesk.article_order Introduction_Knuckles_AnotherSaltoBrand {
+  articles = [
+    zendesk.article.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand@_00231_00227sssuuu,
+  ]
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.section.instance.Introduction_Knuckles_AnotherSaltoBrand,
+  ]
+  _alias = "Introduction Article Order"
+}

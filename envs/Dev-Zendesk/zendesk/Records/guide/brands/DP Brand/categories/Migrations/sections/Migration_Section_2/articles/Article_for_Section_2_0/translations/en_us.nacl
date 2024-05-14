@@ -1,0 +1,13 @@
+zendesk.article_translation Article_for_Section_2_0_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "Article for Section 2.0"
+  body = "<p>2.0 - English</p>"
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.article.instance.Article_for_Section_2_0_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum@sssvuuuuuuuum,
+  ]
+  _alias = "en-us - Article for Section 2.0"
+}

@@ -1,0 +1,14 @@
+zendesk.ticket_field gwr_chkbox_4_checkbox@ssu {
+  type = "checkbox"
+  raw_title = "gwr chkbox 4"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "gwr chkbox 4"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  _alias = "gwr chkbox 4"
+}

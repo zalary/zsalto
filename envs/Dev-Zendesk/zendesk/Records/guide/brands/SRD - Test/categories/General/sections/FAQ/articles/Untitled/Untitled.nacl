@@ -1,0 +1,17 @@
+zendesk.article Untitled_FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@uuuuuuuum {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  draft = true
+  promoted = false
+  section_id = zendesk.section.instance.FAQ_General_SRD___Test_sbs_uuuum@uuuuuum
+  source_locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_es_419@uuumub
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_es_419@uuumub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Untitled_FAQ_General_SRD___Test_sbs_uuuum_uuuuuum_uuuuuuuum__SRD___Test_sbs_es_419_uuumub@uuuuuuuuumuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _alias = "Untitled"
+}

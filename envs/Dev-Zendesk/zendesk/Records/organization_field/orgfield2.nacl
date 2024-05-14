@@ -1,0 +1,13 @@
+zendesk.organization_field orgfield2 {
+  type = "dropdown"
+  key = "orgfield2"
+  raw_title = "orgField2"
+  raw_description = ""
+  active = true
+  system = false
+  custom_field_options = [
+    zendesk.organization_field__custom_field_options.instance.orgfield2__v21,
+    zendesk.organization_field__custom_field_options.instance.orgfield2__v22,
+  ]
+  _alias = "orgField2"
+}

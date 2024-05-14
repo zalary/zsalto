@@ -1,0 +1,7 @@
+zendesk.organization ___SRD___test_org___@_11088_11088ssbsss_11088_11088 {
+  name = "⭐⭐ SRD - test org ⭐⭐"
+  shared_tickets = false
+  shared_comments = false
+  details = ""
+  notes = ""
+}

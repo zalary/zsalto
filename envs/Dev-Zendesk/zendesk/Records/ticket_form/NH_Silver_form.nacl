@@ -1,0 +1,17 @@
+zendesk.ticket_form NH_Silver_form@s {
+  raw_name = "NH Silver form"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.NH_Silver_ticket_text@ssu,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "NH Silver form"
+}

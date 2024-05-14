@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options SRD_Early_Product_Access_Type_tagger_bsssu__feature_b@uuuuumuuu {
+  raw_name = "Feature B"
+  value = "feature_b"
+  _parent = [
+    zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu,
+  ]
+  _alias = "Feature B"
+}

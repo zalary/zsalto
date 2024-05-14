@@ -1,0 +1,12 @@
+zendesk.webhook dge_Community_Post_Created_Webhook@s {
+  name = "dge Community Post Created Webhook"
+  description = ""
+  status = "active"
+  subscriptions = [
+    "zen:event-type:community_post.created",
+  ]
+  endpoint = "https://salto-zendesk-webhook.dev-site.io/community-post-created"
+  http_method = "POST"
+  request_format = "json"
+  _alias = "dge Community Post Created Webhook"
+}

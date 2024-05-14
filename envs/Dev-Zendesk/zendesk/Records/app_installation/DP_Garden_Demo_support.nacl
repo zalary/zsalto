@@ -1,0 +1,13 @@
+zendesk.app_installation DP_Garden_Demo_support@ssu {
+  app_id = zendesk.app_owned.instance.DP_Garden_Demo@s
+  product = "support"
+  settings = {
+    name = "DP Garden Demo"
+    title = "DP Garden Demo"
+  }
+  enabled = true
+  recurring_payment = false
+  collapsible = true
+  has_incomplete_subscription = false
+  _alias = "DP Garden Demo"
+}

@@ -1,0 +1,13 @@
+zendesk.article_translation SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu_sbssssauuuum__Salto_en_us_ub@uuuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "SRD - Where is my profile?"
+  body = "<p>You must be logged in</p>"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu@sbssssauuuum,
+  ]
+  _alias = "en-us - SRD - Where is my profile?"
+}

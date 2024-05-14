@@ -1,0 +1,7 @@
+zendesk.article_order Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum_sbsssuuuuuuuum@uuuuuuuuuuuuuum {
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _parent = [
+    zendesk.section.instance.Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum@sbsssuuuuuuuum,
+  ]
+  _alias = "Eshed - Demo Article Section Article Order"
+}

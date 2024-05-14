@@ -1,0 +1,66 @@
+zendesk.routing_attribute_value Location__Tel_Aviv@uub {
+  name = "Tel-Aviv"
+  conditions = {
+    all = [
+      {
+        subject = "brand_id"
+        operator = "is"
+        value = zendesk.brand.instance.Salto
+      },
+      {
+        subject = "ticket_form_id"
+        operator = "is"
+        value = zendesk.ticket_form.instance.Default_Ticket_Form@s
+      },
+      {
+        subject = "organization_id"
+        operator = "is"
+        value = zendesk.organization.instance.Neta_standard_sbx@s
+      },
+      {
+        subject = "via_id"
+        operator = "is"
+        value = zendesk.channel.instance.Web_form@s
+      },
+      {
+        subject = "ticket_is_public"
+        operator = "is"
+        value = "public"
+      },
+      {
+        subject = zendesk.organization_field.instance.orgfield2
+        operator = "is"
+        value = zendesk.organization_field__custom_field_options.instance.orgfield2__v21
+      },
+      {
+        subject = "requester_time_zone"
+        operator = "is"
+        value = "Alaska"
+      },
+      {
+        subject = "type"
+        operator = "is"
+        value = "question"
+      },
+      {
+        subject = "current_via_id"
+        operator = "is"
+        value = zendesk.channel.instance.X_Corp_DM@s
+      },
+      {
+        subject = "requester_role"
+        operator = "is"
+        value = "4"
+      },
+      {
+        subject = "locale_id"
+        operator = "is"
+        value = zendesk.locale.instance.he
+      },
+    ]
+  }
+  _parent = [
+    zendesk.routing_attribute.instance.Location,
+  ]
+  _alias = "Tel-Aviv"
+}

@@ -1,0 +1,11 @@
+zendesk.section_order General_Eshed_Demo_s_uum@uuum {
+  sections = [
+    zendesk.section.instance.FAQ_General_Eshed_Demo_s_uum@uuuum,
+    zendesk.section.instance.Announcements_General_Eshed_Demo_s_uum@uuuum,
+  ]
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _parent = [
+    zendesk.category.instance.General_Eshed_Demo_s@uum,
+  ]
+  _alias = "General Section Order"
+}

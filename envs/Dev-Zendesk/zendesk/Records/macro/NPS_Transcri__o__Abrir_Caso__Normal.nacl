@@ -1,0 +1,17 @@
+zendesk.macro NPS_Transcri__o__Abrir_Caso__Normal@s_00231_00227ffsff {
+  title = "NPS Transcrição::Abrir Caso::Normal"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "pending"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>Este é um teste</p>"
+    },
+  ]
+  raw_title = "NPS Transcrição::Abrir Caso::Normal"
+  _alias = "NPS Transcrição::Abrir Caso::Normal"
+}

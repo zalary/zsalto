@@ -1,0 +1,9 @@
+zendesk.macro_attachment _SRD__Update_Customer___test__csvexport___selection_png@hisssbsuuubuv {
+  filename = "csvexport_-_selection.png"
+  contentType = "image/png"
+  content = file("zendesk/macro_attachment/[SRD] Update Customer - test__csvexport_-_selection.png")
+  _parent = [
+    zendesk.macro.instance._SRD__Update_Customer@hiss,
+  ]
+  _alias = "csvexport_-_selection.png"
+}

@@ -1,0 +1,18 @@
+zendesk.article SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu@sbssssauuuum {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Site_Navigation_FAQs_Salto@suu
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Signed_in_users@bs
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu_sbssssauuuum__Salto_en_us_ub@uuuuuuuuuuuumuuuum,
+    zendesk.article_translation.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu_sbssssauuuum__Salto_es_419_ub@uuuuuuuuuuuumuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "SRD - Where is my profile?"
+}

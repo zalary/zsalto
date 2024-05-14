@@ -1,0 +1,17 @@
+zendesk.article Eshed___Demo_Article__1_FAQ_General_Eshed_Demo_s_uum_uuuum@sbsssnuuuuuum {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.FAQ_General_Eshed_Demo_s_uum@uuuum
+  source_locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Eshed___Demo_Article__1_FAQ_General_Eshed_Demo_s_uum_uuuum_sbsssnuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuumuuuuuum,
+  ]
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _alias = "Eshed - Demo Article #1"
+}

@@ -1,0 +1,14 @@
+zendesk.ticket_field SRD___Checkbox_demo_checkbox@sbssu {
+  type = "checkbox"
+  raw_title = "SRD - Checkbox demo"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "SRD - Checkbox demo"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  _alias = "SRD - Checkbox demo"
+}

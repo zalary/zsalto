@@ -1,0 +1,36 @@
+zendesk.trigger CE_Mid_Market_Account@s {
+  title = "CE Mid Market Account"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance.customer_engineering,
+        zendesk.tag.instance.mid_market_account,
+      ]
+    },
+    {
+      field = "priority"
+      value = "high"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.organization_field.instance.org_size
+        operator = "greater_than_equal"
+        value = "25"
+      },
+      {
+        field = zendesk.organization_field.instance.org_size
+        operator = "less_than"
+        value = "500"
+      },
+    ]
+  }
+  description = "Sort into mid market bucket"
+  raw_title = "CE Mid Market Account"
+  category_id = zendesk.trigger_category.instance.Labeling
+  _alias = "CE Mid Market Account"
+}

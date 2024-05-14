@@ -1,0 +1,13 @@
+zendesk.article_translation SRD___How_do_I_reset_my_password__Logins_FAQs_Salto_sbssssssauuu__Salto_es_419_ub@uuuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_es_419@ub
+  title = "SRD - Se me olvidó la contraseña"
+  body = "<p>Ve a <a href=\"${ zendesk.brand.instance.Salto }/hc/es-419/articles/${ zendesk.article.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu@sbssssauuuum }\" target=\"_self\" rel=\"undefined\">esta pagína</a></p>"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.SRD___How_do_I_reset_my_password__Logins_FAQs_Salto@sbssssssauuu,
+  ]
+  _alias = "es-419 - SRD - How do I reset my password?"
+}

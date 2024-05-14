@@ -1,0 +1,15 @@
+zendesk.ticket_field Regex_test_regexp@su {
+  type = "regexp"
+  raw_title = "Regex test"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  regexp_for_validation = "\\b[0-9]{5}(?:-[0-9]{4})?\\b"
+  raw_title_in_portal = "Regex test"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  _alias = "Regex test"
+}

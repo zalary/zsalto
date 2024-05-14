@@ -1,0 +1,25 @@
+zendesk.ticket_form Default_Ticket_Form@s {
+  raw_name = "Default Ticket Form"
+  raw_display_name = "Default Ticket Form"
+  end_user_visible = true
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.Type_tickettype,
+    zendesk.ticket_field.instance.Priority_priority,
+    zendesk.ticket_field.instance.custom_number_integer@su,
+    zendesk.ticket_field.instance.my_dropdown_1_tagger@ssu,
+    zendesk.ticket_field.instance.blaa_tagger,
+    zendesk.ticket_field.instance.test_multiselect,
+    zendesk.ticket_field.instance.Product_components_multiselect@su,
+    zendesk.ticket_field.instance.zip_code_with_validation_regexp@sssu,
+    zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
+  ]
+  active = true
+  default = true
+  in_all_brands = true
+  _alias = "Default Ticket Form"
+}

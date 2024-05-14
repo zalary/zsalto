@@ -1,0 +1,24 @@
+zendesk.article SRD___How_do_I_log_in__Logins_FAQs_Salto@sbsssssauuu {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Logins_FAQs_Salto
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.SRD___How_do_I_log_in__Logins_FAQs_Salto_sbsssssauuu__Salto_en_us_ub@uuuuuuuuuuumuuuum,
+    zendesk.article_translation.instance.SRD___How_do_I_log_in__Logins_FAQs_Salto_sbsssssauuu__Salto_es_419_ub@uuuuuuuuuuumuuuum,
+  ]
+  content_tag_ids = [
+    "01GKMKRDX5RTV24R64D0674863",
+  ]
+  label_names = [
+    "onboarding",
+  ]
+  brand = zendesk.brand.instance.Salto
+  user_segment_id = zendesk.user_segment.instance.Everyone
+  _alias = "SRD - How do I log in?"
+}

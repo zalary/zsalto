@@ -1,0 +1,12 @@
+zendesk.article_translation Untitled_FAQ_General_SRD___Test_sbs_uuuum_uuuuuum_uuuuuuuum__SRD___Test_sbs_es_419_uuumub@uuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_es_419@uuumub
+  title = "Untitled"
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.Untitled_FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@uuuuuuuum,
+  ]
+  _alias = "es-419 - Untitled"
+}

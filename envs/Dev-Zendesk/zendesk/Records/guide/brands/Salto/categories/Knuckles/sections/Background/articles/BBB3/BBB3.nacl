@@ -1,0 +1,24 @@
+zendesk.article BBB3_Background_Knuckles_Salto {
+  author_id = "neta.marcus+dev@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Background_Knuckles_Salto
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.BBB3_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum,
+  ]
+  label_names = [
+    "yuri",
+  ]
+  brand = zendesk.brand.instance.Salto
+  attachments = [
+    zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__as_png_true@uuuuuvu,
+    zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__re_png_true@uuuuuvu,
+  ]
+  user_segment_id = zendesk.user_segment.instance.Everyone
+  _alias = "BBB3"
+}

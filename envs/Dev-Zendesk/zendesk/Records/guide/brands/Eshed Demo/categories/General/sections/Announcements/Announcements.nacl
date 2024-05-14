@@ -1,0 +1,13 @@
+zendesk.section Announcements_General_Eshed_Demo_s_uum@uuuum {
+  category_id = zendesk.category.instance.General_Eshed_Demo_s@uum
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  source_locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
+  outdated = false
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.Announcements_General_Eshed_Demo_s_uum_uuuum__Eshed_Demo_s_en_us_umub@uuuuumuuuuuum,
+  ]
+  brand = zendesk.brand.instance.Eshed_Demo@s
+  _alias = "Announcements"
+}

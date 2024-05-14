@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options ABI_Field_Test_tagger_ssu__cambio_tel_fono@uuumuuu_00233 {
+  raw_name = "cambio_teléfono"
+  value = "cambio_teléfono"
+  _parent = [
+    zendesk.ticket_field.instance.ABI_Field_Test_tagger@ssu,
+  ]
+  _alias = "cambio_teléfono"
+}

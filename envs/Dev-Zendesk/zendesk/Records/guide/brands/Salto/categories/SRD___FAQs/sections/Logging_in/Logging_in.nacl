@@ -1,0 +1,13 @@
+zendesk.section Logging_in_SRD___FAQs_Salto_sbsu@suuuuum {
+  category_id = zendesk.category.instance.SRD___FAQs_Salto@sbsu
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.Logging_in_SRD___FAQs_Salto_sbsu_suuuuum__Salto_en_us_ub@uuuuuuumuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "Logging in"
+}

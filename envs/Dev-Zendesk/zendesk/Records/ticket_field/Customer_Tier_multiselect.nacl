@@ -1,0 +1,22 @@
+zendesk.ticket_field Customer_Tier_multiselect@su {
+  type = "multiselect"
+  raw_title = "Customer Tier"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "Customer Tier"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__free@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__paying@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__enterprise@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__key_accounts@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__jeff_accounts@uumuuu,
+    zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__test_accounts@uumuuu,
+  ]
+  _alias = "Customer Tier"
+}

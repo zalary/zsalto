@@ -1,0 +1,7 @@
+zendesk.organization SRD___org@sbs {
+  name = "SRD - org"
+  shared_tickets = false
+  shared_comments = false
+  details = ""
+  notes = ""
+}

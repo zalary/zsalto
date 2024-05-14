@@ -1,0 +1,18 @@
+zendesk.webhook _Salesforce_Integration__Sync_tickets_to_Salesforce__00D5f000005tQyREAU_@jsksssssjk {
+  name = "(Salesforce Integration) Sync tickets to Salesforce (00D5f000005tQyREAU)"
+  status = "active"
+  subscriptions = [
+    "conditional_ticket_events",
+  ]
+  endpoint = "https://d3vsalto1636482443.zendesk.com/api/services/zis/inbound_webhooks/generic/ingest/wiBKQX5CWlwH_R6-x1V7IMeiKm4bKf2x8vEmdfJwKYbx"
+  http_method = "POST"
+  request_format = "json"
+  authentication = {
+    type = "basic_auth"
+    data = {
+      username = "jFzFAyOFq3x74zuU"
+    }
+    add_position = "header"
+  }
+  _alias = "(Salesforce Integration) Sync tickets to Salesforce (00D5f000005tQyREAU)"
+}

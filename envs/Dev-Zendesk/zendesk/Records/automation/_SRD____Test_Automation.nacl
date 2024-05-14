@@ -1,0 +1,45 @@
+zendesk.automation _SRD____Test_Automation@jksbss {
+  title = "(SRD) - Test Automation"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_user"
+      value = [
+        "requester_and_ccs",
+        "Test",
+        '''
+The field SRD-Early Product Access Type is {{ticket.ticket_field_${ zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu }}}
+
+<a href="hc/en-us/requests/new?ticket_form_id=15465940257047"> Link </a>
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "open"
+      },
+      {
+        field = "priority"
+        operator = "is"
+        value = "urgent"
+      },
+      {
+        field = "type"
+        operator = "is"
+        value = "incident"
+      },
+      {
+        field = "OPEN"
+        operator = "is"
+        value = "24"
+      },
+    ]
+  }
+  raw_title = "(SRD) - Test Automation"
+  _alias = "(SRD) - Test Automation"
+}

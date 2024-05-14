@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_Metals_tagger_su__gwr_tc@uumuuu {
+  raw_name = "Technium"
+  value = "gwr_tc"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_Metals_tagger@su,
+  ]
+  _alias = "Technium"
+}

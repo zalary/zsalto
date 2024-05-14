@@ -1,0 +1,17 @@
+zendesk.ticket_field DP_Subcategory_2_tagger@ssu {
+  type = "tagger"
+  raw_title = "DP Subcategory 2"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "DP Subcategory 2"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_2_tagger_ssu__dp_sub_2_1@uuumuuuuu,
+  ]
+  _alias = "DP Subcategory 2"
+}

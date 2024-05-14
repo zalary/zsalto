@@ -1,0 +1,10 @@
+zendesk.dynamic_content_item testDynamicContent {
+  name = "testDynamicContent"
+  placeholder = "{{dc.testdynamiccontent}}"
+  default_locale_id = zendesk.locale.instance.en_US@b
+  
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.testDynamicContent__en_US_b@uuum,
+  ]
+  _alias = "testDynamicContent"
+}

@@ -1,0 +1,15 @@
+zendesk.ticket_field gwr_dedup2_integer {
+  type = "integer"
+  raw_title = "gwr_dedup2"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  regexp_for_validation = "\\A[-+]?\\d+\\z"
+  raw_title_in_portal = "gwr_dedup2"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  _alias = "gwr_dedup2"
+}

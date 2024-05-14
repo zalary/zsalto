@@ -1,0 +1,24 @@
+zendesk.macro Take_it_777@s {
+  title = "Take it 777"
+  active = true
+  default = false
+  description = ""
+  actions = [
+    {
+      field = "group_id"
+      value = "current_groups"
+    },
+    {
+      field = zendesk.ticket_field.instance.Titanium_checkbox
+      value = "true"
+    },
+  ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk.group.instance.Support,
+    ]
+  }
+  raw_title = "Take it 777"
+  _alias = "Take it 777"
+}

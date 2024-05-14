@@ -1,0 +1,21 @@
+zendesk.organization GWR {
+  name = "GWR"
+  shared_tickets = false
+  shared_comments = false
+  domain_names = [
+    "gwr.salto.io",
+  ]
+  details = ""
+  notes = ""
+  tags = [
+    "v1",
+    "v22",
+    "gwr_value1",
+  ]
+  organization_fields = {
+    gwr_sensitive_field = "gwr_value11111111"
+    orgfield2 = "v22"
+    org_field_1 = "v1"
+    org_size = 999
+  }
+}

@@ -1,0 +1,12 @@
+zendesk.dynamic_content_item DP_My_Name@b {
+  name = "DP-My-Name"
+  placeholder = "{{dc.dp-my-name}}"
+  default_locale_id = zendesk.locale.instance.en_US@b
+  
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.DP_My_Name_b__en_US_b@uumuuum,
+    zendesk.dynamic_content_item__variants.instance.DP_My_Name_b__es@uumuu,
+    zendesk.dynamic_content_item__variants.instance.DP_My_Name_b__he@uumuu,
+  ]
+  _alias = "DP-My-Name"
+}

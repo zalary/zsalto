@@ -1,0 +1,23 @@
+zendesk.ticket_field MKD___Preview_Release_Type_tagger@sbsssu {
+  type = "tagger"
+  raw_title = "MKD - Preview Release Type"
+  raw_description = '''
+Alpha releases are very rough-draft versions of features and functions that may or may not make it into the final product.
+
+Beta releases are close to completion and nearly ready for public release.
+'''
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "What type of Preview Release would you like access to?"
+  visible_in_portal = true
+  editable_in_portal = true
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu,
+  ]
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu
+  _alias = "MKD - Preview Release Type"
+}

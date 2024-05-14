@@ -1,0 +1,23 @@
+zendesk.macro MKD___Access_Request__Preview_Access@sbssffs {
+  title = "MKD - Access Request::Preview Access"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>Hi {{ticket.requester.first_name}}​,</p><p><br></p><p>Thank you for your interest in participating in our Preview Access Program.&nbsp; Your request will be evaluated by our Preview Access team and they will be contacting you shortly.&nbsp; Please be prepared to let the team know your experience with pre-release programs.&nbsp;&nbsp;</p><p><br></p><p>To ensure you do not miss that communication, please add <a href=\"mailto:betas@example.com\" target=\"_blank\" rel=\"noreferrer\">betas@example.com</a>&nbsp;to your address book.</p><p><br></p><p>Thank you very much for your interest.</p><p><br></p><p>Test ticket field id:&nbsp; <span class=\"atwho-query\">{{ticket.ticket_field_${ zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu }</span>}}​&nbsp;</p>"
+    },
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.preview_release_request_beta_tester@uufu,
+      ]
+    },
+    {
+      field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
+      value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu
+    },
+  ]
+  raw_title = "MKD - Access Request::Preview Access"
+  _alias = "MKD - Access Request::Preview Access"
+}

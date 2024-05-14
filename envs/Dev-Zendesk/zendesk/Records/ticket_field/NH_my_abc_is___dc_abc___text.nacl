@@ -1,0 +1,15 @@
+zendesk.ticket_field NH_my_abc_is___dc_abc___text@bsss_00123_00123v_00125_00125u {
+  type = "text"
+  raw_title = "NH-my abc is {{${ zendesk.dynamic_content_item.instance.abc }}}"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "NH-my abc is {{${ zendesk.dynamic_content_item.instance.abc }}}"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  agent_description = "{{dc.abc}}"
+  _alias = "NH-my abc is abc"
+}

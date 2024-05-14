@@ -1,0 +1,18 @@
+zendesk.article_translation How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssssuuuuuuuum__Salto_en_us_ub@uuuuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "How to log in "
+  body = '''
+<p> </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p> </p>
+<p>Test content</p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssssuuuuuuuum,
+  ]
+  _alias = "en-us - How to log in "
+}

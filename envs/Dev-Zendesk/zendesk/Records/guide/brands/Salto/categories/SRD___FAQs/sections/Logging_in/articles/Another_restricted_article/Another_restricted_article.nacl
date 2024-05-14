@@ -1,0 +1,18 @@
+zendesk.article Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssuuuuuuuum {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.Logging_in_SRD___FAQs_Salto_sbsu@suuuuum
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Test_user_segment@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssuuuuuuuum__DP_Brand_s_en_au_umub@uuuuuuuuuuumuuuuuum,
+    zendesk.article_translation.instance.Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssuuuuuuuum__Salto_en_us_ub@uuuuuuuuuuumuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _alias = "Another restricted article"
+}

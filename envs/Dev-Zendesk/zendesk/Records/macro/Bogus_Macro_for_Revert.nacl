@@ -1,0 +1,14 @@
+zendesk.macro Bogus_Macro_for_Revert@s {
+  title = "Bogus Macro for Revert"
+  active = true
+  default = false
+  description = "Bogus macro used to set revert snapshot"
+  actions = [
+    {
+      field = "subject"
+      value = "dummy"
+    },
+  ]
+  raw_title = "Bogus Macro for Revert"
+  _alias = "Bogus Macro for Revert"
+}

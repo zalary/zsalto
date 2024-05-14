@@ -1,0 +1,23 @@
+zendesk.trigger DP___Delete_1@sbss {
+  title = "DP - Delete 1"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "pending"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+    ]
+  }
+  raw_title = "DP - Delete 1"
+  category_id = zendesk.trigger_category.instance.Delete_These@s
+  _alias = "DP - Delete 1"
+}

@@ -1,0 +1,13 @@
+zendesk.article_translation testt_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "testt"
+  body = "<p>testt body</p>"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.testt_Background_Knuckles_Salto,
+  ]
+  _alias = "en-us - testt"
+}

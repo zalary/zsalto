@@ -1,0 +1,7 @@
+zendesk.organization DP_s_Medium_Business@tss {
+  name = "DP's Medium Business"
+  shared_tickets = false
+  shared_comments = false
+  details = ""
+  notes = ""
+}

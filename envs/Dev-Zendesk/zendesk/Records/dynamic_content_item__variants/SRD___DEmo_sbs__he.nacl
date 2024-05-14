@@ -1,0 +1,14 @@
+zendesk.dynamic_content_item__variants SRD___DEmo_sbs__he@uuumuu {
+  content = '''
+{%if  ticket.requester.custom_fields.${ zendesk.user_field.instance.srd___user_field_test } == true %}  This is rendered if the condition is true. {% endif %}
+
+'''
+  locale_id = zendesk.locale.instance.he
+  
+  active = true
+  default = true
+  _parent = [
+    zendesk.dynamic_content_item.instance.SRD___DEmo@sbs,
+  ]
+  _alias = "SRD - Demo - he"
+}

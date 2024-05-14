@@ -1,0 +1,8 @@
+zendesk.group Managers {
+  is_public = true
+  name = "Managers"
+  description = "The bosses"
+  default = false
+  deleted = false
+  _alias = "Managers"
+}

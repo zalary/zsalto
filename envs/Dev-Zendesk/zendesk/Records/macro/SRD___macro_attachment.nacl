@@ -1,0 +1,22 @@
+zendesk.macro SRD___macro_attachment@sbss {
+  title = "SRD - macro attachment"
+  active = true
+  default = false
+  description = "an example with a macro attachment"
+  actions = [
+    {
+      field = "status"
+      value = "open"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>here's the attachment</p>"
+    },
+  ]
+  attachments = [
+    zendesk.macro_attachment.instance.SRD___macro_attachment___CLONED__Webinar_Zoom_background_Salto_jpg@sbsssbsuuuuuv,
+    zendesk.macro_attachment.instance.SRD___macro_attachment___CLONED__error_screenshot_png@sbsssbsuuuv,
+  ]
+  raw_title = "SRD - macro attachment"
+  _alias = "SRD - macro attachment"
+}

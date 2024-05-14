@@ -1,0 +1,150 @@
+zendesk.ticket_form DP_Merge_1@s {
+  raw_name = "DP Merge 1"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.Priority_priority,
+    zendesk.ticket_field.instance.Company_Size_decimal@su,
+    zendesk.ticket_field.instance.Type_tickettype,
+    zendesk.ticket_field.instance.DP_Category_tagger@su,
+    zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu,
+    zendesk.ticket_field.instance.DP_Subcategory_2_tagger@ssu,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  agent_conditions = [
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Category_tagger@su
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Category_tagger_su__dp_cat_1@uumuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu
+          is_required = true
+          required_on_statuses = {
+            type = "ALL_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Category_tagger@su
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Category_tagger_su__dp_cat_2@uumuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.DP_Subcategory_2_tagger@ssu
+          is_required = true
+          required_on_statuses = {
+            type = "ALL_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_1_tagger_ssu__dp_sub_1_1@uuumuuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Company_Size_decimal@su
+          is_required = false
+          required_on_statuses = {
+            type = "NO_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_1_tagger_ssu__dp_sub_1_2@uuumuuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Company_Size_decimal@su
+          is_required = false
+          required_on_statuses = {
+            type = "NO_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.DP_Subcategory_2_tagger@ssu
+      parent_field_type = "tagger"
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_2_tagger_ssu__dp_sub_2_1@uuumuuuuu
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Company_Size_decimal@su
+          is_required = false
+          required_on_statuses = {
+            type = "NO_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.Priority_priority
+      parent_field_type = "priority"
+      value = "high"
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Type_tickettype
+          is_required = false
+          required_on_statuses = {
+            type = "NO_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.Type_tickettype
+      parent_field_type = "tickettype"
+      value = "incident"
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu
+          is_required = false
+          required_on_statuses = {
+            type = "NO_STATUSES"
+          }
+        },
+      ]
+    },
+    {
+      parent_field_id = zendesk.ticket_field.instance.Priority_priority
+      parent_field_type = "priority"
+      value = "normal"
+      child_fields = [
+        {
+          id = zendesk.ticket_field.instance.Company_Size_decimal@su
+          is_required = false
+          required_on_statuses = {
+            type = "SOME_STATUSES"
+            statuses = [
+              "pending",
+            ]
+          }
+        },
+        {
+          id = zendesk.ticket_field.instance.Type_tickettype
+          is_required = false
+          required_on_statuses = {
+            type = "SOME_STATUSES"
+            statuses = [
+              "open",
+            ]
+          }
+        },
+      ]
+    },
+  ]
+  _alias = "DP Merge 1"
+}

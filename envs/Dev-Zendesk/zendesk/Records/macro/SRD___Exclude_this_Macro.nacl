@@ -1,0 +1,24 @@
+zendesk.macro SRD___Exclude_this_Macro@sbsss {
+  title = "SRD - Exclude this Macro"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "priority"
+      value = "urgent"
+    },
+    {
+      field = "type"
+      value = "task"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>Testing</p>"
+    },
+  ]
+  attachments = [
+    zendesk.macro_attachment.instance.SRD___Exclude_this_Macro__Ecommerce_Software_Company_Case_Study_07_2022_pdf@sbsssuuuuuuuuv,
+  ]
+  raw_title = "SRD - Exclude this Macro"
+  _alias = "SRD - Exclude this Macro"
+}

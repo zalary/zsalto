@@ -1,0 +1,13 @@
+zendesk.organization_field gwr_sensitive_field {
+  type = "dropdown"
+  key = "gwr_sensitive_field"
+  raw_title = "GWR sensitive field"
+  raw_description = "can this be filtered"
+  active = true
+  system = false
+  custom_field_options = [
+    zendesk.organization_field__custom_field_options.instance.gwr_sensitive_field__gwr_value1,
+    zendesk.organization_field__custom_field_options.instance.gwr_sensitive_field__gwr_value2,
+  ]
+  _alias = "GWR sensitive field"
+}

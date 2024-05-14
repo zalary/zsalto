@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options __dc_testdynamiccontent___tagger__00123_00123v_00125_00125u__smartphone_surfplatta@uuuuuumuuuuuud {
+  raw_name = "MobileTablet"
+  value = "smartphone/surfplatta"
+  _parent = [
+    zendesk.ticket_field.instance.__dc_testdynamiccontent___tagger@_00123_00123v_00125_00125u,
+  ]
+  _alias = "MobileTablet"
+}

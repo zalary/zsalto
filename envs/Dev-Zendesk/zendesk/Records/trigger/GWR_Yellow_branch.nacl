@@ -1,0 +1,25 @@
+zendesk.trigger GWR_Yellow_branch@s {
+  title = "GWR Yellow branch"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.isyellow,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.GWR_classification_tagger@su
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__yellow@uumuu
+      },
+    ]
+  }
+  raw_title = "GWR Yellow branch"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "GWR Yellow branch"
+}

@@ -1,0 +1,19 @@
+zendesk.macro SRD___Same_Macro_Title___Group_2@sbssssbss {
+  title = "SRD - Same Macro Title - Group 2"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>Hello, this is a test.</p>"
+    },
+  ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk.group.instance.SRD___test_2@sbss,
+    ]
+  }
+  raw_title = "SRD - Same Macro Title - Group 2"
+  _alias = "SRD - Same Macro Title - Group 2"
+}

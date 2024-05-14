@@ -1,0 +1,13 @@
+zendesk.article_translation Move_Article_3_Move_Section_2_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum_ssuuuuuuuuuuum_ssuuuuuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "Move Article 3"
+  body = "<p>This is Content 3</p>"
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.article.instance.Move_Article_3_Move_Section_2_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum_ssuuuuuuuuuuum@ssuuuuuuuuuuuuuuum,
+  ]
+  _alias = "en-us - Move Article 3"
+}

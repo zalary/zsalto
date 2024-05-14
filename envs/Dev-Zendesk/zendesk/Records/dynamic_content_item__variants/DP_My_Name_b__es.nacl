@@ -1,0 +1,11 @@
+zendesk.dynamic_content_item__variants DP_My_Name_b__es@uumuu {
+  content = "Mi nombre es Dan"
+  locale_id = zendesk.locale.instance.es
+  
+  active = true
+  default = false
+  _parent = [
+    zendesk.dynamic_content_item.instance.DP_My_Name@b,
+  ]
+  _alias = "DP-My-Name - es"
+}

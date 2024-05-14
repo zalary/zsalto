@@ -1,0 +1,6 @@
+zendesk.guide_language_settings DP_Brand_s_es@umu {
+  locale = "es"
+  name = "DP Brand"
+  brand = zendesk.brand.instance.DP_Brand@s
+  _alias = "DP Brand es language settings"
+}

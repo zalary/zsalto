@@ -1,0 +1,19 @@
+zendesk.article_translation SRD___How_to_log_in_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "SRD - How to log in"
+  body = '''
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<p><a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.Welcome_to_your_Help_Center__Announcements_General_SRD___Test_sbs_uuuum_uuuuuum@ssssluuuuuuuum }" target="_self">Welcome to your Help Center!</a></p>
+<p> </p>
+
+<p>Test content</p>
+'''
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.SRD___How_to_log_in_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssssuuuuuuuum,
+  ]
+  _alias = "en-us - SRD - How to log in"
+}

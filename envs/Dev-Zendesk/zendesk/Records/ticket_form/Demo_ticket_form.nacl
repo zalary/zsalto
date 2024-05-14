@@ -1,0 +1,20 @@
+zendesk.ticket_form Demo_ticket_form@s {
+  raw_name = "Demo ticket form"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.Product_components_multiselect@su,
+    zendesk.ticket_field.instance.Priority_priority,
+    zendesk.ticket_field.instance.zip_code_with_validation_regexp@sssu,
+    zendesk.ticket_field.instance.Type_tickettype,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "Demo ticket form"
+}

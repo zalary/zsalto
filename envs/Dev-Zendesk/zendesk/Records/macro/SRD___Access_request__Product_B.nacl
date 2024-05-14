@@ -1,0 +1,23 @@
+zendesk.macro SRD___Access_request__Product_B@sbssffs {
+  title = "SRD - Access request::Product B"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>Thank you for your interest in Product B! Before we enable it in your account, could you let us know more about how you plan to use this product? And do you know how many of your users will need access to Product B and how often they will use it?<br></p>"
+    },
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.product_access_request_product_b@uufu,
+      ]
+    },
+    {
+      field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+      value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_b@uuuuumuuu
+    },
+  ]
+  raw_title = "SRD - Access request::Product B"
+  _alias = "SRD - Access request::Product B"
+}
