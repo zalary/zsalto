@@ -1,0 +1,450 @@
+netsuite.reportdefinition customreport_310_t2480139_996 {
+  scriptid = "customreport_310_t2480139_996"
+  definition = "1cb58cf7501e2798da305589023ed1186a5830f7b3a4929f60e14e87177793ab@GZC@2023.2.16@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"
+  dependencies = {
+    dependency = netsuite.financiallayout.instance.customlayout_6_t2480139_848.scriptid
+  }
+  name = "Custom Balance Sheet 2"
+  layouts = [
+    {
+      FIELD_STANDARD_LAYOUT = false
+      KEY_SCRIPT_ID = "CUSTOMLAYOUT_6_T2480139_848"
+    },
+  ]
+  components = [
+    {
+      KEY_COMPONENT = 302
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.dimension.NLFinancialLayoutDimension"
+    },
+    {
+      KEY_COMPONENT = 301
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.measure.NLFinancialMeasure"
+    },
+    {
+      KEY_COMPONENT = 300
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.measure.NLFinancialBudgetMeasure"
+    },
+  ]
+  parameters = {
+    accounting_book_current_id = "1"
+    accounting_book_id = "1"
+  }
+  sorts = [
+    {
+      KEY_COMPONENT = "302"
+      FIELD_ALIAS = "norderby1"
+      FIELD_TABLE = "finanbuckets"
+      SEQ_NUMBER = -100
+      FLAG_DESCENDING = false
+      FLAG_SUBTOTAL = false
+    },
+    {
+      KEY_COMPONENT = "302"
+      FIELD_ALIAS = "norderby2"
+      FIELD_TABLE = "finanbuckets"
+      SEQ_NUMBER = -99
+      FLAG_DESCENDING = false
+      FLAG_SUBTOTAL = false
+    },
+  ]
+  fields = [
+    {
+      KEY_COMPONENT = 302
+      FIELD_TABLE = "FINANBUCKETS"
+      FIELD_ALIAS = "NKEY"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 0
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = false
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "select"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 302
+      FIELD_TABLE = "FINANBUCKETS"
+      FIELD_ALIAS = "SRAWFULLKEY"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 0
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = false
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 302
+      FIELD_TABLE = "FINANBUCKETS"
+      FIELD_ALIAS = "STYPE"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 0
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = false
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 302
+      FIELD_TABLE = "FINANBUCKETS"
+      FIELD_ALIAS = "SRAWFULLNAME"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = true
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 1
+      FIELD_LABEL = "Financial Row"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 302
+      FIELD_TABLE = "FINANBUCKETS"
+      FIELD_ALIAS = "SRAWVALIDNAME"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = true
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 2
+      FIELD_LABEL = "Financial Row"
+      FIELD_URL = "/app/reporting/reportrunner.nl?cr=293&amp;regtx,tranline,kacct,x,x,CHILDRENOF,x,x={finandim,finanbuckets,svalidkey1,x,x}"
+      FIELD_URL_TYPE = "SIMPLE"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 301
+      FIELD_ALIAS = "MSIAMT"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 3
+      FIELD_LABEL = "Amount"
+      FIELD_URL = "cr=-206"
+      FIELD_URL_TYPE = "FINANCIAL"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = true
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "paren"
+      FIELD_FORMAT = "currency"
+      FLAG_TOTAL_FORMULA = true
+    },
+  ]
+  uiPreferences = {
+    PARAMETER_CASH_BASIS = false
+    PARAMETER_TAXCASH_BASIS = "F"
+    PARAMETER_SHOW_ZEROS = false
+    PARAMETER_SHOW_SINGLEROWLINES = true
+    PARAMETER_DISPLAY_TYPE = "data"
+    PARAMETER_INC_VS_EXP = false
+    PARAMETER_GRAPH_TOP = 100001
+    PARAMETER_WEB_STORE = false
+    PARAMETER_ACTIVITY_ONLY = true
+    PARAMETER_ALLOW_WEBQUERY = false
+    PARAMETER_GRAPH_3D = false
+    PARAMETER_SHOW_CURRENCY_SYMBOL = true
+    PARAMETER_EXPAND_LEVEL = 100
+  }
+  criteria = [
+    {
+      descriptor = {
+        FIELD_ALIAS = "BNKEY"
+        FIELD_OP_CLASS = "IN"
+        FILED_TYPE = "SELECT"
+        SEQ_NUMBER = -3
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = false
+        FIELD_DESCRIPTOR = "fbudg,x,bnkey,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = 1
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KPERIOD"
+        FIELD_OP_CLASS = "BEFOREEND"
+        FILED_TYPE = "PERIOD"
+        SEQ_NUMBER = 0
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,trandoc,kperiod,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "TP"
+        },
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 1
+          FIELD_VALUE = 0
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KSUBSIDIARY"
+        FIELD_OP_CLASS = "SUBSIDCHILDRENOF"
+        FILED_TYPE = "SUBSIDIARY"
+        SEQ_NUMBER = 1
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,tranline,ksubsidiary,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = 1
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KCLASS"
+        FIELD_OP_CLASS = "IN"
+        FILED_TYPE = "CDL"
+        SEQ_NUMBER = 2
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,tranline,kclass,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "- All -"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KDEPARTMENT"
+        FIELD_OP_CLASS = "IN"
+        FILED_TYPE = "CDL"
+        SEQ_NUMBER = 3
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,tranline,kdepartment,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "- All -"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KLOCATION"
+        FIELD_OP_CLASS = "IN"
+        FILED_TYPE = "CDL"
+        SEQ_NUMBER = 4
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,tranline,klocation,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "- All -"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KITEM"
+        FIELD_OP_CLASS = "IN"
+        FILED_TYPE = "CDL"
+        SEQ_NUMBER = 5
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,tranline,kitem,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "- All -"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KCUSTJOB"
+        FIELD_OP_CLASS = "IN"
+        FILED_TYPE = "CDL"
+        SEQ_NUMBER = 6
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = true
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "finan,x,allcj,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "- All -"
+        },
+      ]
+    },
+  ]
+  flags = {
+    KEY_REPORT_ID = 310
+    KEY_SCRIPT_ID = "CUSTOMREPORT_310_T2480139_996"
+    FIELD_KEY = 310
+    FIELD_CODE = "FINANCIAL_BALANCE_SHEET_STMT"
+    FIELD_NAME = "Custom Balance Sheet 2"
+    FIELD_ORIGINAL_TITLE = "Custom Balance Sheet 2"
+    FIELD_PERM_TYPE = "REPO_FINANCIALS"
+    KEY_FEATURE = "ACCOUNTING"
+    FLAG_PERIODS_ALLOWED = true
+    FLAG_DISPLAY_TYPE = "SUMMARY"
+    FLAG_ONE_DATE = true
+    FLAG_PRIMARY_OUTER_JOIN = true
+    FLAG_CUSTOM_MODE = true
+    FLAG_CASH_BASIS = false
+    FLAG_SHOW_ZEROS = false
+    FLAG_INACTIVE = false
+    FIELD_VERSION = 2008
+    FLAG_PERIODS_ON = true
+    FLAG_USE_FISCAL_YEAR_RANGE = false
+    FLAG_USE_TAX_PERIODS = false
+    KEY_ENTITY = "7"
+    FLAG_SHOW_LINK = true
+    FLAG_SUPPORTS_CONSOL_SUBSIDIARY = true
+    KEY_DEF_TOGGLE = -206
+    FIELD_TOGGLE_TYPE = "DETAIL"
+    FIELD_TOGGLE_URL = "/app/reporting/reportrunner.nl?cr=-206&amp;fromreport=310"
+    FLAG_AFFECTED_BY_COGS = true
+    FLAG_ACTIVITY_ONLY = true
+  }
+  _alias = "Custom Balance Sheet 2"
+}
