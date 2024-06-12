@@ -1,0 +1,238 @@
+netsuite.savedsearch customsearch_emp_internalid {
+  scriptid = "customsearch_emp_internalid"
+  definition = "423b3ebf4ef56db027a92f73b20dfd2ee51aa2139fa22cedb908d93b13a324a3@GZC@2023.1.17@H4sIAAAAAAAA/+1dbXPaSBL+vlX7H1RK1WVTtQaEbWyzwNZYGmydhcTqxQ75opJhnGhPCE4Szjm399+v9WYECNsMguQ4pVJlM8z0dPd099PTHo1av/9r7DCPxPPtidtmuUqNZYg7nIxs93ObNfTu0Tn7e+fnn1qu70+GTY14tuXY38hIuf+TDAN+4gaW7RKPATKu34x6tdkvQTBtVqtfv36tuCTwZ3ZAKsPJuOoPv5Cx5Vejbiwzs0dtVtd0Qb2tn5zXuOOLpmY9kpFGLG/4pTmc+cFk7EcfTDKemrYbEM+F+UdNrnHRODlp1C5OG1yDnQtQq3AsE9hj4gfWeAoCLfTrJGKMrekUeF4Y1QEGQ24dMvpMPGDXI5V4bviRSO1V4pGVmMNe9KFVzRJNpxiRB9u1AyDfacW9hUzLiPhDz54GE+jvEZhrpD9NCTN0LN9vs3F/9bmd7WgYqfy1iWVdHbSq8xGd1qPlzIjfad2GP5kHmzjRFymRbtrAxt+12Rs8MPuIv0FXmGWqGw7UeFXs66YosCGv3761WT/wwFRAe+sXq1WN5thgqq6IJcEUcBcZkm7KqAesjsiUuCOwzacb8tRmpcnQcojwrMdmoiJd1CX8rrbCHx5PnckTIYw8G9/D2p/TcpXOM+jjtZNQ0JbQldk3LiWRf6Z6P5k4xHLZzoPl+LQ0JVHTi6XYV1RQccFEe4i/FmVcLFEV90RZwGqxVLVr5Q7UKt8UrFYVd7GqYmEXS/ZMeyeLNye/k2Wck+8qam9XtFWsQbDRiiV/K+I7E2lAPFT8bmhfqah/vSvSmUhfCGVDBj3rqsjruDjKPfTRVJU7bTM8i/gRRA1dStgUVFGSTEG5k4uTN4IL3gDrkvmBqSIdJ6ixMZfXooDNrijpWAVOlX7IZ3GWGgJ7irU6/qibMefxfCsYh+QB5dqjWyRKkbbBtLq4QAOIyF9JyiWSTCyIBTsar92uEgy8GS09/JHHUsFhTOgWbLe4B4tldlWlt6G9ZkZrxuXfMa+vz8VCIkBlOx4vFWFAzyOv9HqQVlM4JUSxqyscQgeScNHBXeOvsWBI64lvYX9LtGGZej2kijgnomwzC5ZDHff1wXpo3YJ8zDqSJEjGwM7CjcllwXlHPIUo85IB4TfCxPy0bwsxriEU6oqOpIITj5TrPlZFBdYB1kJXkawhXheVArEjATkkrWzQFvf1+JG4QVOWop+/+NG+rf0+phq1mQv93//K+F2P/HMWkmu/F9AAWtw+7MMnozb3KzPqepNxWxd7kEygXp95X6/Vj49qJ0fcOVOrNaP/DBpD/6FVlSa+idzPxCF+SEWYeVa4C2/XKrUTrpH5dxYStmHP2nZnjgMs6PaYfJq4pP0+j9aHlcC2JN/frPH0N2s68X9bK+i8y4LE82YQPdvnBR3Mu71RGQt0abQyJ/Ai9Q+0ZnVpSDem0ocYLWyaNc3HRzWTaOdg9pGKejRZ4qUBuRD4VMFuo/Rh9cRPkNTBpokGgqIYq8im0Rcgu9zBNhcZkE2FkUMsLmEJ082QLmTFq2WdxaiBZiMbviLN+vPsthuwnTo3L99U0wpYNVtUe7CdgHjQGqzU1bBDxuCHC4W1ONfVWtVgoaiWihDS6rSmlgfjUmL8xHHIMHQZlvHIA/FCRttspVKN/kerSVnmAzsFq73GGthGmodvWfWLNzvRFgQCBhgOr8gF599hrpjJ8Ze2D4VMISsFp1lKgQzGLq2avIQMDVSsI92YA+3wi+UBQNDSlY2eKeGuHtuGtugOtW2oQhZ7XTDZZKeaW7e9H3lNy31qhliyujFwAzt4gkALw2UkiQIweBnaPiUfEPQNCdFAR08RRPhNpRmLdNgaXBqZgPws3x8Gkmilya04h6q6ymgoPxqmjZsEQ/MWSQZeCYlxuKIJhlsGwJifAv74kSlpbWfmEUMrK5KHTKnSDk953JbKq+apad7y/MsiEpe4XOJyicvfEZcPBpGRPFC6hSKyhiXM6yUgfz9AXrLsGCYiUpnjAism/e58IygvMarEqBKjfjyMShAGuMOqyG+NU8unnCyfMF+/EJf59/x8038Y22V+Of/ABOEXHAMs0877v7Lt7EoKKjHux9l0cuWms9x0loBeAnoJ6JsBehbGS9AuQbusFJegXYJ2CdolaP/IoA0cWV4QwlGlxO8Sv78TftdL/C7xu8TvEr9L/N4Cv0vcLnG7xO1Dw+15+/NJbH82HlveU3ezk9nxw0mD5RPa1WVq1qNlO9a9Q+KWSKg3T7KMmfNp1pD1SDDz3M0mUbFuqHL8cOX3cdosB9tmM3EUlUSkUQEM2L+oD+gPEoXP9X8syNBh5fHq80srF0xktffuhAZ0UlummfB0mwkpHjuOAdyQo+fFqMbSH/VKhppYVXeQHgrRM5uXg9R6cwPc/50/hg/DFuiM9X06Y2PfznhWOmPpjLtzxv61IuMCnfF4n854vm9nvCidsXTG3TkjkvSi/fFkn/7I1fbtkBxXemTpkbvzyC76WKAznu7VGet7d8bj0hlLZ9yFMyaXOIGt9LF6K2oK9XPaOV7Z2KtX7r2aw5XlnNIrd+qV0T24BTrk2V4dcu8VHa4s6ZQOudtdZNElVuobrKn8Y+9lHa6s65QeuUOP3P4ygxyfvNinT9b3Xtmpl5WdvfrkvGXxwMGIBJbtpJ+CFc/LO34gYD260Xfh+EF1kZI/8QLw+NnYffv5DEXVTV6RjJ78fQ41ZBgo4PRMpJ69n2iQnm1i+yMN0TFTrPFYFkT56jW7fcnmFqwBooIXQB97asNabmZ68UW6KubFvghq0paNMJ/2Yiv1ZGtmmR9Zyr6Xpbr68pa0JTEIO1TNUtsTE0Rrshw8kzfcvPqqkrBTje20ljvGIney3VNp/kGewmNx4Y9W4Fmu70S3twJvIJsHjbF1dohrGqCC5FPamvMylLRHNRlfXaRaXeWtuqyFtXqJ7r3Nfd1P7rXA5bW58bW5sWFw7DyQroZFNJ1mYyK+BZN/YxiEoYn/xB63BFFhDAlf9hMB71LIW7su6+PVK7N1VfyHEb4nYWUuWElqqvHt12+Oqa9QA3vJ3MQ+sgJQeNZmzmKbqdQYQ3/hzPQrs+hKfrLymgJFObyEm2KkYKhoYZXv7c9HI4iTY8thO6t2TS8Z+NwnJfN2GH/mVmaB7VTC0OKOLK8S+ofoPkzYTo5rUE8sKHc9pN3QaUe5e/Nh5NdJib2iiEUBbF3a+ObInF6wnBucs7cvh9/WX4xEqwlaeslzEQ/OpLTCG/9N3tB0pYfVgu/MX5gD9/qSMsB5L0UobI4+xBN5t2KoirRTEQBvBKVICeJdfTrFIvspJJz8dfrX8Usp7JvtP/duuMQZNrg3Lux+DN6ROyS8jBxky6s7xF/ELhHW8x4TidbQebtcb81El880h51O1meii+WbeSZ6snkmGiZFUfTaQb5JJf1pLP3p5tKfHoD0jVj6xubSNw5A+rNY+rPNpT87AOmTAHa+ufTnByD9RSz9xebSXxyA9FxSfuBeqD+sk5+jKED8eArgEgVwFArgDkEBSXbP1SkUUD8EBRwnCjimUMDxISggSfw4isyPO4TUj0tyP44i+eMOIfvjkvSPo8j/uENIALkkA+QoUkDuEHJALkkCOYoskDuENJBL8kCOIhHkDiETrCeZYJ0iE6wfQiZYTzLBOkUmWP/BMsG4EnZDnlZ0kPNN8yjBv/q8wrvQIRE+/gt3VuyjFPyquaN2xW/K7vGG7G7M7XJT9MffpFEjnm059jcyUu7/JMOAn7iBZbvE6/z8038BEyLcMlaFAAA="
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_INTERNALIDNUMBER"
+      FIELD_ATTRIBUTE = "EQUAL"
+      FIELD_TYPE = "INTEGER"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "8"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_INTERNALID"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "8"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_FORMULANUMERIC"
+      FIELD_FORMULA = "case when {internalid} in (8) then 1 end"
+      FIELD_ATTRIBUTE = "EQUAL"
+      FIELD_TYPE = "FLOAT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "1"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_FORMULANUMERIC"
+      FIELD_FORMULA = "{internalid}"
+      FIELD_ATTRIBUTE = "EQUAL"
+      FIELD_TYPE = "FLOAT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "8"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_FORMULANUMERIC"
+      FIELD_FORMULA = "{department.internalid}"
+      FIELD_ATTRIBUTE = "EQUAL"
+      FIELD_TYPE = "FLOAT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Entity_FORMULANUMERIC"
+      FIELD_FORMULA = "{department.id}"
+      FIELD_ATTRIBUTE = "EQUAL"
+      FIELD_TYPE = "FLOAT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Entity_ENTITYID"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_EMAIL"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_PHONE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_ALTPHONE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_FAX"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Employee_SUPERVISOR"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Employee_TITLE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_ALTEMAIL"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Entity_INTERNALID"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Entity_ENTITYID"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  audience = {
+    FIELD_DESCRIPTION = "SearchEvent_TSTDRV2480139"
+    FIELD_FREQUENCY = "DAY"
+    FIELD_PERIOD = 1
+    FIELD_START = "2023-04-18 07:00:00.0 UTC"
+    FIELD_DURATION = "0.0416666666666667"
+    FIELD_TIMEZONE = "America/Los_Angeles"
+    FIELD_DOW = 0
+    FIELD_DOWIM = 0
+  }
+  KEY_SCRIPT_ID = "customsearch_emp_internalid"
+  FIELD_DEFAULT_NAME = "Employee Number 8"
+  FIELD_SEARCH_TYPE = "Employee"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "ANY"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = true
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FIELD_EMAIL_SUBJECT = "Employee Searrch"
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = true
+  FLAG_SCHEDULED_ALERT_SUMMARIES = true
+  FLAG_SEND_EMPTY_RESULTS = true
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FIELD_CAL = "NLEvent(sDescr=&apos;SearchEvent_TSTDRV2480139&apos;, sFrequency=&apos;DAY&apos;, nPeriod=1, dFrom=TIMESTAMP &apos;2023-04-18 00:00:00 America/Los_Angeles&apos;, nDuration=0.0416666666666667, dFinal=null, sTimeZone=&apos;America/Los_Angeles&apos;)"
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  KEY_AUDIENCE = 218
+  _alias = "Employee Number 8"
+}
