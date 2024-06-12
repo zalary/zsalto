@@ -1,0 +1,99 @@
+netsuite.employee Geoffrey_W_Routledge@s {
+  entityId = "Geoffrey W Routledge"
+  salutation = "Sir"
+  firstName = "Geoffrey"
+  middleName = "W"
+  lastName = "Routledge"
+  email = "geoffrey.routledge@salto.io"
+  defaultAddress = "GWR<br>Geoffrey W Routledge<br>4575 Glenwood Ave<br>North Vancouver BC v74rguy6<br>Canada"
+  isInactive = false
+  initials = "GWR"
+  homePhone = "6049856761"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company_MKD_South@sus
+  comments = "gwrnotes sjdlkjfaslkjdfalskjf"
+  image = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (ds_button.png)"
+  }
+  currency = netsuite.currency.instance.USA
+  supervisor = netsuite.employee.instance.Hadas_Birin@s
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2022-06-19T07:00:00.000Z"
+  title = "Mop Operator"
+  gender = "_omitted"
+  workCalendar = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Default Work Calendar)"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  inheritIPRules = true
+  eligibleForCommission = true
+  addressbookList = {
+    addressbook = [
+      {
+        defaultShipping = true
+        defaultBilling = true
+        label = "4575 Glenwood Ave"
+        addressbookAddress = {
+          country = "_canada"
+          attention = "GWR"
+          addressee = "Geoffrey W Routledge"
+          addrPhone = "604787855555555"
+          addr1 = "4575 Glenwood Ave"
+          city = "North Vancouver"
+          state = "BC"
+          zip = "v74rguy6"
+          addrText = "GWR<br>Geoffrey W Routledge<br>4575 Glenwood Ave<br>North Vancouver BC v74rguy6<br>Canada"
+          override = false
+        }
+      },
+    ]
+  }
+  rolesList = {
+    roles = [
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Accountant)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Administrator)"
+        }
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Bookkeeper)"
+        }
+      },
+      {
+        selectedRole = netsuite.role.instance.customrole_gwr_role_ar2
+      },
+      {
+        selectedRole = netsuite.role.instance.customrole1005
+      },
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Warehouse Manager)"
+        }
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_csegcseg_rg_seg_cc = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (1140 Operations)"
+  }
+  custom_custentity1 = "None"
+  custom_custentity_esc_last_modified_date = "2024-03-02T08:00:00.000Z"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  _alias = "Geoffrey W Routledge"
+}

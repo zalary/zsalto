@@ -1,0 +1,105 @@
+netsuite.assemblyItem MKD_Assembly___BOM_Example@ssdss {
+  itemId = "MKD Assembly / BOM Example"
+  displayName = "Thingamabob"
+  printItems = false
+  isOnline = false
+  isInactive = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  includeChildren = false
+  description = "Dohicky"
+  cogsAccount = netsuite.account.instance.Purchases
+  incomeAccount = netsuite.account.instance.Sales
+  assetAccount = netsuite.account.instance.Inventory
+  matchBillToReceipt = false
+  useComponentYield = false
+  taxSchedule = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Pepper)"
+  }
+  weight = 0
+  weightUnit = "_lb"
+  costingMethodDisplay = "Average"
+  unitsType = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  stockUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  saleUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  effectiveBomControl = "_effectiveDate"
+  roundUpAsComponent = false
+  isPhantom = false
+  isSpecialWorkOrderItem = false
+  buildEntireAssembly = false
+  useMarginalRates = false
+  overallQuantityPricingType = "_byLineQuantity"
+  useBins = false
+  excludeFromSitemap = false
+  sitemapPriority = "_auto"
+  memberList = {
+    itemMember = [
+      {
+        itemSource = "_stock"
+        quantity = 1
+        memberUnit = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (EA)"
+        }
+        taxSchedule = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Pepper)"
+        }
+        item = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (DP Inventory Item)"
+        }
+        lineNumber = 1
+        memberKey = "5"
+      },
+      {
+        itemSource = "_stock"
+        quantity = 1
+        memberUnit = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (EA)"
+        }
+        taxSchedule = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (gwr tax1)"
+        }
+        item = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (GWR product 1)"
+        }
+        lineNumber = 2
+        memberKey = "6"
+      },
+      {
+        itemSource = "_stock"
+        quantity = 1
+        taxSchedule = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Pepper)"
+        }
+        item = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Services)"
+        }
+        lineNumber = 3
+        memberKey = "7"
+      },
+    ]
+  }
+  translationsList = {
+    translation = {
+      _frenchFrance = {
+        locale = "_frenchFrance"
+        language = "French (France)"
+      }
+      _german = {
+        locale = "_german"
+        language = "German"
+      }
+    }
+  }
+  consumptionUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  identifier = "MKD Assembly / BOM Example"
+  _alias = "Thingamabob"
+}

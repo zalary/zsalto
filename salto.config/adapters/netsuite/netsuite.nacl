@@ -1,0 +1,49 @@
+netsuite {
+  fetch = {
+    authorInformation = {
+      enable = false
+    }
+    include = {
+      types = [
+        {
+          name = ".*"
+        },
+      ]
+      fileCabinet = [
+        "^/SuiteScripts.*",
+        "^/Templates.*",
+      ]
+      customRecords = [
+      ]
+    }
+    fieldsToOmit = [
+      {
+        type = "currency"
+        fields = [
+          "exchangeRate",
+        ]
+      },
+      {
+        type = "customrecordtype"
+        fields = [
+          "permissions",
+        ]
+      },
+    ]
+    exclude = {
+      fileCabinet = [
+      ]
+      types = [
+        {
+          name = "workflow"
+          ids = [
+            "customworkflow4",
+          ]
+        },
+      ]
+    }
+    client = {
+     authorInformation.enable = false
+  }
+  }
+}

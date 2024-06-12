@@ -1,0 +1,38 @@
+netsuite.inventoryItem SRD___New_item@sbss {
+  cogsAccount = netsuite.account.instance.Purchases
+  includeChildren = false
+  incomeAccount = netsuite.account.instance.Sales
+  taxSchedule = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Pepper)"
+  }
+  assetAccount = netsuite.account.instance.Inventory
+  matchBillToReceipt = false
+  costingMethodDisplay = "Average"
+  roundUpAsComponent = false
+  useMarginalRates = false
+  overallQuantityPricingType = "_byLineQuantity"
+  useBins = false
+  excludeFromSitemap = false
+  sitemapPriority = "_auto"
+  itemId = "SRD - New item"
+  isOnline = false
+  isInactive = false
+  currency = "1"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  translationsList = {
+    translation = {
+      _frenchFrance = {
+        locale = "_frenchFrance"
+        language = "French (France)"
+      }
+      _german = {
+        locale = "_german"
+        language = "German"
+      }
+    }
+  }
+  identifier = "SRD - New item"
+  _alias = "SRD - New item"
+}

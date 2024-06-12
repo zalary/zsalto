@@ -1,0 +1,43 @@
+netsuite.employee Tomer_Mevorach@s {
+  entityId = "Tomer Mevorach"
+  firstName = "Tomer"
+  lastName = "Mevorach"
+  email = "tomer.mevorach@salto.io"
+  isInactive = false
+  initials = "TM"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2020-07-09T07:00:00.000Z"
+  gender = "_omitted"
+  workCalendar = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Default Work Calendar)"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  inheritIPRules = true
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Administrator)"
+        }
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity_esc_last_modified_date = "2020-07-09T07:00:00.000Z"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  _alias = "Tomer Mevorach"
+}

@@ -1,0 +1,21 @@
+netsuite.account DP_GL_Account_1@s {
+  acctType = "_accountsReceivable"
+  acctName = "DP GL Account 1"
+  includeChildren = false
+  generalRate = "_current"
+  cashFlowRate = "_average"
+  isInactive = false
+  restrictToAccountingBookList = [
+    {
+      id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Primary Accounting Book)"
+    },
+  ]
+  inventory = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_DP_East@sus,
+  ]
+  revalue = true
+  identifier = "DP GL Account 1"
+  custom_custrecord_acct_special = false
+  _alias = "DP GL Account 1"
+}

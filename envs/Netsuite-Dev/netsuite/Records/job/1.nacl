@@ -1,0 +1,42 @@
+netsuite.job "1@" {
+  entityId = "1"
+  isInactive = false
+  language = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (English (U.S.))"
+  }
+  currency = netsuite.currency.instance.DP_Dollar@s
+  fxRate = 1
+  startDate = "2024-02-27T08:00:00.000Z"
+  estimatedTimeOverride = {
+    timeSpan = 0
+    unit = "hour"
+  }
+  subsidiary = netsuite.subsidiary.instance.Parent_Company_DP_East@sus
+  jobBillingType = "_none"
+  percentTimeComplete = 0
+  actualTime = {
+    timeSpan = 0
+    unit = "hour"
+  }
+  allowTime = true
+  timeRemaining = {
+    timeSpan = 0
+    unit = "hour"
+  }
+  limitTimeToAssignees = true
+  estimatedLaborCost = 0
+  estimatedLaborRevenue = 0
+  estimatedGrossProfit = 0
+  allowAllResourcesForTasks = false
+  isUtilizedTime = true
+  isProductiveTime = true
+  isExemptTime = false
+  materializeTime = true
+  allowExpenses = true
+  includeCrmTasksInTotals = false
+  timeApproval = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Project Time Approver or Default Time Approver)"
+  }
+  identifier = "1"
+  _alias = "1"
+}

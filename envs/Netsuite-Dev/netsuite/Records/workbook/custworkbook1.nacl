@@ -1,0 +1,130 @@
+netsuite.workbook custworkbook1 {
+  scriptid = "custworkbook1"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_workbook_1_4fe9af2c1c1a47269ef07.strings.string.workbook_name_1_1.scriptid
+  dependencies = {
+    dependency = [
+      netsuite.translationcollection.instance.custcollectiontranslations_tableview_2_c25e10a9291546fb89d0.strings.string.tableview_name_1_3.scriptid,
+    ]
+  }
+  Workbook = {
+    version = "1.1.1"
+    name = {
+      translationScriptId = "custcollectiontranslations_workbook_1_4fe9af2c1c1a47269ef07.workbook_name_1_1"
+    }
+    audience = {
+      isPublic = false
+    }
+    ownerId = 116
+    dataViewIDs = [
+      "custview2_17082523891059558343",
+    ]
+  }
+  dataViews = [
+    {
+      dataView = {
+        scriptId = "custview2_17082523891059558343"
+        version = "1.2021.2"
+        name = {
+          translationScriptId = "custcollectiontranslations_tableview_2_c25e10a9291546fb89d0.tableview_name_1_3"
+        }
+        workbook = "custworkbook1"
+        datasets = [
+          "stddatasetSalesInvoicedByDataSet",
+        ]
+        columns = [
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 1
+            targetFieldContext = {
+              name = "IDENTIFIER"
+            }
+            fieldStateName = "raw"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 2
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 3
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 4
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 5
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 6
+            targetFieldContext = {
+              name = "UNCONSOLIDATED"
+            }
+            fieldStateName = "unconsolidated"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 1
+            targetFieldContext = {
+              name = "IDENTIFIER"
+            }
+            fieldStateName = "raw"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 7
+            targetFieldContext = {
+              name = "IDENTIFIER"
+            }
+            fieldStateName = "raw"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 8
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 10
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+          {
+            datasetScriptId = "stddatasetSalesInvoicedByDataSet"
+            dataSetColumnId = 11
+            targetFieldContext = {
+              name = "DISPLAY"
+            }
+            fieldStateName = "display"
+          },
+        ]
+        order = 0
+      }
+    },
+  ]
+  nameTranslate = true
+  _alias = "Sales (Invoiced) Workbook"
+}

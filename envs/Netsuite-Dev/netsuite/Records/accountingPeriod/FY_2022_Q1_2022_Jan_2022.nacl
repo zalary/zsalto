@@ -1,0 +1,12 @@
+netsuite.accountingPeriod FY_2022_Q1_2022_Jan_2022@susus {
+  periodName = "Jan 2022"
+  parent = netsuite.accountingPeriod.instance.FY_2022_Q1_2022@sus
+  startDate = "2022-01-01T08:00:00.000Z"
+  endDate = "2022-01-31T08:00:00.000Z"
+  isAdjust = false
+  isQuarter = false
+  isYear = false
+  allowNonGLChanges = false
+  identifier = "FY 2022_Q1 2022_Jan 2022"
+  _alias = "Jan 2022"
+}

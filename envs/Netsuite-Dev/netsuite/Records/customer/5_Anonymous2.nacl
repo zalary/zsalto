@@ -1,0 +1,56 @@
+netsuite.customer "5_Anonymous2@s" {
+  entityId = "5 Anonymous2"
+  isPerson = false
+  companyName = "Anonymous2"
+  entityStatus = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (CUSTOMER-Closed Won)"
+  }
+  isInactive = false
+  language = "_englishUS"
+  emailPreference = "_default"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  creditHoldOverride = "_auto"
+  balance = 0
+  overdueBalance = 0
+  unbilledOrders = 0
+  currency = netsuite.currency.instance.USA
+  depositBalance = 0
+  shipComplete = false
+  taxable = false
+  aging = 0
+  aging1 = 0
+  aging2 = 0
+  aging3 = 0
+  aging4 = 0
+  alcoholRecipientType = "_consumer"
+  giveAccess = false
+  receivablesAccount = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Use System Preference)"
+  }
+  webLead = "No"
+  stage = "_customer"
+  emailTransactions = false
+  printTransactions = false
+  faxTransactions = false
+  isBudgetApproved = false
+  currencyList = {
+    currency = [
+      {
+        currency = netsuite.currency.instance.USA
+        balance = 0
+        depositBalance = 0
+        overdueBalance = 0
+        unbilledOrders = 0
+        overrideCurrencyFormat = false
+        displaySymbol = "$"
+        symbolPlacement = "_beforeNumber"
+      },
+    ]
+  }
+  identifier = "5 Anonymous2"
+  custom_custentity10 = false
+  custom_custentity_esc_last_modified_date = "2023-01-05T08:00:00.000Z"
+  custom_custentitycust_active = false
+  custom_custentitydemo_testing = true
+  _alias = "5 Anonymous2"
+}

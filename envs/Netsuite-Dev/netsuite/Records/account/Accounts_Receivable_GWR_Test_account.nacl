@@ -1,0 +1,22 @@
+netsuite.account Accounts_Receivable_GWR_Test_account@suss {
+  acctType = "_accountsReceivable"
+  acctName = "GWR Test account"
+  includeChildren = false
+  generalRate = "_current"
+  parent = netsuite.account.instance.Accounts_Receivable@s
+  cashFlowRate = "_average"
+  isInactive = false
+  restrictToAccountingBookList = [
+    {
+      id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Primary Accounting Book)"
+    },
+  ]
+  inventory = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  revalue = true
+  identifier = "Accounts Receivable_GWR Test account"
+  custom_custrecord_acct_special = false
+  _alias = "GWR Test account"
+}

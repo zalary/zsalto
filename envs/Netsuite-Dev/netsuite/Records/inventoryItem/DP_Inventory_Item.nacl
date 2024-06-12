@@ -1,0 +1,60 @@
+netsuite.inventoryItem DP_Inventory_Item@s {
+  cogsAccount = netsuite.account.instance.Purchases
+  includeChildren = false
+  incomeAccount = netsuite.account.instance.Sales
+  taxSchedule = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Pepper)"
+  }
+  assetAccount = netsuite.account.instance.Inventory
+  matchBillToReceipt = false
+  weightUnits = "per EA"
+  costingMethodDisplay = "Average"
+  unitsType = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  stockUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  purchaseUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  saleUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  roundUpAsComponent = false
+  minimumQuantityUnits = "EA"
+  useMarginalRates = false
+  overallQuantityPricingType = "_byLineQuantity"
+  cost = 95
+  costUnits = "per EA"
+  useBins = false
+  quantityReorderUnits = "Quantity On Hand, Reorder Point, Quantity On Order, and Quantity Committed are in EA"
+  excludeFromSitemap = false
+  sitemapPriority = "_auto"
+  itemId = "DP Inventory Item"
+  upcCode = "12345"
+  displayName = "DP Inventory Item"
+  isOnline = false
+  isInactive = false
+  currency = "1"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  translationsList = {
+    translation = {
+      _frenchFrance = {
+        locale = "_frenchFrance"
+        language = "French (France)"
+      }
+      _german = {
+        locale = "_german"
+        language = "German"
+      }
+    }
+  }
+  consumptionUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  identifier = "DP Inventory Item"
+  _alias = "DP Inventory Item"
+}

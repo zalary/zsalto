@@ -1,0 +1,19 @@
+netsuite.customlist customlist_new_list_gwr_0228 {
+  scriptid = "customlist_new_list_gwr_0228"
+  ismatrixoption = false
+  isordered = true
+  name = "GWR 20240228 list"
+  customvalues = {
+    customvalue = {
+      val_58526_t2257815_425 = {
+        scriptid = "val_58526_t2257815_425"
+        abbreviation = "g"
+        value = "green"
+        index = 0
+        isInactive = false
+      }
+    }
+  }
+  isInactive = false
+  _alias = "GWR 20240228 list"
+}

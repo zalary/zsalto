@@ -1,0 +1,16 @@
+netsuite.account Contributions {
+  acctType = "_expense"
+  acctName = "Contributions"
+  includeChildren = true
+  generalRate = "_average"
+  cashFlowRate = "_average"
+  isInactive = false
+  inventory = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  revalue = false
+  identifier = "Contributions"
+  custom_custrecord_acct_special = false
+  _alias = "Contributions"
+}

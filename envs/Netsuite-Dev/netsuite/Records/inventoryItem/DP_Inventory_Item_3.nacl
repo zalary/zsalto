@@ -1,0 +1,49 @@
+netsuite.inventoryItem DP_Inventory_Item_3@s {
+  cogsAccount = netsuite.account.instance.Purchases
+  includeChildren = false
+  incomeAccount = netsuite.account.instance.Sales
+  taxSchedule = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (S1)"
+  }
+  assetAccount = netsuite.account.instance.Inventory
+  matchBillToReceipt = false
+  costingMethodDisplay = "Average"
+  roundUpAsComponent = false
+  useMarginalRates = false
+  overallQuantityPricingType = "_byLineQuantity"
+  useBins = false
+  excludeFromSitemap = false
+  sitemapPriority = "_auto"
+  itemId = "DP Inventory Item 3"
+  isOnline = false
+  isInactive = false
+  department = netsuite.department.instance.DP_Department_1@s
+  location = netsuite.location.instance.Lansing__MI@zds
+  currency = "1"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_DP_East@sus,
+  ]
+  translationsList = {
+    translation = {
+      _frenchFrance = {
+        locale = "_frenchFrance"
+        language = "French (France)"
+      }
+      _german = {
+        locale = "_german"
+        language = "German"
+      }
+    }
+  }
+  locationsList = {
+    locations = [
+      {
+        location = "Lansing, MI"
+        quantityAvailable = 0
+        locationId = netsuite.location.instance.Lansing__MI@zds
+      },
+    ]
+  }
+  identifier = "DP Inventory Item 3"
+  _alias = "DP Inventory Item 3"
+}

@@ -1,0 +1,126 @@
+netsuite.savedsearch customsearch_dp_highlight_test {
+  scriptid = "customsearch_dp_highlight_test"
+  definition = "ac6c6af21cdf881ecab2641a150eaa3ddf798bb21b730091a33dc8e6daaea5b1@GZC@2024.1.14@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Account_BALANCE"
+      FIELD_ATTRIBUTE = "LT"
+      FIELD_TYPE = "CURRENCY"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "100.00"
+        },
+        {
+          KEY_ID = 1
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Account_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_DISPLAYNAME"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_TYPE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_DESCRIPTION"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_BALANCE"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Account_NAME"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_DISPLAYNAME"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_TYPE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_DESCRIPTION"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Account_BALANCE"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Account_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch_dp_highlight_test"
+  FIELD_DEFAULT_NAME = "DP Highlighting Test"
+  FIELD_SEARCH_TYPE = "Account"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "DP Highlighting Test"
+}

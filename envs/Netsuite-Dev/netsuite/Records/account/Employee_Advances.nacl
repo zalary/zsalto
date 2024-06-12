@@ -1,0 +1,16 @@
+netsuite.account Employee_Advances@s {
+  acctType = "_otherCurrentAsset"
+  acctName = "Employee Advances"
+  includeChildren = true
+  generalRate = "_current"
+  cashFlowRate = "_average"
+  isInactive = false
+  inventory = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  revalue = false
+  identifier = "Employee Advances"
+  custom_custrecord_acct_special = false
+  _alias = "Employee Advances"
+}

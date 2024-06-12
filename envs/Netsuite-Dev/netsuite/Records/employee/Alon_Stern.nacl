@@ -1,0 +1,44 @@
+netsuite.employee Alon_Stern@s {
+  entityId = "Alon Stern"
+  firstName = "Alon"
+  lastName = "Stern"
+  email = "alon.stern@salto.io"
+  isInactive = false
+  initials = "AS"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2021-10-04T07:00:00.000Z"
+  gender = "_omitted"
+  workCalendar = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Default Work Calendar)"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  inheritIPRules = true
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = {
+          id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Administrator)"
+        }
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_esc_last_modified_date = "2021-10-04T07:00:00.000Z"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  _alias = "Alon Stern"
+}

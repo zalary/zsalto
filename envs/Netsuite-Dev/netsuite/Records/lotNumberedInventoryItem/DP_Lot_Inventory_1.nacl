@@ -1,0 +1,49 @@
+netsuite.lotNumberedInventoryItem DP_Lot_Inventory_1@s {
+  itemId = "DP Lot Inventory 1"
+  includeChildren = false
+  isOnline = false
+  isInactive = false
+  department = netsuite.department.instance.DP_Department_1@s
+  location = netsuite.location.instance.Lansing__MI@zds
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company_DP_East@sus,
+  ]
+  cogsAccount = netsuite.account.instance.Purchases
+  incomeAccount = netsuite.account.instance.Sales
+  taxSchedule = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (DP Tax Schedule)"
+  }
+  assetAccount = netsuite.account.instance.Inventory
+  matchBillToReceipt = false
+  costingMethodDisplay = "Average"
+  roundUpAsComponent = false
+  useMarginalRates = false
+  overallQuantityPricingType = "_byLineQuantity"
+  useBins = false
+  excludeFromSitemap = false
+  sitemapPriority = "_auto"
+  locationsList = {
+    locations = [
+      {
+        location = "Lansing, MI"
+        quantityAvailable = 0
+        locationId = netsuite.location.instance.Lansing__MI@zds
+        location_display = "Lansing, MI"
+      },
+    ]
+  }
+  translationsList = {
+    translation = {
+      _frenchFrance = {
+        locale = "_frenchFrance"
+        language = "French (France)"
+      }
+      _german = {
+        locale = "_german"
+        language = "German"
+      }
+    }
+  }
+  identifier = "DP Lot Inventory 1"
+  _alias = "DP Lot Inventory 1"
+}

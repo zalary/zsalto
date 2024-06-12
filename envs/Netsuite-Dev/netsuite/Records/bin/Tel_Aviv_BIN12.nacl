@@ -1,0 +1,7 @@
+netsuite.bin Tel_Aviv_BIN12@su {
+  binNumber = "BIN12"
+  location = netsuite.location.instance.Tel_Aviv@s
+  isInactive = false
+  identifier = "Tel Aviv_BIN12"
+  _alias = "Tel Aviv_BIN12"
+}

@@ -1,0 +1,60 @@
+netsuite.inventoryItem GWR_product_1@s {
+  cogsAccount = netsuite.account.instance.Purchases
+  includeChildren = false
+  incomeAccount = netsuite.account.instance.Sales
+  taxSchedule = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (gwr tax1)"
+  }
+  assetAccount = netsuite.account.instance.Inventory
+  matchBillToReceipt = false
+  weightUnits = "per EA"
+  costingMethodDisplay = "Average"
+  unitsType = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  stockUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  purchaseUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  saleUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  roundUpAsComponent = false
+  minimumQuantityUnits = "EA"
+  useMarginalRates = false
+  overallQuantityPricingType = "_byLineQuantity"
+  costUnits = "per EA"
+  useBins = false
+  quantityReorderUnits = "Quantity On Hand, Reorder Point, Quantity On Order, and Quantity Committed are in EA"
+  excludeFromSitemap = false
+  sitemapPriority = "_auto"
+  itemId = "GWR product 1"
+  upcCode = "82377"
+  displayName = "GWR product 1___"
+  vendorName = "GWR industries"
+  isOnline = false
+  isInactive = false
+  currency = "1"
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  translationsList = {
+    translation = {
+      _german = {
+        locale = "_german"
+        language = "German"
+      }
+      _frenchFrance = {
+        locale = "_frenchFrance"
+        language = "French (France)"
+      }
+    }
+  }
+  consumptionUnit = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Each)"
+  }
+  identifier = "GWR product 1"
+  _alias = "GWR product 1___"
+}

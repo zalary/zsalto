@@ -1,0 +1,42 @@
+netsuite.employee Integration_User@s {
+  entityId = "Integration User"
+  firstName = "Integration"
+  lastName = "User"
+  email = "oren.ariel@salto.io"
+  isInactive = false
+  initials = "IU"
+  subsidiary = netsuite.subsidiary.instance.Parent_Company@s
+  currency = netsuite.currency.instance.USA
+  isSalesRep = false
+  isJobResource = false
+  hireDate = "2021-05-11T07:00:00.000Z"
+  gender = "_omitted"
+  workCalendar = {
+    id = "[ACCOUNT_SPECIFIC_VALUE] (object) (Default Work Calendar)"
+  }
+  giveAccess = true
+  defaultExpenseReportCurrency = netsuite.currency.instance.USA
+  inheritIPRules = true
+  eligibleForCommission = false
+  rolesList = {
+    roles = [
+      {
+        selectedRole = netsuite.role.instance.customrole1005
+      },
+    ]
+  }
+  currencyList = {
+    employeeCurrency = [
+      {
+        currency = netsuite.currency.instance.USA
+      },
+    ]
+  }
+  isJobManager = false
+  targetUtilization = 100
+  custom_custentity1 = "None"
+  custom_custentity_esc_last_modified_date = "2021-05-11T07:00:00.000Z"
+  custom_custentity_slt_e2e_test = false
+  custom_custentitycust_active = false
+  _alias = "Integration User"
+}

@@ -1,0 +1,7 @@
+netsuite.bin Tampa__FL_BIN11@zdsu {
+  binNumber = "BIN11"
+  location = netsuite.location.instance.Tampa__FL@zds
+  isInactive = false
+  identifier = "Tampa, FL_BIN11"
+  _alias = "Tampa, FL_BIN11"
+}
