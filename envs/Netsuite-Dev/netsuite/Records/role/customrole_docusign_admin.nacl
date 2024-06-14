@@ -39,6 +39,10 @@ netsuite.role customrole_docusign_admin {
         permkey = "LIST_BULK_PROCESSING"
         permlevel = "VIEW"
       }
+      LIST_CONTACTSUBSIDIARYRELATION = {
+        permkey = "LIST_CONTACTSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
       LIST_CONTACT = {
         permkey = "LIST_CONTACT"
         permlevel = "FULL"
