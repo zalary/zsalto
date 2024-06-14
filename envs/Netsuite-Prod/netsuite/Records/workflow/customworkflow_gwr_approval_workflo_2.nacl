@@ -113,6 +113,20 @@ netsuite.workflow customworkflow_gwr_approval_workflo_2 {
                 valuetype = "STATIC"
                 initcondition = {
                   type = "VISUAL_BUILDER"
+                  formula = "\"Created From:Account\" IN (\"Account1\")"
+                  parameters = {
+                    parameter = {
+                      Created_From_Account@sf = {
+                        name = "Created From:Account"
+                        value = "STDBODYCREATEDFROM:STDBODYACCOUNT"
+                      }
+                      Account1 = {
+                        name = "Account1"
+                        selectrecordtype = "-112"
+                        value = "[ACCOUNT_SPECIFIC_VALUE]"
+                      }
+                    }
+                  }
                 }
                 index = 0
                 isInactive = false
