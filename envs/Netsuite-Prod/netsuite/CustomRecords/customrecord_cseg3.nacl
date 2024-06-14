@@ -143,7 +143,7 @@ type netsuite.customrecord_cseg3 {
     }
   }
   metadataType = "customrecordtype"
-  _alias = "zgy_music"
+  _alias = "segment-77"
   _self_important_values = [
     {
       value = "description"
