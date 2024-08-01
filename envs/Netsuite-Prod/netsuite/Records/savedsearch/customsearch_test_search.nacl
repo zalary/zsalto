@@ -1,0 +1,72 @@
+netsuite.savedsearch customsearch_test_search {
+  scriptid = "customsearch_test_search"
+  dependencies = {
+    dependency = [
+      netsuite.customrecordtestrecordtype.attr.scriptid,
+    ]
+  }
+  definition = "6c8f4df49fbe12aab7fcb0c68f60a6bd3c00c1c4817431eeda692505c7ee1ac0@GZC@2024.1.15@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"
+  return_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Custom_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Custom_SCRIPTID"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch_test_search"
+  FIELD_DEFAULT_NAME = "test tbf search"
+  FIELD_SEARCH_TYPE = "Custom"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  KEY_RECORD_TYPE = 81
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "test tbf search"
+}

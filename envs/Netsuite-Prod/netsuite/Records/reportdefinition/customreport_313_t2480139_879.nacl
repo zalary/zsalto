@@ -1,0 +1,182 @@
+netsuite.reportdefinition customreport_313_t2480139_879 {
+  scriptid = "customreport_313_t2480139_879"
+  definition = "7411bc4bca876e736f8c04a64b90643a2da371e405318e8179641d5a86297ae7@GZC@2024.1.15@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"
+  name = "DP Lead Count Summary"
+  components = [
+    {
+      KEY_COMPONENT = 176
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.measure.NLLeadMeasure"
+    },
+    {
+      KEY_COMPONENT = 5
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.dimension.NLSalesrepDimension"
+    },
+  ]
+  parameters = {
+    accounting_book_current_id = "1"
+    accounting_book_id = "1"
+  }
+  sorts = [
+    {
+      KEY_COMPONENT = "176"
+      FIELD_ALIAS = "numcustomers"
+      SEQ_NUMBER = 0
+      FLAG_DESCENDING = false
+      FLAG_SUBTOTAL = false
+    },
+  ]
+  fields = [
+    {
+      KEY_COMPONENT = 5
+      FIELD_TABLE = "REPKEYS"
+      FIELD_ALIAS = "SVALIDNAME"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = true
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 1
+      FIELD_LABEL = "Sales Rep"
+      FIELD_URL = "/app/common/entity/entity.nl?id={srep,entity,nkey,x,x}"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 176
+      FIELD_ALIAS = "NUMCUSTOMERS"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 2
+      FIELD_LABEL = "Total"
+      FIELD_URL = "cr=-3"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = true
+      FLAG_DISPLAY = true
+      FIELD_SUMMARY = " COUNT"
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "integer"
+      FLAG_TOTAL_FORMULA = true
+    },
+  ]
+  uiPreferences = {
+    PARAMETER_CASH_BASIS = false
+    PARAMETER_TAXCASH_BASIS = "F"
+    PARAMETER_SHOW_ZEROS = true
+    PARAMETER_SHOW_SINGLEROWLINES = true
+    PARAMETER_DISPLAY_TYPE = "data"
+    PARAMETER_INC_VS_EXP = false
+    PARAMETER_GRAPH_TOP = -1
+    PARAMETER_WEB_STORE = false
+    PARAMETER_ACTIVITY_ONLY = false
+    PARAMETER_ALLOW_WEBQUERY = false
+    PARAMETER_GRAPH_3D = false
+    PARAMETER_SHOW_CURRENCY_SYMBOL = true
+    PARAMETER_EXPAND_LEVEL = 100
+  }
+  criteria = [
+    {
+      descriptor = {
+        FIELD_ALIAS = "LEADDATE"
+        FIELD_OP_CLASS = "BETWEEN"
+        FILED_TYPE = "DATE"
+        SEQ_NUMBER = 0
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = false
+        FIELD_DESCRIPTOR = "leadcount,x,leaddate,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "TM"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KSUBSIDIARY"
+        FIELD_OP_CLASS = "SUBSIDCHILDRENOF"
+        FILED_TYPE = "SELECT"
+        SEQ_NUMBER = 1
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "leadcount,entity,ksubsidiary,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = 1
+        },
+      ]
+    },
+  ]
+  flags = {
+    KEY_REPORT_ID = 313
+    KEY_SCRIPT_ID = "CUSTOMREPORT_313_T2480139_879"
+    FIELD_KEY = 313
+    FIELD_CODE = "QUICK_REPORT"
+    FIELD_NAME = "DP Lead Count Summary"
+    FIELD_ORIGINAL_TITLE = "DP Lead Count Summary"
+    FIELD_PERM_TYPE = "REPO_SFA"
+    KEY_FEATURE = "CRM"
+    FLAG_PERIODS_ALLOWED = false
+    FLAG_DISPLAY_TYPE = "SUMMARY"
+    FLAG_ONE_DATE = false
+    FLAG_PRIMARY_OUTER_JOIN = false
+    FLAG_CUSTOM_MODE = true
+    FLAG_CASH_BASIS = false
+    FLAG_SHOW_ZEROS = true
+    FLAG_INACTIVE = false
+    FIELD_VERSION = 8
+    FLAG_PERIODS_ON = false
+    FLAG_USE_FISCAL_YEAR_RANGE = false
+    FLAG_USE_TAX_PERIODS = false
+    KEY_ENTITY = "5"
+    FLAG_SHOW_LINK = false
+    FLAG_SUPPORTS_CONSOL_SUBSIDIARY = true
+    FIELD_TOGGLE_TYPE = "NOTHING"
+    FLAG_AFFECTED_BY_COGS = false
+    FLAG_ACTIVITY_ONLY = false
+  }
+  _alias = "DP Lead Count Summary"
+}
