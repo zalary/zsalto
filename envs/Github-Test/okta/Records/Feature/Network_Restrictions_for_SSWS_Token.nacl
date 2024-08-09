@@ -1,0 +1,10 @@
+okta.Feature Network_Restrictions_for_SSWS_Token@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Network Restrictions for SSWS Token"
+  description = "Configure network zone for each token, controlling which IP addresses or ranges the SSWS API token can be used from to call Okta APIs"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Network Restrictions for SSWS Token"
+}

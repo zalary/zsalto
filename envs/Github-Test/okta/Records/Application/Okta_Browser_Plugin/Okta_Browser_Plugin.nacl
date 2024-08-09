@@ -1,0 +1,34 @@
+okta.Application Okta_Browser_Plugin@s {
+  name = "okta_browser_plugin"
+  label = "Okta Browser Plugin"
+  status = "ACTIVE"
+  accessibility = {
+    selfService = false
+  }
+  visibility = {
+    autoSubmitToolbar = false
+    hide = {
+      iOS = true
+      web = true
+    }
+  }
+  signOnMode = "OPENID_CONNECT"
+  credentials = {
+    userNameTemplate = {
+      template = "\${source.login}"
+      type = "BUILT_IN"
+    }
+  }
+  settings = {
+    notifications = {
+      vpn = {
+        network = {
+          connection = "DISABLED"
+        }
+      }
+    }
+    manualProvisioning = false
+    implicitAssignment = false
+  }
+  _alias = "Okta Browser Plugin"
+}

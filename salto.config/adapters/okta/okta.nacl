@@ -10,5 +10,6 @@ okta {
     convertUsersIds = true
     includeGroupMemberships = false
     includeProfileMappingProperties = true
+    isClassicOrg = true
   }
 }

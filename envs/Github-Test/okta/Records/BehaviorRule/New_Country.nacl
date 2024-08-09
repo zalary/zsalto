@@ -1,0 +1,11 @@
+okta.BehaviorRule New_Country@s {
+  name = "New Country"
+  status = "ACTIVE"
+  settings = {
+    minEventsNeededForEvaluation = 0
+    maxEventsUsedForEvaluation = 10
+    granularity = "COUNTRY"
+  }
+  type = "ANOMALOUS_LOCATION"
+  _alias = "New Country"
+}

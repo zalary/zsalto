@@ -1,0 +1,5 @@
+okta.MultifactorEnrollmentPolicyPriority MultifactorEnrollmentPolicy_priority {
+  priorities = [
+  ]
+  defaultPolicy = okta.MultifactorEnrollmentPolicy.instance.Default_Policy@s
+}

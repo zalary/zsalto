@@ -1,0 +1,8 @@
+okta.AppLogo Okta_Browser_Plugin@s {
+  fileName = "OktaBrowserPlugin.png"
+  contentType = "png"
+  content = file("okta/AppLogo/OktaBrowserPlugin.png")
+  _parent = [
+    okta.Application.instance.Okta_Browser_Plugin@s,
+  ]
+}

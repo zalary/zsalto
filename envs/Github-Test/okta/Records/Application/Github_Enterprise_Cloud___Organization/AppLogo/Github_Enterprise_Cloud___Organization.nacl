@@ -1,0 +1,8 @@
+okta.AppLogo Github_Enterprise_Cloud___Organization@sssbs {
+  fileName = "GithubEnterpriseCloudOrganization.png"
+  contentType = "png"
+  content = file("okta/AppLogo/GithubEnterpriseCloudOrganization.png")
+  _parent = [
+    okta.Application.instance.Github_Enterprise_Cloud___Organization@sssbs,
+  ]
+}

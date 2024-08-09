@@ -1,0 +1,10 @@
+okta.Feature Okta_Personal_for_Workforce@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Okta Personal for Workforce"
+  description = "Okta Personal is a free consumer password manager. Okta Personal for Workforce integrates Okta Personal with Okta workforce for a seamless but separate experience between work and personal accounts. Manage preferences in Customizations > Okta Personal."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Okta Personal for Workforce"
+}

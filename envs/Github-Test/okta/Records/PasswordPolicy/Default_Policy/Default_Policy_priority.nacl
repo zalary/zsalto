@@ -1,0 +1,6 @@
+okta.PasswordPolicyRulePriority Default_Policy_priority@su {
+  priorities = [
+  ]
+  defaultRule = okta.PasswordPolicyRule.instance.Default_Policy_s__Default_Rule@umuus
+  _parent = okta.PasswordPolicy.instance.Default_Policy@s
+}

@@ -1,0 +1,8 @@
+okta.AppLogo Okta_OIN_Submission_Tester@s {
+  fileName = "OktaOINSubmissionTester.png"
+  contentType = "png"
+  content = file("okta/AppLogo/OktaOINSubmissionTester.png")
+  _parent = [
+    okta.Application.instance.Okta_OIN_Submission_Tester@s,
+  ]
+}

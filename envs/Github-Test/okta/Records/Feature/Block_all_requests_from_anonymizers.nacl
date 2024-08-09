@@ -1,0 +1,10 @@
+okta.Feature Block_all_requests_from_anonymizers@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Block all requests from anonymizers"
+  description = "Block requests from anonymizing proxies"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Block all requests from anonymizers"
+}

@@ -1,0 +1,10 @@
+okta.Feature Protected_Actions@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Protected Actions"
+  description = "Protected actions offer an additional layer of security for admin actions in Okta. Admins will be prompted to authenticate when they perform a critical action."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Protected Actions"
+}

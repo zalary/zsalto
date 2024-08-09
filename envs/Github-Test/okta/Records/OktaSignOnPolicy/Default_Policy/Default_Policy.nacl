@@ -1,0 +1,17 @@
+okta.OktaSignOnPolicy Default_Policy@s {
+  status = "ACTIVE"
+  name = "Default Policy"
+  description = "The default policy applies in all situations if no other policy applies."
+  system = true
+  conditions = {
+    people = {
+      groups = {
+        include = [
+          okta.Group.instance.Everyone,
+        ]
+      }
+    }
+  }
+  type = "OKTA_SIGN_ON"
+  _alias = "Default Policy"
+}

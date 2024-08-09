@@ -1,0 +1,25 @@
+okta.User zalary_notzal_gmail_com@zemv {
+  status = "ACTIVE"
+  type = {
+    id = okta.UserType.instance.user
+  }
+  profile = {
+    firstName = "not"
+    lastName = "zal"
+    login = "zalary+notzal@gmail.com"
+    email = "zalary+notzal@gmail.com"
+  }
+  credentials = {
+    emails = [
+      {
+        value = "zalary+notzal@gmail.com"
+        status = "VERIFIED"
+        type = "PRIMARY"
+      },
+    ]
+    provider = {
+      type = "OKTA"
+      name = "OKTA"
+    }
+  }
+}

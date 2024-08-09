@@ -1,0 +1,10 @@
+okta.Feature Custom_languages_for_Okta_Email_Templates@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Custom languages for Okta Email Templates"
+  description = "Admins can customize Okta-generated emails in any language"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Custom languages for Okta Email Templates"
+}

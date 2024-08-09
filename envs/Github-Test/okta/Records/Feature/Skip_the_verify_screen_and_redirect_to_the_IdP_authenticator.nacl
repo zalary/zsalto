@@ -1,0 +1,10 @@
+okta.Feature Skip_the_verify_screen_and_redirect_to_the_IdP_authenticator@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Skip the verify screen and redirect to the IdP authenticator"
+  description = "This feature allows users to skip the verify step in the Sign-in Widget. They are instead redirected to the IdP authenticator for verification."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Skip the verify screen and redirect to the IdP authenticator"
+}
