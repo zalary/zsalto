@@ -6,6 +6,9 @@ okta {
       },
     ]
     exclude = [
+      {
+        type = "JsonWebKey"
+      },
     ]
     convertUsersIds = true
     includeGroupMemberships = false

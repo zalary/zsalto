@@ -26,6 +26,11 @@ okta.IdentityProvider Developer_Registration_SSO@s {
     issuer = {
       url = "https://okta-devok12.okta.com"
     }
+    credentials = {
+      client = {
+        client_id = "0oa256lukbguUMsbT5d7"
+      }
+    }
   }
   policy = {
     provisioning = {
