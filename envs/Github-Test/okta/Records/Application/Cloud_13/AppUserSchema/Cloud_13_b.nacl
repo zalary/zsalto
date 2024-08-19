@@ -28,5 +28,5 @@ okta.AppUserSchema Cloud_13_b@um {
   _parent = [
     okta.Application.instance.Cloud_13@b,
   ]
-  _alias = "Cloud-13 User"
+  _alias = "Cloud-13 User Alias"
 }
