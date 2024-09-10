@@ -1,12 +1,12 @@
-netsuite.savedsearch customsearchsrd_transaction_search {
-  scriptid = "customsearchsrd_transaction_search"
+netsuite.savedsearch customsearchdp_search_2 {
+  scriptid = "customsearchdp_search_2"
   dependencies = {
     dependency = [
       netsuite.transactionbodycustomfield.instance.custbody_slt_opportunity_owner.scriptid,
       netsuite.transactionbodycustomfield.instance.custbodybundle_type.scriptid,
     ]
   }
-  definition = "15d6115a3a28636251b6330aeeed3131438002b80e7c9e5a61741d08f9179d7b@GZC@2024.1.15@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"
+  definition = "2384032118f781686776f0348f8594460e82269b8e0ffae5e0bcbe606a1b16a9@GZC@2024.1.14@H4sIAAAAAAAA/+1da2/bOBb9PsD8B8P5vHGsh5MGjgeyRCeaypKhR9LsF0G1lalm/QhkpbPpr1+KouNnpJqhmG57gQKNaeqSPOQhea5I3+4f/51NG1/jdJks5lfN9ulZsxHPx4tJMv/rqhn4g39dNP/o/f5bd75cLsaXXpwm0TT5Fk+cz3/H40xfzLMomcdpA5uZLy9Jrqvmlyx7vGy1/vnnn9N5nC2fkiw+HS9mreX4SzyLli2Srdl4SiZXTd/zDfdWktTzi7Z66UVf44kXR+n4y+X4aZktZkvyYfIYFn+E0mX7vH2unqlnbbXzod1cV/7sFH/Kklm8zKLZI27MVr4ebcIsenzE9d16qocrl9d0Gk/+ilNc1TQ+LYrD/9EWp6fFk6dF7YbkQ7e1aXRVxCR+SOZJhs33ukVuYyNlEi/HafKYLXD+NMZlTfznx7gxnkbL5VWzyO++pDd7HtJc/SZEtu/ed1vrJ3rdr9H0KV72urf5/42HJJ6SL1ZGBquEZvHdVfMjug9Hmv5Ru0bNRuvIBz3dNUd+aBrNvK7fvl01l1mKhwlG73BHdVvE/hHFDExkGaGBBlpg+aGtDXE1J/FjPJ/gMfn8MX6+alqLcTSNjRcMLyk8vulb6ORsr27GqFGU1mCuz6qE+xHaM++n0XwZjfOeZTBvadfhKOhbpv5i+PNiMY2jebP3EE2XMaNNy/R8vhZHjovx5Wx0qOk3po34GnXR0LQN5PK16t04dxhW+yNnWF00QK6LjDq67MV2LZ23Nl9LN67NDxx3WJdtF3l4pvH4mr810V2oedh4Dnw9tq9dbXRTl+mNKZ6L5cDGOPuuqfuIn+Wh9il0nTvvuIWM1McwPa1vodBwTcsKDefO5tdesmLoAR5dtn4fupqPDi8cmq77+ReMkN6YBgoHpuUjFzfDGeWN4DeM8+V+tQr76JMfFs0qyttriudrru/dmf4NY2O0W820SI/g4TdAHAcJMX9tOX3NCpFhciaj7t3yNYg+6cjiPNcZA86DGw1xb4UD1xkeSb2Np72g/yfSfXYDfce4Z39ad4ZDvJ9mmDrwLHZ9jfKlQ7MQ78nd02+QEVhCjOMuGA4110ScFz8P2TnKI/++nsW1qLxmWXg/hkdRLkr6nLceRRGmrVsBnmTJsnh455elT6xl3OCZznd8zeIMz6rWI+SaDu4I3Bm+q9mepvumw3GFKNjUD6yPoTPCfDKOFJQbzxNhS3Z5WJu62pBlRe8HeGnCjefcPmfkm0Pz33iNxRtclumCsMGxw2Bk4J1ADZJEC/CqlnexWblutFbugtamB+IhmWZxilOzPScEmsazeJ5teSGKLYDXbWVbHohVRXNbve5jlOLnVsb0xXQaE4XcbKTxQ4y/G+O2nZ62yD+CKqNPBI8XPHpukIf7aLU9eaOLpNggkm2bOUS4A3XH5rwfyZfOjT3Pzq6KSxG2w3n1cDhWsKCWG+qWFngYYl/zg/XMNP4Spc2ezWrXDoahhQZ+MTbWZpN51uydvcUqXvlvOJulG/iDjq7Pk/Qymj9fzp+m0zK3U9jHIkZ3gsI9yFgPPPkGlsYyhQ8dw8R/uSzPaj7eTvWDjYnxRR3Z986AtTUH9ZaHLLzhrJgMV4nHzIXhrWYFaG9GLGYrlrnwjfNfUR8OjuINL8DbRjmp0N74LhYLYmrDm/vKwD7Rtb0e1bUDvbmC/eeDv/2e8G/Mzyv4A68E/nXKyx/bWwTYMMCGATYM77dhuMXSX7N1VGAJ+wbYN/xc+4bt8X3ypxO4tmbhWW7keJtvIVbdvJsBthbv00Pl3VPZN5X7jnX6i+Nj+TSbRenz4DhHSOE+vd91iLR2rUVfo2QafZ7GRQpB8rsL2V3z18W8YjaNs6d0flwhLvIxuMUrnveZjjZr8NbdWLFAWKbmsS+Qjmsgl/HlHCk/P4DwiRPHcP/n74SqjsFsYniisqyqqxHNUmDnLQUW6+7xzw8Cm3i1mZ5l37nQR0PkujVscg3ycql/vxrDrXdbgn40Vg4107ZMmycpmY+EsXDkXDQpL4CUQMqaSZm/XMydHxxJKYsk5QfRpGyfASuBlTWzUvOcAWdWKiJZ2W4Lp6UEtARa1kzL3H1h2tfF2RyO3FSFclMWzk0FuAncrHsjq33izsuOUF4Kd/q0wesDvKydl3zdsOdCKSnc5dMGnw9Qsm5K2sGwnx+b4UbKC6GkFO7ykcDlA6SsnZTakOc6+UEkJSXh7h4J3D1Aydq9sDo5PsvzEAHzWSomkgj39Ejg6QFa1n6OAA0dnpwUerJHEu7lkcDLA5ysfakc8l4phR7tkYQ7eiRw9AArGVmpk59rM6Is2hhdxbDSA8/Pf1oj9Cw/dEb57xcFtunfh86djdyTiu/3r+iVZudJd6GHhuQ3OXSYSnyTQga6A91L6d4PbMMqfqjq5FDiq8TeyMOTzUIPG8nCZa4MMlcom9cp2/djJnEWJdPVp2yPs4duyxjIJz9/lZcPt2Vquy0j9EiTLFxUyyCqYT2v3dHF/8KMYF4Kl9UyyGrgZe1HmvjfmRHMS+FHKBQ4QgG8rN0Jzf/WjFheKsLPUShwjgJ4WTcv67o2I5icwt1MCriZgJy1b2ZruDcjmJjCvT8KeH+AmLUT8//ZI6sI9/wo4PkBTtbNSe43ZwSzUrjfRwW/D7CydlbyvTojlpOqcJ+PCj4f4GTtvlj+d2fE0lK4t0cFbw/QsvYjBZzvzojlpHBHjwqOHuBk7Usl97szYlkp3NWjgqsHWMnIyp/x7oxYugv3IXXAhwR0r4/uP9rdGaFs7gj3PnXA+/ROd2e2b8ssF2mGOf00m39/yBy8hIW6YwVD+31uzmxUgEMUJQLjO12bsV568O1RZkj8QuTpyDZM+/r7o0jvj5CtMYE5nGY4T/KY4B5dDZvvGylFBHYX6ebIRLbv7Vy3ah22vZ3KXNgrpaxjSRnxQzJP8k7ESfPlcjG+nGwkrVLosEhyaHbSnhsZ6ZPdqa7ZeEomB2ZAWlPf9C10grczeaazZq+7m7Focm8z+6o1/4mf80hs+X/dLB+G0yivLq4bbluKE4sx2ovnYR4PkH5apRqjRtH2hrT+rkWf3DbwkIYDd50p5wGZWQ5mnsR46L2eubVd09Z+e1u7yL6K9cGoZBTw42PR5k+1cQ8cfDKPqo6H5OtRmouvi2mHxLH9Ssn1irn3aGUeYTN/SuLTynxQ/UCtrIwPmJuSj236blTNLQT2Qwz+8HhsgqHUAQZ3JL53Rt0Nl5ZnUl+fUbflxnpGVY+fUcsnxB919mTCtVPg2jke1w7gWh5JLM90fjyu54BrecC0PNPF8bheAK7lQbbyTB+Ox/UD4FoRS4xsREu0wGvIthnEwK8EbZtC22aAtg3QVoTaItBKDNBKAG1FbCYCrcwArQzQVgShItAqDNAqAG1F5CICLYMAa4MCqwrRRKBl0GBtEGFVwX0ItAwyrA06rCqKEYGWQYm1QYpVRb8h0DKIsTaosaowP8RhzqDGJFBjVQFiCLQMakwCNVYVCYdAy6DGJFBjVfFTCLQMakwCNVYVKIZAy6DGJFBjVRFGCLQMakwCNVYVSoVAy6DGJFBjVRE4CLQMakwCNVYKLVVjEoMak34ZNXbopDCFt8Y7A6Rfcil3qAwMA/nLnFReJnjJ2J1gE+RQJO3Ll8/d5dNsFmHY6HnA1cfuPJrFlQWQTN3W4WrWPIBlKsxkBmEmgzArhZYKM5lBmMm/jDB729xQfcGA9ID0/bPA1s0DbtTfsvqufKe6S2bQXTLorlJoqe6SGXSXDLqrFFqqu2QG3SWD7iqFluoumUF3yaC7SqGluktm0F0y6K5SaKnukhl0l/zL6C42aOlbMJnhLZgMb8HKoFWo2FIYxJYCYqsUWiq2FAaxpfwyYosNWvoWTGF4C6bAW7BSaKkaUxjUmAJqrBRaqsYUBjWmgBorhZaqMYVBjSmgxkqhpWpMYVBjCqixUmipGlMY1JgCaqwUWqrGFAY1poAaK4WWqjGFQY0poMbKoFWpGlMZ1JgKaqwUWqrGVAY1poIaK4WWqjGVQY2poMZKoaVqTGVQYyqosVJoqRpTGdSYCmqsFNrVL3Sw/EQHqLFSaKkaUxnUmApqrBRaqsZUBjWmghorhZaqMZVBjamgxkqhpWpMZVBjKqixMmg7VI11GNRYB9RYKbRUjXUY1FgH1FgptFSNdRjUWOfnU2O7SeT3PWmiF6dJNE2+xRPn89/xONMX8yxK5nHa+/23/wEtRzYWauEAAA=="
   search_filter = [
     {
       FLAG_DATE_TIME_SECOND = false
@@ -16,49 +16,39 @@ netsuite.savedsearch customsearchsrd_transaction_search {
       FIELD_OR_CLAUSE_STATUS = "N"
       FIELD_NUM_LEFT_PARENS = 0
       FIELD_NUM_RIGHT_PARENS = 0
-      FIELD_FILTER_NAME = "Transaction_ACCOUNT"
-      FIELD_ATTRIBUTE = "NONEOF"
-      FIELD_TYPE = "SELECT"
-      RECORDS = [
-        {
-          KEY_ID = 0
-          FIELD_VALUE = "1"
-        },
-      ]
-    },
-    {
-      FLAG_DATE_TIME_SECOND = false
-      FLAG_FROM_AVAILABLE_FILTER = false
-      FLAG_NOT = false
-      FLAG_OR = false
-      FIELD_OR_CLAUSE_STATUS = "N"
-      FIELD_NUM_LEFT_PARENS = 0
-      FIELD_NUM_RIGHT_PARENS = 0
-      FIELD_FILTER_NAME = "Transaction_ACCOUNT"
-      FIELD_ATTRIBUTE = "NONEOF"
-      FIELD_TYPE = "SELECT"
-      RECORDS = [
-        {
-          KEY_ID = 0
-          FIELD_VALUE = "2"
-        },
-      ]
-    },
-    {
-      FLAG_DATE_TIME_SECOND = false
-      FLAG_FROM_AVAILABLE_FILTER = false
-      FLAG_NOT = false
-      FLAG_OR = false
-      FIELD_OR_CLAUSE_STATUS = "N"
-      FIELD_NUM_LEFT_PARENS = 0
-      FIELD_NUM_RIGHT_PARENS = 0
-      FIELD_FILTER_NAME = "Transaction_ACCOUNT"
+      FIELD_FILTER_NAME = "Transaction_BILLCOUNTRY"
       FIELD_ATTRIBUTE = "ANYOF"
       FIELD_TYPE = "SELECT"
       RECORDS = [
         {
           KEY_ID = 0
-          FIELD_VALUE = "122"
+          FIELD_VALUE = "CA"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "US"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_BILLVARIANCESTATUS"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "JOURNALNOTPOSTED"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "JOURNALPOSTED"
         },
       ]
     },
@@ -214,8 +204,8 @@ netsuite.savedsearch customsearchsrd_transaction_search {
       FLAG_DESCENDING = false
     },
   ]
-  KEY_SCRIPT_ID = "customsearchsrd_transaction_search"
-  FIELD_DEFAULT_NAME = "srd - transaction search"
+  KEY_SCRIPT_ID = "customsearchdp_search_2"
+  FIELD_DEFAULT_NAME = "DP Search 2"
   FIELD_SEARCH_TYPE = "Transaction"
   FLAG_PUBLIC = false
   FLAG_LIST = false
@@ -252,5 +242,5 @@ netsuite.savedsearch customsearchsrd_transaction_search {
   FLAG_BUILT_IN = false
   FLAG_SEND_ON_UPDATE = false
   FLAG_SHOW_AUDIT_TRAIL = false
-  _alias = "srd - transaction search"
+  _alias = "DP Search 2"
 }
