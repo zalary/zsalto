@@ -1,0 +1,93 @@
+netsuite.savedsearch customsearch4 {
+  scriptid = "customsearch4"
+  definition = "744f7f740702089ad8561ec63789af804c88bebe545ab1a88474460737fb134e@GZC@2024.1.15@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"
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "BillingClass_DESCRIPTION"
+      FIELD_ATTRIBUTE = "STARTSWITH"
+      FIELD_TYPE = "TEXT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "DA"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "BillingClass_NAME"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BillingClass_DESCRIPTION"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "BillingClass_NAME"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "BillingClass_DESCRIPTION"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "BillingClass_NAME"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch4"
+  FIELD_DEFAULT_NAME = "Custom Billing Class Search"
+  FIELD_SEARCH_TYPE = "BillingClass"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "Custom Billing Class Search"
+}

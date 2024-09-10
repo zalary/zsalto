@@ -1,0 +1,107 @@
+netsuite {
+  fetch = {
+    addLockedCustomRecordTypes = true
+    include = {
+      types = [
+        {
+          name = ".*"
+        },
+      ]
+      fileCabinet = [
+        "^/SuiteScripts.*",
+        "^/Templates.*",
+      ]
+      customRecords = [
+      ]
+    }
+    fieldsToOmit = [
+      {
+        type = "currency"
+        fields = [
+          "exchangeRate",
+        ]
+      },
+      {
+        type = "customrecordtype"
+        fields = [
+          "permissions",
+        ]
+      },
+    ]
+    exclude = {
+      fileCabinet = [
+        "^/Templates/Letter Templates/Mail Merge Folder.*",
+      ]
+
+    
+      types = [
+        {
+          name = "addressForm"
+          ids = [
+            "custform_394_5657802_sb3_463",
+          ]
+        },
+        {
+          name = "workbook"
+        },
+        {
+          name = "dataset"
+        },
+        {
+          name = "customer"
+        },
+        {
+          name = "accountingPeriod"
+        },
+        {
+          name = "employee"
+        },
+        {
+          name = "job"
+        },
+        {
+          name = "manufacturingCostTemplate"
+        },
+        {
+          name = "partner"
+        },
+        {
+          name = "solution"
+        },
+        {
+          name = "giftCertificateItem"
+        },
+        {
+          name = "downloadItem"
+        },
+        {
+          name = "account"
+        },
+        {
+          name = "assemblyItem|lotNumberedAssemblyItem|serializedAssemblyItem|descriptionItem|discountItem|kitItem|markupItem|nonInventoryPurchaseItem|nonInventorySaleItem|nonInventoryResaleItem|otherChargeSaleItem|otherChargeResaleItem|otherChargePurchaseItem|paymentItem|serviceResaleItem|servicePurchaseItem|serviceSaleItem|subtotalItem|inventoryItem|lotNumberedInventoryItem|serializedInventoryItem|itemGroup"
+        },
+        {
+          name = "advancedpdftemplate"
+          ids = [
+            "custtmpl_gwr_defunct1",
+          ]
+        },
+        {
+          name = "bin"
+        },
+        {
+          name = "workflow"
+          ids = [
+            "customworkflow_srd_purchase_order",
+          ]
+        },
+        {
+          name = "workflow"
+          criteria = {
+          isInactive = true
+          }
+        },      
+      ]
+    }
+  }
+}
