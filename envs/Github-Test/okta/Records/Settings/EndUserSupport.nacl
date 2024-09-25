@@ -1,5 +1,0 @@
-okta.EndUserSupport {
-  technicalContactId = okta.User.instance.zalary_gmail_com@mv
-  technicalContactEmail = "zalary@gmail.com"
-  usermailEnabled = false
-}

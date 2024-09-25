@@ -1,8 +1,0 @@
-okta.AppLogo My_Web_App@s {
-  fileName = "MyWebApp.png"
-  contentType = "png"
-  content = file("okta/AppLogo/MyWebApp.png")
-  _parent = [
-    okta.Application.instance.My_Web_App@s,
-  ]
-}

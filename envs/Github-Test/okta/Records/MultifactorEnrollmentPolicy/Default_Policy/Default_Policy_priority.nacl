@@ -1,6 +1,0 @@
-okta.MultifactorEnrollmentPolicyRulePriority Default_Policy_priority@su {
-  priorities = [
-  ]
-  defaultRule = okta.MultifactorEnrollmentPolicyRule.instance.Default_Policy_s__Default_Rule@umuus
-  _parent = okta.MultifactorEnrollmentPolicy.instance.Default_Policy@s
-}

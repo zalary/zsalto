@@ -1,8 +1,0 @@
-okta.AppLogo Okta_Admin_Console@s {
-  fileName = "OktaAdminConsole.png"
-  contentType = "png"
-  content = file("okta/AppLogo/OktaAdminConsole.png")
-  _parent = [
-    okta.Application.instance.Okta_Admin_Console@s,
-  ]
-}

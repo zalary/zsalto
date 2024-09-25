@@ -1,8 +1,0 @@
-okta.ApplicationGroupAssignment Humio__Test_Admins_b@uuum {
-  id = okta.Group.instance.Test_Admins@b
-  priority = 0
-  _parent = [
-    okta.Application.instance.Humio,
-  ]
-  _alias = "Humio : Test-Admins"
-}

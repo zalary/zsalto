@@ -1,6 +1,0 @@
-okta.AuthorizationServerPolicyRulePriority default__Default_Policy_priority@uusu {
-  priorities = [
-    okta.AuthorizationServerPolicyRule.instance.default__Default_Policy_uus__Default_Policy_Rule@uuumuuss,
-  ]
-  _parent = okta.AuthorizationServerPolicy.instance.default__Default_Policy@uus
-}

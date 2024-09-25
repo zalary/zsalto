@@ -1,3 +1,0 @@
-okta.Reauthentication {
-  reauthExpirationMins = 5
-}

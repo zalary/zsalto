@@ -1,6 +1,0 @@
-okta.OktaSignOnPolicyRulePriority Default_Policy_priority@su {
-  priorities = [
-  ]
-  defaultRule = okta.OktaSignOnPolicyRule.instance.Default_Policy_s__Default_Rule@umuus
-  _parent = okta.OktaSignOnPolicy.instance.Default_Policy@s
-}
