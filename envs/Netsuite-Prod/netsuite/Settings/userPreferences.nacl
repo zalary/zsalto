@@ -37,6 +37,7 @@ netsuite.userPreferences {
     value = "Month D, YYYY"
     text = "Month D, YYYY"
   }
+  DISABLE_CUSTOMER_SATISFACTION = false
   MSIE_ZOOM_FACTOR = {
     value = "100"
     text = "Normal"
@@ -108,6 +109,7 @@ netsuite.userPreferences {
     value = "lines"
     text = "Lines"
   }
+  DROPDOWN_FAVORITES = true
   PAGE_SEARCH = true
   CLASSUNASSIGNED = false
   DELAYLOADINGSUBLISTS = true
@@ -196,6 +198,4 @@ netsuite.userPreferences {
     text = "Primary Accounting Book"
   }
   _alias = "User Preferences"
-  DISABLE_CUSTOMER_SATISFACTION = false
-  DROPDOWN_FAVORITES = true
 }

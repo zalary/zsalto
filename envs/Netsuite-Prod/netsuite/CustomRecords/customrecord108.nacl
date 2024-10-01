@@ -1,4 +1,4 @@
-type netsuite.customrecord_gwr_udemy_cr {
+type netsuite.customrecord108 {
   annotations {
     serviceid scriptid {
     }
@@ -62,7 +62,6 @@ type netsuite.customrecord_gwr_udemy_cr {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_gwr_udemy_cr {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -112,8 +111,94 @@ type netsuite.customrecord_gwr_udemy_cr {
   }
   netsuite.customRecordTranslationsList translationsList {
   }
-  scriptid = "customrecord_gwr_udemy_cr"
-  accesstype = "CUSTRECORDENTRYPERM"
+  string custom_custrecord1393 {
+    scriptid = "custrecord1393"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "PASSWORD"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "DA Password"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 0
+  }
+  netsuite.fileReference custom_custrecord1394 {
+    scriptid = "custrecord1394"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "IMAGE"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "DA Image"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = true
+    index = 1
+  }
+  string custom_custrecord1395 {
+    scriptid = "custrecord1395"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "HELP"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "DA Help"
+    rolerestrict = false
+    searchlevel = "2"
+    showinlist = false
+    storevalue = false
+    index = 2
+  }
+  netsuite.customrecord108 custom_custrecord1396 {
+    scriptid = "custrecord1396"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "DA Multi"
+    onparentdelete = "NO_ACTION"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = netsuite.customrecord108.attr.scriptid
+    showinlist = false
+    storevalue = true
+    index = 3
+  }
+  scriptid = "customrecord108"
+  accesstype = "NONENEEDED"
   allowattachments = true
   allowinlinedeleting = false
   allowinlinedetaching = true
@@ -130,13 +215,14 @@ type netsuite.customrecord_gwr_udemy_cr {
   enablenumbering = false
   enableoptimisticlocking = true
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
-  recordname = "GWR Custom Record Udemy"
+  publicpermissionlevel = "NONE"
+  recordname = "DA Customrecord"
   showcreationdate = false
   showcreationdateonlist = false
   showid = false
@@ -147,8 +233,8 @@ type netsuite.customrecord_gwr_udemy_cr {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "GWR Custom Record Udemy"
   isInactive = false
+  _alias = "DA Customrecord"
   _self_important_values = [
     {
       value = "description"

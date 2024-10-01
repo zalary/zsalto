@@ -3,7 +3,6 @@ netsuite.transactionForm custformsalto_cash_refund_form {
   standard = "STANDARDCASHREFUND"
   name = "Cash Refund Form"
   recordType = "CASHREFUND"
-  
   preferred = true
   mainFields = {
     fieldGroup = {
@@ -518,6 +517,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     visible = true
                     index = 1
                   }
+                  DISPLAYNAME = {
+                    id = "DISPLAYNAME"
+                    label = "Display Name"
+                    visible = false
+                    index = 2
+                  }
                   QUANTITY = {
                     id = "QUANTITY"
                     label = "Quantity"
@@ -620,17 +625,17 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     visible = false
                     index = 19
                   }
-                  FREEGIFTPROMOTION = {
-                    id = "FREEGIFTPROMOTION"
-                    label = "Free Gift Promotion"
-                    visible = true
-                    index = 21
-                  }
                   custcol_slt_billable = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_billable.scriptid
                     label = "Billable"
                     visible = true
                     index = 20
+                  }
+                  FREEGIFTPROMOTION = {
+                    id = "FREEGIFTPROMOTION"
+                    label = "Free Gift Promotion"
+                    visible = true
+                    index = 21
                   }
                   custcol_slt_e2e_test = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
@@ -662,15 +667,15 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     visible = true
                     index = 26
                   }
-                  CHARGES = {
-                    id = "CHARGES"
-                    label = "Charges"
-                    visible = true
-                    index = 28
-                  }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
+                    visible = true
+                    index = 28
+                  }
+                  CHARGES = {
+                    id = "CHARGES"
+                    label = "Charges"
                     visible = true
                     index = 27
                   }
@@ -680,17 +685,17 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     visible = true
                     index = 29
                   }
-                  GLSEQUENCE = {
-                    id = "GLSEQUENCE"
-                    label = "GL Audit Numbering Sequence"
-                    visible = true
-                    index = 31
-                  }
                   custcol_gwr_rma1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_rma1.scriptid
                     label = "GWR RMA custom field"
                     visible = false
                     index = 30
+                  }
+                  GLSEQUENCE = {
+                    id = "GLSEQUENCE"
+                    label = "GL Audit Numbering Sequence"
+                    visible = true
+                    index = 31
                   }
                   csegcseg_rg_seg_cc = {
                     id = "[type=transactioncolumncustomfield, scriptid=csegcseg_rg_seg_cc]"
@@ -703,12 +708,6 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     label = "Nearest Big City"
                     visible = false
                     index = 33
-                  }
-                  DISPLAYNAME = {
-                    id = "DISPLAYNAME"
-                    label = "Display Name"
-                    visible = false
-                    index = 2
                   }
                   custcol1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol1.scriptid
@@ -1439,7 +1438,6 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         id = "TRANSACTIONSYSTEMINFORMATION"
         label = "System Information"
         visible = true
-        
         subItems = {
           subList = {
             SYSTEMNOTES = {
@@ -1466,51 +1464,6 @@ netsuite.transactionForm custformsalto_cash_refund_form {
           }
         }
         index = 8
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_gwr_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_gwr_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_gwr_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
       }
       TRANSACTIONADDRESS = {
         id = "TRANSACTIONADDRESS"
@@ -1608,18 +1561,6 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     sameRowAsPrevious = false
                     index = 7
                   }
-                  custbody_eshed_superfield = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
-                    label = "Eshed's Super Field"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 9
-                  }
-                  
-                  
                   custbody_mkd_transaction_body_field_2 = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
                     label = "MKD Transaction Body Field 2"
@@ -1630,25 +1571,15 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     sameRowAsPrevious = false
                     index = 8
                   }
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
+                  custbody_eshed_superfield = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
+                    label = "Eshed's Super Field"
                     visible = false
                     mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
-                  }
-                  custbody_gwr_workflow_selector = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
-                    label = "GWR Workflow selector"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 14
+                    index = 9
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1687,6 +1618,12 @@ netsuite.transactionForm custformsalto_cash_refund_form {
           }
         }
         index = 10
+      }
+      custtab_62_t2257815_401 = {
+        id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
+        label = "Eshed's 2nd Subtab"
+        visible = true
+        index = 11
       }
       MULTIBOOK = {
         id = "MULTIBOOK"
@@ -1778,12 +1715,6 @@ netsuite.transactionForm custformsalto_cash_refund_form {
         label = "Bill Distribution Details"
         visible = true
         index = 18
-      }
-      custtab_62_t2257815_401 = {
-        id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
-        label = "Eshed's 2nd Subtab"
-        visible = true
-        index = 11
       }
       custtabshalom_test = {
         id = netsuite.subtab.instance.custtabshalom_test.scriptid
@@ -1928,6 +1859,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
       }
     }
   }
+  isInactive = false
   _generated_dependencies = [
     {
       reference = netsuite.customsegment.instance.cseg1.scriptid
@@ -1952,5 +1884,4 @@ netsuite.transactionForm custformsalto_cash_refund_form {
     },
   ]
   _alias = "Cash Refund Form"
-  isInactive = false
 }

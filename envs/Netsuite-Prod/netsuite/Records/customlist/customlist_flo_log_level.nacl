@@ -1,6 +1,5 @@
 netsuite.customlist customlist_flo_log_level {
   scriptid = "customlist_flo_log_level"
-  
   ismatrixoption = false
   isordered = false
   name = "Log Level"
@@ -9,7 +8,6 @@ netsuite.customlist customlist_flo_log_level {
       value_2_t1049933_417 = {
         scriptid = "value_2_t1049933_417"
         abbreviation = "A"
-        
         value = "Audit"
         index = 0
         isInactive = false
@@ -17,7 +15,6 @@ netsuite.customlist customlist_flo_log_level {
       value_3_t1049933_417 = {
         scriptid = "value_3_t1049933_417"
         abbreviation = "D"
-        
         value = "Debug"
         index = 1
         isInactive = false
@@ -25,7 +22,6 @@ netsuite.customlist customlist_flo_log_level {
       value_4_t1049933_417 = {
         scriptid = "value_4_t1049933_417"
         abbreviation = "E"
-        
         value = "Emergency"
         index = 2
         isInactive = false
@@ -33,13 +29,12 @@ netsuite.customlist customlist_flo_log_level {
       value_1_t1049933_417 = {
         scriptid = "value_1_t1049933_417"
         abbreviation = "E"
-        
         value = "Error"
         index = 3
         isInactive = false
       }
     }
   }
-  _alias = "Log Level"
   isInactive = false
+  _alias = "Log Level"
 }

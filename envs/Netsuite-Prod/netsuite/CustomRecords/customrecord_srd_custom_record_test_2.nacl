@@ -62,7 +62,6 @@ type netsuite.customrecord_srd_custom_record_test_2 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_srd_custom_record_test_2 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -153,12 +152,13 @@ type netsuite.customrecord_srd_custom_record_test_2 {
   enablenumbering = false
   enableoptimisticlocking = true
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "srd - custom record 2"
   showcreationdate = false
   showcreationdateonlist = false
@@ -179,8 +179,8 @@ type netsuite.customrecord_srd_custom_record_test_2 {
     }
   }
   metadataType = "customrecordtype"
-  _alias = "srd - custom record 2"
   isInactive = false
+  _alias = "srd - custom record 2"
   _self_important_values = [
     {
       value = "description"

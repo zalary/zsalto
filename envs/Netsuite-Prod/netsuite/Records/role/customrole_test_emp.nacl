@@ -6,7 +6,6 @@ netsuite.role customrole_test_emp {
   employeerestriction = "OWNONLY"
   employeeselectionunrestricted = false
   employeeviewingallowed = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -169,6 +168,10 @@ netsuite.role customrole_test_emp {
         permkey = "ADMI_RESTWEBSERVICES"
         permlevel = "NONE"
       }
+      ADMI_SAMLSSO = {
+        permkey = "ADMI_SAMLSSO"
+        permlevel = "NONE"
+      }
       ADMI_WEBSERVICES = {
         permkey = "ADMI_WEBSERVICES"
         permlevel = "FULL"
@@ -195,6 +198,6 @@ netsuite.role customrole_test_emp {
       }
     }
   }
-  _alias = "Test Emp Centre"
   isInactive = false
+  _alias = "Test Emp Centre"
 }

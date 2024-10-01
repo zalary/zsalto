@@ -62,7 +62,6 @@ type netsuite.customrecord_supp_pay_terms {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_supp_pay_terms {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -326,7 +325,6 @@ type netsuite.customrecord_supp_pay_terms {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "Supplier Payment Terms"
   showcreationdate = false
@@ -339,8 +337,8 @@ type netsuite.customrecord_supp_pay_terms {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "Supplier Payment Terms"
   isInactive = false
+  _alias = "Supplier Payment Terms"
   _self_important_values = [
     {
       value = "description"

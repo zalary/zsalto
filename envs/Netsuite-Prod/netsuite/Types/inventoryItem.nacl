@@ -515,10 +515,6 @@ type netsuite.inventoryItem {
   }
   string identifier {
   }
-  unknown custom_custitemdp_custom_item_field {
-    select_type_id = netsuite.customlist.instance.customlist_dp.scriptid
-    field_instance = netsuite.itemcustomfield.instance.custitemdp_custom_item_field.scriptid
-  }
   _alias = "Inventory Item"
   _important_values = [
     {
@@ -529,5 +525,12 @@ type netsuite.inventoryItem {
   ]
   string custom_custitem1 {
     field_instance = netsuite.itemcustomfield.instance.custitem1.scriptid
+  }
+  string custom_custitem_mkd_custom_item_field {
+    field_instance = netsuite.itemcustomfield.instance.custitem_mkd_custom_item_field.scriptid
+  }
+  unknown custom_custitemdp_custom_item_field {
+    select_type_id = netsuite.customlist.instance.customlist_dp.scriptid
+    field_instance = netsuite.itemcustomfield.instance.custitemdp_custom_item_field.scriptid
   }
 }

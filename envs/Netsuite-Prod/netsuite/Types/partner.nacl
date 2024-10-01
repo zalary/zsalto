@@ -131,6 +131,14 @@ type netsuite.partner {
   }
   string identifier {
   }
+  _alias = "Partner"
+  _important_values = [
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+  ]
   number custom_custentity_slt_tax_reg {
     field_instance = netsuite.entitycustomfield.instance.custentity_slt_tax_reg.scriptid
   }
@@ -141,12 +149,4 @@ type netsuite.partner {
     select_type_id = netsuite.customlist.instance.customlistcustomer_tiers.scriptid
     field_instance = netsuite.entitycustomfield.instance.custentitytier.scriptid
   }
-  _alias = "Partner"
-  _important_values = [
-    {
-      value = "isInactive"
-      highlighted = true
-      indexed = true
-    },
-  ]
 }

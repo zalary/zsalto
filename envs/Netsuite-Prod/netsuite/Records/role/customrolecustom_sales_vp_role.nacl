@@ -5,7 +5,6 @@ netsuite.role customrolecustom_sales_vp_role {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = true
   issinglesignononly = false
@@ -17,7 +16,7 @@ netsuite.role customrolecustom_sales_vp_role {
   subsidiaryoption = "OWN"
   subsidiaryviewingallowed = false
   tfaduration = "720"
-  tfarequired = "SMS"
+  tfarequired = "TOTP"
   permissions = {
     permission = {
       TRAN_PAYMENTAUDIT = {
@@ -168,6 +167,10 @@ netsuite.role customrolecustom_sales_vp_role {
         permkey = "LIST_CONTACTROLE"
         permlevel = "FULL"
       }
+      LIST_CONTACTSUBSIDIARYRELATION = {
+        permkey = "LIST_CONTACTSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
       LIST_CONTACT = {
         permkey = "LIST_CONTACT"
         permlevel = "FULL"
@@ -274,6 +277,6 @@ netsuite.role customrolecustom_sales_vp_role {
       }
     }
   }
-  _alias = "Custom Sales Vice President"
   isInactive = false
+  _alias = "Custom Sales Vice President"
 }

@@ -62,7 +62,6 @@ type netsuite.customrecord_srd_new_test_type {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_srd_new_test_type {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -134,7 +133,6 @@ type netsuite.customrecord_srd_new_test_type {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "srd_new_test_type"
   showcreationdate = false
@@ -147,8 +145,8 @@ type netsuite.customrecord_srd_new_test_type {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "srd_new_test_type"
   isInactive = false
+  _alias = "srd_new_test_type"
   _self_important_values = [
     {
       value = "description"

@@ -3,7 +3,6 @@ netsuite.entryForm custform_11_t2257815_736 {
   standard = "STANDARDCUSTOMERFORM"
   name = "Custom Customer Form"
   recordType = "CUSTOMER"
-  
   preferred = true
   storedWithRecord = false
   mainFields = {
@@ -391,6 +390,17 @@ netsuite.entryForm custform_11_t2257815_736 {
               sameRowAsPrevious = false
               quickAdd = false
               index = 0
+            }
+            custentity_naw_trans_need_approval = {
+              id = "[scriptid=custentity_naw_trans_need_approval]"
+              label = "Transactions Need Approval"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 1
             }
           }
           index = 0
@@ -1892,6 +1902,22 @@ netsuite.entryForm custform_11_t2257815_736 {
         id = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
         label = "test tab"
         visible = true
+        subItems = {
+          subTab = {
+            custtab_salto_child_test = {
+              id = netsuite.subtab.instance.custtab_salto_child_test.scriptid
+              label = "test child"
+              visible = true
+              index = 0
+            }
+          }
+        }
+        index = 11
+      }
+      custtab_42_t2257815_140 = {
+        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+        label = "test tab"
+        visible = true
         fieldGroups = {
           defaultFieldGroup = {
             fields = {
@@ -1915,22 +1941,6 @@ netsuite.entryForm custform_11_t2257815_736 {
             }
           }
         }
-        subItems = {
-          subTab = {
-            custtab_salto_child_test = {
-              id = netsuite.subtab.instance.custtab_salto_child_test.scriptid
-              label = "test child"
-              visible = true
-              index = 0
-            }
-          }
-        }
-        index = 11
-      }
-      custtab_42_t2257815_140 = {
-        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
-        label = "test tab"
-        visible = true
         index = 12
       }
     }
@@ -2043,11 +2053,11 @@ netsuite.entryForm custform_11_t2257815_736 {
     }
   }
   editingInList = true
+  isInactive = false
   _generated_dependencies = [
     {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
   _alias = "Custom Customer Form"
-  isInactive = false
 }

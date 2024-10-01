@@ -5,7 +5,6 @@ netsuite.role customrole1030 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -70,6 +69,6 @@ netsuite.role customrole1030 {
       }
     }
   }
-  _alias = "Workato-Integration-Role"
   isInactive = false
+  _alias = "Workato-Integration-Role"
 }

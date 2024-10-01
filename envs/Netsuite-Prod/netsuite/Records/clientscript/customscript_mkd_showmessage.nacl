@@ -1,7 +1,6 @@
 netsuite.clientscript customscript_mkd_showmessage {
   scriptid = "customscript_mkd_showmessage"
   description = "Popup for demos"
-  
   name = "MKD Show Message"
   notifyadmins = false
   notifyowner = true
@@ -42,6 +41,6 @@ netsuite.clientscript customscript_mkd_showmessage {
       }
     }
   }
-  _alias = "MKD Show Message"
   isInactive = false
+  _alias = "MKD Show Message"
 }

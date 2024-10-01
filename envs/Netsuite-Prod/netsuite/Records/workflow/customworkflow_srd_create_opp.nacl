@@ -6,7 +6,6 @@ netsuite.workflow customworkflow_srd_create_opp {
   initonvieworupdate = false
   initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_srd_opp_search.scriptid
   inittriggertype = "BEFORELOAD"
-  
   islogenabled = true
   keephistory = "ONLYWHENTESTING"
   name = "SRD - create new opp"
@@ -41,7 +40,6 @@ netsuite.workflow customworkflow_srd_create_opp {
                 scriptid = "workflowaction1304"
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
                 field = "STDBODYTITLE"
-                
                 ismandatory = true
                 issublistfield = false
                 initcondition = {
@@ -82,7 +80,6 @@ netsuite.workflow customworkflow_srd_create_opp {
               workflowaction1305 = {
                 scriptid = "workflowaction1305"
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-                
                 targetpage = "LIST_TRAN_OPPRTNTY"
                 initcondition = {
                   type = "VISUAL_BUILDER"
@@ -97,6 +94,6 @@ netsuite.workflow customworkflow_srd_create_opp {
       }
     }
   }
-  _alias = "SRD - create new opp"
   isInactive = false
+  _alias = "SRD - create new opp"
 }

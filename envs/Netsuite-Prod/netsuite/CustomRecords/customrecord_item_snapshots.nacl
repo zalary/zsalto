@@ -62,7 +62,6 @@ type netsuite.customrecord_item_snapshots {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_item_snapshots {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -203,7 +202,6 @@ type netsuite.customrecord_item_snapshots {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "Item Snapshots"
   showcreationdate = false
@@ -216,8 +214,8 @@ type netsuite.customrecord_item_snapshots {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "Item Snapshots"
   isInactive = false
+  _alias = "Item Snapshots"
   _self_important_values = [
     {
       value = "description"

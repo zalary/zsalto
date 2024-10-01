@@ -62,7 +62,6 @@ type netsuite.customrecord_erp012_cr {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_erp012_cr {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -178,7 +177,6 @@ type netsuite.customrecord_erp012_cr {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
-  
   isordered = false
   recordname = "Feat 1 Custom Record (2)"
   showcreationdate = false
@@ -191,8 +189,8 @@ type netsuite.customrecord_erp012_cr {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "Feat 1 Custom Record (2)"
   isInactive = false
+  _alias = "Feat 1 Custom Record (2)"
   _self_important_values = [
     {
       value = "description"

@@ -62,7 +62,6 @@ type netsuite.customrecord2652 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord2652 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -197,7 +196,6 @@ type netsuite.customrecord2652 {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "Update PO_Sample"
   showcreationdate = false
@@ -210,8 +208,8 @@ type netsuite.customrecord2652 {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "Update PO_Sample"
   isInactive = false
+  _alias = "Update PO_Sample"
   _self_important_values = [
     {
       value = "description"

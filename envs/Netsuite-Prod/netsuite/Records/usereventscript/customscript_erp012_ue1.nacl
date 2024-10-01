@@ -1,6 +1,5 @@
 netsuite.usereventscript customscript_erp012_ue1 {
   scriptid = "customscript_erp012_ue1"
-  
   name = "ERP 010 UE One"
   notifyadmins = false
   notifyowner = true
@@ -22,6 +21,6 @@ netsuite.usereventscript customscript_erp012_ue1 {
       }
     }
   }
-  _alias = "ERP 010 UE One"
   isInactive = false
+  _alias = "ERP 010 UE One"
 }

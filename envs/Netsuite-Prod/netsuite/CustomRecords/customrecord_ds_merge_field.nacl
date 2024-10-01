@@ -98,9 +98,9 @@ type netsuite.customrecord_ds_merge_field {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {
@@ -323,11 +323,13 @@ type netsuite.customrecord_ds_merge_field {
   enablenumbering = false
   enableoptimisticlocking = true
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "DocuSign Merge Field"
   showcreationdate = false
   showcreationdateonlist = false

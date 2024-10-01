@@ -62,7 +62,6 @@ type netsuite.customrecord_svb_line_is_source_sub {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_svb_line_is_source_sub {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -602,12 +601,13 @@ type netsuite.customrecord_svb_line_is_source_sub {
   enablenumbering = false
   enableoptimisticlocking = false
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
-  
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "SVB | Bill Distribtn Sched Line"
   showcreationdate = true
   showcreationdateonlist = false
@@ -619,8 +619,8 @@ type netsuite.customrecord_svb_line_is_source_sub {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "SVB | Bill Distribtn Sched Line"
   isInactive = false
+  _alias = "SVB | Bill Distribtn Sched Line"
   _self_important_values = [
     {
       value = "description"

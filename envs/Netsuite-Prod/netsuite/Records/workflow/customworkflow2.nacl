@@ -10,7 +10,6 @@ Complexity: Low
   initoncreate = true
   initonvieworupdate = false
   inittriggertype = "BEFORESUBMIT"
-  
   islogenabled = false
   keephistory = "ONLYWHENTESTING"
   name = "Journal Entry Basic Approval"
@@ -20,12 +19,6 @@ Complexity: Low
   initcondition = {
     type = "VISUAL_BUILDER"
   }
-  _alias = "Journal Entry Basic Approval"
-  _generated_dependencies = [
-    {
-      reference = netsuite.customsegment.instance.cseg1.scriptid
-    },
-  ]
   workflowstates = {
     workflowstate = {
       workflowstate467 = {
@@ -81,4 +74,10 @@ Complexity: Low
     }
   }
   isInactive = false
+  _generated_dependencies = [
+    {
+      reference = netsuite.customsegment.instance.cseg1.scriptid
+    },
+  ]
+  _alias = "Journal Entry Basic Approval"
 }

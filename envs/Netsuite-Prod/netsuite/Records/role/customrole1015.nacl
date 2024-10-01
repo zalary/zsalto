@@ -6,7 +6,6 @@ netsuite.role customrole1015 {
   employeerestriction = "OWNONLY"
   employeeselectionunrestricted = false
   employeeviewingallowed = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -169,6 +168,10 @@ netsuite.role customrole1015 {
         permkey = "ADMI_RESTWEBSERVICES"
         permlevel = "FULL"
       }
+      ADMI_SAMLSSO = {
+        permkey = "ADMI_SAMLSSO"
+        permlevel = "NONE"
+      }
       ADMI_WEBSERVICES = {
         permkey = "ADMI_WEBSERVICES"
         permlevel = "FULL"
@@ -195,6 +198,6 @@ netsuite.role customrole1015 {
       }
     }
   }
-  _alias = "Custom Employee Center 2"
   isInactive = false
+  _alias = "Custom Employee Center 2"
 }

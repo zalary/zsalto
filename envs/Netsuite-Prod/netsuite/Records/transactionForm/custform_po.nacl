@@ -3,7 +3,6 @@ netsuite.transactionForm custform_po {
   standard = "STANDARDPURCHASEORDER"
   name = "PO"
   recordType = "PURCHASEORDER"
-  
   preferred = true
   mainFields = {
     fieldGroup = {
@@ -519,17 +518,17 @@ netsuite.transactionForm custform_po {
                     visible = true
                     index = 12
                   }
-                  ISBILLABLE = {
-                    id = "ISBILLABLE"
-                    label = "Billable"
-                    visible = true
-                    index = 14
-                  }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = false
                     index = 13
+                  }
+                  ISBILLABLE = {
+                    id = "ISBILLABLE"
+                    label = "Billable"
+                    visible = true
+                    index = 14
                   }
                   custcol_slt_e2e_test = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
@@ -595,13 +594,13 @@ netsuite.transactionForm custform_po {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg5]"
                     label = "seg-5"
                     visible = false
-                    index = 25
+                    index = 26
                   }
                   cseg4 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg4]"
                     label = "seg-4"
                     visible = false
-                    index = 26
+                    index = 25
                   }
                 }
               }
@@ -619,6 +618,12 @@ netsuite.transactionForm custform_po {
                     label = "Item"
                     visible = true
                     index = 0
+                  }
+                  DISPLAYNAME = {
+                    id = "DISPLAYNAME"
+                    label = "Display Name"
+                    visible = false
+                    index = 1
                   }
                   QUANTITYRECEIVED = {
                     id = "QUANTITYRECEIVED"
@@ -786,13 +791,13 @@ netsuite.transactionForm custform_po {
                     id = "LOCATION"
                     label = "Location"
                     visible = false
-                    index = 29
+                    index = 30
                   }
                   custcol_gwr_return_reason = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_gwr_return_reason.scriptid
                     label = "GWR Return Reason"
                     visible = true
-                    index = 30
+                    index = 29
                   }
                   custcol_slt_e2e_test = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol_slt_e2e_test.scriptid
@@ -842,12 +847,6 @@ netsuite.transactionForm custform_po {
                     visible = false
                     index = 38
                   }
-                  DISPLAYNAME = {
-                    id = "DISPLAYNAME"
-                    label = "Display Name"
-                    visible = false
-                    index = 1
-                  }
                   custcol1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol1.scriptid
                     label = "dane-transaction_line_field"
@@ -864,13 +863,13 @@ netsuite.transactionForm custform_po {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg5]"
                     label = "seg-5"
                     visible = false
-                    index = 41
+                    index = 42
                   }
                   cseg4 = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg4]"
                     label = "seg-4"
                     visible = false
-                    index = 42
+                    index = 41
                   }
                 }
               }
@@ -1413,6 +1412,12 @@ netsuite.transactionForm custform_po {
         visible = true
         index = 8
       }
+      custtab_62_t2257815_401 = {
+        id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
+        label = "Eshed's 2nd Subtab"
+        visible = true
+        index = 9
+      }
       custtab_2_2239021_106 = {
         id = netsuite.subtab.instance.custtab_2_2239021_106.scriptid
         label = "Salto Logs"
@@ -1439,7 +1444,6 @@ netsuite.transactionForm custform_po {
         id = "TRANSACTIONSYSTEMINFORMATION"
         label = "System Information"
         visible = true
-        
         subItems = {
           subList = {
             SYSTEMNOTES = {
@@ -1466,51 +1470,6 @@ netsuite.transactionForm custform_po {
           }
         }
         index = 11
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_gwr_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_gwr_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_gwr_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
       }
       custtab_43_t2257815_377 = {
         id = netsuite.subtab.instance.custtab_43_t2257815_377.scriptid
@@ -1551,12 +1510,6 @@ netsuite.transactionForm custform_po {
         label = "Bill Distribution Details"
         visible = true
         index = 14
-      }
-      custtab_62_t2257815_401 = {
-        id = netsuite.subtab.instance.custtab_62_t2257815_401.scriptid
-        label = "Eshed's 2nd Subtab"
-        visible = true
-        index = 9
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1628,18 +1581,6 @@ netsuite.transactionForm custform_po {
                     sameRowAsPrevious = false
                     index = 5
                   }
-                  custbody_eshed_superfield = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
-                    label = "Eshed's Super Field"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 7
-                  }
-                  
-                  
                   custbody_mkd_transaction_body_field_2 = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
                     label = "MKD Transaction Body Field 2"
@@ -1650,25 +1591,15 @@ netsuite.transactionForm custform_po {
                     sameRowAsPrevious = false
                     index = 6
                   }
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
-                    visible = false
+                  custbody_eshed_superfield = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
+                    label = "Eshed's Super Field"
+                    visible = true
                     mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
-                  }
-                  custbody_gwr_workflow_selector = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
-                    label = "GWR Workflow selector"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 12
+                    index = 7
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1897,10 +1828,6 @@ netsuite.transactionForm custform_po {
         id = "AP_CLERK"
         preferred = false
       }
-      customrole_gwr_role_ar2 = {
-        id = netsuite.role.instance.customrole_gwr_role_ar2.scriptid
-        preferred = false
-      }
       ACCOUNTANT = {
         id = "ACCOUNTANT"
         preferred = false
@@ -1981,6 +1908,10 @@ netsuite.transactionForm custform_po {
         id = netsuite.role.instance.customrole1084.scriptid
         preferred = false
       }
+      customrole_gwr_role_ar2 = {
+        id = netsuite.role.instance.customrole_gwr_role_ar2.scriptid
+        preferred = false
+      }
       customrole_gwr_role_ar = {
         id = netsuite.role.instance.customrole_gwr_role_ar.scriptid
         preferred = false
@@ -2039,6 +1970,7 @@ netsuite.transactionForm custform_po {
       }
     }
   }
+  isInactive = false
   _generated_dependencies = [
     {
       reference = netsuite.customsegment.instance.cseg1.scriptid
@@ -2063,5 +1995,4 @@ netsuite.transactionForm custform_po {
     },
   ]
   _alias = "PO"
-  isInactive = false
 }

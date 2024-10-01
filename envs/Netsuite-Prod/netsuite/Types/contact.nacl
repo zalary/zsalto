@@ -96,16 +96,16 @@ type netsuite.contact {
   boolean custom_custentity_15 {
     field_instance = netsuite.entitycustomfield.instance.custentity_15.scriptid
   }
-  boolean custom_custentity_slt_e2e_test {
-    field_instance = netsuite.entitycustomfield.instance.custentity_slt_e2e_test.scriptid
-  }
-  string custom_custentitygwr_field1 {
-    field_instance = netsuite.entitycustomfield.instance.custentitygwr_field1.scriptid
-  }
   string custom_custentity_created {
     field_instance = netsuite.entitycustomfield.instance.custentity_created.scriptid
   }
   string custom_custentity_docusign_role {
     field_instance = netsuite.entitycustomfield.instance.custentity_docusign_role.scriptid
+  }
+  boolean custom_custentity_slt_e2e_test {
+    field_instance = netsuite.entitycustomfield.instance.custentity_slt_e2e_test.scriptid
+  }
+  string custom_custentitygwr_field1 {
+    field_instance = netsuite.entitycustomfield.instance.custentitygwr_field1.scriptid
   }
 }

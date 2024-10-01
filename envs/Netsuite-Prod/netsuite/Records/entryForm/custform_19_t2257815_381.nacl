@@ -3,7 +3,6 @@ netsuite.entryForm custform_19_t2257815_381 {
   standard = "STANDARDCUSTOMERFORM"
   name = "Salto Demo Form"
   recordType = "CUSTOMER"
-  
   preferred = false
   storedWithRecord = false
   mainFields = {
@@ -407,6 +406,17 @@ netsuite.entryForm custform_19_t2257815_381 {
               sameRowAsPrevious = false
               quickAdd = false
               index = 0
+            }
+            custentity_naw_trans_need_approval = {
+              id = "[scriptid=custentity_naw_trans_need_approval]"
+              label = "Transactions Need Approval"
+              visible = false
+              mandatory = false
+              displayType = "NORMAL"
+              columnBreak = false
+              sameRowAsPrevious = false
+              quickAdd = false
+              index = 1
             }
           }
           index = 0
@@ -1619,35 +1629,12 @@ netsuite.entryForm custform_19_t2257815_381 {
             }
           }
         }
-        index = 8
+        index = 9
       }
       custtab_salto_test_tab = {
         id = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
         label = "test tab"
         visible = true
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custentity19 = {
-                    id = netsuite.entitycustomfield.instance.custentity19.scriptid
-                    label = "Cust Field"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    quickAdd = false
-                    index = 0
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
         subItems = {
           subTab = {
             custtab_salto_child_test = {
@@ -1658,7 +1645,7 @@ netsuite.entryForm custform_19_t2257815_381 {
             }
           }
         }
-        index = 9
+        index = 8
       }
       ENTITYCUSTOM = {
         id = "ENTITYCUSTOM"
@@ -1953,6 +1940,29 @@ netsuite.entryForm custform_19_t2257815_381 {
         id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
         label = "test tab"
         visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custentity19 = {
+                    id = netsuite.entitycustomfield.instance.custentity19.scriptid
+                    label = "Cust Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    quickAdd = false
+                    index = 0
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
         index = 12
       }
     }
@@ -2065,11 +2075,11 @@ netsuite.entryForm custform_19_t2257815_381 {
     }
   }
   editingInList = true
+  isInactive = false
   _generated_dependencies = [
     {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
   _alias = "Salto Demo Form"
-  isInactive = false
 }

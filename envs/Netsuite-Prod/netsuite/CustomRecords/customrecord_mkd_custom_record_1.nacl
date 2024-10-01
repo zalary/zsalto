@@ -62,7 +62,6 @@ type netsuite.customrecord_mkd_custom_record_1 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord_mkd_custom_record_1 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -134,7 +133,6 @@ type netsuite.customrecord_mkd_custom_record_1 {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
-  
   isordered = false
   recordname = "mkd custom_record_1"
   showcreationdate = false
@@ -147,8 +145,8 @@ type netsuite.customrecord_mkd_custom_record_1 {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "mkd custom_record_1"
   isInactive = false
+  _alias = "mkd custom_record_1"
   _self_important_values = [
     {
       value = "description"

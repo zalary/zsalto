@@ -98,9 +98,9 @@ type netsuite.customrecord_csegcseg_rg_seg_cc {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {

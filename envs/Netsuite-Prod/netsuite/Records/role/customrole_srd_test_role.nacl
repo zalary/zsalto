@@ -5,7 +5,6 @@ netsuite.role customrole_srd_test_role {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -24,13 +23,12 @@ netsuite.role customrole_srd_test_role {
         permkey = "LIST_OTHER_ADDRESS"
         permlevel = "FULL"
       }
-      
       customrecord_srd_new_test_type = {
         permkey = netsuite.customrecord_srd_new_test_type.attr.scriptid
         permlevel = "VIEW"
       }
     }
   }
-  _alias = "(SRD) Test Role"
   isInactive = false
+  _alias = "(SRD) Test Role"
 }

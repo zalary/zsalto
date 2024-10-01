@@ -1,5 +1,6 @@
 netsuite {
   fetch = {
+    addLockedCustomRecordTypes = true
     include = {
       types = [
         {
@@ -91,6 +92,12 @@ netsuite {
           ids = [
             "customworkflow_srd_purchase_order",
           ]
+        },
+        {
+          name = "workflow"
+          criteria = {
+            isInactive = true
+          }
         },
       ]
     }

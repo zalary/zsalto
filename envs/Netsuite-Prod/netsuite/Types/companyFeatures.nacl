@@ -137,14 +137,14 @@ settings netsuite.companyFeatures {
   boolean GAINLOSSACCTMAPPING {
     label = "Foreign currency variance mapping"
   }
+  boolean INSTALLMENTS {
+    label = "Installments"
+  }
   boolean PERIODENDJOURNALENTRIES {
     label = "Period End Journal Entries"
   }
   boolean BALANCING_SEGMENTS {
     label = "Balancing Segments"
-  }
-  boolean INSTALLMENTS {
-    label = "Installments"
   }
   boolean AMORTIZATION {
     label = "Amortization"
@@ -263,6 +263,12 @@ settings netsuite.companyFeatures {
   boolean INVOICEGROUP {
     label = "Invoice Groups"
   }
+  boolean COMMITPLUSOVERAGE {
+    label = "Commit Plus Overage"
+  }
+  boolean UPLIFTPRICING {
+    label = "Uplift Pricing"
+  }
   boolean CCTRACKING {
     label = "Credit Card Payments"
   }
@@ -317,11 +323,11 @@ settings netsuite.companyFeatures {
   boolean MULTILOCINVT {
     label = "Multi-Location Inventory"
   }
-  boolean ASSEMBLIES {
-    label = "Assembly Items"
-  }
   boolean ADVANCEDBILLOFMATERIALS {
     label = "Advanced Bill of Materials"
+  }
+  boolean ASSEMBLIES {
+    label = "Assembly Items"
   }
   boolean WORKORDERS {
     label = "Work Orders"
@@ -491,7 +497,6 @@ settings netsuite.companyFeatures {
   boolean SALESCAMPAIGNS {
     label = "Sales Campaigns"
   }
-  
   boolean PRM {
     label = "Partner Relationship Management"
   }
@@ -649,10 +654,4 @@ settings netsuite.companyFeatures {
     label = "SuiteApp Control Center"
   }
   _alias = "Company Features"
-  boolean COMMITPLUSOVERAGE {
-    label = "Commit Plus Overage"
-  }
-  boolean UPLIFTPRICING {
-    label = "Uplift Pricing"
-  }
 }

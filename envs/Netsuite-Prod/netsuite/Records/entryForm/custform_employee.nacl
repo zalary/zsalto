@@ -3,7 +3,6 @@ netsuite.entryForm custform_employee {
   standard = "STANDARDEMPLOYEEFORM"
   name = "EMPLOYEE FORM"
   recordType = "EMPLOYEE"
-  
   preferred = true
   storedWithRecord = false
   mainFields = {
@@ -1528,11 +1527,11 @@ netsuite.entryForm custform_employee {
     }
   }
   editingInList = true
+  isInactive = false
   _generated_dependencies = [
     {
       reference = netsuite.customsegment.instance.csegcseg_rg_seg_cc.scriptid
     },
   ]
   _alias = "EMPLOYEE FORM"
-  isInactive = false
 }

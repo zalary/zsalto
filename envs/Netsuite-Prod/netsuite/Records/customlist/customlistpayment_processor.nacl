@@ -1,7 +1,6 @@
 netsuite.customlist customlistpayment_processor {
   scriptid = "customlistpayment_processor"
   description = "List of Available payment processors"
-  
   ismatrixoption = false
   isordered = true
   name = "Payment Processor"
@@ -10,7 +9,6 @@ netsuite.customlist customlistpayment_processor {
       val_52092_t2480139_613 = {
         scriptid = "val_52092_t2480139_613"
         abbreviation = "S"
-        
         value = "Stripe"
         index = 0
         isInactive = false
@@ -18,7 +16,6 @@ netsuite.customlist customlistpayment_processor {
       val_52093_t2480139_932 = {
         scriptid = "val_52093_t2480139_932"
         abbreviation = "S"
-        
         value = "Square"
         index = 1
         isInactive = false
@@ -26,7 +23,6 @@ netsuite.customlist customlistpayment_processor {
       val_52094_t2480139_238 = {
         scriptid = "val_52094_t2480139_238"
         abbreviation = "P"
-        
         value = "Paypal"
         index = 2
         isInactive = false
@@ -34,13 +30,12 @@ netsuite.customlist customlistpayment_processor {
       val_52095_t2480139_331 = {
         scriptid = "val_52095_t2480139_331"
         abbreviation = "D"
-        
         value = "Due"
         index = 3
         isInactive = false
       }
     }
   }
-  _alias = "Payment Processor"
   isInactive = false
+  _alias = "Payment Processor"
 }

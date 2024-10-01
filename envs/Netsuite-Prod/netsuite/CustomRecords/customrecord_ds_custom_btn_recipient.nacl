@@ -98,9 +98,9 @@ type netsuite.customrecord_ds_custom_btn_recipient {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {
@@ -216,11 +216,13 @@ type netsuite.customrecord_ds_custom_btn_recipient {
   enablenumbering = false
   enableoptimisticlocking = true
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "DocuSign Custom Button Recipient"
   showcreationdate = false
   showcreationdateonlist = false

@@ -62,7 +62,6 @@ type netsuite.customrecordtestrecordtype {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecordtestrecordtype {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -180,7 +179,6 @@ type netsuite.customrecordtestrecordtype {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "Test Record Type2"
   showcreationdate = false
@@ -202,8 +200,8 @@ type netsuite.customrecordtestrecordtype {
     }
   }
   metadataType = "customrecordtype"
-  _alias = "Test Record Type2"
   isInactive = false
+  _alias = "Test Record Type2"
   _self_important_values = [
     {
       value = "description"

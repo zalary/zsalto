@@ -82,9 +82,6 @@ type netsuite.account {
   }
   string identifier {
   }
-  boolean custom_custrecord_acct_special {
-    field_instance = netsuite.othercustomfield.instance.custrecord_acct_special.scriptid
-  }
   _alias = "Account"
   _important_values = [
     {
@@ -98,4 +95,7 @@ type netsuite.account {
       indexed = true
     },
   ]
+  boolean custom_custrecord_acct_special {
+    field_instance = netsuite.othercustomfield.instance.custrecord_acct_special.scriptid
+  }
 }

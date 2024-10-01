@@ -5,7 +5,6 @@ netsuite.role customrole1200 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -254,6 +253,6 @@ netsuite.role customrole1200 {
       }
     }
   }
-  _alias = "Developer Salto"
   isInactive = false
+  _alias = "Developer Salto"
 }

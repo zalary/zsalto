@@ -1,6 +1,5 @@
 netsuite.usereventscript customscript107 {
   scriptid = "customscript107"
-  
   name = "CustomerValidation"
   notifyadmins = false
   notifyowner = true
@@ -23,6 +22,6 @@ netsuite.usereventscript customscript107 {
       }
     }
   }
-  _alias = "CustomerValidation"
   isInactive = false
+  _alias = "CustomerValidation"
 }

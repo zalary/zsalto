@@ -62,7 +62,6 @@ type netsuite.customrecord2426 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord2426 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -178,7 +177,6 @@ type netsuite.customrecord2426 {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
-  
   isordered = false
   recordname = "Fiege Stock Reconciliation"
   showcreationdate = false
@@ -191,8 +189,8 @@ type netsuite.customrecord2426 {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "Fiege Stock Reconciliation"
   isInactive = false
+  _alias = "Fiege Stock Reconciliation"
   _self_important_values = [
     {
       value = "description"

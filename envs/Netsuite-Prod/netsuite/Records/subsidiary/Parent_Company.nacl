@@ -17,7 +17,6 @@ netsuite.subsidiary Parent_Company@s {
         },
       ]
     }
-    
   }
   legalName = "Demo: Blank US OneWorld Account"
   isElimination = false
@@ -33,7 +32,6 @@ netsuite.subsidiary Parent_Company@s {
     ]
   }
   checkLayout = {
-    
     id = "[ACCOUNT_SPECIFIC_VALUE] (object) (GWR Custom Check Layout)"
   }
   classTranslationList = {

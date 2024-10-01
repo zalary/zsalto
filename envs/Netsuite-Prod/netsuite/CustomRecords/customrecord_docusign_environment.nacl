@@ -98,9 +98,9 @@ type netsuite.customrecord_docusign_environment {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {
@@ -192,11 +192,13 @@ type netsuite.customrecord_docusign_environment {
   enablenumbering = false
   enableoptimisticlocking = false
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "DocuSign Environment"
   showcreationdate = false
   showcreationdateonlist = false

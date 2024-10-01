@@ -98,9 +98,9 @@ type netsuite.customrecord_docusign_custom_button_attr {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {
@@ -218,11 +218,13 @@ type netsuite.customrecord_docusign_custom_button_attr {
   enablenumbering = false
   enableoptimisticlocking = true
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = false
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "DocuSign Custom Button Attribute"
   showcreationdate = false
   showcreationdateonlist = false

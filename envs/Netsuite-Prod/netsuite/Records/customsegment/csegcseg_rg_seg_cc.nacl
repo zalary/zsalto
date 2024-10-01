@@ -15,16 +15,16 @@ netsuite.customsegment csegcseg_rg_seg_cc {
     transactionbody = {
       applications = {
         application = {
+          PURCHASE = {
+            id = "PURCHASE"
+            isapplied = true
+          }
           SALE = {
             id = "SALE"
             isapplied = true
           }
           OTHERTRANSACTION = {
             id = "OTHERTRANSACTION"
-            isapplied = true
-          }
-          PURCHASE = {
-            id = "PURCHASE"
             isapplied = true
           }
           EXPENSEREPORT = {
@@ -57,20 +57,20 @@ netsuite.customsegment csegcseg_rg_seg_cc {
     transactionline = {
       applications = {
         application = {
-          SALE = {
-            id = "SALE"
-            isapplied = true
-          }
           PURCHASE = {
             id = "PURCHASE"
+            isapplied = true
+          }
+          SALE = {
+            id = "SALE"
             isapplied = true
           }
           EXPENSE = {
             id = "EXPENSE"
             isapplied = true
           }
-          customtransaction_bm_budget_transaction = {
-            id = netsuite.customtransactiontype.instance.customtransaction_bm_budget_transaction.scriptid
+          CUSTOMTRANSACTION_BM_BUDGET_TRANSACTION = {
+            id = "CUSTOMTRANSACTION_BM_BUDGET_TRANSACTION"
             isapplied = true
           }
           EXPENSEREPORT = {

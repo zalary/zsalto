@@ -291,6 +291,14 @@ type netsuite.customer {
   }
   string identifier {
   }
+  _alias = "Customer"
+  _important_values = [
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+  ]
   boolean custom_custentity10 {
     field_instance = netsuite.entitycustomfield.instance.custentity10.scriptid
   }
@@ -346,12 +354,4 @@ type netsuite.customer {
     select_type_id = netsuite.customlist.instance.customlistcustomer_tiers.scriptid
     field_instance = netsuite.entitycustomfield.instance.custentitytier.scriptid
   }
-  _alias = "Customer"
-  _important_values = [
-    {
-      value = "isInactive"
-      highlighted = true
-      indexed = true
-    },
-  ]
 }

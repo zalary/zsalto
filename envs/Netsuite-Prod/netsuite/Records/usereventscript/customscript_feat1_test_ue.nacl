@@ -1,6 +1,5 @@
 netsuite.usereventscript customscript_feat1_test_ue {
   scriptid = "customscript_feat1_test_ue"
-  
   name = "test"
   notifyadmins = false
   notifyowner = true
@@ -22,6 +21,6 @@ netsuite.usereventscript customscript_feat1_test_ue {
       }
     }
   }
-  _alias = "test"
   isInactive = false
+  _alias = "test"
 }

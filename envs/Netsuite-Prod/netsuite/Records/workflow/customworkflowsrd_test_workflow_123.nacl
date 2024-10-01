@@ -3,7 +3,6 @@ netsuite.workflow customworkflowsrd_test_workflow_123 {
   initcontexts = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
   initoncreate = false
   initonvieworupdate = false
-  
   islogenabled = false
   keephistory = "ONLYWHENTESTING"
   name = "SRD - Test Workflow"
@@ -21,7 +20,6 @@ netsuite.workflow customworkflowsrd_test_workflow_123 {
         name = "State 1"
         positionx = 243
         positiony = 133
-        index = 0
         workflowactions = {
           ONENTRY = {
             triggertype = "ONENTRY"
@@ -48,6 +46,7 @@ netsuite.workflow customworkflowsrd_test_workflow_123 {
             }
           }
         }
+        index = 0
       }
       workflowstate458 = {
         scriptid = "workflowstate458"
@@ -67,6 +66,6 @@ netsuite.workflow customworkflowsrd_test_workflow_123 {
       }
     }
   }
-  _alias = "SRD - Test Workflow"
   isInactive = false
+  _alias = "SRD - Test Workflow"
 }

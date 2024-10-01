@@ -5,7 +5,6 @@ netsuite.workflow customworkflow_dp_demo1 {
   initonvieworupdate = false
   initsavedsearchcondition = netsuite.savedsearch.instance.customsearch_dp_demo2_search.scriptid
   inittriggertype = "AFTERSUBMIT"
-  
   islogenabled = false
   keephistory = "ONLYWHENTESTING"
   name = "DP Workflow"
@@ -32,7 +31,6 @@ netsuite.workflow customworkflow_dp_demo1 {
                 conditionsavedsearch = netsuite.savedsearch.instance.customsearch_dp_search_1.scriptid
                 contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
                 field = "STDBODYDATEELIGIBLE"
-                
                 schedulemode = "DELAY"
                 valuechecked = false
                 valuedate = "LBW"
@@ -50,6 +48,6 @@ netsuite.workflow customworkflow_dp_demo1 {
       }
     }
   }
-  _alias = "DP Workflow"
   isInactive = false
+  _alias = "DP Workflow"
 }

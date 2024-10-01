@@ -5,7 +5,6 @@ netsuite.role customrole_mkd_role_1 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -26,6 +25,6 @@ netsuite.role customrole_mkd_role_1 {
       }
     }
   }
-  _alias = "mkd role 1"
   isInactive = false
+  _alias = "mkd role 1"
 }

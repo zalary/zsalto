@@ -98,9 +98,9 @@ type netsuite.customrecord_crpsm {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {
@@ -202,11 +202,13 @@ type netsuite.customrecord_crpsm {
   enablenumbering = false
   enableoptimisticlocking = false
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = false
   includename = true
   isordered = true
+  publicpermissionlevel = "NONE"
   recordname = "Project Status Metric"
   showcreationdate = false
   showcreationdateonlist = false

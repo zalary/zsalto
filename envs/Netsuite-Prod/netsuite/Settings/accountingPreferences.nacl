@@ -18,6 +18,7 @@ netsuite.accountingPreferences {
     text = "Year"
   }
   SHOWPLANNEDTIME = true
+  ARC_BETA_REENABLED = false
   NONBALANCINGCDLONJE = false
   DEFAULTEXPENSESBILLABLE = true
   ACCOUNTINGPERIODS = false
@@ -41,6 +42,7 @@ netsuite.accountingPreferences {
   APPLYTIMETHRESHOLDTOVENDORTIME = true
   PICKINGTICKETNONINVT = false
   CONSOLPAYMENTS = false
+  SEND_GIFT_CERTIFICATE_EMAILS = true
   OVERFULFILLMENTS = false
   REMOVECLIENTGOVERNANCELIMIT = false
   NO_NEGATIVE_RCOMMITTED = false
@@ -76,7 +78,6 @@ netsuite.accountingPreferences {
     text = "Available Qty"
   }
   COPYSERVITEMDESCTOMEMO = true
-  
   ENABLEVIRTUALCARDOPTIMIZATION = false
   CUSTOMAPPROVALVENDORBILL = false
   CUSTOMCOSTING = false
@@ -100,6 +101,7 @@ netsuite.accountingPreferences {
   }
   DEFAULTUNFULFILLED = false
   INVOICEUSESCHEDULEDATE = true
+  RATE_PROVIDER_LAST_DATE = "09/24/2023"
   INV_COSTING_DELAYED_START = true
   ITEMVERSION = true
   ASSETCOGSITEMACCTS = false
@@ -131,7 +133,6 @@ netsuite.accountingPreferences {
   CUSTOMAPPROVALTIMEBILL = false
   SINGLEITEMBARCODING = true
   RESTRICTBALANCEVIEWING = false
-  
   DEFAULTSALESORDERCOMMITOPTION = {
     value = "1"
     text = "Available Qty"
@@ -246,6 +247,11 @@ netsuite.accountingPreferences {
     value = "DO_NOT_ALLOW"
     text = "Do Not Allow"
   }
+  RATE_PROVIDER_TO_BE_REMOVED = {
+    value = "XGNITE"
+    text = ""
+  }
+  EMAIL_EMPLOYEE_ON_REJECTION = false
   DEFTRNFRORDSTATUS = {
     value = "FIRMPENDINGAPPROVAL"
     text = "Pending Approval Firm"
@@ -282,7 +288,6 @@ netsuite.accountingPreferences {
     text = "Sales Discounts"
   }
   ALLOCATION_WORK_QUEUE_THREAD_LIMIT = 25
-  
   MATCH_SOURCE_CLASSIFICATION = false
   UPDATEITEMSHIPDATEONSTATUSCHANGE = false
   OPENONLYTRANSACTIONS = {
@@ -293,6 +298,7 @@ netsuite.accountingPreferences {
     value = "AMOUNT_THEN_FIFO"
     text = "Apply by payment amount first, then to oldest invoice"
   }
+  GIFT_CERTIFICATE_FIELDS_MANDATORY = true
   QTYPRICECOUNT = 5
   EXCHANGE_RATE_WS_TYPE = {
     value = "SOAP"
@@ -382,7 +388,6 @@ netsuite.accountingPreferences {
   SHOW_WARN_TAX_RECEIPT = true
   PICKINGTICKETUNCOMMITTED = false
   NULLCDLONJE = false
-  
   CREATE_DEPOSIT_ON_SALES_ORDER_SALE = true
   CONVERTABSOLUTEDISCOUNTS = true
   DEFVENDAUTHSTATUS = {
@@ -391,6 +396,7 @@ netsuite.accountingPreferences {
   }
   MAX_ITEM_COMMITMENT_CONTEXT_LINES = 100000
   LOCMANDATORY = false
+  REST_BETA_RECORD_REENABLED = false
   MAX_LINES_IN_REVAL_BUCKET = 4000000
   COMMITORDERSAFTERDECOMMITTING = true
   CUSTCREDLIMHANDLING = {
@@ -413,6 +419,7 @@ netsuite.accountingPreferences {
   }
   REAPPROVESOONEDIT = false
   CURCOUNTONADJUSTMENTS = false
+  SCM_BULK_PROC_SUBMISSIONS_TO_DELETE = 25
   NEWITEMCOMMITMENT = true
   CURCOUNTONWORKSHEETS = false
   TIMELIMITDAYMIN = {
@@ -445,7 +452,6 @@ netsuite.accountingPreferences {
       text = "Inventory Worksheet"
     },
   ]
-  
   TIMELIMITWEEKMAX = {
     value = "DISABLED"
     text = "Disabled"
@@ -464,15 +470,4 @@ netsuite.accountingPreferences {
   }
   ENABLEINVDEMANDSUPPLYTRACKING = true
   _alias = "Accounting Preferences"
-  SEND_GIFT_CERTIFICATE_EMAILS = true
-  EMAIL_EMPLOYEE_ON_REJECTION = false
-  GIFT_CERTIFICATE_FIELDS_MANDATORY = true
-  ARC_BETA_REENABLED = false
-  RATE_PROVIDER_LAST_DATE = "09/24/2023"
-  RATE_PROVIDER_TO_BE_REMOVED = {
-    value = "XGNITE"
-    text = ""
-  }
-  REST_BETA_RECORD_REENABLED = false
-  SCM_BULK_PROC_SUBMISSIONS_TO_DELETE = 25
 }

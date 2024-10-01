@@ -3,7 +3,6 @@ netsuite.transactionForm custform_56_t2257815_243 {
   standard = "STANDARDPRODUCTINVOICE"
   name = "Kirk Custom Product Invoice2"
   recordType = "INVOICE"
-  
   preferred = false
   mainFields = {
     fieldGroup = {
@@ -401,16 +400,6 @@ netsuite.transactionForm custform_56_t2257815_243 {
                 sameRowAsPrevious = false
                 index = 5
               }
-              csegcseg_rg_seg_cc = {
-                id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
-                label = "Cost Center"
-                visible = true
-                mandatory = false
-                displayType = "NORMAL"
-                columnBreak = false
-                sameRowAsPrevious = false
-                index = 7
-              }
               cseg_nbc = {
                 id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
                 label = "Nearest Big City"
@@ -420,6 +409,16 @@ netsuite.transactionForm custform_56_t2257815_243 {
                 columnBreak = false
                 sameRowAsPrevious = false
                 index = 6
+              }
+              csegcseg_rg_seg_cc = {
+                id = "[type=transactionbodycustomfield, scriptid=csegcseg_rg_seg_cc]"
+                label = "Cost Center"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 7
               }
             }
             index = 0
@@ -597,6 +596,12 @@ netsuite.transactionForm custform_56_t2257815_243 {
                     label = "Item"
                     visible = true
                     index = 1
+                  }
+                  DISPLAYNAME = {
+                    id = "DISPLAYNAME"
+                    label = "Display Name"
+                    visible = false
+                    index = 2
                   }
                   QUANTITYREMAINING = {
                     id = "QUANTITYREMAINING"
@@ -850,23 +855,17 @@ netsuite.transactionForm custform_56_t2257815_243 {
                     visible = false
                     index = 44
                   }
-                  QUANTITYFULFILLED = {
-                    id = "QUANTITYFULFILLED"
-                    label = "Total To Date"
-                    visible = false
-                    index = 46
-                  }
                   cseg_nbc = {
                     id = "[type=transactioncolumncustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
                     visible = false
                     index = 45
                   }
-                  DISPLAYNAME = {
-                    id = "DISPLAYNAME"
-                    label = "Display Name"
+                  QUANTITYFULFILLED = {
+                    id = "QUANTITYFULFILLED"
+                    label = "Total To Date"
                     visible = false
-                    index = 2
+                    index = 46
                   }
                   custcol1 = {
                     id = netsuite.transactioncolumncustomfield.instance.custcol1.scriptid
@@ -1548,7 +1547,6 @@ netsuite.transactionForm custform_56_t2257815_243 {
         id = "TRANSACTIONSYSTEMINFORMATION"
         label = "System Information"
         visible = true
-        
         subItems = {
           subList = {
             SYSTEMNOTES = {
@@ -1575,51 +1573,6 @@ netsuite.transactionForm custform_56_t2257815_243 {
           }
         }
         index = 8
-        fieldGroups = {
-          defaultFieldGroup = {
-            fields = {
-              MIDDLE = {
-                position = "MIDDLE"
-                field = {
-                  custbody_gwr_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 0
-                  }
-                  custbody_gwr_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 1
-                  }
-                  custbody_gwr_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_edit.scriptid
-                    label = "GWR Amp Edit - WA"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 2
-                  }
-                }
-                index = 0
-              }
-            }
-          }
-        }
       }
       CUSTOM = {
         id = "CUSTOM"
@@ -1671,26 +1624,6 @@ netsuite.transactionForm custform_56_t2257815_243 {
                     sameRowAsPrevious = false
                     index = 3
                   }
-                  custbody_eshed_superfield = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
-                    label = "Eshed's Super Field"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 5
-                  }
-                  custbody_mkd_transaction_body_field_2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
-                    label = "MKD Transaction Body Field 2"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 7
-                  }
                   custbody_srd_opp_source = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_opp_source.scriptid
                     label = "SRD - Opportunity Source"
@@ -1700,6 +1633,16 @@ netsuite.transactionForm custform_56_t2257815_243 {
                     columnBreak = false
                     sameRowAsPrevious = false
                     index = 4
+                  }
+                  custbody_eshed_superfield = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_eshed_superfield.scriptid
+                    label = "Eshed's Super Field"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 5
                   }
                   custbody_srd_translated_field = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_srd_translated_field.scriptid
@@ -1711,25 +1654,15 @@ netsuite.transactionForm custform_56_t2257815_243 {
                     sameRowAsPrevious = false
                     index = 6
                   }
-                  custbody_itr_doc_number = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
-                    label = "GWR Amp doc number"
+                  custbody_mkd_transaction_body_field_2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
+                    label = "MKD Transaction Body Field 2"
                     visible = false
                     mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
-                  }
-                  custbody_gwr_workflow_selector = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
-                    label = "GWR Workflow selector"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 12
+                    index = 7
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -2180,6 +2113,14 @@ netsuite.transactionForm custform_56_t2257815_243 {
   }
   preferences = {
     preference = {
+      BILLABLEGROUPING = {
+        id = "BILLABLEGROUPING"
+        value = false
+      }
+      BILLABLESUBTOTALS = {
+        id = "BILLABLESUBTOTALS"
+        value = false
+      }
       COMBINEEXPENSEINVOICEITEMS = {
         id = "COMBINEEXPENSEINVOICEITEMS"
         value = false
@@ -2188,28 +2129,21 @@ netsuite.transactionForm custform_56_t2257815_243 {
         id = "COMBINEINVOICEITEMS"
         value = false
       }
-      GROUPEXPENSESBYEMPLOYEE = {
-        id = "GROUPEXPENSESBYEMPLOYEE"
-        value = false
-      }
       COMBINETIMEITEMS = {
         id = "COMBINETIMEITEMS"
         value = true
       }
-      BILLABLESUBTOTALS = {
-        id = "BILLABLESUBTOTALS"
+      GROUPEXPENSESBYEMPLOYEE = {
+        id = "GROUPEXPENSESBYEMPLOYEE"
         value = false
       }
       GROUPTIMEBYEMPLOYEE = {
         id = "GROUPTIMEBYEMPLOYEE"
         value = false
       }
-      BILLABLEGROUPING = {
-        id = "BILLABLEGROUPING"
-        value = false
-      }
     }
   }
+  isInactive = false
   _generated_dependencies = [
     {
       reference = netsuite.customsegment.instance.cseg1.scriptid
@@ -2234,5 +2168,4 @@ netsuite.transactionForm custform_56_t2257815_243 {
     },
   ]
   _alias = "Kirk Custom Product Invoice2"
-  isInactive = false
 }

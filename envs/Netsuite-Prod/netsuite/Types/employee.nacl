@@ -236,6 +236,14 @@ type netsuite.employee {
   string externalId {
     isAttribute = true
   }
+  _alias = "Employee"
+  _important_values = [
+    {
+      value = "isInactive"
+      highlighted = true
+      indexed = true
+    },
+  ]
   string custom_custentity1 {
     field_instance = netsuite.entitycustomfield.instance.custentity1.scriptid
   }
@@ -269,12 +277,4 @@ type netsuite.employee {
   string custom_custentityslt_demo_moti {
     field_instance = netsuite.entitycustomfield.instance.custentityslt_demo_moti.scriptid
   }
-  _alias = "Employee"
-  _important_values = [
-    {
-      value = "isInactive"
-      highlighted = true
-      indexed = true
-    },
-  ]
 }

@@ -62,7 +62,6 @@ type netsuite.customrecord2653 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord2653 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -241,7 +240,6 @@ type netsuite.customrecord2653 {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "SKU Details_Sample"
   showcreationdate = false
@@ -254,8 +252,8 @@ type netsuite.customrecord2653 {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "SKU Details_Sample"
   isInactive = false
+  _alias = "SKU Details_Sample"
   _self_important_values = [
     {
       value = "description"

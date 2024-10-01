@@ -5,7 +5,6 @@ netsuite.role customrole1178 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -82,6 +81,6 @@ netsuite.role customrole1178 {
       }
     }
   }
-  _alias = "Razor - Celigo Support"
   isInactive = false
+  _alias = "Razor - Celigo Support"
 }

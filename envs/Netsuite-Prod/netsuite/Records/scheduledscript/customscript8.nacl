@@ -1,7 +1,6 @@
 netsuite.scheduledscript customscript8 {
   scriptid = "customscript8"
   defaultfunction = "print"
-  
   name = "dummy scheduled script"
   notifyadmins = false
   notifyowner = true
@@ -36,6 +35,6 @@ netsuite.scheduledscript customscript8 {
       }
     }
   }
-  _alias = "dummy scheduled script"
   isInactive = true
+  _alias = "dummy scheduled script"
 }

@@ -5,7 +5,6 @@ netsuite.role customrole_gwr_role_ar2 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -144,6 +143,10 @@ netsuite.role customrole_gwr_role_ar2 {
         permkey = "LIST_CLASS"
         permlevel = "EDIT"
       }
+      LIST_CONTACTSUBSIDIARYRELATION = {
+        permkey = "LIST_CONTACTSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
       LIST_CONTACT = {
         permkey = "LIST_CONTACT"
         permlevel = "FULL"
@@ -240,36 +243,16 @@ netsuite.role customrole_gwr_role_ar2 {
         permkey = "ADMI_ACCOUNTINGLIST"
         permlevel = "EDIT"
       }
-      ADMI_DELETEDRECORD = {
-        permkey = "ADMI_DELETEDRECORD"
-        permlevel = "FULL"
-      }
-      ADMI_LOGIN_OAUTH = {
-        permkey = "ADMI_LOGIN_OAUTH"
-        permlevel = "FULL"
-      }
-      ADMI_MOBILE_ACCESS = {
-        permkey = "ADMI_MOBILE_ACCESS"
-        permlevel = "FULL"
-      }
-      ADMI_EMPLOYEELIST = {
-        permkey = "ADMI_EMPLOYEELIST"
-        permlevel = "EDIT"
-      }
-      ADMI_RESTWEBSERVICES = {
-        permkey = "ADMI_RESTWEBSERVICES"
-        permlevel = "FULL"
-      }
-      ADMI_WEBSERVICES = {
-        permkey = "ADMI_WEBSERVICES"
-        permlevel = "FULL"
-      }
       ADMI_NUMBERING = {
         permkey = "ADMI_NUMBERING"
         permlevel = "VIEW"
       }
       ADMI_MANAGECUSTOMSEGMENTS = {
         permkey = "ADMI_MANAGECUSTOMSEGMENTS"
+        permlevel = "FULL"
+      }
+      ADMI_DELETEDRECORD = {
+        permkey = "ADMI_DELETEDRECORD"
         permlevel = "FULL"
       }
       ADMI_REPOLAYOUTS = {
@@ -284,6 +267,18 @@ netsuite.role customrole_gwr_role_ar2 {
         permkey = "ADMI_STATETAXIMPORT"
         permlevel = "FULL"
       }
+      ADMI_LOGIN_OAUTH = {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      }
+      ADMI_MOBILE_ACCESS = {
+        permkey = "ADMI_MOBILE_ACCESS"
+        permlevel = "FULL"
+      }
+      ADMI_EMPLOYEELIST = {
+        permkey = "ADMI_EMPLOYEELIST"
+        permlevel = "EDIT"
+      }
       ADMI_PERIODOVERRIDE = {
         permkey = "ADMI_PERIODOVERRIDE"
         permlevel = "FULL"
@@ -294,6 +289,14 @@ netsuite.role customrole_gwr_role_ar2 {
       }
       ADMI_SAVEDASHBOARD = {
         permkey = "ADMI_SAVEDASHBOARD"
+        permlevel = "FULL"
+      }
+      ADMI_RESTWEBSERVICES = {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      }
+      ADMI_WEBSERVICES = {
+        permkey = "ADMI_WEBSERVICES"
         permlevel = "FULL"
       }
       ADMI_SETUPCOMPANY = {
@@ -310,6 +313,6 @@ netsuite.role customrole_gwr_role_ar2 {
       }
     }
   }
-  _alias = "GWR Custom A/R  Clerk"
   isInactive = false
+  _alias = "GWR Custom A/R  Clerk"
 }

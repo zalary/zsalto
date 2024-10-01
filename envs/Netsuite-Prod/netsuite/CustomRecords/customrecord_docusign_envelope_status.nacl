@@ -98,9 +98,9 @@ type netsuite.customrecord_docusign_envelope_status {
     }
     hidden_string source {
     }
-    boolean isInactive {
-    }
     hidden_string internalId {
+    }
+    boolean isInactive {
     }
   }
   string scriptid {
@@ -403,11 +403,13 @@ type netsuite.customrecord_docusign_envelope_status {
   enablenumbering = false
   enableoptimisticlocking = false
   enablesystemnotes = true
+  externalrolepermissionlevel = "NONE"
   hierarchical = false
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
   isordered = false
+  publicpermissionlevel = "NONE"
   recordname = "DocuSign Envelope Status"
   showcreationdate = false
   showcreationdateonlist = false

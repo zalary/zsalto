@@ -62,7 +62,6 @@ type netsuite.customrecord4 {
     }
     boolean includename {
     }
-    
     boolean isordered {
     }
     boolean showcreationdate {
@@ -95,11 +94,11 @@ type netsuite.customrecord4 {
     }
     string application_id {
     }
+    netsuite.bundle bundle {
+    }
     hidden_string source {
     }
     hidden_string internalId {
-    }
-    netsuite.bundle bundle {
     }
     boolean isInactive {
     }
@@ -134,7 +133,6 @@ type netsuite.customrecord4 {
   iconbuiltin = true
   includeinsearchmenu = true
   includename = true
-  
   isordered = false
   recordname = "Customer Satisfaction Survey"
   showcreationdate = false
@@ -147,8 +145,8 @@ type netsuite.customrecord4 {
   showownerallowchange = false
   showowneronlist = false
   metadataType = "customrecordtype"
-  _alias = "Customer Satisfaction Survey"
   isInactive = false
+  _alias = "Customer Satisfaction Survey"
   _self_important_values = [
     {
       value = "description"

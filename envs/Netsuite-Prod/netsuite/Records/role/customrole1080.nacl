@@ -5,7 +5,6 @@ netsuite.role customrole1080 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -364,6 +363,10 @@ netsuite.role customrole1080 {
         permkey = "LIST_COMPETITOR"
         permlevel = "EDIT"
       }
+      LIST_CONTACTSUBSIDIARYRELATION = {
+        permkey = "LIST_CONTACTSUBSIDIARYRELATION"
+        permlevel = "VIEW"
+      }
       LIST_CONTACT = {
         permkey = "LIST_CONTACT"
         permlevel = "FULL"
@@ -554,6 +557,6 @@ netsuite.role customrole1080 {
       }
     }
   }
-  _alias = "GWR Amp role 1080"
   isInactive = false
+  _alias = "GWR Amp role 1080"
 }

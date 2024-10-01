@@ -15,6 +15,10 @@ netsuite.companyPreferences {
     value = "0"
     text = "2.0"
   }
+  ORACLE_GUIDED_LEARNING_ENV = {
+    value = "PROD"
+    text = "Production"
+  }
   HORIZONTALLABEL = false
   CALENDARSYSTEM = {
     value = "Gregorian"
@@ -24,6 +28,7 @@ netsuite.companyPreferences {
     value = "Month D, YYYY"
     text = "Month D, YYYY"
   }
+  DISABLE_CUSTOMER_SATISFACTION = false
   BANK_IMPORT_SCHEDULE_MIN_TIME = 400
   MAXDROPDOWNSIZE = 200
   MAXREPORTROWS_BACKEND = 1000000
@@ -55,7 +60,6 @@ netsuite.companyPreferences {
     text = "Open Sans"
   }
   AUTONOMOUS_ENTITY_NUMBERING = false
-  
   INCR_NUM_OF_BULK_PROCESSING_THREADS = false
   AUTONAMECUSTOMERS = true
   FLP_CHECKS_RECORD_SERVICE_INTERNAL = 0
@@ -107,6 +111,7 @@ netsuite.companyPreferences {
     text = "Strong"
   }
   ASYNCHRONOUS_PROJECT_RECALCULATION = false
+  BUNDLE_FILES_PUBLIC = true
   DATEFORMAT = {
     value = "M/D/YYYY"
     text = "M/D/YYYY"
@@ -132,7 +137,4 @@ netsuite.companyPreferences {
     text = "Images"
   }
   _alias = "Company Preferences"
-  DISABLE_CUSTOMER_SATISFACTION = false
-  
-  BUNDLE_FILES_PUBLIC = true
 }

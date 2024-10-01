@@ -5,7 +5,6 @@ netsuite.role customroledp_role1 {
   coreadminpermission = false
   employeerestriction = "NONE"
   employeeselectionunrestricted = false
-  
   ispartnerrole = false
   issalesrole = false
   issinglesignononly = false
@@ -38,6 +37,6 @@ netsuite.role customroledp_role1 {
       }
     }
   }
-  _alias = "DP Role 1"
   isInactive = false
+  _alias = "DP Role 1"
 }
