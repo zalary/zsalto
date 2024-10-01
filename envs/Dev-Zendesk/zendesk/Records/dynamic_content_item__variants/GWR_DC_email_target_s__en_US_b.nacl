@@ -7,5 +7,5 @@ zendesk.dynamic_content_item__variants GWR_DC_email_target_s__en_US_b@uuumuuum {
   _parent = [
     zendesk.dynamic_content_item.instance.GWR_DC_email_target@s,
   ]
-  _alias = "GWR DC email target - en-US"
+  _alias = "GWR new name DC email target - en-US"
 }

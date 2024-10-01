@@ -1,52 +1,7 @@
 zendesk.article_translation SRD___Impact_Analysis_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum {
   locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
   title = "SRD - Impact Analysis"
-  body = '''
-<p>Welcome to the world of Impact Analysis! In this guide, we'll explore how conducting thorough impact analysis can empower your change management efforts. By understanding the potential consequences of your changes, you can make informed decisions and ensure successful outcomes. Let's dive in!</p>
-<h3 id="h_01H98EZXWWRR3GR26KPHZPDTPS"><strong>Understanding Impact Analysis</strong></h3>
-<p>Impact analysis involves assessing how a proposed change may affect various aspects of your organization, including processes, systems, and stakeholders. It's a critical step to gauge the potential ripple effects of change before implementation.</p>
-<h3 id="h_01H98EZXWWVAENXE0Q2E7P95TT"><strong>Key Benefits of Impact Analysis</strong></h3>
-<ol>
-<li>
-<p><strong>Informed Decisions:</strong> Impact analysis provides insights into how changes will impact different areas, aiding in decision-making.</p>
-</li>
-<li>
-<p><strong>Risk Mitigation:</strong> By identifying potential pitfalls in advance, you can take measures to mitigate risks and avoid surprises.</p>
-</li>
-<li>
-<p><strong>Resource Allocation:</strong> Impact analysis helps allocate resources more effectively by anticipating the level of effort needed for change implementation.</p>
-</li>
-</ol>
-<h3 id="h_01H98EZXWWK269HEXG6B561AXV"><strong>Impact Analysis in Change Management</strong></h3>
-<ol>
-<li>
-<p><strong>Process Mapping:</strong> Understand how changes might alter existing processes. Identify dependencies and potential bottlenecks.</p>
-</li>
-<li>
-<p><strong>Stakeholder Assessment:</strong> Analyze how changes will affect various stakeholders, such as employees, customers, and partners.</p>
-</li>
-<li>
-<p><strong>System Interactions:</strong> Evaluate how changes might interact with existing systems and technologies.</p>
-</li>
-</ol>
-<h3 id="h_01H98EZXWW309BBTMMQ8TM6GDA"><strong>Implementing Impact Analysis</strong></h3>
-<ol>
-<li>
-<p><strong>Define Change Scope:</strong> Clearly define the scope of the change and its objectives.</p>
-</li>
-<li>
-<p><strong>Identify Key Factors:</strong> Determine the critical factors that may be impacted by the change.</p>
-</li>
-<li>
-<p><strong>Gather Information:</strong> Collect data from relevant sources, including process documentation, system architecture, and stakeholder feedback.</p>
-</li>
-<li>
-<p><strong>Analyze and Assess:</strong> Assess the potential impact on processes, systems, resources, and stakeholders.</p>
-</li>
-</ol>
-<h3 id="h_01H98EZXWWVWRTFR84GTPSKH55"><strong>Conclusion</strong></h3>
-<p>Impact analysis is your compass for change management. By conducting a thorough analysis of how changes will reverberate across your organization, you equip yourself with insights that guide effective planning and decision-making. Embrace impact analysis as a strategic tool, and embark on your change management journey with the confidence that comes from understanding the full scope of change effects.</p>
-'''
+  body = file("zendesk/translations/guide/brands/SRD - Test/categories/General/sections/Onboarding/articles/SRD___Impact_Analysis/translations/e196abb83d_SRD___Impact_Analysis")
   outdated = false
   draft = false
   hidden = false

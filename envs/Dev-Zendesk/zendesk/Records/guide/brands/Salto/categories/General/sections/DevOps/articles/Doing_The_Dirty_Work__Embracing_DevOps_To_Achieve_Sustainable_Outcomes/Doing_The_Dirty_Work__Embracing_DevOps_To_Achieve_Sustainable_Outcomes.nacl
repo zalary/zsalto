@@ -12,6 +12,9 @@ zendesk.article Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Ou
   translations = [
     zendesk.article_translation.instance.Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes_DevOps_General_Salto_sssfssssssuuu__Salto_en_us_ub@uuuuuuuuuuuuumuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "Doing The Dirty Work: Embracing DevOps To Achieve Sustainable Outcomes"
 }

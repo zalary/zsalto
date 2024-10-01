@@ -1,7 +1,7 @@
 zendesk.article_translation Hello_world__Introduction_Knuckles_Salto_sluuu__Salto_en_us_ub@uuuuumuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "Hello world!"
-  body = "<p>Hello, my names is Knuckles.</p>"
+  body = file("zendesk/translations/guide/brands/Salto/categories/Knuckles/sections/Introduction/articles/Hello_world_/translations/4408f336f8_Hello_world_")
   outdated = false
   draft = false
   hidden = false

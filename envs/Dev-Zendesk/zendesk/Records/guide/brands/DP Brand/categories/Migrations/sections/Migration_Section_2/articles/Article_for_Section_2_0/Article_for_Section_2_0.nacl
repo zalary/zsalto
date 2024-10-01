@@ -12,6 +12,9 @@ zendesk.article Article_for_Section_2_0_Migration_Section_2_Migrations_DP_Brand_
   translations = [
     zendesk.article_translation.instance.Article_for_Section_2_0_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.DP_Brand@s
   _alias = "Article for Section 2.0"
 }

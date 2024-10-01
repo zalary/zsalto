@@ -25,7 +25,7 @@ zendesk.automation SRD___new_automation@sbss {
       {
         field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_f@uuuuumuuu
+        value = zendesk.ticket_field__custom_field_options.instance.missing_14838535994519
       },
     ]
   }

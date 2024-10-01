@@ -12,10 +12,14 @@ zendesk.trigger DP_Org_Test@s {
     {
       field = "notification_user"
       value = [
-        "assignee_id",
+        "dan.putman+zd@salto.io",
         "",
-        "Something",
+        "Something for DP!",
       ]
+    },
+    {
+      field = "status"
+      value = "pending"
     },
   ]
   conditions = {
@@ -28,7 +32,12 @@ zendesk.trigger DP_Org_Test@s {
       {
         field = "locale_id"
         operator = "is"
-        value = zendesk.locale.instance.he
+        value = zendesk.locale.instance.es
+      },
+      {
+        field = "requester_id"
+        operator = "is"
+        value = "dan.putman+zd@salto.io"
       },
     ]
     any = [

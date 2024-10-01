@@ -24,9 +24,9 @@ zendesk.business_hours_schedule SRD___schedule@sbs {
     },
   ]
   holidays = [
-    zendesk.business_hours_schedule_holiday.instance.SRD___schedule_sbs__Christmas_Old@uuumuus,
-    zendesk.business_hours_schedule_holiday.instance.SRD___schedule_sbs__Bank_holiday@uuumuus,
-    zendesk.business_hours_schedule_holiday.instance.SRD___schedule_sbs__Christmas@uuumuu,
+    zendesk.business_hours_schedule__holiday.instance.SRD___schedule_sbs__Christmas_Old@uuumuus,
+    zendesk.business_hours_schedule__holiday.instance.SRD___schedule_sbs__Bank_holiday@uuumuus,
+    zendesk.business_hours_schedule__holiday.instance.SRD___schedule_sbs__Christmas@uuumuu,
   ]
   _alias = "SRD - schedule"
 }

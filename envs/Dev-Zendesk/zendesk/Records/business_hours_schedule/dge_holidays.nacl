@@ -24,7 +24,7 @@ zendesk.business_hours_schedule dge_holidays@b {
     },
   ]
   holidays = [
-    zendesk.business_hours_schedule_holiday.instance.dge_holidays_b__birthday@umuu,
+    zendesk.business_hours_schedule__holiday.instance.dge_holidays_b__birthday@umuu,
   ]
   _alias = "dge-holidays"
 }

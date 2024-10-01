@@ -1,0 +1,14 @@
+zendesk.ticket_field __dc_missing_srd___checkbox@_00123_00123vu_00125_00125u {
+  type = "checkbox"
+  raw_title = "{{${ zendesk.dynamic_content_item.instance.Missing_SRD@s }}}"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.Missing_SRD@s }}}"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  _alias = "testing"
+}

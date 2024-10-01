@@ -1,5 +1,5 @@
 zendesk.macro _SRD__Email_test_1@hisss {
-  title = "[SRD] Email test 1"
+  title = "[SRD] Email test 2"
   active = true
   default = false
   description = "test macro"
@@ -13,6 +13,6 @@ zendesk.macro _SRD__Email_test_1@hisss {
       value = "<p><br></p><p><br></p><p><a href=\"http://scott.dixon.dc@salto.io\" target=\"_blank\" rel=\"noreferrer\">scott.dixon.dc@salto.io</a><br></p><p><a href=\"http://scott.dixon.rdc@salto.io\" target=\"_blank\" rel=\"noreferrer\">scott.dixon.rdc@salto.io</a><br></p><p><a href=\"http://de.rdc.stuggart@lyreco.com\" target=\"_blank\" rel=\"noreferrer\">de.rdc.stuggart@lyreco.com</a></p><p><br></p><p>de.rdc.stuggart@lyreco.com<br></p>"
     },
   ]
-  raw_title = "[SRD] Email test 1"
-  _alias = "[SRD] Email test 1"
+  raw_title = "[SRD] Email test 2"
+  _alias = "[SRD] Email test 2"
 }

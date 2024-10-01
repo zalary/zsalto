@@ -54,6 +54,10 @@ zendesk.custom_role Team_lead@s {
     manage_macro_content_suggestions = false
     read_macro_content_suggestions = false
     manage_deletion_schedules = "none"
+    explore_reports = {
+      ticket_access = "all"
+    }
+    assign_agent_statuses = false
   }
   _alias = "Team lead"
 }

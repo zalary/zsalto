@@ -1,0 +1,12 @@
+zendesk.section_translation Updated_FAQ_General_SRD___Test_sbs_uuuum_suuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "Updated FAQ"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.section.instance.Updated_FAQ_General_SRD___Test_sbs_uuuum@suuuuuum,
+  ]
+  _alias = "en-us - Updated FAQ"
+}

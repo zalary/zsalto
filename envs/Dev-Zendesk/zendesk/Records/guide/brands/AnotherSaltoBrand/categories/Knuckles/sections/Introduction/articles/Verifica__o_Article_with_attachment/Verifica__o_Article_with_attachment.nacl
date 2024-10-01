@@ -12,6 +12,9 @@ zendesk.article Verifica__o_Article_with_attachment_Introduction_Knuckles_Anothe
   translations = [
     zendesk.article_translation.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand__00231_00227sssuuu__AnotherSaltoBrand_en_us_ub@uuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.AnotherSaltoBrand
   attachments = [
     zendesk.article_attachment.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand__00231_00227sssuuu__Article_with_spaces___Verificac_a_o__3__pdf_false@uuuuuuuumuuuusssbs_00807_00771sjkvu,

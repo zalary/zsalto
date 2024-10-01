@@ -12,6 +12,9 @@ zendesk.article AAAA2_Background_Knuckles_Salto {
   translations = [
     zendesk.article_translation.instance.AAAA2_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Salto
   attachments = [
     zendesk.article_attachment.instance.AAAA2_Background_Knuckles_Salto__as_png_true@uuuuuvu,

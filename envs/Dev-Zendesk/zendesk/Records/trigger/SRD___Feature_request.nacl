@@ -13,7 +13,7 @@ zendesk.trigger SRD___Feature_request@sbss {
     {
       field = "notification_webhook"
       value = [
-        zendesk.webhook.instance.SRD___update_jira@sbss,
+        zendesk.webhook.instance.SRD___update_jira___1@sbsssbs,
         '''
 {
   "user" : "{{ticket.requester.email}}",

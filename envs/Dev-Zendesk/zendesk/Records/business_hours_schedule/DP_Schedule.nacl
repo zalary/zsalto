@@ -24,7 +24,7 @@ zendesk.business_hours_schedule DP_Schedule@s {
     },
   ]
   holidays = [
-    zendesk.business_hours_schedule_holiday.instance.DP_Schedule_s__4th_of_July@umuuss,
+    zendesk.business_hours_schedule__holiday.instance.DP_Schedule_s__4th_of_July@umuuss,
   ]
   _alias = "DP Schedule"
 }

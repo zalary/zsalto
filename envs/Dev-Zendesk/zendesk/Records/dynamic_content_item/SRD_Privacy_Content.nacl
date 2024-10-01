@@ -1,0 +1,10 @@
+zendesk.dynamic_content_item SRD_Privacy_Content@s {
+  name = "SRD Privacy Content"
+  placeholder = "{{dc.srd_privacy_content}}"
+  default_locale_id = zendesk.locale.instance.en_US@b
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.SRD_Privacy_Content_s__en_US_b@uumuuum,
+    zendesk.dynamic_content_item__variants.instance.SRD_Privacy_Content_s__es@uumuu,
+  ]
+  _alias = "SRD Privacy Content"
+}

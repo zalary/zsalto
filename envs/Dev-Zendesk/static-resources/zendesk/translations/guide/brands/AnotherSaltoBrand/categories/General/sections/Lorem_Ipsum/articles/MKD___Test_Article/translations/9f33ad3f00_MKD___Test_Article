@@ -1,0 +1,9 @@
+<p>What happens if an image...</p>
+<p><img src="${ zendesk.brand.instance.AnotherSaltoBrand }/hc/article_attachments/${ zendesk.article_attachment.instance.MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu }" alt="kirk_avatar.png"></p>
+<p>Gets inserted multiple times in the same article?</p>
+<p>Let's find out...</p>
+<p><img src="${ zendesk.brand.instance.AnotherSaltoBrand }/hc/article_attachments/${ zendesk.article_attachment.instance.MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu }" alt="kirk_avatar.png"></p>
+<p> </p>
+<p>or maybe a third?</p>
+<p><img src="${ zendesk.brand.instance.AnotherSaltoBrand }/hc/article_attachments/${ zendesk.article_attachment.instance.MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu }" alt="kirk_avatar.png"></p>
+<p> </p>

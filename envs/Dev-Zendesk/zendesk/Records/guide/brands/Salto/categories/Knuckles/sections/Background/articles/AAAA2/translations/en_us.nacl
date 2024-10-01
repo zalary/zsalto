@@ -1,11 +1,10 @@
 zendesk.article_translation AAAA2_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "AAAA2"
-  body = '''
-<p><img src="${ zendesk.brand.instance.Salto }/hc/article_attachments/${ zendesk.article_attachment.instance.AAAA2_Background_Knuckles_Salto__as_png_true@uuuuuvu }" alt="as.png">AAAA.</p>
-<p> </p>
-<p><a href="${ zendesk.brand.instance.Salto }/hc/en-us/articles/${ zendesk.article.instance.Welcome_to_your_Help_Center__Announcements_General_Salto@ssssluuu }" target="_self">The welcome article</a></p>
-'''
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/Knuckles/sections/Background/articles/AAAA2/translations/d4925b42fc_AAAA2",
+    "template",
+  )
   outdated = false
   draft = false
   hidden = false

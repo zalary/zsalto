@@ -1,6 +1,6 @@
 zendesk.ticket_form Eshed_s_Demo_Form@tss {
   raw_name = "Eshed's Demo Form"
-  raw_display_name = "Fruit & Newsletter Order Form"
+  raw_display_name = "Fruit & Newsletter Orders Form"
   end_user_visible = true
   ticket_field_ids = [
     zendesk.ticket_field.instance.Status_status,

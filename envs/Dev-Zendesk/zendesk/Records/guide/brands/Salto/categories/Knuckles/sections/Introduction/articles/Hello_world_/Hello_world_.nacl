@@ -17,6 +17,9 @@ zendesk.article Hello_world__Introduction_Knuckles_Salto@sluuu {
     "knuckles",
     "salto",
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "Hello world!"
 }

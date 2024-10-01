@@ -1,0 +1,23 @@
+zendesk.trigger MKD___Test_Org@sbss {
+  title = "MKD - Test Org"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
+      value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "organization_id"
+        operator = "is_not"
+        value = "⭐⭐ SRD - test org ⭐⭐"
+      },
+    ]
+  }
+  raw_title = "MKD - Test Org"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "MKD - Test Org"
+}

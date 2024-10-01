@@ -13,6 +13,9 @@ zendesk.article Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Mi
     zendesk.article_translation.instance.Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum_ssvuuuuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuuuuuumuuuuuum,
     zendesk.article_translation.instance.Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum_ssvuuuuuuuuuuuuuum__DP_Brand_s_es_umu@uuuuuuuuuuuuuuuuuumuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.DP_Brand@s
   attachments = [
     zendesk.article_attachment.instance.Article_for_2_1_Migration_Sub_Section_2_1_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum_ssvuuuuuuuuuuuuuum__dp_large_attachment_json_false@uuuuuuuuuuuuuuuuuumuuuuvu,

@@ -1,0 +1,8 @@
+zendesk.group SRD___New_Group_in_SBX@sbssss {
+  is_public = true
+  name = "SRD - New Group in SBX"
+  description = ""
+  default = false
+  deleted = false
+  _alias = "SRD - New Group in SBX"
+}

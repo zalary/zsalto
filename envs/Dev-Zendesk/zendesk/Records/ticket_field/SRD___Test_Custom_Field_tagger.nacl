@@ -13,15 +13,15 @@ zendesk.ticket_field SRD___Test_Custom_Field_tagger@sbsssu {
   agent_description = "testing"
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_a@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_b@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__option_b@uuuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_c@uuuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_d@uuuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__fieldd@uuuuuumuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__dfield@uuuuuumuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_ds@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__atraso_de_pedido@uuuuuumuuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__atraso_do_pedido@uuuuuumuuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__atraso_pedido@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__another_new_field@uuuuuumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__and_another_new_field@uuuuuumuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__brand_new_field@uuuuuumuuuu,
   ]
   _alias = "SRD - Test Custom Field"
 }

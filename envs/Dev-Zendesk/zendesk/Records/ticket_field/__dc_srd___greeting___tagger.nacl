@@ -1,0 +1,17 @@
+zendesk.ticket_field __dc_srd___greeting___tagger@_00123_00123vubu_00125_00125u {
+  type = "tagger"
+  raw_title = "{{${ zendesk.dynamic_content_item.instance.SRD___Greeting@sbs }}}"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.SRD___Greeting@sbs }}}"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.__dc_srd___greeting___tagger__00123_00123vubu_00125_00125u__test_1@uuuuuuuuumuuuuuuu,
+  ]
+  _alias = "Hello"
+}

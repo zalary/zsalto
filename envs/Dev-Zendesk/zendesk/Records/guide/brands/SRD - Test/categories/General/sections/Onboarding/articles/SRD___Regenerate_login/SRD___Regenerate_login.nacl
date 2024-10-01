@@ -12,6 +12,9 @@ zendesk.article SRD___Regenerate_login_Onboarding_General_SRD___Test_sbs_uuuum_u
   translations = [
     zendesk.article_translation.instance.SRD___Regenerate_login_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Test_user_segment@s,
+  ]
   brand = zendesk.brand.instance.SRD___Test@sbs
   _alias = "SRD - Regenerate login"
 }

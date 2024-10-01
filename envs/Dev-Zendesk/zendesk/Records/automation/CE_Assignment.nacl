@@ -34,11 +34,6 @@ zendesk.automation CE_Assignment@s {
         operator = "greater_than"
         value = "300"
       },
-      {
-        field = zendesk.organization_field.instance.org_size
-        operator = "less_than"
-        value = "1000"
-      },
     ]
   }
   raw_title = "CE Assignment"

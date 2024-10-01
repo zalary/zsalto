@@ -1,5 +1,6 @@
 zendesk.article_order FAQ_General_Salto {
   articles = [
+    zendesk.article.instance.ZGY_Image_Test_2_FAQ_General_Salto@sssuuu,
     zendesk.article.instance.Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides_FAQ_General_Salto@stsssssssssuuu,
     zendesk.article.instance.How_can_agents_leverage_knowledge_to_help_customers__FAQ_General_Salto@sssssssauuu,
     zendesk.article.instance.What_are_these_sections_and_articles_doing_here__FAQ_General_Salto@sssssssauuu,

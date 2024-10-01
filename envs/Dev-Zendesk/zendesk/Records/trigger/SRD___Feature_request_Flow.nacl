@@ -1,0 +1,38 @@
+zendesk.trigger SRD___Feature_request_Flow@sbsss {
+  title = "SRD - Feature request Flow"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_target"
+      value = [
+        zendesk.target.instance.SRD___Scott_email_target@sbsuu,
+        "{{ticket.account}} has opened a new request at {{ticket.url}}",
+      ]
+    },
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.SRD___update_jira___1@sbsssbs,
+        '''
+{
+  "user" : "{{ticket.requester.email}}",
+  "subject" : "{{ticket.title}}"
+}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__new_feature@uuuuumuuu
+      },
+    ]
+  }
+  raw_title = "SRD - Feature request Flow"
+  category_id = zendesk.trigger_category.instance.Custom_Events@s
+  _alias = "SRD - Feature request Flow"
+}

@@ -1,7 +1,7 @@
 zendesk.macro_attachment "1P__srd__scott__image001__1__png@ffffuuuuuv" {
   filename = "image001__1_.png"
   contentType = "image/png"
-  content = file("zendesk/macro_attachment/1P::srd::scott__image001__1_.png")
+  content = file("zendesk/macro_attachment/eae7ec87ef_1P::srd::scott__image001__1_.png")
   _parent = [
     zendesk.macro.instance.1P__srd__scott@f,
   ]

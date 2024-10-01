@@ -1,8 +1,0 @@
-zendesk.ticket_field__custom_field_options SRD___Test_Custom_Field_tagger_sbsssu__atraso_do_pedido@uuuuuumuuuu {
-  raw_name = "atraso do pedido"
-  value = "atraso_do_pedido"
-  _parent = [
-    zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu,
-  ]
-  _alias = "atraso do pedido"
-}

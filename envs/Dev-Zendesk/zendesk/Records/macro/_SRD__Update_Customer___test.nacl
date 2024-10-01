@@ -1,0 +1,21 @@
+zendesk.macro _SRD__Update_Customer___test@hisssbs {
+  title = "[SRD] Update Customer - test"
+  active = true
+  default = false
+  description = "test macro for example purposes"
+  actions = [
+    {
+      field = "status"
+      value = "pending"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>hello</p>"
+    },
+  ]
+  attachments = [
+    zendesk.macro_attachment.instance._SRD__Update_Customer___test__csvexport___selection_png@hisssbsuuubuv,
+  ]
+  raw_title = "[SRD] Update Customer - test"
+  _alias = "[SRD] Update Customer - test"
+}

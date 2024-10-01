@@ -54,6 +54,10 @@ zendesk.custom_role Billing_admin@s {
     manage_macro_content_suggestions = true
     read_macro_content_suggestions = true
     manage_deletion_schedules = "all"
+    explore_reports = {
+      ticket_access = "all"
+    }
+    assign_agent_statuses = true
   }
   _alias = "Billing admin"
 }

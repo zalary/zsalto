@@ -1,0 +1,8 @@
+<ul>
+<li>Username / Password</li>
+<li>SSO</li>
+<li>Magic</li>
+</ul>
+<p>Source: <a href="${ zendesk.brand.instance.Salto }/hc/en-us/articles/${ zendesk.article.instance.SRD___How_do_I_reset_my_password__Logins_FAQs_Salto@sbssssssauuu }">this article</a></p>
+<p> </p>
+<p>Test content</p>

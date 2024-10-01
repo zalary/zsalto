@@ -31,6 +31,7 @@ zendesk.view_order {
     zendesk.view.instance.SRD___orgs_with_stars@sbsss,
     zendesk.view.instance.ZGY_Personal_View@s,
     zendesk.view.instance.ZGY_Support_Personal_View@s,
+    zendesk.view.instance.SRD___Custom_View@sbss,
   ]
   inactive = [
   ]

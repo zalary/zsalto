@@ -1,7 +1,7 @@
 zendesk.article_translation Article_for_Section_2_0_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum_sssvuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuumuuuuuum {
   locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
   title = "Article for Section 2.0"
-  body = "<p>2.0 - English</p>"
+  body = file("zendesk/translations/guide/brands/DP Brand/categories/Migrations/sections/Migration_Section_2/articles/Article_for_Section_2_0/translations/e9cee79f22_Article_for_Section_2_0")
   outdated = false
   draft = true
   hidden = true

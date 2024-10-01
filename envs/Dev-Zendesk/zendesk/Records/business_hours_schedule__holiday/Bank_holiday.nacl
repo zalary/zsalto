@@ -1,0 +1,9 @@
+zendesk.business_hours_schedule__holiday SRD___schedule_sbs__Bank_holiday@uuumuus {
+  name = "Bank holiday"
+  start_date = "2024-03-12"
+  end_date = "2024-03-14"
+  _parent = [
+    zendesk.business_hours_schedule.instance.SRD___schedule@sbs,
+  ]
+  _alias = "Bank holiday"
+}

@@ -1,0 +1,9 @@
+zendesk.business_hours_schedule__holiday DP_Schedule_s__4th_of_July@umuuss {
+  name = "4th of July"
+  start_date = "2022-07-04"
+  end_date = "2022-07-05"
+  _parent = [
+    zendesk.business_hours_schedule.instance.DP_Schedule@s,
+  ]
+  _alias = "4th of July"
+}

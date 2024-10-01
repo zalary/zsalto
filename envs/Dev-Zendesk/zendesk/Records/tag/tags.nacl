@@ -1,27 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 zendesk.tag _ustom@_00231 {
   id = "çustom"
   _alias = "çustom"
@@ -112,6 +88,14 @@ zendesk.tag titanium {
 zendesk.tag gwr_fetch_label {
   id = "gwr_fetch_label"
   _alias = "gwr_fetch_label"
+}
+zendesk.tag customer_interaction {
+  id = "customer_interaction"
+  _alias = "customer_interaction"
+}
+zendesk.tag closed_ticket {
+  id = "closed_ticket"
+  _alias = "closed_ticket"
 }
 zendesk.tag knuckle {
   id = "knuckle"

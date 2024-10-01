@@ -2,7 +2,7 @@ zendesk.target SRD___Scott_email_target@sbsuu {
   type = "email_target"
   title = "SRD - Scott"
   active = true
-  email = "scott.dixon@salto.io"
+  email = "scott.dixon.sandbox@salto.io"
   subject = "Please review this ticket"
   _alias = "SRD - Scott"
 }

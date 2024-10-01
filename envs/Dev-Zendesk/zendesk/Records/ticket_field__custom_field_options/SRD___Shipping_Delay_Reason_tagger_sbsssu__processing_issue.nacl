@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options SRD___Shipping_Delay_Reason_tagger_sbsssu__processing_issue@uuuuuumuuu {
+  raw_name = "Processing Issue"
+  value = "processing_issue"
+  _parent = [
+    zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,
+  ]
+  _alias = "Processing Issue"
+}

@@ -1,0 +1,28 @@
+zendesk.trigger mkd_test_support_address {
+  title = "mkd_test_support_address"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "group_id"
+      value = zendesk.group.instance.Support
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "update_type"
+        operator = "is"
+        value = "Create"
+      },
+      {
+        field = "recipient"
+        operator = "is"
+        value = "support@d3vsalto1636482443.zendesk.com"
+      },
+    ]
+  }
+  raw_title = "mkd_test_support_address"
+  category_id = zendesk.trigger_category.instance.Field_Updates@s
+  _alias = "mkd_test_support_address"
+}

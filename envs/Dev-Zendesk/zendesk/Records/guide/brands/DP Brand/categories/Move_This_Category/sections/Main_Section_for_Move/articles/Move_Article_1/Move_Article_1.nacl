@@ -12,6 +12,9 @@ zendesk.article Move_Article_1_Main_Section_for_Move_Move_This_Category_DP_Brand
   translations = [
     zendesk.article_translation.instance.Move_Article_1_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum_ssuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.DP_Brand@s
   _alias = "Move Article 1"
 }

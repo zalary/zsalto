@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options __dc_srd___greeting___tagger__00123_00123vubu_00125_00125u__test_1@uuuuuuuuumuuuuuuu {
+  raw_name = "Test 1"
+  value = "test_1"
+  _parent = [
+    zendesk.ticket_field.instance.__dc_srd___greeting___tagger@_00123_00123vubu_00125_00125u,
+  ]
+  _alias = "Test 1"
+}

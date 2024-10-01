@@ -12,6 +12,9 @@ zendesk.article SRD___Platform_basics_Onboarding_General_SRD___Test_sbs_uuuum_uu
   translations = [
     zendesk.article_translation.instance.SRD___Platform_basics_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.SRD___Test@sbs
   _alias = "SRD - Platform basics"
 }

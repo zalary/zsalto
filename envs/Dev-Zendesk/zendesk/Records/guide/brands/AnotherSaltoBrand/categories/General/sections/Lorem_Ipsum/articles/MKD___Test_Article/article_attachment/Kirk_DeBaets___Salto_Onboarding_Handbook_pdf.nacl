@@ -3,7 +3,7 @@ zendesk.article_attachment MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBr
   content_type = "application/pdf"
   inline = false
   brand = zendesk.brand.instance.AnotherSaltoBrand
-  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/General/sections/Lorem_Ipsum/articles/MKD___Test_Article/article_attachment/Kirk DeBaets - Salto Onboarding Handbook/0f6f553578_Kirk DeBaets - Salto Onboarding Handbook.pdf")
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/General/sections/Lorem_Ipsum/articles/MKD___Test_Article/article_attachment/Kirk DeBaets - Salto Onboarding Handbook/2c22d4cc13_0f6f553578_Kirk DeBaets - Salto Onboarding Handbook.pdf")
   _parent = [
     zendesk.article.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu@sbssuuuum,
   ]

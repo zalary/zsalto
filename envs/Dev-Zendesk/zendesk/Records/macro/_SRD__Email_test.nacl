@@ -1,5 +1,5 @@
 zendesk.macro _SRD__Email_test@hiss {
-  title = "[SRD] Email test"
+  title = "[SRD] Email test 3"
   active = true
   default = false
   description = "test macro"
@@ -9,10 +9,10 @@ zendesk.macro _SRD__Email_test@hiss {
       value = "pending"
     },
     {
-      field = "comment_value_html"
-      value = "<p><br></p><p><br></p><p><a href=\"http://scott.dixon.dc@salto.io\" target=\"_blank\" rel=\"noreferrer\">scott.dixon.dc@salto.io</a><br></p><p><a href=\"http://scott.dixon.rdc@salto.io\" target=\"_blank\" rel=\"noreferrer\">scott.dixon.rdc@salto.io</a><br></p><p><a href=\"http://de.rdc.stuggart@lyreco.com\" target=\"_blank\" rel=\"noreferrer\">de.rdc.stuggart@lyreco.com</a></p><p><br></p><p>de.rdc.stuggart@lyreco.com<br></p>"
+      field = zendesk.ticket_field.instance.SRD___Checkbox_demo_checkbox@sbssu
+      value = "true"
     },
   ]
-  raw_title = "[SRD] Email test"
-  _alias = "[SRD] Email test"
+  raw_title = "[SRD] Email test 3"
+  _alias = "[SRD] Email test 3"
 }

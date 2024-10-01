@@ -1,15 +1,10 @@
 zendesk.article_translation MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__DP_Brand_s_en_au_umub@uuuuuuuuumuuuuuum {
   locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_au@umub
   title = "MKD Test Article - AUS"
-  body = '''
-<p>What happens if an image...</p>
-<p><img src="${ zendesk.brand.instance.AnotherSaltoBrand }/hc/article_attachments/${ zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu }" alt="kirk_avatar.png"></p>
-<p>Gets inserted multiple times in the same article?</p>
-<p>Let's find out...</p>
-<p><img src="${ zendesk.brand.instance.AnotherSaltoBrand }/hc/article_attachments/${ zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu }" alt="kirk_avatar.png"></p>
-<p>or maybe a third?</p>
-<p><img src="${ zendesk.brand.instance.AnotherSaltoBrand }/hc/article_attachments/${ zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu }" alt="kirk_avatar.png"></p>
-'''
+  body = file(
+    "zendesk/translations/guide/brands/AnotherSaltoBrand/categories/General/sections/Lorem_Ipsum/articles/MKD___Test_Article/translations/2731ade3a8_MKD_Test_Article___AUS",
+    "template",
+  )
   outdated = false
   draft = true
   hidden = true

@@ -1,0 +1,9 @@
+zendesk.dynamic_content_item__variants SRD___Greeting_sbs__missing_1194@uuumuuu {
+  content = "Hola"
+  locale_id = zendesk.locale.instance.missing_1194
+  active = true
+  default = false
+  _parent = [
+    zendesk.dynamic_content_item.instance.SRD___Greeting@sbs,
+  ]
+}

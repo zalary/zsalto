@@ -19,6 +19,9 @@ zendesk.article Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides
     "Salto",
     "dge_article",
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "Dan E's Really Detailed Guide To Using Salto With Zendesk Guides"
 }

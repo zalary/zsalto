@@ -15,7 +15,7 @@ zendesk.routing_attribute_value Location__Tel_Aviv@uub {
       {
         subject = "organization_id"
         operator = "is"
-        value = zendesk.organization.instance.Neta_standard_sbx@s
+        value = "Neta standard sbx"
       },
       {
         subject = "via_id"

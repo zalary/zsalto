@@ -8,4 +8,5 @@ zendesk.oauth_client acme_integration_for_zendesk {
   ]
   global = false
   _alias = "Acme integration for Zendesk"
+  kind = "unknown"
 }

@@ -1,7 +1,7 @@
 zendesk.article_translation Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_suuuuuuuum__Salto_en_us_ub@uuuuuuuuuumuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "Restricted article"
-  body = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+  body = file("zendesk/translations/guide/brands/Salto/categories/SRD___FAQs/sections/Logging_in/articles/Restricted_article/translations/20afe54e9e_Restricted_article")
   outdated = false
   draft = false
   hidden = false

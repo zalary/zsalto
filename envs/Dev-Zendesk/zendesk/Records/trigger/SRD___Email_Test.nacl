@@ -6,7 +6,7 @@ zendesk.trigger SRD___Email_Test@sbss {
     {
       field = "notification_webhook"
       value = [
-        zendesk.webhook.instance.SRD___update_jira@sbss,
+        zendesk.webhook.instance.SRD___update_jira___1@sbsssbs,
         '''
 {
   "user" : "{{ticket.requester.email}}",
@@ -15,13 +15,24 @@ zendesk.trigger SRD___Email_Test@sbss {
 ''',
       ]
     },
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.closed_ticket,
+      ]
+    },
   ]
   conditions = {
     all = [
       {
         field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu
+        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_e@uuuuumuuu
+      },
+      {
+        field = zendesk.ticket_field.instance.__dc_missing_srd___checkbox@_00123_00123vu_00125_00125u
+        operator = "is"
+        value = "true"
       },
     ]
   }

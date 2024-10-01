@@ -1,0 +1,6 @@
+zendesk.user_segment gwr_seg3 {
+  user_type = "staff"
+  built_in = false
+  name = "gwr_seg3"
+  _alias = "gwr_seg3"
+}

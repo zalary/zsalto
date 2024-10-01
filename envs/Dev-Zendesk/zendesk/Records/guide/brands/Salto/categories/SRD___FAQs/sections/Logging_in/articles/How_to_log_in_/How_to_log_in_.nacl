@@ -12,6 +12,9 @@ zendesk.article How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssssuuuu
   translations = [
     zendesk.article_translation.instance.How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_ssssuuuuuuuum__Salto_en_us_ub@uuuuuuuuuuuuumuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "How to log in "
 }

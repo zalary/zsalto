@@ -1,7 +1,10 @@
 zendesk.article_translation BBB3_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "BBB3"
-  body = "<p>CDC<img src=\"${ zendesk.brand.instance.Salto }/hc/article_attachments/${ zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__as_png_true@uuuuuvu }\" alt=\"as.png\"><img src=\"${ zendesk.brand.instance.Salto }/hc/article_attachments/${ zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__re_png_true@uuuuuvu }\" alt=\"re.png\"></p>"
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/Knuckles/sections/Background/articles/BBB3/translations/258b5d9f4e_BBB3",
+    "template",
+  )
   outdated = false
   draft = false
   hidden = false

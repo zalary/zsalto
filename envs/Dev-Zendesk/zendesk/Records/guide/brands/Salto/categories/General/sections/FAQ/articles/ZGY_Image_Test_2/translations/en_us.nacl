@@ -1,0 +1,16 @@
+zendesk.article_translation ZGY_Image_Test_2_FAQ_General_Salto_sssuuu__Salto_en_us_ub@uuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "ZGY Image Test 2"
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/General/sections/FAQ/articles/ZGY_Image_Test_2/translations/c4271bef54_ZGY_Image_Test_2",
+    "template",
+  )
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.ZGY_Image_Test_2_FAQ_General_Salto@sssuuu,
+  ]
+  _alias = "en-us - ZGY Image Test 2"
+}

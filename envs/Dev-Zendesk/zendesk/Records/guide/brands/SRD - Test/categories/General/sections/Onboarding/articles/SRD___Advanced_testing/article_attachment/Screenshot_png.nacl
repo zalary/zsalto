@@ -3,7 +3,7 @@ zendesk.article_attachment SRD___Advanced_testing_Onboarding_General_SRD___Test_
   content_type = "image/png"
   inline = false
   brand = zendesk.brand.instance.SRD___Test@sbs
-  content = file("zendesk/article_attachments/guide/brands/SRD - Test/categories/General/sections/Onboarding/articles/SRD___Advanced_testing/article_attachment/Screenshot/8ab3b5ccab_Screenshot.png")
+  content = file("zendesk/article_attachments/guide/brands/SRD - Test/categories/General/sections/Onboarding/articles/SRD___Advanced_testing/article_attachment/Screenshot/c54c4935d9_8ab3b5ccab_Screenshot.png")
   _parent = [
     zendesk.article.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
   ]
@@ -11,10 +11,11 @@ zendesk.article_attachment SRD___Advanced_testing_Onboarding_General_SRD___Test_
 }
 zendesk.article_attachment SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__Screenshot_png_true@uuuuuuuuuuuuumuuvu {
   file_name = "Screenshot.png"
+  locale = "en-us"
   content_type = "image/png"
   inline = true
   brand = zendesk.brand.instance.SRD___Test@sbs
-  content = file("zendesk/article_attachments/guide/brands/SRD - Test/categories/General/sections/Onboarding/articles/SRD___Advanced_testing/article_attachment/Screenshot/8ab3b5ccab_Screenshot.png")
+  content = file("zendesk/article_attachments/guide/brands/SRD - Test/categories/General/sections/Onboarding/articles/SRD___Advanced_testing/article_attachment/Screenshot/4ca4d05073_8ab3b5ccab_Screenshot.png")
   _parent = [
     zendesk.article.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
   ]

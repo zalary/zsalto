@@ -16,7 +16,7 @@ zendesk.view Recently_solved_tickets@s {
     sort = {
       id = "solved"
       title = "Solved"
-      filterable = false
+      filterable = true
       sortable = true
       order = "desc"
     }
@@ -42,7 +42,7 @@ zendesk.view Recently_solved_tickets@s {
       {
         id = "solved"
         title = "Solved"
-        filterable = false
+        filterable = true
         sortable = true
       },
       {
@@ -80,7 +80,7 @@ zendesk.view Recently_solved_tickets@s {
       {
         id = "solved"
         title = "Solved"
-        filterable = false
+        filterable = true
         sortable = true
       },
       {

@@ -74,7 +74,7 @@ zendesk.view SRD___tickets@sbs {
       {
         field = "organization_id"
         operator = "is"
-        value = zendesk.organization.instance.SRD___org@sbs
+        value = "SRD - org"
       },
     ]
   }

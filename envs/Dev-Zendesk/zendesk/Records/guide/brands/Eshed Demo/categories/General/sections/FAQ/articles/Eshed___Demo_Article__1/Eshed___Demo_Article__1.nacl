@@ -12,6 +12,9 @@ zendesk.article Eshed___Demo_Article__1_FAQ_General_Eshed_Demo_s_uum_uuuum@sbsss
   translations = [
     zendesk.article_translation.instance.Eshed___Demo_Article__1_FAQ_General_Eshed_Demo_s_uum_uuuum_sbsssnuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Eshed_Demo@s
   _alias = "Eshed - Demo Article #1"
 }

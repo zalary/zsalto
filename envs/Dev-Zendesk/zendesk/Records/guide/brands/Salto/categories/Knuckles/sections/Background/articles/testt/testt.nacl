@@ -8,9 +8,12 @@ zendesk.article testt_Background_Knuckles_Salto {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   outdated = false
   user_segment_id = zendesk.user_segment.instance.Test_user_segment@s
-  permission_group_id = zendesk.permission_group.instance.Test_PG2
+  permission_group_id = zendesk.permission_group.instance.Test_PG2a
   translations = [
     zendesk.article_translation.instance.testt_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum,
+  ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Test_user_segment@s,
   ]
   brand = zendesk.brand.instance.Salto
   _alias = "testt"

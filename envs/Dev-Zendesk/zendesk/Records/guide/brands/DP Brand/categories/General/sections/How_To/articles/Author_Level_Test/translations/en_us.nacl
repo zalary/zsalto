@@ -1,11 +1,7 @@
 zendesk.article_translation Author_Level_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuumuuuuuum {
   locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
   title = "Author Level Test"
-  body = '''
-<p>This is for DP's author test</p>
-<p> </p>
-<p> </p>
-'''
+  body = file("zendesk/translations/guide/brands/DP Brand/categories/General/sections/How_To/articles/Author_Level_Test/translations/292612bbaa_Author_Level_Test")
   outdated = false
   draft = false
   hidden = false

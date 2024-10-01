@@ -1,0 +1,24 @@
+zendesk.article ZGY_Image_Test_2_FAQ_General_Salto@sssuuu {
+  author_id = "zalary.young@salto.io"
+  comments_disabled = false
+  draft = false
+  promoted = false
+  section_id = zendesk.section.instance.FAQ_General_Salto
+  source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.ZGY_Image_Test_2_FAQ_General_Salto_sssuuu__Salto_en_us_ub@uuuuuumuuuum,
+  ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
+  brand = zendesk.brand.instance.Salto
+  attachments = [
+    zendesk.article_attachment.instance.ZGY_Image_Test_2_FAQ_General_Salto_sssuuu__Green_Watercolor_Flower_Facebook_Profile_Picture_png_true@uuuuuumuusssssvu,
+    zendesk.article_attachment.instance.ZGY_Image_Test_2_FAQ_General_Salto_sssuuu__bigbird_gif_false@uuuuuumuuvu,
+  ]
+  _alias = "ZGY Image Test 2"
+}

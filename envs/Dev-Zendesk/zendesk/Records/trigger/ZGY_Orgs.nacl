@@ -15,7 +15,7 @@ zendesk.trigger ZGY_Orgs@s {
       {
         field = "organization_id"
         operator = "is"
-        value = zendesk.organization.instance.ZGY
+        value = "ZGY"
       },
     ]
   }

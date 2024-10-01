@@ -3,7 +3,7 @@ zendesk.article_attachment Verifica__o_Article_with_attachment_Introduction_Knuc
   content_type = "application/pdf"
   inline = false
   brand = zendesk.brand.instance.AnotherSaltoBrand
-  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/Verifica__o_Article_with_attachment/article_attachment/Article with spaces - Verificação (3)/78994004f0_Article with spaces - Verificação (3).pdf")
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/Verifica__o_Article_with_attachment/article_attachment/Article with spaces - Verificação (3)/b22f14e009_78994004f0_Article with spaces - Verificação (3).pdf")
   _parent = [
     zendesk.article.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand@_00231_00227sssuuu,
   ]

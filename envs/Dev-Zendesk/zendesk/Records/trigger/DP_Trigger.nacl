@@ -31,5 +31,5 @@ zendesk.trigger DP_Trigger@s {
   raw_title = "DP Trigger"
   category_id = zendesk.trigger_category.instance.DP
   _alias = "DP Trigger"
-  description = "Just a great trigger!"
+  description = "Just a great trigger! Sometimes!"
 }

@@ -3,7 +3,7 @@ zendesk.article_attachment DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuu
   content_type = "unknown"
   inline = false
   brand = zendesk.brand.instance.DP_Brand@s
-  content = file("zendesk/article_attachments/guide/brands/DP Brand/categories/General/sections/How_To/articles/DP_Attachment_Test/article_attachment/dp_very_large_attachment/339d94f93b_dp_very_large_attachment.json")
+  content = file("zendesk/article_attachments/guide/brands/DP Brand/categories/General/sections/How_To/articles/DP_Attachment_Test/article_attachment/dp_very_large_attachment/ae81a6783f_339d94f93b_dp_very_large_attachment.json")
   _parent = [
     zendesk.article.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
   ]

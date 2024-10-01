@@ -1,10 +1,7 @@
 zendesk.article_translation Eshed___Demo_Article__1_FAQ_General_Eshed_Demo_s_uum_uuuum_sbsssnuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuumuuuuuum {
   locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
   title = "Eshed - Demo Article #1"
-  body = '''
-<p>This is just a demo article.</p>
-<p>More to follow</p>
-'''
+  body = file("zendesk/translations/guide/brands/Eshed Demo/categories/General/sections/FAQ/articles/Eshed___Demo_Article__1/translations/599cca7601_Eshed___Demo_Article__1")
   outdated = false
   draft = false
   hidden = false

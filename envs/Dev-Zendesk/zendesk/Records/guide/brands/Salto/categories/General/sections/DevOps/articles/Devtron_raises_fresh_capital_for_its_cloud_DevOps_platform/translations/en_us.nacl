@@ -1,35 +1,10 @@
 zendesk.article_translation Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto_ssssssssuuu__Salto_en_us_ub@uuuuuuuuuuumuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "Devtron raises fresh capital for its cloud DevOps platform"
-  body = '''
-<p><a href="${ zendesk.brand.instance.Salto }/hc/en-us/articles/${ zendesk.article.instance.Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes_DevOps_General_Salto@sssfssssssuuu }" target="_self">Last article</a></p>
-<div class="body-wrapper body-wrapper1">
-<div id="main">
-<div id="sub-main" class="container_12">
-<div class="post-wrap">
-<div class="post-content">
-<p>The cloud-native market has seen the introduction of a range of open source DevOps tools — tools that combine software development and IT operations — built to address very specific use cases. As a result, DevOps teams today have too many narrow choices that don’t work together seamlessly or that can’t be integrated into a single platform.</p>
-<p>At least, that’s the opinion of Prashant Ghildiyal, one of the co-founders of Devtron, a startup offering a platform to address what he believes are the top challenges facing the DevOps space. A container management system, Devtron offers a low-code delivery platform optimized for Kubernetes. (“Containers” are packages of software that contain the necessary elements to run in any environment.) The platform handles app management, security and more, providing an interface that abstracts away the underlying infrastructure.</p>
-<p>To Ghildiyal’s point, there’s evidence to suggest that there’s a gap between DevOps adoption and success. In a 2019 Harvard Business Review survey, only 10% of developers said that their companies were successful at building and deploying software quickly, with less than half (48%) saying their organization always relies on DevOps methodologies. A separate, more recent poll by infrastructure automation company Puppet found that companies were hitting a number of DevOps speed bumps in the race to be cloud native, including a skills shortage, issues with legacy architecture, organizational resistance to change and limited or lack of automation.</p>
-<p>Investors are keen on Devtron, as evidenced by the company today closing a $12 million funding round led by Insight Partners. “Devtron integrates with products across the lifecycle of microservices, and in particular Kubernetes, enabling its users to deploy faster and automate their CI/CD pipelines without worrying about Kubernetes knowhow,” Insight Partners principal Josh Zelman told TechCrunch via email.</p>
-<p>Ghildiyal says that he and Devtron’s other co-founders, Nishant Kumar and Rajesh Razdan, experienced the challenges of scaling DevOps firsthand in their previous roles as heads of technology and software architects at various startups. Their experiences informed Devtron’s design, which Ghildiyal describes as “DevOps in a box,” with tools that provide audit logs and metrics showing the state of an organization’s DevOps maturity.</p>
-<p>Devtron also provides tools for access controls and policy management, as well as environment orchestration, software delivery workflow and cost. “This saves significant time and resources to build and deploy in production,” Zelman added.</p>
-<p>Ghildiyal sees Devtron competing against formidable incumbent vendors like GitLab and Harness in a DevOps market that was worth an estimated $4 billion in 2020, according to Global Market Insights. (That’s not to mention startups like Render, which raised $20 million last November after winning our Disrupt SF 2019 Startup Battlefield.) When asked about clients, Ghildiyal said Devtron has “several” unicorns and growth-stage companies as commercial customers, but he declined to reveal names — or Devtron’s revenue.</p>
-<p>Ghildiyal said that India-based Devtron’s principal focuses post-fundraise will be resources and cost optimizations to “enable DevOps automation and efficiency at scale.”</p>
-<p>Devtron raises fresh capital for its cloud DevOps platform by Kyle Wiggers originally published on TechCrunch</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="body-wrapper body-wrapper1">
-<div id="main">
-<div id="sub-main" class="container_12">
-<div class="post-wrap"> </div>
-</div>
-</div>
-</div>
-'''
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/General/sections/DevOps/articles/Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform/translations/bbdc157581_Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform",
+    "template",
+  )
   outdated = false
   draft = false
   hidden = false

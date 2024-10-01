@@ -12,6 +12,9 @@ zendesk.article DP___New_How_To_Article_New_How_To_Section_How_To_General_DP_Bra
   translations = [
     zendesk.article_translation.instance.DP___New_How_To_Article_New_How_To_Section_How_To_General_DP_Brand_s_uum_suuuum_sssuuuuuuum_sbssssuuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.DP_Brand@s
   _alias = "DP - New How To Article"
 }

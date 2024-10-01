@@ -14,7 +14,7 @@ zendesk.ticket_form CE_Intake_Form@s {
     zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
     zendesk.ticket_field.instance.Enterprise_account_checkbox@su,
   ]
-  active = true
+  active = false
   default = false
   in_all_brands = true
   _alias = "CE Intake Form"

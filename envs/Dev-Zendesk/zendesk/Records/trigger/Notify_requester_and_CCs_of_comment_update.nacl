@@ -9,7 +9,9 @@ zendesk.trigger Notify_requester_and_CCs_of_comment_update@s {
         "requester_and_ccs",
         "[{{ticket.account}}] Re: {{ticket.title}}",
         '''
-Your request ({{ticket.id}}) has been updated. To add additional comments, reply to this email.
+Your request ({{ticket.id}}) has been updated. To add additional comments, reply to this email or click the link below:
+{{ticket.link}}
+
 {{ticket.comments_formatted}}
 ''',
       ]

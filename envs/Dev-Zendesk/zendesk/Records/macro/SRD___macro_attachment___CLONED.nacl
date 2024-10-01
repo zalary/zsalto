@@ -14,8 +14,8 @@ zendesk.macro SRD___macro_attachment___CLONED@sbsssbs {
     },
   ]
   attachments = [
-    zendesk.macro_attachment.instance.SRD___macro_attachment___CLONED__error_screenshot_png@sbsssbsuuuv,
-    zendesk.macro_attachment.instance.SRD___macro_attachment___CLONED__Webinar_Zoom_background_Salto_jpg@sbsssbsuuuuuv,
+    zendesk.macro_attachment.instance.SRD___macro_attachment__error_screenshot_png@sbssuuuv,
+    zendesk.macro_attachment.instance.SRD___macro_attachment__Webinar_Zoom_background_Salto_jpg@sbssuuuuuv,
   ]
   raw_title = "SRD - macro attachment - CLONED"
   _alias = "SRD - macro attachment - CLONED"

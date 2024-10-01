@@ -1,0 +1,8 @@
+zendesk.group _________MKD_Test_for_GitHub_________@_55357_56836_10071_65039_10004_65039_09757_65039ossso_09757_65039_10004_65039_10071_65039_55357_56836 {
+  is_public = true
+  name = "😄❗️✔️☝️*MKD Test for GitHub*☝️✔️❗️😄"
+  description = "Test using emojis in name to see NaCl impact"
+  default = false
+  deleted = false
+  _alias = "😄❗️✔️☝️*MKD Test for GitHub*☝️✔️❗️😄"
+}

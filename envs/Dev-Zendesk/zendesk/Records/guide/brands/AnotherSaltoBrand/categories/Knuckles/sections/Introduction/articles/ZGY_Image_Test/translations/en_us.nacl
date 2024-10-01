@@ -1,0 +1,16 @@
+zendesk.article_translation ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand_ssuuu__AnotherSaltoBrand_en_us_ub@uuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub
+  title = "ZGY Image Test"
+  body = file(
+    "zendesk/translations/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/ZGY_Image_Test/translations/aac880ae37_ZGY_Image_Test",
+    "template",
+  )
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.article.instance.ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand@ssuuu,
+  ]
+  _alias = "en-us - ZGY Image Test"
+}

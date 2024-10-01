@@ -1,22 +1,22 @@
 zendesk.ticket_field SRD_Early_Product_Access_Type_tagger@bsssu {
   type = "tagger"
-  raw_title = "SRD-Early Product Access Type"
+  raw_title = "SRD - Early Product Access Type"
   raw_description = ""
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "SRD-Early Product Access Type"
-  visible_in_portal = false
-  editable_in_portal = false
+  raw_title_in_portal = "SRD-Early Product Access Type 2"
+  visible_in_portal = true
+  editable_in_portal = true
   required_in_portal = false
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_b@uuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_f@uuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_c@uuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_d@uuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_e@uuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__new_feature@uuuuumuuu,
   ]
-  _alias = "SRD-Early Product Access Type"
+  _alias = "SRD - Early Product Access Type"
 }

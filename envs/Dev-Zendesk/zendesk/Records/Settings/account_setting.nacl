@@ -32,6 +32,9 @@ zendesk.account_setting {
     assign_default_organization = true
     messaging_transcript_public = true
     app_shortcuts_context_panel_enabled = true
+    modern_ticket_reassignment = false
+    show_modern_ticket_reassignment = false
+    default_solved_ticket_reassignment_strategy = "legacy"
     accepted_new_collaboration_tos = false
     follower_and_email_cc_collaborations = true
     auto_updated_ccs_followers_rules = false
@@ -46,6 +49,7 @@ zendesk.account_setting {
     auto_translation_enabled = false
     agent_invitation_enabled = false
     chat_sla_enablement = false
+    modify_closed_tickets_customer_setting = false
   }
   agents = {
     agent_workspace = false
@@ -53,7 +57,6 @@ zendesk.account_setting {
     aw_self_serve_migration_enabled = true
     aw_auto_activation_status = 0
     aw_prevent_opt_out = false
-    show_user_profile_page_toggle = false
     agent_as_a_requester = "private-groups"
   }
   groups = {
@@ -66,6 +69,8 @@ zendesk.account_setting {
     maximum_request_count = 1
     welcome_message = "Hi there. How can I help today?"
     ctm_auto_activation_status = 0
+    ctm_operating_hours_migration_status = 0
+    ctm_chat_triggers_migration_status = 0
     ctm_prevent_opt_out = false
   }
   voice = {
@@ -79,9 +84,12 @@ zendesk.account_setting {
     only_during_business_hours = false
     recordings_public = true
     uk_mobile_forwarding = true
+    voice_ai_enabled = false
+    voice_ai_display_transcript = false
+    voice_zendesk_qa_enabled = false
   }
   twitter = {
-    shorten_url = "never"
+    shorten_url = "optional"
   }
   google_apps = {
     has_google_apps = false
@@ -163,6 +171,8 @@ zendesk.account_setting {
     release_control_enabled = true
     
     benchmark_opt_out = false
+    custom_dkim_domain = true
+    allow_email_template_customization = true
     custom_objects_activated = false
     customer_context_as_default = false
   }
@@ -237,10 +247,14 @@ zendesk.account_setting {
     reassignment_reopened_tickets_enabled = false
     reassignment_reopened_tickets_support_enabled = false
     reassignment_reopened_tickets_messaging_enabled = false
+    reassignment_through_queues_enabled = false
     messaging_activity_routing_enabled = false
     auto_activation = 0
+    auto_open_email_enabled = false
     auto_accept_messaging_enabled = false
     focus_mode_enabled = false
+    assignment_method = "highest_spare_capacity"
+    ticket_sorting_prioritize_sla = false
   }
   deletion = {
     user_auto_delete_soft_deleted_retention = 30
@@ -249,6 +263,51 @@ zendesk.account_setting {
     user_auto_delete_account_prioritisation = 1
   }
   
+  messaging = {
+    messaging_end_session = false
+  }
+  email = {
+    accept_wildcard_emails = false
+    custom_dkim_domain = false
+    email_sender_authentication = true
+    email_template_photos = true
+    email_template_selection = false
+    gmail_actions = true
+    html_mail_template = '''
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <style type="text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    {{styles}}
+  </style>
+</head>
+<body {{attributes}} style="width: 100%!important; margin: 0; padding: 0;">
+  <div style="padding: 10px; line-height: 1.5; font-family: 'Lucida Grande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    {{content}}
+  </div>
+  <div style="padding: 10px; line-height: 1.5; font-family: 'Lucida Grande',Verdana,Arial,sans-serif; font-size: 12px; color: #aaaaaa; margin: 10px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeeeee;">
+    {{footer}} {{footer_link}}
+  </div>
+</body>
+</html>
+
+'''
+    mail_delimiter = "{{txt.email.delimiter}}"
+    modern_email_template = true
+    no_mail_delimiter = true
+    personalized_replies = true
+    rich_content_in_emails = true
+    send_gmail_messages_via_gmail = true
+    text_mail_template = '''
+{{content}}
+
+{{footer}}
+'''
+  }
   sandbox = {
     type = "standard"
   }

@@ -1,0 +1,9 @@
+zendesk.dynamic_content_item Missing_SRD@s {
+  name = "Missing SRD"
+  placeholder = "{{dc.missing_srd}}"
+  default_locale_id = zendesk.locale.instance.en_US@b
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.Missing_SRD_s__en_US_b@umuuum,
+  ]
+  _alias = "Missing SRD"
+}

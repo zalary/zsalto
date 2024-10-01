@@ -3,7 +3,7 @@ zendesk.brand SRD___Test@sbs {
   brand_url = "https://srd-test-sandbox.zendesk.com"
   subdomain = "srd-test-sandbox"
   has_help_center = true
-  help_center_state = "restricted"
+  help_center_state = "enabled"
   active = true
   default = false
   is_deleted = false

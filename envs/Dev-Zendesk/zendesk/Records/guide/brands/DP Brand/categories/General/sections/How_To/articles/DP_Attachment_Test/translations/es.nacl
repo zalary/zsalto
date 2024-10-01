@@ -1,12 +1,10 @@
 zendesk.article_translation DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_es_umu@uuuuuuuuuumuuuuum {
   locale = zendesk.guide_language_settings.instance.DP_Brand_s_es@umu
   title = "DP Attachment Test - Spanish"
-  body = '''
-<p>This is the spanish example</p>
-<p><img src="${ zendesk.brand.instance.DP_Brand@s }/hc/article_attachments/${ zendesk.article_attachment.instance.missing_DP_Brand_17260422994071@usu }" alt="Screen Shot 2023-09-01 at 10.32.31 AM.png"><img src="${ zendesk.brand.instance.DP_Brand@s }/hc/article_attachments/${ zendesk.article_attachment.instance.missing_DP_Brand_17260454055319@usu }" alt="Screen Shot 2023-09-01 at 10.32.58 AM.png"></p>
-<p> </p>
-<p>And a download:<br><br></p>
-'''
+  body = file(
+    "zendesk/translations/guide/brands/DP Brand/categories/General/sections/How_To/articles/DP_Attachment_Test/translations/80a2b74fe9_DP_Attachment_Test___Spanish",
+    "template",
+  )
   outdated = false
   draft = true
   hidden = true

@@ -1,43 +1,30 @@
 zendesk.ticket_form Copy_of_SRD___Enable_new_feature@sssbsss {
-  raw_name = "Copy of SRD - Enable new feature"
-  raw_display_name = "New feature request"
+  raw_name = "SRD - Entry Form"
+  raw_display_name = "Fill out for new request"
   end_user_visible = true
   ticket_field_ids = [
     zendesk.ticket_field.instance.Status_status,
     zendesk.ticket_field.instance.Group_group,
     zendesk.ticket_field.instance.Assignee_assignee,
     zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
-    zendesk.ticket_field.instance.Subject_subject,
-    zendesk.ticket_field.instance.Customer_Tier_multiselect@su,
-    zendesk.ticket_field.instance.Description_description,
     zendesk.ticket_field.instance.Customer_Priority_tagger@su,
-    zendesk.ticket_field.instance.GWR_classification_tagger@su,
-    zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu,
+    zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,
   ]
   active = true
   default = false
   in_all_brands = true
-  end_user_conditions = [
-    {
-      parent_field_id = zendesk.ticket_field.instance.Customer_Priority_tagger@su
-      parent_field_type = "tagger"
-      value = zendesk.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
-      child_fields = [
-        {
-          id = zendesk.ticket_field.instance.GWR_classification_tagger@su
-          is_required = true
-        },
-      ]
-    },
-  ]
+  _alias = "SRD - Entry Form"
   agent_conditions = [
     {
-      parent_field_id = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+      parent_field_id = zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu
       parent_field_type = "tagger"
-      value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu
+      value = zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__brand_new_field@uuuuuumuuuu
       child_fields = [
         {
-          id = zendesk.ticket_field.instance.Customer_Tier_multiselect@su
+          id = zendesk.ticket_field.instance.Customer_Priority_tagger@su
           is_required = true
           required_on_statuses = {
             type = "ALL_STATUSES"
@@ -45,23 +32,5 @@ zendesk.ticket_form Copy_of_SRD___Enable_new_feature@sssbsss {
         },
       ]
     },
-    {
-      parent_field_id = zendesk.ticket_field.instance.Customer_Priority_tagger@su
-      parent_field_type = "tagger"
-      value = zendesk.ticket_field__custom_field_options.instance.Customer_Priority_tagger_su__high@uumuu
-      child_fields = [
-        {
-          id = zendesk.ticket_field.instance.GWR_classification_tagger@su
-          is_required = false
-          required_on_statuses = {
-            type = "SOME_STATUSES"
-            statuses = [
-              "new",
-            ]
-          }
-        },
-      ]
-    },
   ]
-  _alias = "Copy of SRD - Enable new feature"
 }

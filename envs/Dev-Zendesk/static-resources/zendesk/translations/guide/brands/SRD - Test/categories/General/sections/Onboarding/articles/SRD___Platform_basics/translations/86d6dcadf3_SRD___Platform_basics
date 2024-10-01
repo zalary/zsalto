@@ -1,0 +1,64 @@
+<div class="flex-1 overflow-hidden">
+<div class="react-scroll-to-bottom--css-iglqt-79elbk h-full dark:bg-gray-800" style="height: 761px;">
+<div class="react-scroll-to-bottom--css-iglqt-1n7m0yu" style="width: 1252px; height: 761px;">
+<div class="flex flex-col text-sm dark:bg-gray-800">
+<div class="group w-full text-token-text-primary border-b border-black/10 dark:border-gray-900/50 bg-gray-50 dark:bg-[#444654]" style="width: 1244px;" data-testid="conversation-turn-7">
+<div class="p-4 justify-center text-base md:gap-6 md:py-6 lg:px-0 m-auto">
+<div class="flex flex-1 gap-4 text-base mx-auto md:gap-6 md:max-w-2xl lg:max-w-[38rem] xl:max-w-3xl }">
+<div class="relative flex w-[calc(100%-50px)] flex-col gap-1 md:gap-3 lg:w-[calc(100%-115px)]" style="width: calc(100% - 115px);">
+<div class="flex flex-grow flex-col gap-3 max-w-full">
+<div class="min-h-[20px] flex flex-col items-start gap-3 overflow-x-auto whitespace-pre-wrap break-words">
+<div class="markdown prose w-full break-words dark:prose-invert dark" style="width: 653px;">
+<p>Welcome to our Change Management Platform! This guide will walk you through the basic features and functions of our SaaS product, designed to streamline change management for your business applications. If you're new to our platform, this FAQ-style article will provide you with a solid understanding of its fundamental aspects.</p>
+<p><strong>Q1: What is the Change Management Platform?</strong></p>
+<p>A1: Our Change Management Platform is a SaaS solution designed to help businesses effectively manage and implement changes across their various applications. Whether you're updating software, introducing new features, or optimizing processes, our platform ensures smooth transitions and minimizes disruptions.</p>
+<p><strong>Q2: What does the Platform offer?</strong></p>
+<p>A2: Our platform offers a range of features, including:</p>
+<ul>
+<li>
+<strong>Change Planning:</strong> Create, plan, and schedule changes to applications.</li>
+<li>
+<strong>Collaboration:</strong> Collaborate with teams to ensure seamless change implementation.</li>
+<li>
+<strong>Risk Assessment:</strong> Identify and manage potential risks associated with changes.</li>
+<li>
+<strong>Testing Environment:</strong> Set up sandboxes for thorough testing before applying changes.</li>
+<li>
+<strong>Documentation:</strong> Maintain detailed records of change processes and outcomes.</li>
+<li>
+<strong>Communication:</strong> Keep stakeholders informed about upcoming changes and progress.</li>
+<li>
+<strong>Audit Trails:</strong> Track changes and actions for compliance and accountability.</li>
+</ul>
+<p><strong>Q3: How does the Platform work?</strong></p>
+<p>A3: The platform operates in several steps:</p>
+<ol>
+<li>
+<strong>Initiate Change:</strong> Start by defining the change you want to implement.</li>
+<li>
+<strong>Plan and Schedule:</strong> Plan the change, set a timeline, and assign responsibilities.</li>
+<li>
+<strong>Test:</strong> Create a controlled testing environment to ensure changes work as intended.</li>
+<li>
+<strong>Implement:</strong> Execute the change in the live environment following the plan.</li>
+<li>
+<strong>Monitor:</strong> Keep an eye on the change's performance and address any issues.</li>
+<li>
+<strong>Document:</strong> Record the change process, outcomes, and any lessons learned.</li>
+</ol>
+<p><strong>Q4: Is it user-friendly?</strong></p>
+<p>A4: Absolutely! Our platform is designed with user-friendliness in mind. You don't need advanced technical skills to navigate it. The intuitive interface guides you through each step of the change management process.</p>
+<p><strong>Q5: Are there more advanced use cases?</strong></p>
+<p>A5: Yes! After you feel comfortable with the basics, dig into more advanced use cases by starting with <a href="${ zendesk.brand.instance.SRD___Test@sbs }/hc/en-us/articles/${ zendesk.article.instance.SRD___Advanced_usage_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum }">this article.</a></p>
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>

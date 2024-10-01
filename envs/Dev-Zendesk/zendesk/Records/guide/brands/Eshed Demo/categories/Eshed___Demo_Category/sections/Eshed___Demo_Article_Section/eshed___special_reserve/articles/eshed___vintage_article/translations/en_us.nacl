@@ -1,7 +1,7 @@
 zendesk.article_translation eshed___vintage_article_eshed___special_reserve_Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum_sbsssuuuuuuuum_sbssuuuuuuuuuuuuuuum_sbssuuuuuuuuuuuuuuuuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuuuuuuuuuuuuuuumuuuuuum {
   locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub
   title = "eshed - vintage article"
-  body = "<p>just a vintage article</p>"
+  body = file("zendesk/translations/guide/brands/Eshed Demo/categories/Eshed___Demo_Category/sections/Eshed___Demo_Article_Section/eshed___special_reserve/articles/eshed___vintage_article/translations/a0f16126fc_eshed___vintage_article")
   outdated = false
   draft = false
   hidden = false

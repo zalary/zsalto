@@ -14,6 +14,7 @@ zendesk.ticket_field SRD___Shipping_Delay_Reason_tagger@sbsssu {
     zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__package_lost@uuuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__inclement_weather@uuuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__incorrect_address@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__processing_issue@uuuuuumuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__other@uuuuuumuu,
   ]
   _alias = "SRD - Shipping Delay Reason"

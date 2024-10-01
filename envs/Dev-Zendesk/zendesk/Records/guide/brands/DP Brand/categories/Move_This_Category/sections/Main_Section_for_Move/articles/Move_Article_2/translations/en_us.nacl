@@ -1,7 +1,7 @@
 zendesk.article_translation Move_Article_2_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum_ssuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuumuuuuuum {
   locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
   title = "Move Article 2"
-  body = "<p>This is Content 2</p>"
+  body = file("zendesk/translations/guide/brands/DP Brand/categories/Move_This_Category/sections/Main_Section_for_Move/articles/Move_Article_2/translations/e4655281f3_Move_Article_2")
   outdated = false
   draft = true
   hidden = true

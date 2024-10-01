@@ -13,6 +13,9 @@ zendesk.article SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu@sbssss
     zendesk.article_translation.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu_sbssssauuuum__Salto_en_us_ub@uuuuuuuuuuuumuuuum,
     zendesk.article_translation.instance.SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu_sbssssauuuum__Salto_es_419_ub@uuuuuuuuuuuumuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Signed_in_users@bs,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "SRD - Where is my profile?"
 }

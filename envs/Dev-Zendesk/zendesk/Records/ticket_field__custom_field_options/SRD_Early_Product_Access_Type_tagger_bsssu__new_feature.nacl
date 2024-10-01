@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options SRD_Early_Product_Access_Type_tagger_bsssu__new_feature@uuuuumuuu {
+  raw_name = "New Feature"
+  value = "new_feature"
+  _parent = [
+    zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu,
+  ]
+  _alias = "New Feature"
+}

@@ -1,0 +1,44 @@
+zendesk.sla_policy SRD___SLA@sbs {
+  title = "SRD - SLA"
+  description = "test SLA"
+  filter = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.Customer_Tier_multiselect@su
+        operator = "includes"
+        value = zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__enterprise@uumuu
+      },
+    ]
+  }
+  policy_metrics = [
+    {
+      priority = "low"
+      metric = "first_reply_time"
+      target = 4560
+      business_hours = false
+      target_in_seconds = 273600
+    },
+    {
+      priority = "normal"
+      metric = "first_reply_time"
+      target = 2160
+      business_hours = false
+      target_in_seconds = 129600
+    },
+    {
+      priority = "high"
+      metric = "first_reply_time"
+      target = 1440
+      business_hours = false
+      target_in_seconds = 86400
+    },
+    {
+      priority = "urgent"
+      metric = "first_reply_time"
+      target = 720
+      business_hours = false
+      target_in_seconds = 43200
+    },
+  ]
+  _alias = "SRD - SLA"
+}

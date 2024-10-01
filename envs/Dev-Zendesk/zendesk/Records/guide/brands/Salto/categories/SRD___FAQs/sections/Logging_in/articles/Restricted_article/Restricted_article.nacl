@@ -12,6 +12,9 @@ zendesk.article Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@suuu
   translations = [
     zendesk.article_translation.instance.Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_suuuuuuuum__Salto_en_us_ub@uuuuuuuuuumuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Test_user_segment@s,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "Restricted article"
 }

@@ -74,7 +74,7 @@ zendesk.view SRD___orgs_with_stars@sbsss {
       {
         field = "organization_id"
         operator = "is"
-        value = zendesk.organization.instance.___SRD___test_org___@_11088_11088ssbsss_11088_11088
+        value = "⭐⭐ SRD - test org ⭐⭐"
       },
     ]
   }

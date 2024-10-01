@@ -1,0 +1,18 @@
+zendesk.ticket_form ZGY_Cond2@s {
+  raw_name = "ZGY Cond2"
+  raw_display_name = ""
+  end_user_visible = false
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.Description_description,
+    zendesk.ticket_field.instance.zgy_list_tagger,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "ZGY Cond2"
+}

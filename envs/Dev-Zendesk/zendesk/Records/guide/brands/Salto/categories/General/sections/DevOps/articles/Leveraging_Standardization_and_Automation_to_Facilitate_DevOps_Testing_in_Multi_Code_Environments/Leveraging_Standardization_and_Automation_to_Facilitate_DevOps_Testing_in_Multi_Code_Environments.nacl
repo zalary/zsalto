@@ -12,6 +12,9 @@ zendesk.article Leveraging_Standardization_and_Automation_to_Facilitate_DevOps_T
   translations = [
     zendesk.article_translation.instance.Leveraging_Standardization_and_Automation_to_Facilitate_DevOps_Testing_in_Multi_Code_Environments_DevOps_General_Salto_sssssssssbsuuu__Salto_en_us_ub@uuuuuuuuuuuuuumuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Salto
   _alias = "Leveraging Standardization and Automation to Facilitate DevOps Testing in Multi-Code Environments"
 }

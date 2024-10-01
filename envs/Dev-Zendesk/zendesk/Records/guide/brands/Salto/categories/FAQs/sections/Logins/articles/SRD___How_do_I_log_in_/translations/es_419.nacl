@@ -1,15 +1,7 @@
 zendesk.article_translation SRD___How_do_I_log_in__Logins_FAQs_Salto_sbsssssauuu__Salto_es_419_ub@uuuuuuuuuuumuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_es_419@ub
   title = "SRD - ¿Cómo iniciar sesión en su cuenta?"
-  body = '''
-<ul>
-<li>Username / Password</li>
-<li>SSO</li>
-<li>Mágico</li>
-</ul>
-<p> </p>
-<p>Test content</p>
-'''
+  body = file("zendesk/translations/guide/brands/Salto/categories/FAQs/sections/Logins/articles/SRD___How_do_I_log_in_/translations/d8d431261c_SRD____C_mo_iniciar_sesi_n_en_su_cuenta_")
   outdated = false
   draft = false
   hidden = false

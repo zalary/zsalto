@@ -6,7 +6,7 @@ zendesk.trigger _SRD__test_trigger_ID_mapping@jkssss {
     {
       field = "notification_webhook"
       value = [
-        zendesk.webhook.instance.SRD___update_jira@sbss,
+        zendesk.webhook.instance.SRD___update_jira___1@sbsssbs,
         '''
 {
 	"ticket" : {

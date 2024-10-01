@@ -12,6 +12,9 @@ zendesk.article Author_Level_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuu
   translations = [
     zendesk.article_translation.instance.Author_Level_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.DP_Brand@s
   _alias = "Author Level Test"
 }

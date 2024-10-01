@@ -1,0 +1,23 @@
+zendesk.macro DP___Close_Issue@sbss {
+  title = "DP - Close Issue"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "solved"
+    },
+    {
+      field = "remove_tags"
+      value = [
+        zendesk.tag.instance.customer_interaction,
+      ]
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>Customer has confirmed that the issue is resolved - DP</p>"
+    },
+  ]
+  raw_title = "DP - Close Issue"
+  _alias = "DP - Close Issue"
+}

@@ -1,10 +1,10 @@
 zendesk.article_translation SRD___How_do_I_reset_my_password__Logins_FAQs_Salto_sbssssssauuu__Salto_en_us_ub@uuuuuuuuuuuumuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "SRD - How do I reset my password?"
-  body = '''
-<p>Click <a href="${ zendesk.brand.instance.Salto }/hc/en-us/articles/${ zendesk.article.instance.Welcome_to_your_Help_Center__Announcements_General_Salto@ssssluuu }" target="_self" rel="undefined">here</a></p>
-<p> </p>
-'''
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/FAQs/sections/Logins/articles/SRD___How_do_I_reset_my_password_/translations/2424396134_SRD___How_do_I_reset_my_password_",
+    "template",
+  )
   outdated = false
   draft = false
   hidden = false

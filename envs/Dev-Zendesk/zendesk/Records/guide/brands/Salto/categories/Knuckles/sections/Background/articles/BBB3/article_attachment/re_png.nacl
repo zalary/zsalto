@@ -1,9 +1,10 @@
 zendesk.article_attachment BBB3_Background_Knuckles_Salto__re_png_true@uuuuuvu {
   file_name = "re.png"
+  locale = "en-us"
   content_type = "image/png"
   inline = true
   brand = zendesk.brand.instance.Salto
-  content = file("zendesk/article_attachments/guide/brands/Salto/categories/Knuckles/sections/Background/articles/BBB3/article_attachment/re/2c7fd32d6c_re.png")
+  content = file("zendesk/article_attachments/guide/brands/Salto/categories/Knuckles/sections/Background/articles/BBB3/article_attachment/re/4a08c2c753_2c7fd32d6c_re.png")
   _parent = [
     zendesk.article.instance.BBB3_Background_Knuckles_Salto,
   ]

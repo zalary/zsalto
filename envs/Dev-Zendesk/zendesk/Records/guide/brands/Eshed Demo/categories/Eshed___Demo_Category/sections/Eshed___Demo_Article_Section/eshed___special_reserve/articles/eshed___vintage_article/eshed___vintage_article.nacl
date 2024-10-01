@@ -12,6 +12,9 @@ zendesk.article eshed___vintage_article_eshed___special_reserve_Eshed___Demo_Art
   translations = [
     zendesk.article_translation.instance.eshed___vintage_article_eshed___special_reserve_Eshed___Demo_Article_Section_Eshed___Demo_Category_Eshed_Demo_s_sbssuum_sbsssuuuuuuuum_sbssuuuuuuuuuuuuuuum_sbssuuuuuuuuuuuuuuuuuuuuum__Eshed_Demo_s_en_us_umub@uuuuuuuuuuuuuuuuuuuuuuuuuumuuuuuum,
   ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
   brand = zendesk.brand.instance.Eshed_Demo@s
   _alias = "eshed - vintage article"
 }

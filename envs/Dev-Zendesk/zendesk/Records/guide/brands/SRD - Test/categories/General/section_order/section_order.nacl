@@ -1,5 +1,6 @@
 zendesk.section_order General_SRD___Test_sbs_uuuum@uuuuum {
   sections = [
+    zendesk.section.instance.Updated_FAQ_General_SRD___Test_sbs_uuuum@suuuuuum,
     zendesk.section.instance.Onboarding_General_SRD___Test_sbs_uuuum@uuuuuum,
     zendesk.section.instance.FAQ_General_SRD___Test_sbs_uuuum@uuuuuum,
     zendesk.section.instance.Announcements_General_SRD___Test_sbs_uuuum@uuuuuum,

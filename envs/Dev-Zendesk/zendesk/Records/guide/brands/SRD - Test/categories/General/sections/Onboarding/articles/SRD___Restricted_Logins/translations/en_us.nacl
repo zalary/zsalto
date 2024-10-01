@@ -1,7 +1,7 @@
 zendesk.article_translation SRD___Restricted_Logins_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum {
   locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
   title = "SRD - Restricted Logins"
-  body = "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+  body = file("zendesk/translations/guide/brands/SRD - Test/categories/General/sections/Onboarding/articles/SRD___Restricted_Logins/translations/187de97d4c_SRD___Restricted_Logins")
   outdated = false
   draft = false
   hidden = false

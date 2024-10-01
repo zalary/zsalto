@@ -1,0 +1,23 @@
+zendesk.macro SRD___macro_with_a_group@sbssss {
+  title = "SRD - macro with a group"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "status"
+      value = "pending"
+    },
+    {
+      field = zendesk.ticket_field.instance.SRD___Checkbox_demo_checkbox@sbssu
+      value = "true"
+    },
+  ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk.group.instance.SRD___New_Group_in_SBX@sbssss,
+    ]
+  }
+  raw_title = "SRD - macro with a group"
+  _alias = "SRD - macro with a group"
+}

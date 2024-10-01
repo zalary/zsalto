@@ -1,10 +1,7 @@
 zendesk.article_translation Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides_FAQ_General_Salto_stsssssssssuuu__Salto_en_us_ub@uuuuuuuuuuuuuumuuuum {
   locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
   title = "Dan E's Really Detailed Guide To Using Salto With Zendesk Guides"
-  body = '''
-<p>This article will provide an insight into using Zendesk Guides with Salto and how the fetch &amp; compare will highlight these changes and how to deploy these articles between environments easily and safely.</p>
-<p> </p>
-'''
+  body = file("zendesk/translations/guide/brands/Salto/categories/General/sections/FAQ/articles/Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides/translations/3091e0d365_Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides")
   outdated = false
   draft = false
   hidden = false

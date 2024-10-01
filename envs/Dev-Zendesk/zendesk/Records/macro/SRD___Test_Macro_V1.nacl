@@ -14,14 +14,16 @@ zendesk.macro SRD___Test_Macro_V1@sbsss {
       ]
     },
     {
-      field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
-      value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__feature_b@uuuuumuuu
-    },
-    {
       field = zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu
-      value = zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__field_b@uuuuuumuuu
+      value = zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__option_b@uuuuuumuuu
     },
   ]
+  restriction = {
+    type = "Group"
+    ids = [
+      zendesk.group.instance.SRD___New_Group_in_SBX@sbssss,
+    ]
+  }
   raw_title = "SRD - Test Macro V1"
   _alias = "SRD - Test Macro V1"
 }
