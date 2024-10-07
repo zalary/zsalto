@@ -19,9 +19,9 @@ zendesk.article MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu@sbs
   brand = zendesk.brand.instance.AnotherSaltoBrand
   attachments = [
     zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__Kirk_DeBaets___Salto_Onboarding_Handbook_pdf_false@uuuuuuuuumuussbsssvu,
-    zendesk.article_attachment.instance.MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu,
-    zendesk.article_attachment.instance.MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu,
-    zendesk.article_attachment.instance.MKD___Test_Article_9898104718743_sbssu__kirk_avatar_png_true@uuuuumuuuvu,
+    zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu,
+    zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu,
+    zendesk.article_attachment.instance.MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu_sbssuuuum__kirk_avatar_png_true@uuuuuuuuumuuuvu,
   ]
   _alias = "MKD - Test Article"
 }
