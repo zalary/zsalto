@@ -26,6 +26,7 @@ zendesk.guide_settings Eshed_Demo_s@um {
       google_analytics_4_tracking_id = ""
       enable_article_notification_on_all_articles = false
       anonymous_user_tracking_enabled = false
+      generative_questions_enabled = false
     }
   }
   brand = zendesk.brand.instance.Eshed_Demo@s

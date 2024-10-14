@@ -26,6 +26,7 @@ zendesk.guide_settings Salto {
       google_analytics_4_enabled = false
       anonymous_user_tracking_enabled = false
       google_analytics_4_tracking_id = ""
+      generative_questions_enabled = false
     }
   }
   brand = zendesk.brand.instance.Salto
