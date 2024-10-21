@@ -1,7 +1,6 @@
 zendesk.article How_do_I_customize_my_Help_Center__FAQ_General_AnotherSaltoBrand@ssssssauuu {
   author_id = "neta.marcus+zendesk@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.FAQ_General_AnotherSaltoBrand
   source_locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub

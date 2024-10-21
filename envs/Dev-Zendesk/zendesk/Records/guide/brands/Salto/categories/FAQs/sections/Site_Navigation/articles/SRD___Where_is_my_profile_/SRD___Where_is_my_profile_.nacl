@@ -1,7 +1,6 @@
 zendesk.article SRD___Where_is_my_profile__Site_Navigation_FAQs_Salto_suu@sbssssauuuum {
   author_id = "scott.dixon@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Site_Navigation_FAQs_Salto@suu
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

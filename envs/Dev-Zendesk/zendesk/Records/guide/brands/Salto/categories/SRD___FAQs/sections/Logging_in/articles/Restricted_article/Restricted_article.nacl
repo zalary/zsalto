@@ -1,7 +1,6 @@
 zendesk.article Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@suuuuuuuum {
   author_id = "scott.dixon@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Logging_in_SRD___FAQs_Salto_sbsu@suuuuum
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

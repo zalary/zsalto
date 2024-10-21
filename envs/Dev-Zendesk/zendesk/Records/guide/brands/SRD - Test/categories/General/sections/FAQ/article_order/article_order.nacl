@@ -1,5 +1,6 @@
 zendesk.article_order FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@uuuuuuum {
   articles = [
+    zendesk.article.instance.How_do_I_customize_my_Help_Center__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@ssssssauuuuuuuum,
     zendesk.article.instance.Untitled_FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@uuuuuuuum,
     zendesk.article.instance.How_can_agents_leverage_knowledge_to_help_customers__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@sssssssauuuuuuuum,
     zendesk.article.instance.How_do_I_publish_my_content_in_other_languages__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@ssssssssauuuuuuuum,

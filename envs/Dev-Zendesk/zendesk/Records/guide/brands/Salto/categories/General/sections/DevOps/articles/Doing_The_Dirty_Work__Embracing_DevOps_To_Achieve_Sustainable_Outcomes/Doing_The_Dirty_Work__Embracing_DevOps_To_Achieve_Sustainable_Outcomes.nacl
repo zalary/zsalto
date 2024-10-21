@@ -1,7 +1,6 @@
 zendesk.article Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes_DevOps_General_Salto@sssfssssssuuu {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.DevOps_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

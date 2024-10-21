@@ -1,7 +1,6 @@
 zendesk.article Leveraging_Standardization_and_Automation_to_Facilitate_DevOps_Testing_in_Multi_Code_Environments_DevOps_General_Salto@sssssssssbsuuu {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.DevOps_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

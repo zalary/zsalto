@@ -1,7 +1,6 @@
 zendesk.article DP___New_How_To_Article_New_How_To_Section_How_To_General_DP_Brand_s_uum_suuuum_sssuuuuuuum@sbssssuuuuuuuuuuuum {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = true
-  draft = true
   promoted = false
   section_id = zendesk.section.instance.New_How_To_Section_How_To_General_DP_Brand_s_uum_suuuum@sssuuuuuuum
   source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub

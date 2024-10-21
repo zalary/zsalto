@@ -1,7 +1,6 @@
 zendesk.article What_are_these_sections_and_articles_doing_here__FAQ_General_Salto@sssssssauuu {
   author_id = "neta.marcus+zendesk@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.FAQ_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

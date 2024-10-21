@@ -1,7 +1,6 @@
 zendesk.article ZGY_Image_Test_2_FAQ_General_Salto@sssuuu {
   author_id = "zalary.young@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.FAQ_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

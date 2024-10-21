@@ -1,0 +1,27 @@
+zendesk.automation DP___Env_Variable@sbss {
+  title = "DP - Env Variable"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "assignee_id"
+      value = "geoffrey.routledge@salto.io"
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+      {
+        field = "NEW"
+        operator = "is"
+        value = "24"
+      },
+    ]
+  }
+  raw_title = "DP - Env Variable"
+  _alias = "DP - Env Variable"
+}

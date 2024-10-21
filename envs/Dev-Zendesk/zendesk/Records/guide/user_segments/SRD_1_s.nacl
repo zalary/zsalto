@@ -1,0 +1,9 @@
+zendesk.user_segment SRD_1@s {
+  user_type = "staff"
+  group_ids = [
+    zendesk.group.instance.SRD___test_1@sbss,
+  ]
+  built_in = false
+  name = "SRD 1"
+  _alias = "SRD 1"
+}

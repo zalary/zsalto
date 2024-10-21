@@ -1,14 +1,14 @@
 zendesk.ticket_field ZGY_Explain_text@su {
   type = "text"
-  raw_title = "ZGY Explain"
+  raw_title = "ZGY Explain Name"
   raw_description = ""
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "ZGY Explain"
+  raw_title_in_portal = "ZGY Explain Name"
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
   removable = true
-  _alias = "ZGY Explain"
+  _alias = "ZGY Explain Name"
 }

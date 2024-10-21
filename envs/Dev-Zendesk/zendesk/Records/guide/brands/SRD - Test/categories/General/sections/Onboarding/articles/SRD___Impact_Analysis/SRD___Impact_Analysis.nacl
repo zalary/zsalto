@@ -1,7 +1,6 @@
 zendesk.article SRD___Impact_Analysis_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum {
   author_id = "scott.dixon@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Onboarding_General_SRD___Test_sbs_uuuum@uuuuuum
   source_locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub

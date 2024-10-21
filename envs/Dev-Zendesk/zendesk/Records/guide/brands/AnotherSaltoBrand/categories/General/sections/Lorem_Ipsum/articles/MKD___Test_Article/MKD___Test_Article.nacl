@@ -1,7 +1,6 @@
 zendesk.article MKD___Test_Article_Lorem_Ipsum_General_AnotherSaltoBrand_suu@sbssuuuum {
   author_id = "kirk.debaets@salto.io"
   comments_disabled = false
-  draft = true
   promoted = false
   section_id = zendesk.section.instance.Lorem_Ipsum_General_AnotherSaltoBrand@suu
   source_locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub

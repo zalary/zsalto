@@ -1,7 +1,6 @@
 zendesk.article SRD___How_do_I_log_in__Logins_FAQs_Salto@sbsssssauuu {
   author_id = "scott.dixon@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Logins_FAQs_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

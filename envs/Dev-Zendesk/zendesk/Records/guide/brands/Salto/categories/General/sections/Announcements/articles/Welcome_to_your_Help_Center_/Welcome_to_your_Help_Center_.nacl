@@ -1,7 +1,6 @@
 zendesk.article Welcome_to_your_Help_Center__Announcements_General_Salto@ssssluuu {
   author_id = "neta.marcus+zendesk@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Announcements_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

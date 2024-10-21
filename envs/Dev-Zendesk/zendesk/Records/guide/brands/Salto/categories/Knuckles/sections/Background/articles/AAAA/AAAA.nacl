@@ -1,7 +1,6 @@
 zendesk.article AAAA_Background_Knuckles_Salto {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = false
-  draft = true
   promoted = false
   section_id = zendesk.section.instance.Background_Knuckles_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

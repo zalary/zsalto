@@ -1,7 +1,6 @@
 zendesk.article Eshed___Demo_Article__1_FAQ_General_Eshed_Demo_s_uum_uuuum@sbsssnuuuuuum {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.FAQ_General_Eshed_Demo_s_uum@uuuum
   source_locale = zendesk.guide_language_settings.instance.Eshed_Demo_s_en_us@umub

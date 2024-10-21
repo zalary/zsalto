@@ -1,7 +1,6 @@
 zendesk.article Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto@ssssssssuuu {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.DevOps_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

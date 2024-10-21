@@ -1,7 +1,6 @@
 zendesk.article Sample_article__Stellar_Skyonomy_refund_policies_Announcements_General_Salto@sfssssuuu {
   author_id = "neta.marcus+zendesk@salto.io"
   comments_disabled = false
-  draft = true
   promoted = false
   section_id = zendesk.section.instance.Announcements_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub

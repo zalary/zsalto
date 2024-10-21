@@ -1,7 +1,6 @@
 zendesk.article Welcome_to_your_Help_Center__Announcements_General_SRD___Test_sbs_uuuum_uuuuuum@ssssluuuuuuuum {
   author_id = "neta.marcus+zendesk@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Announcements_General_SRD___Test_sbs_uuuum@uuuuuum
   source_locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub

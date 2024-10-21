@@ -8,6 +8,7 @@ zendesk.automation_order {
     zendesk.automation.instance.SRD___new_automation@sbss,
     zendesk.automation.instance._SRD____Test_Automation@jksbss,
     zendesk.automation.instance.SRD___test_automation_for_troubleshooting@sbssss,
+    zendesk.automation.instance.DP___Env_Variable@sbss,
   ]
   inactive = [
   ]

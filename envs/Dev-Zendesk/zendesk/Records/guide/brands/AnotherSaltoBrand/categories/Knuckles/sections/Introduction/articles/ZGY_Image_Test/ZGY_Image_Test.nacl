@@ -1,7 +1,6 @@
 zendesk.article ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand@ssuuu {
   author_id = "zalary.young@salto.io"
   comments_disabled = true
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Introduction_Knuckles_AnotherSaltoBrand
   source_locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub

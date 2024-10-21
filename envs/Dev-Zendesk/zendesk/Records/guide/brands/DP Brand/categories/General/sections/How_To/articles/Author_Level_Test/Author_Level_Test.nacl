@@ -1,7 +1,6 @@
 zendesk.article Author_Level_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum {
   author_id = "dan.putman+zd@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.How_To_General_DP_Brand_s_uum@suuuum
   source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub

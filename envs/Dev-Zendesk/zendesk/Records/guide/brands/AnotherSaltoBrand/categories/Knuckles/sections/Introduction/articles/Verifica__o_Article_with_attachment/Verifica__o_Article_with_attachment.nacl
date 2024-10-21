@@ -1,7 +1,6 @@
 zendesk.article Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand@_00231_00227sssuuu {
   author_id = "neta.marcus+dev@salto.io"
   comments_disabled = false
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.Introduction_Knuckles_AnotherSaltoBrand
   source_locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub

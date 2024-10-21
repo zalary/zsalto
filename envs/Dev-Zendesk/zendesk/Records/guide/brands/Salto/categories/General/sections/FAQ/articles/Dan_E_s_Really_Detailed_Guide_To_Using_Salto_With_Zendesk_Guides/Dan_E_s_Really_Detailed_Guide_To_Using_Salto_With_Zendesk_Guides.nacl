@@ -1,7 +1,6 @@
 zendesk.article Dan_E_s_Really_Detailed_Guide_To_Using_Salto_With_Zendesk_Guides_FAQ_General_Salto@stsssssssssuuu {
   author_id = "dan.english@salto.io"
   comments_disabled = true
-  draft = false
   promoted = false
   section_id = zendesk.section.instance.FAQ_General_Salto
   source_locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
