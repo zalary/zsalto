@@ -1,0 +1,12 @@
+zendesk.category_translation Compress_These_DP_Brand_s_suum__DP_Brand_s_en_us_umub@uuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "Compress These"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.category.instance.Compress_These_DP_Brand_s@suum,
+  ]
+  _alias = "en-us - Compress These"
+}

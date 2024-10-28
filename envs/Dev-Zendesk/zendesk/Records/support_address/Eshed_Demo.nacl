@@ -1,8 +1,8 @@
 zendesk.support_address Eshed_Demo_support_Eshed_Demo_s_subdomain_zendesk_com@sumumvvv {
-  brand_id = zendesk.brand.instance.Eshed_Demo@s
+  brand_id = 13478530485399
   default = true
   name = "Eshed Demo"
-  email = "support@${ zendesk.brand.instance.Eshed_Demo@s.subdomain }.zendesk.com"
+  email = "support@eshed-demo-salto-sb.zendesk.com"
   forwarding_status = "verified"
   spf_status = "verified"
   cname_status = "verified"

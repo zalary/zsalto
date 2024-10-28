@@ -1,0 +1,14 @@
+zendesk.section Level_4_Level_3_Level_2_Level_1_Compress_These_DP_Brand_s_suum_suuuuum_suuuuuuuum_suuuuuuuuuuum@suuuuuuuuuuuuuum {
+  category_id = zendesk.category.instance.Compress_These_DP_Brand_s@suum
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  source_locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  outdated = false
+  parent_section_id = zendesk.section.instance.Level_3_Level_2_Level_1_Compress_These_DP_Brand_s_suum_suuuuum_suuuuuuuum@suuuuuuuuuuum
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.Level_4_Level_3_Level_2_Level_1_Compress_These_DP_Brand_s_suum_suuuuum_suuuuuuuum_suuuuuuuuuuum_suuuuuuuuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuuuuumuuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _alias = "Level 4"
+}
