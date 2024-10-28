@@ -27,6 +27,7 @@ zendesk.trigger_order {
         zendesk.trigger.instance.MKD___Test_Org@sbss,
       ]
       inactive = [
+        zendesk.trigger.instance.GWR_Agent_Trigger@s,
       ]
     },
     {
@@ -84,6 +85,7 @@ zendesk.trigger_order {
         zendesk.trigger.instance.ZGY_Orgs@s,
       ]
       inactive = [
+        zendesk.trigger.instance._Salesforce_Integration__Sync_tickets_to_Salesforce__00D5f000005tQyREAU_@jsksssssjk,
       ]
     },
   ]

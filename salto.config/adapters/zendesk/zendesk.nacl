@@ -1,5 +1,11 @@
 zendesk {
   fetch = {
+    omitInactive = {
+      default = true
+      customizations = {
+        trigger = false
+      }
+    }
     guide = {
        brands = [".*"]
       }

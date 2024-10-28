@@ -109,3 +109,7 @@ zendesk.tag salto {
   id = "salto"
   _alias = "salto"
 }
+zendesk.tag isgeoff {
+  id = "isgeoff"
+  _alias = "isgeoff"
+}
