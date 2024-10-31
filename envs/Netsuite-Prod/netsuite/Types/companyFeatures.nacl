@@ -152,6 +152,9 @@ settings netsuite.companyFeatures {
   boolean ADVANCEDREVENUERECOGNITION {
     label = "Advanced Revenue Management (Essentials)"
   }
+  boolean ARMINCONFIGMODE {
+    label = "Advanced Revenue Management In Configuration Mode"
+  }
   boolean RULEBASEDRECOGNITIONTREATMENT {
     label = "Rule-Based Recognition Treatment"
   }
@@ -268,6 +271,9 @@ settings netsuite.companyFeatures {
   }
   boolean UPLIFTPRICING {
     label = "Uplift Pricing"
+  }
+  boolean PREPAYWITHDRAWDOWN {
+    label = "Prepay With Drawdown"
   }
   boolean CCTRACKING {
     label = "Credit Card Payments"

@@ -1,0 +1,217 @@
+netsuite.reportdefinition customreportsrd_custom_report {
+  scriptid = "customreportsrd_custom_report"
+  definition = "75d1a8425be15db7e47e2cbcc141de2308a3995c837c3ace4657d94e9d8f36d0@GZC@2024.2.13@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"
+  name = "SRD - Opportunity Summary"
+  components = [
+    {
+      KEY_COMPONENT = 57
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.measure.NLOpportunityTransactionExpectedCloseMeasure"
+    },
+    {
+      KEY_COMPONENT = 28
+      FLAG_SECONDARY_DIM = false
+      FIELD_CLASS = "com.netledger.app.reporting.dimension.NLDepartmentDimension"
+    },
+  ]
+  parameters = {
+    accounting_book_current_id = "1"
+    accounting_book_id = "1"
+  }
+  sorts = [
+    {
+      KEY_COMPONENT = "57"
+      FIELD_ALIAS = "weightedamt"
+      SEQ_NUMBER = 0
+      FLAG_DESCENDING = true
+      FLAG_SUBTOTAL = false
+    },
+  ]
+  fields = [
+    {
+      KEY_COMPONENT = 28
+      FIELD_TABLE = "DEPARTMENT"
+      FIELD_ALIAS = "SVALIDNAME"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = true
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = false
+      SEQ_NUMBER = 1
+      FIELD_LABEL = "Name (Grouped)"
+      FIELD_URL = "/app/common/otherlists/departmenttype.nl?id={dpt,department,nkey,x,x}"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "text"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 57
+      FIELD_ALIAS = "WEIGHTEDAMT"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 2
+      FIELD_LABEL = "Weighted Amount"
+      FIELD_URL = "cr=-3"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = true
+      FLAG_DISPLAY = true
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "paren"
+      FIELD_FORMAT = "currency"
+      FLAG_TOTAL_FORMULA = true
+    },
+    {
+      KEY_COMPONENT = 57
+      FIELD_ALIAS = "DISCAMT"
+      FLAG_DIMENSION = false
+      FIELD_UNIT_TYPE = -1
+      FLAG_ROLLUP = false
+      FIELD_DATE_FILTER_INDEX = 0
+      FLAG_APPLY_FORWARDING = true
+      FLAG_MEASURE = true
+      SEQ_NUMBER = 3
+      FIELD_LABEL = "Amount (Discount)"
+      FIELD_URL = "cr=-3"
+      FIELD_URL_TYPE = "DERIVED"
+      FLAG_DUAL_COLUMN = false
+      FLAG_PERCENT_TOTAL = false
+      FLAG_PERCENT_INCOME = false
+      FLAG_PERCENT_EXPENSE = false
+      FLAG_RUNNING_BAL = false
+      FLAG_SHOW_OPENING_BAL = false
+      FLAG_SHOW_ABS_DIFF = false
+      FLAG_SHOW_PCT_DIFF = false
+      FLAG_SUB_TOTAL = false
+      FLAG_DISPLAY = true
+      FIELD_SUMMARY = " SUM"
+      FLAG_DROP_DECIMAL = false
+      FLAG_DIV_BY_THOUSAND = false
+      FLAG_NEG_IN_RED = false
+      FIELD_NEG_VAL_FORMAT = "norm"
+      FIELD_FORMAT = "currency"
+      FLAG_TOTAL_FORMULA = true
+    },
+  ]
+  uiPreferences = {
+    PARAMETER_CASH_BASIS = false
+    PARAMETER_TAXCASH_BASIS = "F"
+    PARAMETER_SHOW_ZEROS = true
+    PARAMETER_SHOW_SINGLEROWLINES = true
+    PARAMETER_DISPLAY_TYPE = "data"
+    PARAMETER_INC_VS_EXP = false
+    PARAMETER_GRAPH_TOP = 100001
+    PARAMETER_WEB_STORE = false
+    PARAMETER_ACTIVITY_ONLY = false
+    PARAMETER_ALLOW_WEBQUERY = false
+    PARAMETER_GRAPH_3D = false
+    PARAMETER_SHOW_CURRENCY_SYMBOL = true
+    PARAMETER_EXPAND_LEVEL = 100
+  }
+  criteria = [
+    {
+      descriptor = {
+        FIELD_ALIAS = "DDATE"
+        FIELD_OP_CLASS = "BETWEEN"
+        FILED_TYPE = "DATE"
+        SEQ_NUMBER = 0
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "oppexpclosed,trandoc,dexpclosed,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = "TM"
+        },
+      ]
+    },
+    {
+      descriptor = {
+        FIELD_ALIAS = "KSUBSIDIARY"
+        FIELD_OP_CLASS = "SUBSIDCHILDRENOF"
+        FILED_TYPE = "SELECT"
+        SEQ_NUMBER = 1
+        FIELD_UNIT_TYPE = -1
+        FLAG_IN_FOOTER = true
+        FLAG_CUSTOM_FOOTER = false
+        FLAG_VIRTUAL_FIELD = true
+        FIELD_DESCRIPTOR = "oppexpclosed,tranline,ksubsidiary,x,x"
+        FLAG_IS_HIDDEN = false
+      }
+      values = [
+        {
+          FIELD_DATE_FILTER_INDEX = 0
+          SEQ_NUMBER = 0
+          FIELD_VALUE = 1
+        },
+      ]
+    },
+  ]
+  flags = {
+    KEY_REPORT_ID = 314
+    KEY_SCRIPT_ID = "CUSTOMREPORTSRD_CUSTOM_REPORT"
+    FIELD_KEY = 314
+    FIELD_CODE = "QUICK_REPORT"
+    FIELD_DESCRIPTION = '''
+Options:
+ Show Zeros
+
+'''
+    FIELD_NAME = "SRD - Opportunity Summary"
+    FIELD_ORIGINAL_TITLE = "SRD - Opportunity Summary"
+    FIELD_PERM_TYPE = "REPO_SFA"
+    KEY_FEATURE = "OPPORTUNITIES"
+    FLAG_PERIODS_ALLOWED = true
+    FLAG_DISPLAY_TYPE = "SUMMARY"
+    FLAG_ONE_DATE = false
+    FLAG_PRIMARY_OUTER_JOIN = false
+    FLAG_CUSTOM_MODE = true
+    FLAG_CASH_BASIS = false
+    FLAG_SHOW_ZEROS = true
+    FLAG_INACTIVE = false
+    FIELD_VERSION = 8
+    FLAG_PERIODS_ON = false
+    FLAG_USE_FISCAL_YEAR_RANGE = false
+    FLAG_USE_TAX_PERIODS = false
+    KEY_ENTITY = "5"
+    FLAG_SHOW_LINK = false
+    FLAG_SUPPORTS_CONSOL_SUBSIDIARY = true
+    FIELD_TOGGLE_TYPE = "NOTHING"
+    FLAG_AFFECTED_BY_COGS = false
+    FLAG_ACTIVITY_ONLY = false
+  }
+  _alias = "SRD - Opportunity Summary"
+}

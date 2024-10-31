@@ -477,7 +477,7 @@ Complexity: Low
                 recipientfield = netsuite.workflow.instance.customworkflow_srd_basic_approval_v1.workflowcustomfields.workflowcustomfield.custworkflow_srd_wkflw_crt.scriptid
                 recipienttype = "FIELD"
                 schedulemode = "DELAY"
-                sender = "[ACCOUNT_SPECIFIC_VALUE]"
+                sender = "[ACCOUNT_SPECIFIC_VALUE] (Salto User)"
                 sendertype = "SPECIFIC"
                 subject = "SO {TRANID} rejected"
                 usetemplate = false

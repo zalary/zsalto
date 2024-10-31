@@ -50,6 +50,7 @@ netsuite.companyFeatures {
   BALANCING_SEGMENTS = false
   AMORTIZATION = false
   ADVANCEDREVENUERECOGNITION = false
+  ARMINCONFIGMODE = false
   RULEBASEDRECOGNITIONTREATMENT = false
   ADVTAXENGINE = true
   MOSS = false
@@ -89,6 +90,7 @@ netsuite.companyFeatures {
   INVOICEGROUP = false
   COMMITPLUSOVERAGE = false
   UPLIFTPRICING = false
+  PREPAYWITHDRAWDOWN = false
   CCTRACKING = true
   SOFTDESCRIPTORS = false
   PAYPALINTEGRATION = false
