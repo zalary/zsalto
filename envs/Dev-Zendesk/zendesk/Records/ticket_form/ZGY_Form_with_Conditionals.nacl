@@ -10,6 +10,9 @@ zendesk.ticket_form ZGY_Form_with_Conditionals@s {
     zendesk.ticket_field.instance.Subject_subject,
     zendesk.ticket_field.instance.Description_description,
     zendesk.ticket_field.instance.zgy_list_tagger,
+    zendesk.ticket_field.instance.ZGY_Explain_text@su,
+    zendesk.ticket_field.instance.zip_code_with_validation_regexp@sssu,
+    zendesk.ticket_field.instance.test_multiselect,
   ]
   active = true
   default = false
