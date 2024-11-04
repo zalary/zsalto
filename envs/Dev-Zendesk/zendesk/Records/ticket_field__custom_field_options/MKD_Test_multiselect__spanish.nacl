@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options MKD_Test_multiselect__spanish@suuu {
+  raw_name = "Spanish"
+  value = "spanish"
+  _parent = [
+    zendesk.ticket_field.instance.MKD_Test_multiselect@su,
+  ]
+  _alias = "Spanish"
+}

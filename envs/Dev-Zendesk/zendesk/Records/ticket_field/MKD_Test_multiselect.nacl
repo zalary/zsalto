@@ -1,0 +1,20 @@
+zendesk.ticket_field MKD_Test_multiselect@su {
+  type = "multiselect"
+  raw_title = "MKD Test"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "MKD Test"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.MKD_Test_multiselect__english@suuu,
+    zendesk.ticket_field__custom_field_options.instance.MKD_Test_multiselect__spanish@suuu,
+    zendesk.ticket_field__custom_field_options.instance.MKD_Test_multiselect__hebrew@suuu,
+    zendesk.ticket_field__custom_field_options.instance.MKD_Test_multiselect__german@suuu,
+  ]
+  _alias = "MKD Test"
+}
