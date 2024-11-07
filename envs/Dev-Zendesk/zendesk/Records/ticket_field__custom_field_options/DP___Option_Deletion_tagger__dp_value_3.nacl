@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP___Option_Deletion_tagger__dp_value_3@sbssuuuuu {
+  raw_name = "dp value 3"
+  value = "dp_value_3"
+  _parent = [
+    zendesk.ticket_field.instance.DP___Option_Deletion_tagger@sbssu,
+  ]
+  _alias = "dp value 3"
+}

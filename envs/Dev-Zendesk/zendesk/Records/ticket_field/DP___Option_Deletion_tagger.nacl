@@ -1,0 +1,21 @@
+zendesk.ticket_field DP___Option_Deletion_tagger@sbssu {
+  type = "tagger"
+  raw_title = "DP - Option Deletion"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "DP - Option Deletion"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.DP___Option_Deletion_tagger__dp_value_1@sbssuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP___Option_Deletion_tagger__dp_value_3@sbssuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP___Option_Deletion_tagger__dp_value_4@sbssuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP___Option_Deletion_tagger__dp_value_5@sbssuuuuu,
+  ]
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.DP___Option_Deletion_tagger__dp_value_1@sbssuuuuu
+  _alias = "DP - Option Deletion"
+}
