@@ -10,12 +10,12 @@ zendesk.macro SRD___macro_attachment@sbss {
     },
     {
       field = "comment_value_html"
-      value = "<p>here's the attachment</p>"
+      value = "<p>here's the attachment</p><p>&nbsp;</p><p>Please visit <a href=\"https://www.salto.io/blog\">https://www.salto.io/blog</a> for more info</p>"
     },
   ]
   attachments = [
-    zendesk.macro_attachment.instance.SRD___macro_attachment__Webinar_Zoom_background_Salto_jpg@sbssuuuuuv,
     zendesk.macro_attachment.instance.SRD___macro_attachment__error_screenshot_png@sbssuuuv,
+    zendesk.macro_attachment.instance.SRD___macro_attachment__Webinar_Zoom_background_Salto_jpg@sbssuuuuuv,
   ]
   raw_title = "SRD - macro attachment"
   _alias = "SRD - macro attachment"

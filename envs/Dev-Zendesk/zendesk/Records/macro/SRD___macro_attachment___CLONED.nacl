@@ -10,7 +10,7 @@ zendesk.macro SRD___macro_attachment___CLONED@sbsssbs {
     },
     {
       field = "comment_value_html"
-      value = "<p>here's the attachment</p>"
+      value = "<p>here's the attachment</p><p>&nbsp;</p><p>Please visit <a href=\"https://www.salto.io/\">https://www.salto.io/</a> for more info</p>"
     },
   ]
   attachments = [
