@@ -255,6 +255,7 @@ zendesk.account_setting {
     focus_mode_enabled = false
     assignment_method = "highest_spare_capacity"
     ticket_sorting_prioritize_sla = false
+    transform_to_email_enabled = false
   }
   deletion = {
     user_auto_delete_soft_deleted_retention = 30
