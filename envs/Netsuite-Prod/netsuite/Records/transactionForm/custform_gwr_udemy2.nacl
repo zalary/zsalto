@@ -2038,7 +2038,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 13
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -2048,7 +2048,7 @@ netsuite.transactionForm custform_gwr_udemy2 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
+                    index = 12
                   }
                 }
                 index = 0

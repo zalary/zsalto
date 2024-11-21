@@ -1733,7 +1733,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 16
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1743,7 +1743,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
+                    index = 12
                   }
                   cseg4 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg4]"
@@ -1753,7 +1753,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                   cseg5 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg5]"
@@ -1763,7 +1763,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 15
+                    index = 14
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1773,7 +1773,7 @@ netsuite.transactionForm custform_gwr_csform1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 16
+                    index = 15
                   }
                 }
                 index = 0

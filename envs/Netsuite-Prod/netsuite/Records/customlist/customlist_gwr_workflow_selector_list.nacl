@@ -13,18 +13,39 @@ netsuite.customlist customlist_gwr_workflow_selector_list {
         index = 0
         isInactive = false
       }
+      val_54959_t2257815_717 = {
+        scriptid = "val_54959_t2257815_717"
+        abbreviation = "R"
+        value = "Red"
+        index = 1
+        isInactive = false
+      }
       val_54960_t2257815_430 = {
         scriptid = "val_54960_t2257815_430"
         abbreviation = "B"
         value = "Blue"
-        index = 1
+        index = 2
         isInactive = false
       }
       val_55058_t2257815_924 = {
         scriptid = "val_55058_t2257815_924"
         abbreviation = "O"
         value = "Silver"
-        index = 2
+        index = 3
+        isInactive = false
+      }
+      val_55059_t2257815_653 = {
+        scriptid = "val_55059_t2257815_653"
+        abbreviation = "P"
+        value = "Purple"
+        index = 4
+        isInactive = false
+      }
+      val_58213_t2480139_257 = {
+        scriptid = "val_58213_t2480139_257"
+        abbreviation = "C"
+        value = "Chartreuse"
+        index = 5
         isInactive = false
       }
     }

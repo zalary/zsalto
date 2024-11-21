@@ -1760,7 +1760,7 @@ netsuite.transactionForm custform_srd_sales_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 12
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1770,7 +1770,7 @@ netsuite.transactionForm custform_srd_sales_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 11
                   }
                 }
                 index = 0

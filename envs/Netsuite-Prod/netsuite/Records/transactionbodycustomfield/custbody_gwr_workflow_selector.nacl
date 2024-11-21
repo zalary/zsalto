@@ -26,7 +26,7 @@ netsuite.transactionbodycustomfield custbody_gwr_workflow_selector {
   bodyvendorpayment = false
   checkspelling = false
   defaultchecked = false
-  description = "New, much better description!"
+  description = "Old, lousy deascription with apelling mistajkkegs"
   displaytype = "NORMAL"
   encryptatrest = false
   fieldtype = "SELECT"

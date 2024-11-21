@@ -1634,7 +1634,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 10
+                    index = 14
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1644,7 +1644,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 10
                   }
                   cseg4 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg4]"
@@ -1654,7 +1654,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 11
                   }
                   cseg5 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg5]"
@@ -1664,7 +1664,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
+                    index = 12
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1674,7 +1674,7 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                 }
                 index = 0

@@ -1616,7 +1616,7 @@ netsuite.transactionForm custform_srd_new_form_3 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
+                    index = 14
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1626,7 +1626,7 @@ netsuite.transactionForm custform_srd_new_form_3 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                 }
                 index = 0
