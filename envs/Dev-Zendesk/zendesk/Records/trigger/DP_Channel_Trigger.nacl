@@ -1,0 +1,24 @@
+zendesk.trigger DP_Channel_Trigger@s {
+  title = "DP Channel Trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = zendesk.ticket_field.instance.DP_Severity_tagger@su
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_high@uumuuuu
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "via_id"
+        operator = "is"
+        value = zendesk.channel.instance.Email
+      },
+    ]
+  }
+  description = ""
+  raw_title = "DP Channel Trigger"
+  category_id = zendesk.trigger_category.instance.DP
+  _alias = "DP Channel Trigger"
+}
