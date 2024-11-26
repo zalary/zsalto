@@ -27,6 +27,9 @@ zendesk.guide_settings SRD___Test_sbs@uuum {
       anonymous_user_tracking_enabled = false
       google_analytics_4_tracking_id = ""
       generative_questions_enabled = false
+      service_catalog = {
+        service_catalog_enabled = false
+      }
     }
   }
   brand = zendesk.brand.instance.SRD___Test@sbs
