@@ -1,0 +1,10 @@
+zendesk.category ZGY_Cat_1_ZGY {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  translations = [
+    zendesk.category_translation.instance.ZGY_Cat_1_ZGY__ZGY_en_us_ub@uuuuuuum,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _alias = "ZGY_Cat_1"
+}

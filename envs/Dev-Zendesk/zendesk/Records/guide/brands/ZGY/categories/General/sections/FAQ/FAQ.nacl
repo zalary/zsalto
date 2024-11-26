@@ -1,0 +1,13 @@
+zendesk.section FAQ_General_ZGY {
+  category_id = zendesk.category.instance.General_ZGY
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.FAQ_General_ZGY__ZGY_en_us_ub@uuuuuum,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _alias = "FAQ"
+}
