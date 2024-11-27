@@ -1,5 +1,5 @@
 zendesk.article Lorem_Announcements_General_ZGY {
-  author_id = "neta.marcus+dev@salto.io"
+  author_id = "zalary.young@salto.io"
   comments_disabled = false
   promoted = false
   section_id = zendesk.section.instance.Announcements_General_ZGY
