@@ -1,6 +1,5 @@
 netsuite {
   fetch = {
-    addLockedCustomRecordTypes = true
     include = {
       types = [
         {
