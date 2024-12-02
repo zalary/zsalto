@@ -1,0 +1,6 @@
+zendesk.guide_language_settings ZGY_en_us@ub {
+  locale = "en-us"
+  name = "ZGY"
+  brand = zendesk.brand.instance.ZGY
+  _alias = "ZGY en-us language settings"
+}

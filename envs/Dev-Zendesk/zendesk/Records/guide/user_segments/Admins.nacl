@@ -1,0 +1,6 @@
+zendesk.user_segment Admins {
+  user_type = "signed_in_users"
+  built_in = false
+  name = "Admins"
+  _alias = "Admins"
+}

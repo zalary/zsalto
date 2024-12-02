@@ -1,0 +1,11 @@
+zendesk.section_order General_ZGY {
+  sections = [
+    zendesk.section.instance.FAQ_General_ZGY,
+    zendesk.section.instance.Announcements_General_ZGY,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.category.instance.General_ZGY,
+  ]
+  _alias = "General Section Order"
+}

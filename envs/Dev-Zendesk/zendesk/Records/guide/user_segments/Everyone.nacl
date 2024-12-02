@@ -1,0 +1,6 @@
+zendesk.user_segment Everyone {
+  user_type = "Everyone"
+  built_in = true
+  name = "Everyone"
+  _alias = "Everyone"
+}

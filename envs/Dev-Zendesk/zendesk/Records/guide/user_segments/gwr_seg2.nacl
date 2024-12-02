@@ -1,0 +1,11 @@
+zendesk.user_segment gwr_seg2 {
+  user_type = "signed_in_users"
+  built_in = false
+  added_user_ids = [
+    "neta.marcus+zendesk@salto.io",
+    "hadas.birin@salto.io",
+    "scott.dixon@salto.io",
+  ]
+  name = "gwr_seg2"
+  _alias = "gwr_seg2"
+}

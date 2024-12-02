@@ -1,0 +1,13 @@
+zendesk.article_translation Welcome_to_your_Help_Center__Announcements_General_ZGY_ssssluuu__ZGY_en_us_ub@uuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Welcome to your Help Center!"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/Announcements/articles/Welcome_to_your_Help_Center_/translations/79716f8203_Welcome_to_your_Help_Center_")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.Welcome_to_your_Help_Center__Announcements_General_ZGY@ssssluuu,
+  ]
+  _alias = "en-us - Welcome to your Help Center!"
+}
