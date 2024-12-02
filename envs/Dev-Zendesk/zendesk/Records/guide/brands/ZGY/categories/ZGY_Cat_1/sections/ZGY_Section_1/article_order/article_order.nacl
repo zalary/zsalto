@@ -1,7 +1,0 @@
-zendesk.article_order ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@uuuuuum {
-  brand = zendesk.brand.instance.ZGY
-  _parent = [
-    zendesk.section.instance.ZGY_Section_1_ZGY_Cat_1_ZGY@ssuuuu,
-  ]
-  _alias = "ZGY Section 1 Article Order"
-}

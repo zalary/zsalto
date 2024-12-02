@@ -97,18 +97,6 @@ zendesk.tag closed_ticket {
   id = "closed_ticket"
   _alias = "closed_ticket"
 }
-zendesk.tag knuckle {
-  id = "knuckle"
-  _alias = "knuckle"
-}
-zendesk.tag nacl {
-  id = "nacl"
-  _alias = "nacl"
-}
-zendesk.tag salto {
-  id = "salto"
-  _alias = "salto"
-}
 zendesk.tag isgeoff {
   id = "isgeoff"
   _alias = "isgeoff"
