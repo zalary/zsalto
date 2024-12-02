@@ -1,0 +1,14 @@
+zendesk.workspace DA_Workspace_Active@s {
+  title = "DA Workspace Active"
+  activated = true
+  knowledge_settings = {
+    default_search_filters = {
+      default_search_filters_brands = "_TICKET"
+      default_search_filters_categories = ""
+      default_search_filters_external_content_sources = ""
+      default_search_filters_locales = "_TICKET"
+      default_search_filters_sections = ""
+    }
+  }
+  _alias = "DA Workspace Active"
+}

@@ -2,7 +2,10 @@ zendesk.workspace_order {
   active = [
     zendesk.workspace.instance.DP_Workspace@s,
     zendesk.workspace.instance.SRD_Workspace@s,
+    zendesk.workspace.instance.DA_Workspace_Active@s,
   ]
   inactive = [
+    zendesk.workspace.instance.For_Loom_inactive_WS@s,
+    zendesk.workspace.instance.DA_Workspace_Inactive@s,
   ]
 }
