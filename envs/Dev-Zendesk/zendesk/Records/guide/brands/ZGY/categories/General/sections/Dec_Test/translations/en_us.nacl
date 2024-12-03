@@ -1,0 +1,12 @@
+zendesk.section_translation Dec_Test_General_ZGY_suu__ZGY_en_us_ub@uuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Dec Test"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.section.instance.Dec_Test_General_ZGY@suu,
+  ]
+  _alias = "en-us - Dec Test"
+}

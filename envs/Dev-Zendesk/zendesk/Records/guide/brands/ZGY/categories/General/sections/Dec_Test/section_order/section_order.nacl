@@ -1,0 +1,7 @@
+zendesk.section_order Dec_Test_General_ZGY_suu@uuum {
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.section.instance.Dec_Test_General_ZGY@suu,
+  ]
+  _alias = "Dec Test Section Order"
+}
