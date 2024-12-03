@@ -6,9 +6,7 @@ zendesk {
         trigger = false
       }
     }
-    guide = {
-       brands = ["ZGY"]
-      }
+ 
     include = [
       {
         type = ".*"
