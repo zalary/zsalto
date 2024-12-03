@@ -1,5 +1,6 @@
 zendesk.section_order General_ZGY {
   sections = [
+    zendesk.section.instance.Dec_Section_General_ZGY@suu,
     zendesk.section.instance.FAQ_General_ZGY,
     zendesk.section.instance.Announcements_General_ZGY,
   ]

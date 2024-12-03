@@ -1,0 +1,13 @@
+zendesk.article_translation Dec_Lorem_Dec_Section_General_ZGY_suu_suuuum__ZGY_en_us_ub@uuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Dec Lorem"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/Dec_Section/articles/Dec_Lorem/translations/36fddfb4f2_Dec_Lorem")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.Dec_Lorem_Dec_Section_General_ZGY_suu@suuuum,
+  ]
+  _alias = "en-us - Dec Lorem"
+}

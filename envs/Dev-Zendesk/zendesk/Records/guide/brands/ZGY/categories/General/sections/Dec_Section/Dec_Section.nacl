@@ -1,0 +1,13 @@
+zendesk.section Dec_Section_General_ZGY@suu {
+  category_id = zendesk.category.instance.General_ZGY
+  sorting = "manual"
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  theme_template = "section_page"
+  translations = [
+    zendesk.section_translation.instance.Dec_Section_General_ZGY_suu__ZGY_en_us_ub@uuumuuuum,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _alias = "Dec Section"
+}

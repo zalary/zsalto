@@ -1,0 +1,10 @@
+zendesk.article_order Dec_Section_General_ZGY_suu@uuum {
+  articles = [
+    zendesk.article.instance.Dec_Lorem_Dec_Section_General_ZGY_suu@suuuum,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.section.instance.Dec_Section_General_ZGY@suu,
+  ]
+  _alias = "Dec Section Article Order"
+}
