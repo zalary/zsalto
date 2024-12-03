@@ -7,7 +7,7 @@ zendesk {
       }
     }
     guide = {
-       brands = ["Salto"]
+       brands = ["^Salto"]
       }
     include = [
       {
