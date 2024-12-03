@@ -1,0 +1,13 @@
+zendesk.article_translation Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum_suuuuuuuum__Salto_en_us_ub@uuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "Restricted article"
+  body = file("zendesk/translations/guide/brands/Salto/categories/SRD___FAQs/sections/Logging_in/articles/Restricted_article/translations/20afe54e9e_Restricted_article")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@suuuuuuuum,
+  ]
+  _alias = "en-us - Restricted article"
+}

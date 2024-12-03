@@ -1,0 +1,23 @@
+zendesk.article_order Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@uuuuuuum {
+  articles = [
+    zendesk.article.instance.Test_Article_User_Segment_10909468945175@sssu,
+    zendesk.article.instance.Test_Article_User_Segment_10909468945175@sssu,
+    zendesk.article.instance.SRD___Test_Article_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___Release_Management_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___Impact_Analysis_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___Integration_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbsuuuuuuuum,
+    zendesk.article.instance.SRD___Automation_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbsuuuuuuuum,
+    zendesk.article.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___Regenerate_login_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___Platform_basics_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___Advanced_usage_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___How_to_deploy_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbsssuuuuuuuum,
+    zendesk.article.instance.SRD___Restricted_Logins_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssuuuuuuuum,
+    zendesk.article.instance.SRD___How_to_log_in_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@sbssssuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.section.instance.Onboarding_General_SRD___Test_sbs_uuuum@uuuuuum,
+  ]
+  _alias = "Onboarding Article Order"
+}

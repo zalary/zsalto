@@ -1,0 +1,12 @@
+zendesk.section_translation Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum__DP_Brand_s_en_us_umub@uuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "Migration Section 2"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.section.instance.Migration_Section_2_Migrations_DP_Brand_s_uum@ssuuuum,
+  ]
+  _alias = "en-us - Migration Section 2"
+}

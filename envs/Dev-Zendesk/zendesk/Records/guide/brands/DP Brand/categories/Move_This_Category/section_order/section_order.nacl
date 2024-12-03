@@ -1,0 +1,10 @@
+zendesk.section_order Move_This_Category_DP_Brand_s_ssuum@uuuuum {
+  sections = [
+    zendesk.section.instance.Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum@sssuuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.category.instance.Move_This_Category_DP_Brand_s@ssuum,
+  ]
+  _alias = "Move This Category Section Order"
+}

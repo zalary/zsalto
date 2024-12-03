@@ -1,0 +1,11 @@
+zendesk.article_order Logins_FAQs_Salto {
+  articles = [
+    zendesk.article.instance.SRD___How_do_I_reset_my_password__Logins_FAQs_Salto@sbssssssauuu,
+    zendesk.article.instance.SRD___How_do_I_log_in__Logins_FAQs_Salto@sbsssssauuu,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Logins_FAQs_Salto,
+  ]
+  _alias = "Logins Article Order"
+}

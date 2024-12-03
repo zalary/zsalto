@@ -1,0 +1,10 @@
+zendesk.section_order SRD___FAQs_Salto_sbsu@uuuum {
+  sections = [
+    zendesk.section.instance.Logging_in_SRD___FAQs_Salto_sbsu@suuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.SRD___FAQs_Salto@sbsu,
+  ]
+  _alias = "SRD - FAQs Section Order"
+}

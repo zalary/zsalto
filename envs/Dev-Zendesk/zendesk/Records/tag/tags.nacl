@@ -101,3 +101,15 @@ zendesk.tag isgeoff {
   id = "isgeoff"
   _alias = "isgeoff"
 }
+zendesk.tag knuckle {
+  id = "knuckle"
+  _alias = "knuckle"
+}
+zendesk.tag nacl {
+  id = "nacl"
+  _alias = "nacl"
+}
+zendesk.tag salto {
+  id = "salto"
+  _alias = "salto"
+}

@@ -1,0 +1,12 @@
+zendesk.article_order DevOps_General_Salto {
+  articles = [
+    zendesk.article.instance.Leveraging_Standardization_and_Automation_to_Facilitate_DevOps_Testing_in_Multi_Code_Environments_DevOps_General_Salto@sssssssssbsuuu,
+    zendesk.article.instance.Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto@ssssssssuuu,
+    zendesk.article.instance.Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes_DevOps_General_Salto@sssfssssssuuu,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.DevOps_General_Salto,
+  ]
+  _alias = "DevOps Article Order"
+}

@@ -1,0 +1,12 @@
+zendesk.category_translation FAQs_Salto__Salto_en_us_ub@uuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "FAQs"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.FAQs_Salto,
+  ]
+  _alias = "en-us - FAQs"
+}

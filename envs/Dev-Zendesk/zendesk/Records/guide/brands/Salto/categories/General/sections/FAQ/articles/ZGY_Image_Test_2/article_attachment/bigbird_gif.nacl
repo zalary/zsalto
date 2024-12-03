@@ -1,0 +1,11 @@
+zendesk.article_attachment ZGY_Image_Test_2_FAQ_General_Salto_sssuuu__bigbird_gif_false@uuuuuumuuvu {
+  file_name = "bigbird.gif"
+  content_type = "image/gif"
+  inline = false
+  brand = zendesk.brand.instance.Salto
+  content = file("zendesk/article_attachments/guide/brands/Salto/categories/General/sections/FAQ/articles/ZGY_Image_Test_2/article_attachment/bigbird/be0efc8adc_1f9c7c8935_bigbird.gif")
+  _parent = [
+    zendesk.article.instance.ZGY_Image_Test_2_FAQ_General_Salto@sssuuu,
+  ]
+  _alias = "bigbird.gif - ZGY Image Test 2"
+}

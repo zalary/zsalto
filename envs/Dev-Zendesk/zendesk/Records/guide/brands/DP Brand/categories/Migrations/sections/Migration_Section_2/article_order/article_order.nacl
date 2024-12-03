@@ -1,0 +1,10 @@
+zendesk.article_order Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum@uuuuuuum {
+  articles = [
+    zendesk.article.instance.Article_for_Section_2_0_Migration_Section_2_Migrations_DP_Brand_s_uum_ssuuuum@sssvuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.section.instance.Migration_Section_2_Migrations_DP_Brand_s_uum@ssuuuum,
+  ]
+  _alias = "Migration Section 2 Article Order"
+}

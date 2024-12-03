@@ -1,0 +1,13 @@
+zendesk.article_translation Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes_DevOps_General_Salto_sssfssssssuuu__Salto_en_us_ub@uuuuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "Doing The Dirty Work: Embracing DevOps To Achieve Sustainable Outcomes"
+  body = file("zendesk/translations/guide/brands/Salto/categories/General/sections/DevOps/articles/Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes/translations/e289f6bf61_Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.Doing_The_Dirty_Work__Embracing_DevOps_To_Achieve_Sustainable_Outcomes_DevOps_General_Salto@sssfssssssuuu,
+  ]
+  _alias = "en-us - Doing The Dirty Work: Embracing DevOps To Achieve Sustainable Outcomes"
+}

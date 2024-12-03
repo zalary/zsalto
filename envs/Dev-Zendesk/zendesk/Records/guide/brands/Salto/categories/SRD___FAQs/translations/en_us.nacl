@@ -1,0 +1,12 @@
+zendesk.category_translation SRD___FAQs_Salto_sbsu__Salto_en_us_ub@uuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "SRD - FAQs"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.SRD___FAQs_Salto@sbsu,
+  ]
+  _alias = "en-us - SRD - FAQs"
+}

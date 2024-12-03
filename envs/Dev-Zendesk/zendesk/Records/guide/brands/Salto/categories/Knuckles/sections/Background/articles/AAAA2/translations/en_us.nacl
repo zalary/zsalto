@@ -1,0 +1,16 @@
+zendesk.article_translation AAAA2_Background_Knuckles_Salto__Salto_en_us_ub@uuuuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "AAAA2"
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/Knuckles/sections/Background/articles/AAAA2/translations/d4925b42fc_AAAA2",
+    "template",
+  )
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.AAAA2_Background_Knuckles_Salto,
+  ]
+  _alias = "en-us - AAAA2"
+}

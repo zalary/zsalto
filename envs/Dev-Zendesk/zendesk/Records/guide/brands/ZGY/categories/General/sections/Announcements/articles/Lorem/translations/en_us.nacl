@@ -1,0 +1,13 @@
+zendesk.article_translation Lorem_Announcements_General_ZGY__ZGY_en_us_ub@uuuuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Lorem"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/Announcements/articles/Lorem/translations/c905b4735c_Lorem")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.Lorem_Announcements_General_ZGY,
+  ]
+  _alias = "en-us - Lorem"
+}

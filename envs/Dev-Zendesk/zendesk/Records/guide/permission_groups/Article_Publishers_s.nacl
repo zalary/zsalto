@@ -1,0 +1,8 @@
+zendesk.permission_group Article_Publishers@s {
+  name = "Article Publishers"
+  built_in = false
+  edit = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
+  _alias = "Article Publishers"
+}

@@ -1,0 +1,10 @@
+zendesk.section_order ZGY_Cat_1_ZGY {
+  sections = [
+    zendesk.section.instance.ZGY_Section_1_ZGY_Cat_1_ZGY@ssuuuu,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.category.instance.ZGY_Cat_1_ZGY,
+  ]
+  _alias = "ZGY_Cat_1 Section Order"
+}

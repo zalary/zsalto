@@ -1,0 +1,12 @@
+zendesk.category_translation FAQs_Salto__Salto_es_419_ub@uuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_es_419@ub
+  title = "Preguntas Más Frecuentes"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.category.instance.FAQs_Salto,
+  ]
+  _alias = "es-419 - FAQs"
+}

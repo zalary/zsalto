@@ -1,0 +1,16 @@
+zendesk.article_translation Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto_ssssssssuuu__Salto_en_us_ub@uuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.Salto_en_us@ub
+  title = "Devtron raises fresh capital for its cloud DevOps platform"
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/General/sections/DevOps/articles/Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform/translations/bbdc157581_Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform",
+    "template",
+  )
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.Devtron_raises_fresh_capital_for_its_cloud_DevOps_platform_DevOps_General_Salto@ssssssssuuu,
+  ]
+  _alias = "en-us - Devtron raises fresh capital for its cloud DevOps platform"
+}

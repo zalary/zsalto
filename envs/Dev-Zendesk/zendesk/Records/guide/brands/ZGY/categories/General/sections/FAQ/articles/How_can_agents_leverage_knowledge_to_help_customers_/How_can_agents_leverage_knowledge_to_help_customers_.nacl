@@ -1,0 +1,16 @@
+zendesk.article How_can_agents_leverage_knowledge_to_help_customers__FAQ_General_ZGY@sssssssauuu {
+  author_id = "neta.marcus+zendesk@salto.io"
+  comments_disabled = false
+  promoted = false
+  section_id = zendesk.section.instance.FAQ_General_ZGY
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.How_can_agents_leverage_knowledge_to_help_customers__FAQ_General_ZGY_sssssssauuu__ZGY_en_us_ub@uuuuuuuuuuumuuuum,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  user_segment_id = zendesk.user_segment.instance.Everyone
+  _alias = "How can agents leverage knowledge to help customers?"
+}

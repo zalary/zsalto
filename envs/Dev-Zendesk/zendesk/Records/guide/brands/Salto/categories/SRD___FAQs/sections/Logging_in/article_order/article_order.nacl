@@ -1,0 +1,12 @@
+zendesk.article_order Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@uuuuuuum {
+  articles = [
+    zendesk.article.instance.Another_restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssuuuuuuuum,
+    zendesk.article.instance.Restricted_article_Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@suuuuuuuum,
+    zendesk.article.instance.How_to_log_in__Logging_in_SRD___FAQs_Salto_sbsu_suuuuum@ssssuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.section.instance.Logging_in_SRD___FAQs_Salto_sbsu@suuuuum,
+  ]
+  _alias = "Logging in Article Order"
+}

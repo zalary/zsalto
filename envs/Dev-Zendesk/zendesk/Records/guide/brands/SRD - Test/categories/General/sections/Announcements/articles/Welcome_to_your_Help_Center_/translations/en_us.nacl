@@ -1,0 +1,13 @@
+zendesk.article_translation Welcome_to_your_Help_Center__Announcements_General_SRD___Test_sbs_uuuum_uuuuuum_ssssluuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "Welcome to your Help Center!"
+  body = file("zendesk/translations/guide/brands/SRD - Test/categories/General/sections/Announcements/articles/Welcome_to_your_Help_Center_/translations/f335a3d71a_Welcome_to_your_Help_Center_")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.Welcome_to_your_Help_Center__Announcements_General_SRD___Test_sbs_uuuum_uuuuuum@ssssluuuuuuuum,
+  ]
+  _alias = "en-us - Welcome to your Help Center!"
+}
