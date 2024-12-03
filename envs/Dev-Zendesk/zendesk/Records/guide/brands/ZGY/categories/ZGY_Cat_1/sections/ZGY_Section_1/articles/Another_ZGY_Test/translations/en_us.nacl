@@ -1,0 +1,13 @@
+zendesk.article_translation Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__ZGY_en_us_ub@uuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Another ZGY Test"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/ZGY_Cat_1/sections/ZGY_Section_1/articles/Another_ZGY_Test/translations/7301e3b64c_Another_ZGY_Test")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@ssuuuuuuum,
+  ]
+  _alias = "en-us - Another ZGY Test"
+}

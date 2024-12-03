@@ -1,0 +1,19 @@
+zendesk.article Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@ssuuuuuuum {
+  author_id = "zalary.young@salto.io"
+  comments_disabled = false
+  promoted = false
+  section_id = zendesk.section.instance.ZGY_Section_1_ZGY_Cat_1_ZGY@ssuuuu
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__ZGY_en_us_ub@uuuuuuuuuumuuuum,
+  ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _alias = "Another ZGY Test"
+}
