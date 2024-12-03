@@ -1,0 +1,11 @@
+zendesk.article_order Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum@uuuuuuuuuum {
+  articles = [
+    zendesk.article.instance.Move_Article_2_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum@ssuuuuuuuuuuum,
+    zendesk.article.instance.Move_Article_1_Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum_sssuuuuuum@ssuuuuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.section.instance.Main_Section_for_Move_Move_This_Category_DP_Brand_s_ssuum@sssuuuuuum,
+  ]
+  _alias = "Main Section for Move Article Order"
+}

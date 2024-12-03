@@ -1,0 +1,10 @@
+zendesk.section_order Knuckles_AnotherSaltoBrand {
+  sections = [
+    zendesk.section.instance.Introduction_Knuckles_AnotherSaltoBrand,
+  ]
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.category.instance.Knuckles_AnotherSaltoBrand,
+  ]
+  _alias = "Knuckles Section Order"
+}

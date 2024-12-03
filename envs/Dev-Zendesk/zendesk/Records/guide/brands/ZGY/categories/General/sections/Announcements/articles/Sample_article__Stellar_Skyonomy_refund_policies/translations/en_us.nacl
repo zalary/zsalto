@@ -1,0 +1,13 @@
+zendesk.article_translation Sample_article__Stellar_Skyonomy_refund_policies_Announcements_General_ZGY_sfssssuuu__ZGY_en_us_ub@uuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Sample article: Stellar Skyonomy refund policies"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/Announcements/articles/Sample_article__Stellar_Skyonomy_refund_policies/translations/716cf0c4c4_Sample_article__Stellar_Skyonomy_refund_policies")
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.Sample_article__Stellar_Skyonomy_refund_policies_Announcements_General_ZGY@sfssssuuu,
+  ]
+  _alias = "en-us - Sample article: Stellar Skyonomy refund policies"
+}

@@ -1,0 +1,13 @@
+zendesk.article_translation How_do_I_publish_my_content_in_other_languages__FAQ_General_ZGY_ssssssssauuu__ZGY_en_us_ub@uuuuuuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "How do I publish my content in other languages?"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/FAQ/articles/How_do_I_publish_my_content_in_other_languages_/translations/735bd291bd_How_do_I_publish_my_content_in_other_languages_")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.How_do_I_publish_my_content_in_other_languages__FAQ_General_ZGY@ssssssssauuu,
+  ]
+  _alias = "en-us - How do I publish my content in other languages?"
+}

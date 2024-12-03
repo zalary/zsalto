@@ -1,0 +1,13 @@
+zendesk.article_translation Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand__00231_00227sssuuu__AnotherSaltoBrand_en_us_ub@uuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub
+  title = "Verificação Article with attachment"
+  body = file("zendesk/translations/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/Verifica__o_Article_with_attachment/translations/0998eeff03_Verifica__o_Article_with_attachment")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.article.instance.Verifica__o_Article_with_attachment_Introduction_Knuckles_AnotherSaltoBrand@_00231_00227sssuuu,
+  ]
+  _alias = "en-us - Verificação Article with attachment"
+}

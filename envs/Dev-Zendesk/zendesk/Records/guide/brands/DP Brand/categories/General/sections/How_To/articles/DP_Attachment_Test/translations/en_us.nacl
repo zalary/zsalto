@@ -1,0 +1,16 @@
+zendesk.article_translation DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "DP Attachment Test"
+  body = file(
+    "zendesk/translations/guide/brands/DP Brand/categories/General/sections/How_To/articles/DP_Attachment_Test/translations/215996173f_DP_Attachment_Test",
+    "template",
+  )
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.article.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+  ]
+  _alias = "en-us - DP Attachment Test"
+}

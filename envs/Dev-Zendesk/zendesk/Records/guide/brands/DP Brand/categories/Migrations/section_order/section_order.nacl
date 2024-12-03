@@ -1,0 +1,11 @@
+zendesk.section_order Migrations_DP_Brand_s_uum@uuum {
+  sections = [
+    zendesk.section.instance.Migration_Section_2_Migrations_DP_Brand_s_uum@ssuuuum,
+    zendesk.section.instance.Migration_Section_1_Migrations_DP_Brand_s_uum@ssuuuum,
+  ]
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.category.instance.Migrations_DP_Brand_s@uum,
+  ]
+  _alias = "Migrations Section Order"
+}

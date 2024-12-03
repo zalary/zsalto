@@ -1,0 +1,12 @@
+zendesk.category_translation General_ZGY__ZGY_en_us_ub@uuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "General"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.category.instance.General_ZGY,
+  ]
+  _alias = "en-us - General"
+}

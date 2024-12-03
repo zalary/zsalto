@@ -1,0 +1,23 @@
+zendesk.article_attachment ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand_ssuuu__Green_Watercolor_Flower_Facebook_Profile_Picture_png_false@uuuuumuusssssvu {
+  file_name = "Green Watercolor Flower Facebook Profile Picture.png"
+  content_type = "image/png"
+  inline = false
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/ZGY_Image_Test/article_attachment/Green Watercolor Flower Facebook Profile Picture/a56ab6b405_d24f1787aa_Green Watercolor Flower Facebook Profile Picture.png")
+  _parent = [
+    zendesk.article.instance.ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand@ssuuu,
+  ]
+  _alias = "Green Watercolor Flower Facebook Profile Picture.png - ZGY Image Test"
+}
+zendesk.article_attachment ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand_ssuuu__Green_Watercolor_Flower_Facebook_Profile_Picture_png_true@uuuuumuusssssvu {
+  file_name = "Green Watercolor Flower Facebook Profile Picture.png"
+  locale = "en-us"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  content = file("zendesk/article_attachments/guide/brands/AnotherSaltoBrand/categories/Knuckles/sections/Introduction/articles/ZGY_Image_Test/article_attachment/Green Watercolor Flower Facebook Profile Picture/6e7a7d0b6b_d24f1787aa_Green Watercolor Flower Facebook Profile Picture.png")
+  _parent = [
+    zendesk.article.instance.ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand@ssuuu,
+  ]
+  _alias = "Green Watercolor Flower Facebook Profile Picture.png - ZGY Image Test"
+}

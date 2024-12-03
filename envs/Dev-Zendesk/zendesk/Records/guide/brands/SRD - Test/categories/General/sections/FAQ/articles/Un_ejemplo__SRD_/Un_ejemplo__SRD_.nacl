@@ -1,0 +1,24 @@
+zendesk.article Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@ssjkuuuuuuuum {
+  author_id = "scott.dixon@salto.io"
+  comments_disabled = false
+  promoted = false
+  section_id = zendesk.section.instance.FAQ_General_SRD___Test_sbs_uuuum@uuuuuum
+  source_locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_es_419@uuumub
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_es_419@uuumub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum_ssjkuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuumuuuuuuuum,
+    zendesk.article_translation.instance.Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum_ssjkuuuuuuuum__SRD___Test_sbs_es_419_uuumub@uuuuuuuuuuuuumuuuuuuuum,
+  ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  attachments = [
+    zendesk.article_attachment.instance.Un_ejemplo__SRD__10909294004759_ssjku__SRD___Test_Attachment_png_true@uuuuumuusbssvu,
+    zendesk.article_attachment.instance.Un_ejemplo__SRD__10909294004759_ssjku__SRD___Test_Attachment_png_true@uuuuumuusbssvu,
+  ]
+  _alias = "Un ejemplo (SRD)"
+}
