@@ -12,12 +12,19 @@ netsuite.role customrole1047 {
   iswebserviceonlyrole = false
   name = "ZGY Role"
   restrictbydevice = false
-  restrictip = false
   restricttimeandexpenses = false
   subsidiaryoption = "OWN"
   subsidiaryviewingallowed = false
   tfaduration = "0"
   tfarequired = "OFF"
+  permissions = {
+    permission = {
+      LIST_OTHER_ADDRESS = {
+        permkey = "LIST_OTHER_ADDRESS"
+        permlevel = "FULL"
+      }
+    }
+  }
   isInactive = false
   _alias = "ZGY Role"
 }
