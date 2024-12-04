@@ -15,5 +15,5 @@ zendesk.article Dec2_Test_Lorem_Dec_Test_General_ZGY_suu@ssuuuum {
     zendesk.user_segment.instance.Agents_and_admins@s,
   ]
   brand = zendesk.brand.instance.ZGY
-  _alias = "Dec2 Test Lorem"
+  _alias = "Dec2 Test Lorem 3"
 }
