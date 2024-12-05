@@ -5,7 +5,5 @@ zendesk.workspace_order {
     zendesk.workspace.instance.DA_Workspace_Active@s,
   ]
   inactive = [
-    zendesk.workspace.instance.For_Loom_inactive_WS@s,
-    zendesk.workspace.instance.DA_Workspace_Inactive@s,
   ]
 }
