@@ -1,4 +1,5 @@
 zendesk {
+  fixElements = { deployArticlesAsDraft = true } 
   fetch = {
     omitInactive = {
       default = true
@@ -22,4 +23,5 @@ zendesk {
     ]
     resolveOrganizationIDs = true
   }
+ 
 }
