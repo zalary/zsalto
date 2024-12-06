@@ -1,5 +1,5 @@
 zendesk {
-  
+  fixElements = { deployArticlesAsDraft = true } 
   fetch = {
     omitInactive = {
       default = true

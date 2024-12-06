@@ -1,5 +1,6 @@
 zendesk.article_order FAQ_General_ZGY {
   articles = [
+    zendesk.article.instance.ZGY_120624_Published_but_Deploy_as_Draft_FAQ_General_ZGY@ssssssuuu,
     zendesk.article.instance.ZGY_Dec62_Published_FAQ_General_ZGY@ssuuu,
     zendesk.article.instance.ZGY_Dec6_Published_FAQ_General_ZGY@ssuuu,
     zendesk.article.instance.How_can_agents_leverage_knowledge_to_help_customers__FAQ_General_ZGY@sssssssauuu,
