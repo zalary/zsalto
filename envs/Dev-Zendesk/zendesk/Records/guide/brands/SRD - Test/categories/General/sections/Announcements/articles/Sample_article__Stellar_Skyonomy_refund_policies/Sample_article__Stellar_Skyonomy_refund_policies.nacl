@@ -12,5 +12,5 @@ zendesk.article Sample_article__Stellar_Skyonomy_refund_policies_Announcements_G
   ]
   brand = zendesk.brand.instance.SRD___Test@sbs
   user_segment_id = zendesk.user_segment.instance.Everyone
-  _alias = "Sample article: Stellar Skyonomy refund policies"
+  _alias = "SRD - Brand New Title"
 }
