@@ -1,0 +1,26 @@
+zendesk.trigger DP_Group_Trigger@s {
+  title = "DP Group Trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "set_tags"
+      value = [
+        zendesk.tag.instance.dp_test,
+      ]
+    },
+  ]
+  conditions = {
+    any = [
+      {
+        field = "group_id"
+        operator = "is"
+        value = zendesk.group.instance.DP_Group_1@s
+      },
+    ]
+  }
+  description = ""
+  raw_title = "DP Group Trigger"
+  category_id = zendesk.trigger_category.instance.DP
+  _alias = "DP Group Trigger"
+}

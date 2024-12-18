@@ -1,0 +1,8 @@
+zendesk.group DP_Group_1@s {
+  is_public = true
+  name = "DP Group 1"
+  description = ""
+  default = false
+  deleted = false
+  _alias = "DP Group 1"
+}

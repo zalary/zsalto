@@ -113,3 +113,7 @@ zendesk.tag salto {
   id = "salto"
   _alias = "salto"
 }
+zendesk.tag dp_test {
+  id = "dp_test"
+  _alias = "dp_test"
+}
