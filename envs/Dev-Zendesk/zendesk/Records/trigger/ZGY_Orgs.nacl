@@ -14,7 +14,7 @@ zendesk.trigger ZGY_Orgs@s {
     all = [
       {
         field = "organization_id"
-        operator = "is"
+        operator = "is_not"
         value = "ZGY"
       },
     ]
@@ -26,7 +26,7 @@ zendesk.trigger ZGY_Orgs@s {
       },
     ]
   }
-  description = "something here"
+  description = "something different"
   raw_title = "ZGY Orgs"
   category_id = zendesk.trigger_category.instance.ZGY
   _alias = "ZGY Orgs"
