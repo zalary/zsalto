@@ -18,7 +18,15 @@ zendesk.trigger ZGY_Orgs@s {
         value = "ZGY"
       },
     ]
+    any = [
+      {
+        field = "locale_id"
+        operator = "is"
+        value = zendesk.locale.instance.en_US@b
+      },
+    ]
   }
+  description = "something here"
   raw_title = "ZGY Orgs"
   category_id = zendesk.trigger_category.instance.ZGY
   _alias = "ZGY Orgs"
