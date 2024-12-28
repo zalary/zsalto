@@ -4,4 +4,13 @@ zendesk.routing_attribute_value Language__English {
     zendesk.routing_attribute.instance.Language,
   ]
   _alias = "English"
+  conditions = {
+    all = [
+      {
+        subject = "organization_id"
+        operator = "is"
+        value = "ZGY"
+      },
+    ]
+  }
 }
