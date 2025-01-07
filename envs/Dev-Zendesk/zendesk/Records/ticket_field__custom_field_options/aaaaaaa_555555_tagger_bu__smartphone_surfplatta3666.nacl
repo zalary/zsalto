@@ -4,4 +4,5 @@ zendesk.ticket_field__custom_field_options aaaaaaa_555555_tagger_bu__smartphone_
   _parent = [
     zendesk.ticket_field.instance.aaaaaaa_555555_tagger@bu,
   ]
+  _alias = "smartphone/surfplatta3666"
 }

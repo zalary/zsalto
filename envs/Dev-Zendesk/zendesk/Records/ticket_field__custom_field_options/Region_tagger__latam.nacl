@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options Region_tagger__latam {
   _parent = [
     zendesk.ticket_field.instance.Region_tagger,
   ]
-  _alias = "LATAM"
+  _alias = "latam"
 }

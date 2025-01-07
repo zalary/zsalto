@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options DP_Priority_tagger__important {
   _parent = [
     zendesk.ticket_field.instance.DP_Priority_tagger,
   ]
-  _alias = "Important"
+  _alias = "important"
 }

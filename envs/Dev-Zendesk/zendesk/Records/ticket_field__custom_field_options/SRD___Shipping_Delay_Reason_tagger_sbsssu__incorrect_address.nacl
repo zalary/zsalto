@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options SRD___Shipping_Delay_Reason_tagger_sb
   _parent = [
     zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,
   ]
-  _alias = "Incorrect Address"
+  _alias = "incorrect_address"
 }

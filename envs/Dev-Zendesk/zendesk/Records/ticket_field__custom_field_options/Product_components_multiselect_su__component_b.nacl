@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options Product_components_multiselect_su__co
   _parent = [
     zendesk.ticket_field.instance.Product_components_multiselect@su,
   ]
-  _alias = "Component B"
+  _alias = "component_b"
 }

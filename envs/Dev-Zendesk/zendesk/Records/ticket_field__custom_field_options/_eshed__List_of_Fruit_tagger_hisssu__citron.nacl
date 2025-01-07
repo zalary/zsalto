@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options _eshed__List_of_Fruit_tagger_hisssu__
   _parent = [
     zendesk.ticket_field.instance._eshed__List_of_Fruit_tagger@hisssu,
   ]
-  _alias = "Citron"
+  _alias = "citron"
 }

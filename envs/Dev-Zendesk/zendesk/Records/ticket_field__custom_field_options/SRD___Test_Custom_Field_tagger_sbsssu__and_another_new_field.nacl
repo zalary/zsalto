@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options SRD___Test_Custom_Field_tagger_sbsssu
   _parent = [
     zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu,
   ]
-  _alias = "And another new field"
+  _alias = "and_another_new_field"
 }

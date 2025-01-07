@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options SRD___Field_to_delete_tagger__new_val
   _parent = [
     zendesk.ticket_field.instance.SRD___Field_to_delete_tagger@sbsssu,
   ]
-  _alias = "New values"
+  _alias = "new_values"
 }

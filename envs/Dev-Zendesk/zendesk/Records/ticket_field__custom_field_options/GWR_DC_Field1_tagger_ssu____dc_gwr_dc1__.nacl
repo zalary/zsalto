@@ -4,4 +4,5 @@ zendesk.ticket_field__custom_field_options GWR_DC_Field1_tagger_ssu____dc_gwr_dc
   _parent = [
     zendesk.ticket_field.instance.GWR_DC_Field1_tagger@ssu,
   ]
+  _alias = "__dc.gwr_dc1__"
 }

@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options _eshed__Categories_of_Newsletter_for_
   _parent = [
     zendesk.ticket_field.instance._eshed__Categories_of_Newsletter_for_Dan_multiselect@hisssssu,
   ]
-  _alias = "Arts & Crafts"
+  _alias = "arts___crafts"
 }

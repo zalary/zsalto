@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options MKD___Preview_Release_Type_tagger_sbs
   _parent = [
     zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu,
   ]
-  _alias = "Beta"
+  _alias = "beta_tester"
 }

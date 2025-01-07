@@ -4,4 +4,5 @@ zendesk.ticket_field__custom_field_options aaaaaaa_3333__dc_testdynamiccontent__
   _parent = [
     zendesk.ticket_field.instance.aaaaaaa_3333__dc_testdynamiccontent___tagger@b_00123_00123v_00125_00125u,
   ]
+  _alias = "smartphone/surfplatta3"
 }

@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options SRD_Early_Product_Access_Type_tagger_
   _parent = [
     zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu,
   ]
-  _alias = "Feature D"
+  _alias = "feature_d"
 }

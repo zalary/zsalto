@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options _eshed__test__drop_down_tagger_hihisb
   _parent = [
     zendesk.ticket_field.instance._eshed__test__drop_down_tagger@hihisbu,
   ]
-  _alias = "something_1"
+  _alias = "_eshed_something_1"
 }

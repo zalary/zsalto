@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options blaa_tagger__v55 {
   _parent = [
     zendesk.ticket_field.instance.blaa_tagger,
   ]
-  _alias = "v5"
+  _alias = "v55"
 }

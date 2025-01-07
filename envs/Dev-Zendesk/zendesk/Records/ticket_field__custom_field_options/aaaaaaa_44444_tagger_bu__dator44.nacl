@@ -4,4 +4,5 @@ zendesk.ticket_field__custom_field_options aaaaaaa_44444_tagger_bu__dator44@uumu
   _parent = [
     zendesk.ticket_field.instance.aaaaaaa_44444_tagger@bu,
   ]
+  _alias = "dator44"
 }

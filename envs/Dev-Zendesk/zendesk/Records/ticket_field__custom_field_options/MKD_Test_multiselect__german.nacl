@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options MKD_Test_multiselect__german@suuu {
   _parent = [
     zendesk.ticket_field.instance.MKD_Test_multiselect@su,
   ]
-  _alias = "German"
+  _alias = "german"
 }

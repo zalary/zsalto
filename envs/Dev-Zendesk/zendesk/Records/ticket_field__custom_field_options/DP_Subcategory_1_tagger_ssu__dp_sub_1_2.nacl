@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options DP_Subcategory_1_tagger_ssu__dp_sub_1
   _parent = [
     zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu,
   ]
-  _alias = "DP Sub 1 2"
+  _alias = "dp_sub_1_2"
 }

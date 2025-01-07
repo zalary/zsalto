@@ -4,5 +4,5 @@ zendesk.ticket_field__custom_field_options DP_Color_multiselect_su__burnt_sienna
   _parent = [
     zendesk.ticket_field.instance.DP_Color_multiselect@su,
   ]
-  _alias = "Burnt Sienna"
+  _alias = "burnt_sienna"
 }
