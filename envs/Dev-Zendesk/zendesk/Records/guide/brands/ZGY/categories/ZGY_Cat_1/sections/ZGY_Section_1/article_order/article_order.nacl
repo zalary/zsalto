@@ -1,6 +1,5 @@
 zendesk.article_order ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@uuuuuum {
   articles = [
-    zendesk.article.instance.ZGY_Jan_10_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@sssuuuuuuum,
     zendesk.article.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@ssuuuuuuum,
   ]
   brand = zendesk.brand.instance.ZGY

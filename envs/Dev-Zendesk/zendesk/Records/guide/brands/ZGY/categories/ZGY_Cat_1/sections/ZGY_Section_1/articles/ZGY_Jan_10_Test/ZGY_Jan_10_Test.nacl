@@ -2,7 +2,7 @@ zendesk.article ZGY_Jan_10_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@sssuuuuuuum {
   author_id = "gil.hoffer@salto.io"
   comments_disabled = false
   promoted = false
-  section_id = zendesk.section.instance.ZGY_Section_1_ZGY_Cat_1_ZGY@ssuuuu
+  section_id = zendesk.section.instance.ZGY_FAQ_General_ZGY
   source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
   locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
   outdated = false
