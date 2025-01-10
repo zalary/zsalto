@@ -1,0 +1,12 @@
+zendesk.section_translation ZGY_FAQ_General_ZGY__ZGY_en_us_ub@uuuuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "ZGY"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.section.instance.ZGY_FAQ_General_ZGY,
+  ]
+  _alias = "en-us - ZGY"
+}

@@ -1,4 +1,7 @@
 zendesk.section_order FAQ_General_ZGY {
+  sections = [
+    zendesk.section.instance.ZGY_FAQ_General_ZGY,
+  ]
   brand = zendesk.brand.instance.ZGY
   _parent = [
     zendesk.section.instance.FAQ_General_ZGY,
