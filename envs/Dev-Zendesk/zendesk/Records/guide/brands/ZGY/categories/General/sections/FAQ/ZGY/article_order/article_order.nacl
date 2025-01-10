@@ -1,5 +1,6 @@
 zendesk.article_order ZGY_FAQ_General_ZGY {
   articles = [
+    zendesk.article.instance.ZGY_20250110_Lorem_ZGY_FAQ_General_ZGY@ssuuuu,
     zendesk.article.instance.ZGY_Jan_10_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@sssuuuuuuum,
   ]
   brand = zendesk.brand.instance.ZGY

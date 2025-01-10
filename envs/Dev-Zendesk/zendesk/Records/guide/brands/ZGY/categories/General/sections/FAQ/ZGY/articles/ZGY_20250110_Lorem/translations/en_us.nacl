@@ -1,0 +1,13 @@
+zendesk.article_translation ZGY_20250110_Lorem_ZGY_FAQ_General_ZGY_ssuuuu__ZGY_en_us_ub@uuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "ZGY 20250110 Lorem"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/FAQ/ZGY/articles/ZGY_20250110_Lorem/translations/04210c056d_ZGY_20250110_Lorem")
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.ZGY_20250110_Lorem_ZGY_FAQ_General_ZGY@ssuuuu,
+  ]
+  _alias = "en-us - ZGY 20250110 Lorem"
+}
