@@ -1,0 +1,7 @@
+zendesk.article_order ZGY_Section_1_ZGY_AnotherSaltoBrand_ssuu@uuuum {
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.section.instance.ZGY_Section_1_ZGY_AnotherSaltoBrand@ssuu,
+  ]
+  _alias = "ZGY Section 1 Article Order"
+}

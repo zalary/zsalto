@@ -1,5 +1,6 @@
 zendesk.category_order AnotherSaltoBrand {
   categories = [
+    zendesk.category.instance.ZGY_AnotherSaltoBrand,
     zendesk.category.instance.Knuckles_AnotherSaltoBrand,
     zendesk.category.instance.General_AnotherSaltoBrand,
   ]
