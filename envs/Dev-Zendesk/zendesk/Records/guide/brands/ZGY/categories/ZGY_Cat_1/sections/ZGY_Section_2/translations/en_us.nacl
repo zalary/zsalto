@@ -1,0 +1,12 @@
+zendesk.section_translation ZGY_Section_2_ZGY_Cat_1_ZGY_ssuuuu__ZGY_en_us_ub@uuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "ZGY Section 2"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.section.instance.ZGY_Section_2_ZGY_Cat_1_ZGY@ssuuuu,
+  ]
+  _alias = "en-us - ZGY Section 2"
+}
