@@ -1,0 +1,12 @@
+zendesk.section_translation Another_ZGY_Section_ZGY_AnotherSaltoBrand_ssuu__AnotherSaltoBrand_en_us_ub@uuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.AnotherSaltoBrand_en_us@ub
+  title = "Another ZGY Section"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.section.instance.Another_ZGY_Section_ZGY_AnotherSaltoBrand@ssuu,
+  ]
+  _alias = "en-us - Another ZGY Section"
+}

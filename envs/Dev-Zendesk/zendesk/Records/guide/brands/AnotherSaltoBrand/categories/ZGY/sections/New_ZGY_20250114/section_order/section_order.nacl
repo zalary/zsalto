@@ -1,0 +1,7 @@
+zendesk.section_order New_ZGY_20250114_ZGY_AnotherSaltoBrand_ssuu@uuuum {
+  brand = zendesk.brand.instance.AnotherSaltoBrand
+  _parent = [
+    zendesk.section.instance.New_ZGY_20250114_ZGY_AnotherSaltoBrand@ssuu,
+  ]
+  _alias = "New ZGY 20250114 Section Order"
+}
