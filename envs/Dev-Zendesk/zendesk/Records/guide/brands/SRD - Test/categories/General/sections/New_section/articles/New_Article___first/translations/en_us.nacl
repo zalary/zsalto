@@ -1,0 +1,12 @@
+zendesk.article_translation New_Article___first_New_section_General_SRD___Test_sbs_uuuum_suuuuuum_ssbsuuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "New Article - first"
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.New_Article___first_New_section_General_SRD___Test_sbs_uuuum_suuuuuum@ssbsuuuuuuuuum,
+  ]
+  _alias = "en-us - New Article - first"
+}

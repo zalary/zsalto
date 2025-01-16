@@ -1,0 +1,12 @@
+zendesk.section_translation New_section_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_suuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "New section"
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.section.instance.New_section_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum@suuuuuuuum,
+  ]
+  _alias = "en-us - New section"
+}

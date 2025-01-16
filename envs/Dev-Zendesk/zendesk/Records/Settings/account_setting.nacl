@@ -112,9 +112,6 @@ zendesk.account_setting {
     reporting = true
     pod_id = 23
   }
-  gooddata_advanced_analytics = {
-    enabled = true
-  }
   statistics = {
     forum = false
     search = true

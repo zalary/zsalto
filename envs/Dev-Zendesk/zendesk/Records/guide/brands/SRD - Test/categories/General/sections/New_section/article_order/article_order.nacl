@@ -1,0 +1,12 @@
+zendesk.article_order New_section_General_SRD___Test_sbs_uuuum_suuuuuum@uuuuuuuum {
+  articles = [
+    zendesk.article.instance.New_Article___first_New_section_General_SRD___Test_sbs_uuuum_suuuuuum@ssbsuuuuuuuuum,
+    zendesk.article.instance.New_article___second_New_section_General_SRD___Test_sbs_uuuum_suuuuuum@ssbsuuuuuuuuum,
+    zendesk.article.instance.New_article___last_New_section_General_SRD___Test_sbs_uuuum_suuuuuum@ssbsuuuuuuuuum,
+  ]
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.section.instance.New_section_General_SRD___Test_sbs_uuuum@suuuuuum,
+  ]
+  _alias = "New section Article Order"
+}
