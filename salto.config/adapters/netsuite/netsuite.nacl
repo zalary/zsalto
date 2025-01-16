@@ -12,6 +12,7 @@ netsuite {
       ]
       customRecords = [
       ]
+      plugininimplementations = []
     }
     fieldsToOmit = [
       {
