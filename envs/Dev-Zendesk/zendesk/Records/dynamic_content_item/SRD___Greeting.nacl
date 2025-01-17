@@ -5,7 +5,7 @@ zendesk.dynamic_content_item SRD___Greeting@sbs {
   
   variants = [
     zendesk.dynamic_content_item__variants.instance.SRD___Greeting_sbs__en_US_b@uuumuuum,
-    zendesk.dynamic_content_item__variants.instance.SRD___Greeting_sbs__he@uuumuu,
+    zendesk.dynamic_content_item__variants.instance.SRD___Greeting_sbs__fr@uuumuu,
   ]
   _alias = "SRD - Greeting"
 }
