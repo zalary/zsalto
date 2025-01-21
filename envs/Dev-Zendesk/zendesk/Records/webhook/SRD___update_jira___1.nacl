@@ -5,7 +5,7 @@ zendesk.webhook SRD___update_jira___1@sbsssbs {
   subscriptions = [
     "conditional_ticket_events",
   ]
-  endpoint = "https://srussdixon.atlassian.net/rest/api/3/issue"
+  endpoint = "${ zendesk.brand.instance.Salto.brand_url }/api/v2/ticket_fields"
   http_method = "POST"
   request_format = "json"
   authentication = {
