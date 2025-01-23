@@ -202,7 +202,7 @@ netsuite.companyFeatures {
   SERVERSIDESCRIPTING = true
   WEBAPPLICATIONS = false
   WORKFLOW = true
-  CUSTOMGLLINES = false
+  CUSTOMGLLINES = true
   CUSTOMTRANSACTIONS = true
   CUSTOMSEGMENTS = true
   CREATESUITEBUNDLES = true
