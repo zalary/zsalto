@@ -1,0 +1,9 @@
+zendesk.user_field department {
+  type = "text"
+  key = "department"
+  raw_title = "Department"
+  raw_description = "Department"
+  active = true
+  system = false
+  _alias = "Department"
+}

@@ -18,7 +18,7 @@ zendesk.trigger mkd_test_support_address {
       {
         field = "recipient"
         operator = "is"
-        value = "support@d3vsalto1636482443.zendesk.com"
+        value = zendesk.support_address.instance.Neta_standard_sbx_support_Salto_subdomain_zendesk_com@ssumvvv
       },
     ]
   }

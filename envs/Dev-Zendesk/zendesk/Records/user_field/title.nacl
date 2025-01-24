@@ -1,0 +1,9 @@
+zendesk.user_field title {
+  type = "text"
+  key = "title"
+  raw_title = "Title"
+  raw_description = "Title"
+  active = true
+  system = false
+  _alias = "Title"
+}
