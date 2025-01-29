@@ -145,8 +145,6 @@ zendesk.account_setting {
     organization_access_enabled = true
     audit_logs_gdpr = false
     access_logs_enabled = false
-    advanced_analytics = false
-    insights = false
     explore = true
     explore_on_support_ent_plan = true
     explore_on_support_pro_plan = false
