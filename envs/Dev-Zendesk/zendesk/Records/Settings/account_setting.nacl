@@ -242,6 +242,9 @@ zendesk.account_setting {
     reassignment_reopened_tickets_enabled = false
     reassignment_reopened_tickets_support_enabled = false
     reassignment_reopened_tickets_messaging_enabled = false
+    reassignment_agent_status_change_enabled = false
+    reassignment_agent_status_change_support_enabled = false
+    reassignment_agent_status_change_messaging_enabled = false
     reassignment_through_queues_enabled = false
     messaging_activity_routing_enabled = false
     auto_activation = 0
