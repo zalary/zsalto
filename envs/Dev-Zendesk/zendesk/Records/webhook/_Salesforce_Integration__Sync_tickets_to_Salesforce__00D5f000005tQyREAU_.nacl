@@ -4,7 +4,7 @@ zendesk.webhook _Salesforce_Integration__Sync_tickets_to_Salesforce__00D5f000005
   subscriptions = [
     "conditional_ticket_events",
   ]
-  endpoint = "${ zendesk.brand.instance.Salto.brand_url }/api/services/zis/inbound_webhooks/generic/ingest/wiBKQX5CWlwH_R6-x1V7IMeiKm4bKf2x8vEmdfJwKYbx"
+  endpoint = "https://${ zendesk.brand.instance.Salto.subdomain }.zendesk.com/api/services/zis/inbound_webhooks/generic/ingest/wiBKQX5CWlwH_R6-x1V7IMeiKm4bKf2x8vEmdfJwKYbx"
   http_method = "POST"
   request_format = "json"
   authentication = {
