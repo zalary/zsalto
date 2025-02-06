@@ -17,6 +17,11 @@ zendesk.trigger ZGY_Orgs@s {
         operator = "is_not"
         value = "ZGY"
       },
+      {
+        field = "locale_id"
+        operator = "is"
+        value = zendesk.locale.instance.de
+      },
     ]
     any = [
       {
