@@ -7,10 +7,11 @@ zendesk.ticket_form Copy_of_SRD___Enable_new_feature@sssbsss {
     zendesk.ticket_field.instance.Group_group,
     zendesk.ticket_field.instance.Assignee_assignee,
     zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
-    zendesk.ticket_field.instance.Customer_Priority_tagger@su,
     zendesk.ticket_field.instance.Subject_subject,
     zendesk.ticket_field.instance.Description_description,
     zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu,
+    zendesk.ticket_field.instance.SRD___request_category_tagger@sbssu,
+    zendesk.ticket_field.instance.Customer_Priority_tagger@su,
     zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,
   ]
   active = true

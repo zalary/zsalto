@@ -1,0 +1,18 @@
+zendesk.ticket_form SRD___Request_Form@sbss {
+  raw_name = "SRD - Request Form"
+  raw_display_name = "SRD - Request Form"
+  end_user_visible = true
+  ticket_field_ids = [
+    zendesk.ticket_field.instance.Status_status,
+    zendesk.ticket_field.instance.Group_group,
+    zendesk.ticket_field.instance.Assignee_assignee,
+    zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
+    zendesk.ticket_field.instance.Subject_subject,
+    zendesk.ticket_field.instance.SRD___request_category_tagger@sbssu,
+    zendesk.ticket_field.instance.Description_description,
+  ]
+  active = true
+  default = false
+  in_all_brands = true
+  _alias = "SRD - Request Form"
+}

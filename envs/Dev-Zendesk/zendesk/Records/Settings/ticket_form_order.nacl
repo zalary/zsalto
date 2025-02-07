@@ -31,6 +31,7 @@ zendesk.ticket_form_order {
     zendesk.ticket_form.instance.ZGY_Form_with_Conditionals@s,
     zendesk.ticket_form.instance.ZGY_Cond2@s,
     zendesk.ticket_form.instance.ZGY_Halloween_Form@s,
+    zendesk.ticket_form.instance.SRD___Request_Form@sbss,
   ]
   inactive = [
     zendesk.ticket_form.instance.CE_Intake_Form@s,

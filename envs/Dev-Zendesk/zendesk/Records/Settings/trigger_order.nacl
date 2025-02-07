@@ -38,6 +38,8 @@ zendesk.trigger_order {
         zendesk.trigger.instance.EC___Feature_request@sbss,
         zendesk.trigger.instance.SRD___Email_Test@sbss,
         zendesk.trigger.instance.dge_test_trigger,
+        zendesk.trigger.instance.SRD___Request_trigger@sbss,
+        zendesk.trigger.instance.SRD___Customer_refund@sbss,
       ]
       inactive = [
       ]

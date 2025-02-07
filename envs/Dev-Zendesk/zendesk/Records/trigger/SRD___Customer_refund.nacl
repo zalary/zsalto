@@ -1,0 +1,27 @@
+zendesk.trigger SRD___Customer_refund@sbss {
+  title = "SRD - Customer refund"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_target"
+      value = [
+        zendesk.target.instance.SRD___Email_test_email_target@sbssuu,
+        "test",
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.SRD___request_category_tagger@sbssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_refund@sbssuuuu
+      },
+    ]
+  }
+  description = ""
+  raw_title = "SRD - Customer refund"
+  category_id = zendesk.trigger_category.instance.Custom_Events@s
+  _alias = "SRD - Customer refund"
+}

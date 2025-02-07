@@ -45,6 +45,7 @@ To add additional comments, reply to this email.
       },
     ]
   }
+  description = "Sends an auto-response email to your customers when they submit a ticket. It's best practice to keep this enabled."
   raw_title = "Notify requester and CCs of received request"
   category_id = zendesk.trigger_category.instance.Notifications
   _alias = "Notify requester and CCs of received request"

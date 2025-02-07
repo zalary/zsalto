@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options SRD___request_category_tagger__srd_refund@sbssuuuu {
+  raw_name = "SRD Refund"
+  value = "srd_refund"
+  _parent = [
+    zendesk.ticket_field.instance.SRD___request_category_tagger@sbssu,
+  ]
+  _alias = "srd_refund"
+}
