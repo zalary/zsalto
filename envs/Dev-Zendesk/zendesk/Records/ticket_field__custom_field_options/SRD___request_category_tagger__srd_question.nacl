@@ -1,8 +1,0 @@
-zendesk.ticket_field__custom_field_options SRD___request_category_tagger__srd_question@sbssuuuu {
-  raw_name = "SRD Question"
-  value = "srd_question"
-  _parent = [
-    zendesk.ticket_field.instance.SRD___request_category_tagger@sbssu,
-  ]
-  _alias = "srd_question"
-}

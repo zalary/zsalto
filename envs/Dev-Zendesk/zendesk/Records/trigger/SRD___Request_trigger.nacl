@@ -16,7 +16,7 @@ zendesk.trigger SRD___Request_trigger@sbss {
       {
         field = zendesk.ticket_field.instance.SRD___request_category_tagger@sbssu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_question@sbssuuuu
+        value = zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_inquiry@sbssuuuu
       },
     ]
   }

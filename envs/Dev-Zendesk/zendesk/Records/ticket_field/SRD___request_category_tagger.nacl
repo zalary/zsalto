@@ -11,10 +11,10 @@ zendesk.ticket_field SRD___request_category_tagger@sbssu {
   required_in_portal = false
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_question@sbssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_inquiry@sbssuuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_refund@sbssuuuu,
     zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_error@sbssuuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_unknown@sbssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___request_category_tagger__srd_escalation@sbssuuuu,
   ]
   _alias = "SRD - request category"
 }
