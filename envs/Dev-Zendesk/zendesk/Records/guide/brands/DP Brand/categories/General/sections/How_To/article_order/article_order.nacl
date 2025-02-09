@@ -1,5 +1,10 @@
 zendesk.article_order How_To_General_DP_Brand_s_uum_suuuum@uuuuuum {
   articles = [
+    zendesk.article.instance.Bulk_Changes_5_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+    zendesk.article.instance.Bulk_Changes_4_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+    zendesk.article.instance.Bulk_Changes_3_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+    zendesk.article.instance.Bulk_Changes_2_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+    zendesk.article.instance.How_to_Write_a_Knowledge_Article_How_To_General_DP_Brand_s_uum_suuuum@sssssuuuuuuum,
     zendesk.article.instance.DP___Draft_Mode_How_To_General_DP_Brand_s_uum_suuuum@sbssuuuuuuum,
     zendesk.article.instance.Author_Level_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
     zendesk.article.instance.DP_Attachment_Test_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,

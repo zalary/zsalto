@@ -1,0 +1,13 @@
+zendesk.article_translation How_to_Write_a_Knowledge_Article_How_To_General_DP_Brand_s_uum_suuuum_sssssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "How to Write a Knowledge Article"
+  body = file("zendesk/translations/guide/brands/DP Brand/categories/General/sections/How_To/articles/How_to_Write_a_Knowledge_Article/translations/cff3e04936_How_to_Write_a_Knowledge_Article")
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.article.instance.How_to_Write_a_Knowledge_Article_How_To_General_DP_Brand_s_uum_suuuum@sssssuuuuuuum,
+  ]
+  _alias = "en-us - How to Write a Knowledge Article"
+}

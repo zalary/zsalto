@@ -1,0 +1,37 @@
+zendesk.trigger DP___Bulk_Changes_Trigger@sbsss {
+  title = "DP - Bulk Changes Trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_user"
+      value = [
+        "requester_and_ccs",
+        "Have you tried signing up?",
+        '''
+Hello there!
+
+Have you tried signing up for Salto?
+
+<p><a href="https://demo.salto.io/signup">SignUp!</a></p>
+
+All the best!
+Dan
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.Company_Size_decimal@su
+        operator = "present"
+        value = ""
+      },
+    ]
+  }
+  description = ""
+  raw_title = "DP - Bulk Changes Trigger"
+  category_id = zendesk.trigger_category.instance.DP
+  _alias = "DP - Bulk Changes Trigger"
+}

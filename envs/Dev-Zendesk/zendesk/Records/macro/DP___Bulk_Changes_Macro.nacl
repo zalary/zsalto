@@ -1,0 +1,13 @@
+zendesk.macro DP___Bulk_Changes_Macro@sbsss {
+  title = "DP - Bulk Changes Macro"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>Send them the signup link!</p><p>&nbsp;</p><p>&lt;p&gt;&lt;a href=\"https://demo.salto.io/signup\"&gt;SignUp!&lt;/a&gt;&lt;/p&gt;</p><p>&nbsp;</p>"
+    },
+  ]
+  raw_title = "DP - Bulk Changes Macro"
+  _alias = "DP - Bulk Changes Macro"
+}
