@@ -1,0 +1,13 @@
+zendesk.article_translation Bulk_Changes_6_How_To_General_DP_Brand_s_uum_suuuum_ssuuuuuuum__DP_Brand_s_en_us_umub@uuuuuuuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_us@umub
+  title = "Bulk Changes 6"
+  body = file("zendesk/translations/guide/brands/DP Brand/categories/General/sections/How_To/articles/Bulk_Changes_6/translations/5b0a73f705_Bulk_Changes_6")
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.DP_Brand@s
+  _parent = [
+    zendesk.article.instance.Bulk_Changes_6_How_To_General_DP_Brand_s_uum_suuuum@ssuuuuuuum,
+  ]
+  _alias = "en-us - Bulk Changes 6"
+}
