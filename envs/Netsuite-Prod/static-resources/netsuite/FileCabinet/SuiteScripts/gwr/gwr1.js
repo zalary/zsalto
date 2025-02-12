@@ -11,7 +11,13 @@ define(['N/record', 'N/search'],
 
  */
 function(record, search) {
+
     // GR 20240313-123224
+
+    
+    // GR 241203 
+
+
     // GR 20240503-132414
 
     // GR 20240723-095848
@@ -26,11 +32,14 @@ function(record, search) {
      * @since 2015.2
      */
     function pageInit(scriptContext) {
+
         const s = "20240313-122646"
-        alert("Bonjour tout la monde")
+        alert("Hello world")
+
 
     }
     return {
+        // non-conflicting change 20250211-101911
         pageInit: pageInit,
     };
-});
+})
