@@ -1527,6 +1527,51 @@ netsuite.transactionForm custformmychange {
         id = "TRANSACTIONSYSTEMINFORMATION"
         label = "System Information"
         visible = true
+        fieldGroups = {
+          defaultFieldGroup = {
+            fields = {
+              MIDDLE = {
+                position = "MIDDLE"
+                field = {
+                  custbody_gwr_second_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_second_lvl_approval.scriptid
+                    label = "GWR Amp 2nd Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 0
+                  }
+                  custbody_gwr_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 1
+                  }
+                  custbody_gwr_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_edit.scriptid
+                    label = "GWR Amp Edit - WA"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 2
+                  }
+                }
+                index = 0
+              }
+            }
+          }
+        }
         subItems = {
           subList = {
             SYSTEMNOTES = {
@@ -1660,6 +1705,16 @@ netsuite.transactionForm custformmychange {
                     sameRowAsPrevious = false
                     index = 8
                   }
+                  custbody_itr_doc_number = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
+                    label = "GWR Amp doc number"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
                     label = "segment-77"
@@ -1668,7 +1723,7 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
+                    index = 10
                   }
                   cseg4 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg4]"
@@ -1678,7 +1733,7 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 10
+                    index = 11
                   }
                   cseg5 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg5]"
@@ -1688,7 +1743,17 @@ netsuite.transactionForm custformmychange {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 12
+                  }
+                  custbody_gwr_workflow_selector = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
+                    label = "GWR Workflow selector"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 13
                   }
                 }
                 index = 0
