@@ -1,0 +1,10 @@
+netsuite.transactionForm custform_gwr_bom1 {
+  scriptid = "custform_gwr_bom1"
+  standard = "STANDARDBOM"
+  name = "GWR BOM test"
+  recordType = "WORKORDER"
+  preferred = true
+  emailMessageTemplate = "USE_DEFAULT"
+  isInactive = false
+  _alias = "GWR BOM test"
+}
