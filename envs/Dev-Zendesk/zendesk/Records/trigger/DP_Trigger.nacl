@@ -13,6 +13,10 @@ zendesk.trigger DP_Trigger@s {
       field = zendesk.ticket_field.instance.DP_Severity_tagger@su
       value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_critical@uumuuuu
     },
+    {
+      field = zendesk.ticket_field.instance.DP___Adapters_multiselect@sbsu
+      value = zendesk.ticket_field__custom_field_options.instance.DP___Adapters_multiselect__okta@sbsuuu
+    },
   ]
   conditions = {
     all = [

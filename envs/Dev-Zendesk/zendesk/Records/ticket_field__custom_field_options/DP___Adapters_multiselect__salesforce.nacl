@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP___Adapters_multiselect__salesforce@sbsuuu {
+  raw_name = "Salesforce"
+  value = "salesforce"
+  _parent = [
+    zendesk.ticket_field.instance.DP___Adapters_multiselect@sbsu,
+  ]
+  _alias = "salesforce"
+}

@@ -1,0 +1,20 @@
+zendesk.ticket_field DP___Adapters_multiselect@sbsu {
+  type = "multiselect"
+  raw_title = "DP - Adapters"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "DP - Adapters"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.DP___Adapters_multiselect__zendesk@sbsuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP___Adapters_multiselect__salesforce@sbsuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP___Adapters_multiselect__netsuite@sbsuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP___Adapters_multiselect__okta@sbsuuu,
+  ]
+  _alias = "DP - Adapters"
+}
