@@ -1612,16 +1612,6 @@ netsuite.transactionForm custform_srd_prchse_order {
                     sameRowAsPrevious = false
                     index = 13
                   }
-                  custbody_gwr_ra2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_ra2.scriptid
-                    label = "GWR Return Auth"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 14
-                  }
                 }
                 index = 0
               }
