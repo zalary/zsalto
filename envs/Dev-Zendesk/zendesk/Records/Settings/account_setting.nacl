@@ -87,6 +87,10 @@ zendesk.account_setting {
     voice_ai_enabled = false
     voice_ai_display_transcript = false
     voice_zendesk_qa_enabled = false
+    voice_transcriptions_pii_redaction = false
+    voice_transcriptions_pci_redaction = false
+    voice_transcriptions_boosted_keywords_enabled = false
+    voice_transcriptions_boosted_keywords = ""
   }
   twitter = {
     shorten_url = "optional"
