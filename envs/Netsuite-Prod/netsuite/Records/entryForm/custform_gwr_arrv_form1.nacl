@@ -1,0 +1,197 @@
+netsuite.entryForm custform_gwr_arrv_form1 {
+  scriptid = "custform_gwr_arrv_form1"
+  standard = "STANDARDGENERICRESOURCEFORM"
+  name = "GWR Arrv Form1"
+  recordType = "GENERICRESOURCE"
+  preferred = true
+  storedWithRecord = false
+  mainFields = {
+    fieldGroup = {
+      primaryinformation = {
+        scriptid = "primaryinformation"
+        label = "Primary Information"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              CUSTOMFORM = {
+                id = "CUSTOMFORM"
+                label = "Custom Form"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              ENTITYID = {
+                id = "ENTITYID"
+                label = "Name"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+              LABORCOST = {
+                id = "LABORCOST"
+                label = "Labor Cost"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 2
+              }
+              LABORPRICE = {
+                id = "LABORPRICE"
+                label = "Price"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 3
+              }
+            }
+            index = 0
+          }
+        }
+        index = 0
+      }
+      fieldgroup_1_t2257815_688 = {
+        scriptid = "fieldgroup_1_t2257815_688"
+        label = "GWR Field Group"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              WORKCALENDAR = {
+                id = "WORKCALENDAR"
+                label = "Work Calendar"
+                visible = false
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 0
+              }
+              SUBSIDIARY = {
+                id = "SUBSIDIARY"
+                label = "Subsidiary"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 1
+              }
+              ISINACTIVE = {
+                id = "ISINACTIVE"
+                label = "Inactive"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 2
+              }
+              BILLINGCLASS = {
+                id = "BILLINGCLASS"
+                label = "Billing Class"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                index = 3
+              }
+            }
+            index = 0
+          }
+        }
+        index = 1
+      }
+    }
+  }
+  tabs = {
+    tab = {
+      ENTITYCUSTOM = {
+        id = "ENTITYCUSTOM"
+        label = "Custom"
+        visible = true
+        fieldGroups = {
+          fieldGroup = {
+            custom = {
+              scriptid = "custom"
+              label = "Custom"
+              visible = true
+              showTitle = true
+              singleColumn = false
+              index = 0
+            }
+          }
+        }
+        index = 0
+      }
+      ENTITYS_SYSINFO = {
+        id = "ENTITYS_SYSINFO"
+        label = "System Information"
+        visible = true
+        index = 1
+      }
+      custtab_salto_test_tab = {
+        id = netsuite.subtab.instance.custtab_salto_test_tab.scriptid
+        label = "test tab"
+        visible = true
+        subItems = {
+          subTab = {
+            custtab_salto_child_test = {
+              id = netsuite.subtab.instance.custtab_salto_child_test.scriptid
+              label = "test child"
+              visible = true
+              index = 0
+            }
+          }
+        }
+        index = 2
+      }
+      custtab_42_t2257815_140 = {
+        id = netsuite.subtab.instance.custtab_42_t2257815_140.scriptid
+        label = "GWR tab"
+        visible = true
+        index = 3
+      }
+    }
+  }
+  quickViewFields = {
+    field = {
+      ENTITYID = {
+        id = "ENTITYID"
+        index = 0
+      }
+      BILLINGCLASS = {
+        id = "BILLINGCLASS"
+        index = 1
+      }
+      LABORCOST = {
+        id = "LABORCOST"
+        index = 2
+      }
+      LABORPRICE = {
+        id = "LABORPRICE"
+        index = 3
+      }
+    }
+  }
+  editingInList = true
+  isInactive = false
+  _alias = "GWR Arrv Form1"
+}

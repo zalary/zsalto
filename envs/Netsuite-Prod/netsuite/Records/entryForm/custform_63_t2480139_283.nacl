@@ -1,0 +1,317 @@
+netsuite.entryForm custform_63_t2480139_283 {
+  scriptid = "custform_63_t2480139_283"
+  standard = "STANDARDCUSTOMRECORD_GWR_ARRV1FORM"
+  name = "Custom GWR Arrv test Form"
+  recordType = netsuite.customrecord_gwr_arrv1.attr.scriptid
+  preferred = true
+  storedWithRecord = false
+  mainFields = {
+    fieldGroup = {
+      fieldgroup_2_t2480139_651 = {
+        scriptid = "fieldgroup_2_t2480139_651"
+        label = "FG1"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              CUSTOMFORM = {
+                id = "CUSTOMFORM"
+                label = "Custom Form"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 0
+              }
+              NAME = {
+                id = "NAME"
+                label = "Name"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = true
+                index = 1
+              }
+              OWNER = {
+                id = "OWNER"
+                label = "Owner"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 2
+              }
+              RECORDID = {
+                id = "RECORDID"
+                label = "ID"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 3
+              }
+              CREATED = {
+                id = "CREATED"
+                label = "Date Created"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 4
+              }
+              LASTMODIFIED = {
+                id = "LASTMODIFIED"
+                label = "Last Modified"
+                visible = true
+                mandatory = true
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 5
+              }
+              ISINACTIVE = {
+                id = "ISINACTIVE"
+                label = "Inactive"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 6
+              }
+            }
+            index = 0
+          }
+        }
+        index = 0
+      }
+      fieldgroup_3_t2480139_173 = {
+        scriptid = "fieldgroup_3_t2480139_173"
+        label = "FG2"
+        visible = true
+        showTitle = true
+        singleColumn = false
+        fields = {
+          MIDDLE = {
+            position = "MIDDLE"
+            field = {
+              PARENT = {
+                id = "PARENT"
+                label = "Parent"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 0
+              }
+              customrecord_gwr_arrv1_custrecord_gwr_arrv_f1@uuvuuu = {
+                id = netsuite.customrecord_gwr_arrv1.field.custom_custrecord_gwr_arrv_f1.scriptid
+                label = "GWR arrv f1"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 1
+              }
+              customrecord_gwr_arrv1_custrecord_gwr_arrv_f2@uuvuuu = {
+                id = netsuite.customrecord_gwr_arrv1.field.custom_custrecord_gwr_arrv_f2.scriptid
+                label = "GWR arrv f2"
+                visible = true
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 2
+              }
+              customrecord_gwr_arrv1_custrecord_gwr_arrv_f3@uuvuuu = {
+                id = netsuite.customrecord_gwr_arrv1.field.custom_custrecord_gwr_arrv_f3.scriptid
+                label = "f3 custom record list with filter"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 3
+              }
+              customrecord_gwr_arrv1_custrecord_gwr_arrv_f4@uuvuuu = {
+                id = netsuite.customrecord_gwr_arrv1.field.custom_custrecord_gwr_arrv_f4.scriptid
+                label = "f4 filtered vendor list"
+                visible = false
+                mandatory = false
+                displayType = "NORMAL"
+                columnBreak = false
+                sameRowAsPrevious = false
+                quickAdd = false
+                index = 4
+              }
+            }
+            index = 0
+          }
+        }
+        index = 1
+      }
+    }
+  }
+  tabs = {
+    tab = {
+      RECORDNOTES = {
+        id = "RECORDNOTES"
+        label = "Notes"
+        visible = true
+        subItems = {
+          subList = {
+            RECORDUSERNOTES = {
+              id = "RECORDUSERNOTES"
+              label = "User Notes"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+            RECORDSYSTEMNOTES = {
+              id = "RECORDSYSTEMNOTES"
+              label = "System Notes"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
+          }
+        }
+        index = 0
+      }
+      RECORDMEDIA = {
+        id = "RECORDMEDIA"
+        label = "Files"
+        visible = true
+        subItems = {
+          subList = {
+            RECORDMEDIAITEM = {
+              id = "RECORDMEDIAITEM"
+              label = "Files"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 1
+      }
+      RECORDTRANSLATION = {
+        id = "RECORDTRANSLATION"
+        label = "Translation"
+        visible = true
+        subItems = {
+          subList = {
+            RECORDTRANSLATIONS = {
+              id = "RECORDTRANSLATIONS"
+              label = "Translation"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+          }
+        }
+        index = 2
+      }
+      RECORDWORKFLOW = {
+        id = "RECORDWORKFLOW"
+        label = "Workflow"
+        visible = true
+        subItems = {
+          subList = {
+            RECORDACTIVEWORKFLOWS = {
+              id = "RECORDACTIVEWORKFLOWS"
+              label = "Active Workflows"
+              visible = true
+              neverEmpty = false
+              index = 0
+            }
+            RECORDWORKFLOWHISTORY = {
+              id = "RECORDWORKFLOWHISTORY"
+              label = "Workflow History"
+              visible = true
+              neverEmpty = false
+              index = 1
+            }
+          }
+        }
+        index = 3
+      }
+      RECORDCUSTOM = {
+        id = "RECORDCUSTOM"
+        label = "Custom"
+        visible = true
+        index = 4
+      }
+    }
+  }
+  actionbar = {
+    menu = {
+      menuitem = {
+        DELETE = {
+          id = "DELETE"
+          label = "Delete"
+          visible = true
+        }
+        MAKECOPY = {
+          id = "MAKECOPY"
+          label = "Make Copy"
+          visible = true
+        }
+        NEW = {
+          id = "NEW"
+          label = "New"
+          visible = true
+        }
+        PRINT = {
+          id = "PRINT"
+          label = "Print"
+          visible = true
+        }
+        SUBMITCOPY = {
+          id = "SUBMITCOPY"
+          label = "Save & Copy"
+          visible = true
+        }
+        SUBMITNEW = {
+          id = "SUBMITNEW"
+          label = "Save & New"
+          visible = true
+        }
+        SUBMITNEXT = {
+          id = "SUBMITNEXT"
+          label = "Save & Next"
+          visible = true
+        }
+        SUBMITAS = {
+          id = "SUBMITAS"
+          label = "Save As"
+          visible = true
+        }
+      }
+    }
+  }
+  editingInList = true
+  isInactive = false
+  _alias = "Custom GWR Arrv test Form"
+}

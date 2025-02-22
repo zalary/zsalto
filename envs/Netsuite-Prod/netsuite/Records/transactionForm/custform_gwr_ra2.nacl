@@ -929,6 +929,16 @@ netsuite.transactionForm custform_gwr_ra2 {
                     sameRowAsPrevious = false
                     index = 8
                   }
+                  custbody_mkd_transaction_body_field_1 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
+                    label = "MKD Transaction Body Field 1"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 9
+                  }
                 }
                 index = 0
               }
