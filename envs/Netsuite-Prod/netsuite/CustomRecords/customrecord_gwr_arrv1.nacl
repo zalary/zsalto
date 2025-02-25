@@ -287,7 +287,7 @@ type netsuite.customrecord_gwr_arrv1 {
     }
     index = 2
   }
-  unknown custom_custrecord_gwr_arrv_f4 {
+  netsuite.vendor custom_custrecord_gwr_arrv_f4 {
     scriptid = "custrecord_gwr_arrv_f4"
     accesslevel = "2"
     allowquickadd = false

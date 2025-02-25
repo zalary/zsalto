@@ -86,6 +86,9 @@ type netsuite.role {
   boolean isInactive {
     originalName = "isinactive"
   }
+  string custom_custrecord_dp_other_field {
+    field_instance = netsuite.othercustomfield.instance.custrecord_dp_other_field.scriptid
+  }
 }
 type netsuite.role_permissions_permission {
   string permkey {

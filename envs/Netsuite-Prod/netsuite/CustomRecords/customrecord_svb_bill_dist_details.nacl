@@ -520,30 +520,6 @@ type netsuite.customrecord_svb_bill_dist_details {
     storevalue = true
     index = 16
   }
-  unknown custom_custrecord_svb_details_intercomp_vendor {
-    scriptid = "custrecord_svb_details_intercomp_vendor"
-    accesslevel = "2"
-    allowquickadd = false
-    applyformatting = false
-    checkspelling = false
-    defaultchecked = false
-    displaytype = "NORMAL"
-    encryptatrest = false
-    fieldtype = "SELECT"
-    globalsearch = false
-    help = "The vendor representing the destination subsidiary."
-    isformula = false
-    ismandatory = false
-    isparent = false
-    label = "Intercompany Vendor"
-    onparentdelete = "SET_NULL"
-    rolerestrict = false
-    searchlevel = "2"
-    selectrecordtype = "-3"
-    showinlist = false
-    storevalue = true
-    index = 17
-  }
   netsuite.expenseCategory custom_custrecord_svb_expense_category {
     scriptid = "custrecord_svb_expense_category"
     accesslevel = "2"
@@ -862,4 +838,28 @@ type netsuite.customrecord_svb_bill_dist_details {
       indexed = true
     },
   ]
+  netsuite.vendor custom_custrecord_svb_details_intercomp_vendor {
+    scriptid = "custrecord_svb_details_intercomp_vendor"
+    accesslevel = "2"
+    allowquickadd = false
+    applyformatting = false
+    checkspelling = false
+    defaultchecked = false
+    displaytype = "NORMAL"
+    encryptatrest = false
+    fieldtype = "SELECT"
+    globalsearch = false
+    help = "The vendor representing the destination subsidiary."
+    isformula = false
+    ismandatory = false
+    isparent = false
+    label = "Intercompany Vendor"
+    onparentdelete = "SET_NULL"
+    rolerestrict = false
+    searchlevel = "2"
+    selectrecordtype = "-3"
+    showinlist = false
+    storevalue = true
+    index = 17
+  }
 }
