@@ -205,13 +205,13 @@ zendesk.account_setting {
   }
   cdn = {
     cdn_provider = "default"
-    fallback_cdn_provider = "cloudfront"
+    fallback_cdn_provider = "secondary"
     hosts = [
       {
         name = "default"
       },
       {
-        name = "cloudfront"
+        name = "secondary"
       },
     ]
   }
