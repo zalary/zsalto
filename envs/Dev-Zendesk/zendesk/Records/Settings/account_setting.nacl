@@ -268,10 +268,12 @@ zendesk.account_setting {
   
   messaging = {
     messaging_end_session = false
+    messaging_ip_ban = false
   }
   email = {
     accept_wildcard_emails = false
     custom_dkim_domain = false
+    email_status = true
     email_sender_authentication = true
     email_sender_authentication_profile = "default"
     email_template_photos = true
