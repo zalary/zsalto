@@ -182,6 +182,7 @@ zendesk.account_setting {
   brands = {
     default_brand_id = zendesk.brand.instance.Salto
     require_brand_on_new_tickets = false
+    end_user_across_brand_requests = false
   }
   api = {
     accepted_api_agreement = true
