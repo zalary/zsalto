@@ -9,6 +9,7 @@ zendesk.ticket_field my_dropdown_1_tagger@ssu {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.my_dropdown_1_tagger_ssu__v44@uuumuu,

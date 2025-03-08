@@ -15,4 +15,5 @@ zendesk.ticket_field aaaaaaa_44444_tagger@bu {
   ]
   _alias = "aaaaa-44444"
   agent_description = "description"
+  agent_can_edit = true
 }

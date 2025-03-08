@@ -13,6 +13,7 @@ Beta releases are close to completion and nearly ready for public release.
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu,

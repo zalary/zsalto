@@ -9,6 +9,7 @@ zendesk.ticket_field CE_Notes_text@su {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "Any useful notes from the Customer Engineering team"
   _alias = "CE Notes"

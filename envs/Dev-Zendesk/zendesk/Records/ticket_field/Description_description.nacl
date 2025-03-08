@@ -9,6 +9,7 @@ zendesk.ticket_field Description_description {
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = true
+  agent_can_edit = true
   removable = false
   _alias = "Description"
 }

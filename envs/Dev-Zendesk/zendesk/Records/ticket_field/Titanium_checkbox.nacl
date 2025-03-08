@@ -9,6 +9,7 @@ zendesk.ticket_field Titanium_checkbox {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   tag = zendesk.tag.instance.titanium
   removable = true
   _alias = "Titanium"

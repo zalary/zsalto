@@ -19,4 +19,5 @@ zendesk.ticket_field SRD_Early_Product_Access_Type_tagger@bsssu {
     zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__new_feature@uuuuumuuu,
   ]
   _alias = "SRD - Early Product Access Type"
+  agent_can_edit = true
 }

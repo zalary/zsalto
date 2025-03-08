@@ -9,6 +9,7 @@ zendesk.ticket_field _eshed__test__drop_down_tagger@hihisbu {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "must select from this dropdown"
   custom_field_options = [

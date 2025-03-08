@@ -9,6 +9,7 @@ zendesk.ticket_field DP_Color_multiselect@su {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "Favorite Colors"
   custom_field_options = [

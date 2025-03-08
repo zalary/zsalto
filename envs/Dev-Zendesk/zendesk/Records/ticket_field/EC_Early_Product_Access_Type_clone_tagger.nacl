@@ -9,6 +9,7 @@ zendesk.ticket_field EC_Early_Product_Access_Type_clone_tagger@bssssu {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.EC_Early_Product_Access_Type_clone_tagger_bssssu__dark_mode_clone@uuuuuumuuuu,

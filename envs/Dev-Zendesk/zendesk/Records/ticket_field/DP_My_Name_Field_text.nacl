@@ -9,6 +9,7 @@ zendesk.ticket_field DP_My_Name_Field_text@bbbu {
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "DP's test field for dynamic content"
   _alias = "DP-My-Name-Field"

@@ -9,6 +9,7 @@ zendesk.ticket_field DP_Field_3_text@bbu {
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "DP's test field for additional reference"
   _alias = "DP-Field-3"

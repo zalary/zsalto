@@ -9,6 +9,7 @@ zendesk.ticket_field Ticket_status_custom_status@suu {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = false
   _alias = "Ticket status"
 }

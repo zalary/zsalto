@@ -10,6 +10,7 @@ zendesk.ticket_field gwr_dedup2_integer {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   _alias = "gwr_dedup2"
 }

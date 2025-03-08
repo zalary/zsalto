@@ -9,6 +9,7 @@ zendesk.ticket_field _eshed__List_of_Fruit_tagger@hisssu {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "List of fruit names"
   custom_field_options = [

@@ -9,6 +9,7 @@ zendesk.ticket_field Customer_Tier_multiselect@su {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__free@uumuu,

@@ -9,6 +9,7 @@ zendesk.ticket_field MKD_Test_multiselect@su {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.MKD_Test_multiselect__english@suuu,

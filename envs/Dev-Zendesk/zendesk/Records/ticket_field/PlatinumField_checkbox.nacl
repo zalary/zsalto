@@ -9,6 +9,7 @@ zendesk.ticket_field PlatinumField_checkbox {
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = false
+  agent_can_edit = true
   tag = ""
   removable = true
   agent_description = "A really strong one"

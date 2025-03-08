@@ -9,6 +9,7 @@ zendesk.ticket_field salto_dedup_text {
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "use to deduplicate salto elements"
   _alias = "salto_dedup"

@@ -9,6 +9,7 @@ zendesk.ticket_field _eshed__Categories_of_Newsletter_for_Dan_multiselect@hissss
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   agent_description = "Multiple categories that interest the customer"
   custom_field_options = [

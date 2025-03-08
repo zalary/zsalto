@@ -9,6 +9,7 @@ zendesk.ticket_field aaaaaaa_3333__dc_testdynamiccontent___tagger@b_00123_00123v
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = true
+  agent_can_edit = true
   removable = true
   custom_field_options = [
     zendesk.ticket_field__custom_field_options.instance.aaaaaaa_3333__dc_testdynamiccontent___tagger_b_00123_00123v_00125_00125u__smartphone_surfplatta3@uuuuuuumuuuuuud,

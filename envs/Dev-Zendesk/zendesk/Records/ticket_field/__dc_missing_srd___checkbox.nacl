@@ -9,6 +9,7 @@ zendesk.ticket_field __dc_missing_srd___checkbox@_00123_00123vu_00125_00125u {
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
+  agent_can_edit = true
   removable = true
   _alias = "testing"
 }
