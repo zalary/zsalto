@@ -357,7 +357,7 @@ netsuite.workflow customworkflow_gwr_approval_workflow {
               scriptid = "workflowtransition245"
               buttonaction = netsuite.workflow.instance.customworkflow_gwr_approval_workflow.workflowstates.workflowstate.workflowstate108.workflowactions.BEFORELOAD.addbuttonaction.workflowaction334.scriptid
               contexttypes = "ACTION|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|RECORDACTION|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OFFLINECLIENT|OTHER|PAYMENTPOSTBACK|PAYMENTGATEWAY|PLATFORMEXTENSION|PORTLET|PROMOTIONS|CONSOLRATEADJUSTOR|RESTWEBSERVICES|RESTLET|ADVANCEDREVREC|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|WEBSERVICES|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WORKBOOKBUILDER|WORKFLOW"
-              tostate = netsuite.workflow.instance.customworkflow_gwr_approval_workflow.workflowstates.workflowstate.workflowstate109.scriptid
+              tostate = netsuite.workflow.instance.customworkflow_gwr_approval_workflow.workflowstates.workflowstate.workflowstate111.scriptid
               initcondition = {
                 type = "VISUAL_BUILDER"
               }

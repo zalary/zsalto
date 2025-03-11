@@ -435,6 +435,28 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     checkBoxDefault = "USE_FIELD_DEFAULT"
                     index = 2
                   }
+                  custbody_aw_first_lvl_approval = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
+                    label = "GWR Amp 1st Level Approval (2)"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 3
+                  }
+                  custbody_aw_edit = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
+                    label = "GWR Amp Edit - WA (2)"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    checkBoxDefault = "USE_FIELD_DEFAULT"
+                    index = 4
+                  }
                 }
                 index = 0
               }
@@ -1325,6 +1347,16 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     columnBreak = false
                     sameRowAsPrevious = false
                     index = 11
+                  }
+                  custbodygwr_bam_18 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbodygwr_bam_18.scriptid
+                    label = "GWR BAM-18"
+                    visible = false
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 14
                   }
                 }
                 index = 0

@@ -15,7 +15,11 @@ function(record, search) {
     // GR 241203 
     // GR 20240503-132414
     // GR 20240723-095848
-    // GR 20250226-072548
+
+    // BAM-17 inventory 3/10 9:31
+
+    // BAM-18  3/10 10:09
+
     /**
      * Function to be executed after page is initialized.
      *
