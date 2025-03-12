@@ -1326,7 +1326,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 11
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1336,17 +1336,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
-                  }
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 11
+                    index = 12
                   }
                   custbodygwr_bam_18 = {
                     id = netsuite.transactionbodycustomfield.instance.custbodygwr_bam_18.scriptid
@@ -1356,7 +1346,7 @@ netsuite.transactionForm custform_gwr_udemy_test {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                 }
                 index = 0

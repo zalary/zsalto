@@ -798,7 +798,7 @@ netsuite.transactionForm custform_54_t2480139_657 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 8
+                    index = 7
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -808,17 +808,7 @@ netsuite.transactionForm custform_54_t2480139_657 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 9
-                  }
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 7
+                    index = 8
                   }
                   custbodygwr_bam_18 = {
                     id = netsuite.transactionbodycustomfield.instance.custbodygwr_bam_18.scriptid
@@ -828,7 +818,7 @@ netsuite.transactionForm custform_54_t2480139_657 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 10
+                    index = 9
                   }
                 }
                 index = 0
