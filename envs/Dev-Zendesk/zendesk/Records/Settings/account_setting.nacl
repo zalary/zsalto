@@ -173,6 +173,7 @@ zendesk.account_setting {
     custom_dkim_domain = true
     allow_email_template_customization = true
     custom_objects_activated = false
+    data_masking_configured_in_roles = false
     customer_context_as_default = false
   }
   ticket_form = {

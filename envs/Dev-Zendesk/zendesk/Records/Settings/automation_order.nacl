@@ -9,6 +9,8 @@ zendesk.automation_order {
     zendesk.automation.instance._SRD____Test_Automation@jksbss,
     zendesk.automation.instance.SRD___test_automation_for_troubleshooting@sbssss,
     zendesk.automation.instance.DP___Env_Variable@sbss,
+    zendesk.automation.instance.DP___Tag_Test_1@sbsss,
+    zendesk.automation.instance.DP___Tag_Test_2@sbsss,
   ]
   inactive = [
   ]

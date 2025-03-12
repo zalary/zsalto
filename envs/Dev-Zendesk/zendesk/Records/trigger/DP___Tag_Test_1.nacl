@@ -1,0 +1,26 @@
+zendesk.trigger DP___Tag_Test_1@sbsss {
+  title = "DP - Tag Test 1"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.dp_23456@b,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+    ]
+  }
+  description = ""
+  raw_title = "DP - Tag Test 1"
+  category_id = zendesk.trigger_category.instance.DP
+  _alias = "DP - Tag Test 1"
+}

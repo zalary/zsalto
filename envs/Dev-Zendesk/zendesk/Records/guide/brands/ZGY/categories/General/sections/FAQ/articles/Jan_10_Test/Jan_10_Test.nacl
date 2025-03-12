@@ -16,4 +16,8 @@ zendesk.article Jan_10_Test_FAQ_General_ZGY@ssuuu {
   ]
   brand = zendesk.brand.instance.ZGY
   _alias = "Jan 10 Test"
+  attachments = [
+    zendesk.article_attachment.instance.Jan_10_Test_FAQ_General_ZGY_ssuuu__error__png_true@uuuuumuusvu,
+    zendesk.article_attachment.instance.Jan_10_Test_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu,
+  ]
 }

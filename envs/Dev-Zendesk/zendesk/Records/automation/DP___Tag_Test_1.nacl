@@ -1,0 +1,36 @@
+zendesk.automation DP___Tag_Test_1@sbsss {
+  title = "DP - Tag Test 1"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.dp_98765@b,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "NEW"
+        operator = "is"
+        value = "24"
+      },
+      {
+        field = "current_tags"
+        operator = "includes"
+        value = [
+          zendesk.tag.instance.dp_12345@b,
+        ]
+      },
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+    ]
+  }
+  raw_title = "DP - Tag Test 1"
+  _alias = "DP - Tag Test 1"
+}

@@ -64,6 +64,7 @@ zendesk.trigger_order {
         zendesk.trigger.instance.DP_Group_Trigger@s,
         zendesk.trigger.instance.DP_Group_Trigger_2@s,
         zendesk.trigger.instance.DP___Bulk_Changes_Trigger@sbsss,
+        zendesk.trigger.instance.DP___Tag_Test_1@sbsss,
       ]
       inactive = [
       ]

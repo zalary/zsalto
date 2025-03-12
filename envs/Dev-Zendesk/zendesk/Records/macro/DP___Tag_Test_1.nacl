@@ -1,0 +1,16 @@
+zendesk.macro DP___Tag_Test_1@sbsss {
+  title = "DP - Tag Test 1"
+  active = true
+  default = false
+  description = "Something"
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.dp_82745@b,
+      ]
+    },
+  ]
+  raw_title = "DP - Tag Test 1"
+  _alias = "DP - Tag Test 1"
+}

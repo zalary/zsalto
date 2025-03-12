@@ -117,3 +117,27 @@ zendesk.tag dp_test {
   id = "dp_test"
   _alias = "dp_test"
 }
+zendesk.tag dp_09876@b {
+  id = "dp-09876"
+  _alias = "dp-09876"
+}
+zendesk.tag dp_12345@b {
+  id = "dp-12345"
+  _alias = "dp-12345"
+}
+zendesk.tag dp_12346@b {
+  id = "dp-12346"
+  _alias = "dp-12346"
+}
+zendesk.tag dp_23456@b {
+  id = "dp-23456"
+  _alias = "dp-23456"
+}
+zendesk.tag dp_82745@b {
+  id = "dp-82745"
+  _alias = "dp-82745"
+}
+zendesk.tag dp_98765@b {
+  id = "dp-98765"
+  _alias = "dp-98765"
+}
