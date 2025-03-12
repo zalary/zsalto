@@ -19,5 +19,6 @@ zendesk.article ZGY_Dec6_Published_FAQ_General_ZGY@ssuuu {
   attachments = [
     zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_false@uuuuumuuvu,
     zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu,
+    zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu,
   ]
 }

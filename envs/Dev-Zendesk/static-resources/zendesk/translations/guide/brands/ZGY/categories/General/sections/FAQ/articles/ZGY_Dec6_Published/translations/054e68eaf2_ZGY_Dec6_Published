@@ -1,1 +1,3 @@
-<p><img src="${ zendesk.brand.instance.ZGY }/hc/article_attachments/${ zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu }" alt="error.png">Hi I am a published article with a body.</p>
+<p><img src="${ zendesk.brand.instance.ZGY }/hc/article_attachments/${ zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu }" alt="error.png"><img src="${ zendesk.brand.instance.ZGY }/hc/article_attachments/${ zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu }" alt="error.png">Hi I am a published article with a body.</p>
+<p> </p>
+<p> </p>
