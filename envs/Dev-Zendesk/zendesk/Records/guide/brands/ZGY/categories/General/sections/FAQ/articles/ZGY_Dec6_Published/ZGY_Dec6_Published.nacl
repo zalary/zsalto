@@ -18,7 +18,5 @@ zendesk.article ZGY_Dec6_Published_FAQ_General_ZGY@ssuuu {
   _alias = "ZGY Dec6 Published"
   attachments = [
     zendesk.article_attachment.instance.ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_false@uuuuumuuvu,
-    zendesk.article_attachment.instance.ZGY_Dec6_Published_28082528339095_ssu__error_png_true@uuumuuvu,
-    zendesk.article_attachment.instance.ZGY_Dec6_Published_28082528339095_ssu__error_png_true@uuumuuvu,
   ]
 }
