@@ -17,7 +17,7 @@ zendesk.trigger MKD___Preview_Access_Request__Alpha_@sbssssjk {
       {
         field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu
+        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__alpha_tester@sbsssuuuu
       },
       {
         field = "status"

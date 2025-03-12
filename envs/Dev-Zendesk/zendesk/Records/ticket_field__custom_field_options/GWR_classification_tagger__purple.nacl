@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_classification_tagger__purple@suuu {
+  raw_name = "Purple"
+  value = "purple"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_classification_tagger@su,
+  ]
+  _alias = "purple"
+}

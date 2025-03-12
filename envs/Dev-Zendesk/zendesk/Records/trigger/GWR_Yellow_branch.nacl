@@ -15,7 +15,7 @@ zendesk.trigger GWR_Yellow_branch@s {
       {
         field = zendesk.ticket_field.instance.GWR_classification_tagger@su
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__yellow@uumuu
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__yellow@suuu
       },
     ]
   }

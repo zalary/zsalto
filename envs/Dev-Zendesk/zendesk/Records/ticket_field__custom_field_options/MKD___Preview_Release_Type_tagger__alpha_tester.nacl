@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options MKD___Preview_Release_Type_tagger__alpha_tester@sbsssuuuu {
+  raw_name = "Alpha"
+  value = "alpha_tester"
+  _parent = [
+    zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu,
+  ]
+  _alias = "alpha_tester"
+}

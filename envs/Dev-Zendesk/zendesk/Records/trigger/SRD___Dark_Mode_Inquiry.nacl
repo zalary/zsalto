@@ -15,9 +15,9 @@ zendesk.trigger SRD___Dark_Mode_Inquiry@sbsss {
   conditions = {
     all = [
       {
-        field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+        field = zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu
+        value = zendesk.ticket_field__custom_field_options.instance.SRD___Early_Product_Access_Type_tagger__dark_mode@sbssssuuuu
       },
       {
         field = "status"

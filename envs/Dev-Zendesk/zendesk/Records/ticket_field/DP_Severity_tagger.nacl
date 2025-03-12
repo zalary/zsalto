@@ -12,10 +12,10 @@ zendesk.ticket_field DP_Severity_tagger@su {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_mild@uumuuuu,
-    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_medium@uumuuuu,
-    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_high@uumuuuu,
-    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_critical@uumuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger__dp_sv_mild@suuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger__dp_sv_medium@suuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger__dp_sv_high@suuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger__dp_sv_critical@suuuuu,
   ]
   _alias = "DP Severity"
 }

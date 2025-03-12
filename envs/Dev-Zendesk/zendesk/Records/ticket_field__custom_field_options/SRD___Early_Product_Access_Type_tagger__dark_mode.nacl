@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options SRD___Early_Product_Access_Type_tagger__dark_mode@sbssssuuuu {
+  raw_name = "Dark Mode"
+  value = "dark_mode"
+  _parent = [
+    zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu,
+  ]
+  _alias = "dark_mode"
+}

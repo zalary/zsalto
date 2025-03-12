@@ -6,7 +6,7 @@ zendesk.macro DP___Priority_Macro_1@sbsss {
   actions = [
     {
       field = "comment_value_html"
-      value = "<p>{{ticket.assignee.name}} - Note that the Priority has been raised to {{ticket.ticket_field_${ zendesk.ticket_field.instance.DP_Priority_tagger }}} - {{${ zendesk.dynamic_content_item.instance.DP_My_Name@b }}}<br></p>"
+      value = "<p>{{ticket.assignee.name}} - Note that the Priority has been raised to {{ticket.ticket_field_${ zendesk.ticket_field.instance.DP_Priority_tagger }}} - {{${ zendesk.dynamic_content_item.instance.dp_my_name@b }}}<br></p>"
     },
     {
       field = zendesk.ticket_field.instance.DP_Priority_tagger

@@ -12,8 +12,8 @@ zendesk.ticket_field ABI_Field_Test_tagger@ssu {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.ABI_Field_Test_tagger_ssu__sample@uuumuu,
-    zendesk.ticket_field__custom_field_options.instance.ABI_Field_Test_tagger_ssu__cambio_tel_fono@uuumuuu_00233,
+    zendesk.ticket_field__custom_field_options.instance.ABI_Field_Test_tagger__sample@ssuuu,
+    zendesk.ticket_field__custom_field_options.instance.ABI_Field_Test_tagger__cambio_tel_fono@ssuuuu_00233,
   ]
   _alias = "ABI Field Test"
 }

@@ -1,0 +1,19 @@
+zendesk.article Dec2_Test_Lorem_3_Dec_Test_General_ZGY_suu@sssuuuum {
+  author_id = "zalary.young@salto.io"
+  comments_disabled = false
+  promoted = false
+  section_id = zendesk.section.instance.Dec_Test_General_ZGY@suu
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.Dec2_Test_Lorem_3_Dec_Test_General_ZGY_suu_sssuuuum__ZGY_en_us_ub@uuuuuuuumuuuum,
+  ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  _alias = "Dec2 Test Lorem 3"
+}

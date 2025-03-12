@@ -12,12 +12,12 @@ zendesk.ticket_field GWR_classification_tagger@su {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__green@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__yellow@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__blue@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__red@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__purple@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__orange@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__green@suuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__yellow@suuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__blue@suuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__red@suuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__purple@suuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__orange@suuu,
   ]
   _alias = "GWR classification"
 }

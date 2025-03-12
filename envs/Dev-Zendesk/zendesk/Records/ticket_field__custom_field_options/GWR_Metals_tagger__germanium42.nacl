@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_Metals_tagger__germanium42@suuu {
+  raw_name = "Germanium42"
+  value = "germanium42"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_Metals_tagger@su,
+  ]
+  _alias = "germanium42"
+}

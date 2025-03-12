@@ -1,0 +1,13 @@
+zendesk.article_translation Dec2_Test_Lorem_3_Dec_Test_General_ZGY_suu_sssuuuum__ZGY_en_us_ub@uuuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "Dec2 Test Lorem 3"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/Dec_Test/articles/Dec2_Test_Lorem_3/translations/c981331a06_Dec2_Test_Lorem_3")
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.Dec2_Test_Lorem_3_Dec_Test_General_ZGY_suu@sssuuuum,
+  ]
+  _alias = "en-us - Dec2 Test Lorem 3"
+}

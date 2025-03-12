@@ -6,7 +6,7 @@ zendesk.organization_field gwr_sensitive_field {
   active = true
   system = false
   custom_field_options = [
-    zendesk.organization_field__custom_field_options.instance.gwr_sensitive_field__gwr_value1,
+    zendesk.organization_field__custom_field_options.instance.gwr_sensitive_field__gwr_value11111111,
     zendesk.organization_field__custom_field_options.instance.gwr_sensitive_field__gwr_value2,
   ]
   _alias = "GWR sensitive field"

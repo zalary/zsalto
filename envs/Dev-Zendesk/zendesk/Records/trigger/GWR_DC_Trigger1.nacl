@@ -15,7 +15,7 @@ zendesk.trigger GWR_DC_Trigger1@s {
         zendesk.webhook.instance.GWR_trigger_webhook@s,
         '''
 {
- {{${ zendesk.dynamic_content_item.instance.GWR_webhook_content@s }}}
+ {{${ zendesk.dynamic_content_item.instance.gwr_webhook_content@s }}}
 } 
 ''',
       ]

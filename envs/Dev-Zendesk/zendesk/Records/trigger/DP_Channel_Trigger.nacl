@@ -5,7 +5,7 @@ zendesk.trigger DP_Channel_Trigger@s {
   actions = [
     {
       field = zendesk.ticket_field.instance.DP_Severity_tagger@su
-      value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger_su__dp_sv_high@uumuuuu
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger__dp_sv_high@suuuuu
     },
   ]
   conditions = {

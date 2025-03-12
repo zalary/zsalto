@@ -9,7 +9,7 @@ zendesk.ticket_form ZGY_Halloween_Form@s {
     zendesk.ticket_field.instance.Ticket_status_custom_status@suu,
     zendesk.ticket_field.instance.Subject_subject,
     zendesk.ticket_field.instance.Description_description,
-    zendesk.ticket_field.instance.ZGY_Explain_text@su,
+    zendesk.ticket_field.instance.ZGY_Explain_Name_text@ssu,
     zendesk.ticket_field.instance.ZGY_Favorite_Halloween_Movie_text@sssu,
     zendesk.ticket_field.instance.zgy_list_tagger,
     zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,

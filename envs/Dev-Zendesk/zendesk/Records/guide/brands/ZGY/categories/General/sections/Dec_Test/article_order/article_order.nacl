@@ -1,6 +1,6 @@
 zendesk.article_order Dec_Test_General_ZGY_suu@uuum {
   articles = [
-    zendesk.article.instance.Dec2_Test_Lorem_Dec_Test_General_ZGY_suu@ssuuuum,
+    zendesk.article.instance.Dec2_Test_Lorem_3_Dec_Test_General_ZGY_suu@sssuuuum,
   ]
   brand = zendesk.brand.instance.ZGY
   _parent = [

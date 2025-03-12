@@ -12,16 +12,16 @@ zendesk.ticket_field GWR_Metals_tagger@su {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_nickel@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_va@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__g_gold@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_silver@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__g_al@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_sb@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_chromium@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__gwr_tc@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__germanium42@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__scandium@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__gwr_nickel@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__gwr_va@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__g_gold@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__gwr_silver@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__g_al@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__gwr_sb@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__gwr_chromium@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__gwr_tc@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__germanium42@suuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__scandium@suuu,
   ]
   _alias = "GWR Metals"
 }

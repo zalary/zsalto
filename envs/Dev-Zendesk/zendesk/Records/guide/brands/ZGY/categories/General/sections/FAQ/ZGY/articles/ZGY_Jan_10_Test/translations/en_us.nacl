@@ -1,0 +1,13 @@
+zendesk.article_translation ZGY_Jan_10_Test_ZGY_FAQ_General_ZGY_sssuuuu__ZGY_en_us_ub@uuuuuuumuuuum {
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  title = "ZGY Jan 10 Test"
+  body = file("zendesk/translations/guide/brands/ZGY/categories/General/sections/FAQ/ZGY/articles/ZGY_Jan_10_Test/translations/a2d4b90a3c_ZGY_Jan_10_Test")
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.ZGY
+  _parent = [
+    zendesk.article.instance.ZGY_Jan_10_Test_ZGY_FAQ_General_ZGY@sssuuuu,
+  ]
+  _alias = "en-us - ZGY Jan 10 Test"
+}

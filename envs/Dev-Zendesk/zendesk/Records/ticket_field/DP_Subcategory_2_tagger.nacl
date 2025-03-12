@@ -12,7 +12,7 @@ zendesk.ticket_field DP_Subcategory_2_tagger@ssu {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_2_tagger_ssu__dp_sub_2_1@uuumuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_2_tagger__dp_sub_2_1@ssuuuuuu,
   ]
   _alias = "DP Subcategory 2"
 }

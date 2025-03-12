@@ -6,7 +6,7 @@ zendesk.macro SRD__FAQs__test_macro@ffffs {
   actions = [
     {
       field = "ticket_form_id"
-      value = zendesk.ticket_form.instance.SRD___Enable_new_feature@sbsss
+      value = zendesk.ticket_form.instance.SRD___TEST___Enable_new_feature@sbssbsss
     },
     {
       field = "subject"

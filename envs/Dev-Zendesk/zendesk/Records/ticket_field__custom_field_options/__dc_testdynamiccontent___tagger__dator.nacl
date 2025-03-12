@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options __dc_testdynamiccontent___tagger__dator@_00123_00123v_00125_00125uuu {
+  raw_name = "bbbb"
+  value = "dator"
+  _parent = [
+    zendesk.ticket_field.instance.__dc_testdynamiccontent___tagger@_00123_00123v_00125_00125u,
+  ]
+  _alias = "dator"
+}

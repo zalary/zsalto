@@ -51,7 +51,7 @@ zendesk.ticket_form DP_Merge_1@s {
     {
       parent_field_id = zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu
       parent_field_type = "tagger"
-      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_1_tagger_ssu__dp_sub_1_1@uuumuuuuu
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_1_tagger__dp_sub_1_1@ssuuuuuu
       child_fields = [
         {
           id = zendesk.ticket_field.instance.Company_Size_decimal@su
@@ -65,7 +65,7 @@ zendesk.ticket_form DP_Merge_1@s {
     {
       parent_field_id = zendesk.ticket_field.instance.DP_Subcategory_1_tagger@ssu
       parent_field_type = "tagger"
-      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_1_tagger_ssu__dp_sub_1_2@uuumuuuuu
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_1_tagger__dp_sub_1_2@ssuuuuuu
       child_fields = [
         {
           id = zendesk.ticket_field.instance.Company_Size_decimal@su
@@ -79,7 +79,7 @@ zendesk.ticket_form DP_Merge_1@s {
     {
       parent_field_id = zendesk.ticket_field.instance.DP_Subcategory_2_tagger@ssu
       parent_field_type = "tagger"
-      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_2_tagger_ssu__dp_sub_2_1@uuumuuuuu
+      value = zendesk.ticket_field__custom_field_options.instance.DP_Subcategory_2_tagger__dp_sub_2_1@ssuuuuuu
       child_fields = [
         {
           id = zendesk.ticket_field.instance.Company_Size_decimal@su

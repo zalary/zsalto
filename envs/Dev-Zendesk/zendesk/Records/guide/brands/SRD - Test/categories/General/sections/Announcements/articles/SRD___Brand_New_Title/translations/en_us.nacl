@@ -1,0 +1,13 @@
+zendesk.article_translation SRD___Brand_New_Title_Announcements_General_SRD___Test_sbs_uuuum_uuuuuum_sbsssuuuuuuuum__SRD___Test_sbs_en_us_uuumub@uuuuuuuuuuuuuumuuuuuuuum {
+  locale = zendesk.guide_language_settings.instance.SRD___Test_sbs_en_us@uuumub
+  title = "SRD - Brand New Title"
+  body = file("zendesk/translations/guide/brands/SRD - Test/categories/General/sections/Announcements/articles/SRD___Brand_New_Title/translations/96054ca683_SRD___Brand_New_Title")
+  outdated = false
+  draft = true
+  hidden = true
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  _parent = [
+    zendesk.article.instance.SRD___Brand_New_Title_Announcements_General_SRD___Test_sbs_uuuum_uuuuuum@sbsssuuuuuuuum,
+  ]
+  _alias = "en-us - SRD - Brand New Title"
+}

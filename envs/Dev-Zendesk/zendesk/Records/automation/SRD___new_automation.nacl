@@ -23,7 +23,7 @@ zendesk.automation SRD___new_automation@sbss {
     ]
     any = [
       {
-        field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
+        field = zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu
         operator = "is"
         value = zendesk.ticket_field__custom_field_options.instance.missing_14838535994519
       },

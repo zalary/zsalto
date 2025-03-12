@@ -6,7 +6,7 @@ zendesk.sla_policy Kirk_Test_SLA@s {
       {
         field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu
+        value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__alpha_tester@sbsssuuuu
       },
     ]
   }

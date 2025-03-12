@@ -32,7 +32,7 @@ zendesk.automation GWR_Assign_Green_to_Geoff@s {
       {
         field = zendesk.ticket_field.instance.GWR_classification_tagger@su
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger_su__red@uumuu
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_classification_tagger__red@suuu
       },
     ]
   }

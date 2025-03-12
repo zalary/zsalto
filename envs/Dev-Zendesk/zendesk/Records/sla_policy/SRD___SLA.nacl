@@ -6,7 +6,7 @@ zendesk.sla_policy SRD___SLA@sbs {
       {
         field = zendesk.ticket_field.instance.Customer_Tier_multiselect@su
         operator = "includes"
-        value = zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect_su__enterprise@uumuu
+        value = zendesk.ticket_field__custom_field_options.instance.Customer_Tier_multiselect__enterprise@suuu
       },
     ]
   }

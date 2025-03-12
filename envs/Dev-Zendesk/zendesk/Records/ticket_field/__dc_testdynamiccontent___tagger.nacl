@@ -1,19 +1,19 @@
 zendesk.ticket_field __dc_testdynamiccontent___tagger@_00123_00123v_00125_00125u {
   type = "tagger"
-  raw_title = "{{${ zendesk.dynamic_content_item.instance.testDynamicContent }}}"
+  raw_title = "{{${ zendesk.dynamic_content_item.instance.testdynamiccontent }}}"
   raw_description = ""
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.testDynamicContent }}}"
+  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.testdynamiccontent }}}"
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = true
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.__dc_testdynamiccontent___tagger__00123_00123v_00125_00125u__smartphone_surfplatta@uuuuuumuuuuuud,
-    zendesk.ticket_field__custom_field_options.instance.__dc_testdynamiccontent___tagger__00123_00123v_00125_00125u__dator@uuuuuumuuuuuu,
+    zendesk.ticket_field__custom_field_options.instance.__dc_testdynamiccontent___tagger__smartphone_surfplatta@_00123_00123v_00125_00125uuud,
+    zendesk.ticket_field__custom_field_options.instance.__dc_testdynamiccontent___tagger__dator@_00123_00123v_00125_00125uuu,
   ]
   _alias = "aabbccddeeffgghhiikk"
 }

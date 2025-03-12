@@ -14,11 +14,11 @@ zendesk.macro SRD___Feature_request@sbss {
     },
     {
       field = "ticket_form_id"
-      value = zendesk.ticket_form.instance.SRD___Enable_new_feature@sbsss
+      value = zendesk.ticket_form.instance.SRD___TEST___Enable_new_feature@sbssbsss
     },
     {
       field = "comment_value_html"
-      value = "<p>{{${ zendesk.dynamic_content_item.instance.SRD___Greeting@sbs }}} {{ticket.requester.first_name}}​, thank you for submitting your request.&nbsp;</p><p>&nbsp;</p><p>Please visit <a href=\"https://www.salto.io/blog\">https://www.salto.io/blog</a> for more info</p>"
+      value = "<p>{{${ zendesk.dynamic_content_item.instance.srd___greeting@sbs }}} {{ticket.requester.first_name}}​, thank you for submitting your request.&nbsp;</p><p>&nbsp;</p><p>Please visit <a href=\"https://www.salto.io/blog\">https://www.salto.io/blog</a> for more info</p>"
     },
   ]
   raw_title = "SRD - Feature request"

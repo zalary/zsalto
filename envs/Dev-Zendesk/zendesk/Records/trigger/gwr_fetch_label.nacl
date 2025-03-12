@@ -15,7 +15,7 @@ zendesk.trigger gwr_fetch_label@s {
       {
         field = zendesk.ticket_field.instance.GWR_Metals_tagger@su
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger_su__g_gold@uumuuu
+        value = zendesk.ticket_field__custom_field_options.instance.GWR_Metals_tagger__g_gold@suuuu
       },
     ]
   }

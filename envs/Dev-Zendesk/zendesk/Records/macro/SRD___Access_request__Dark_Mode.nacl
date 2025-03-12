@@ -14,8 +14,8 @@ zendesk.macro SRD___Access_request__Dark_Mode@sbssffs {
       ]
     },
     {
-      field = zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu
-      value = zendesk.ticket_field__custom_field_options.instance.SRD_Early_Product_Access_Type_tagger_bsssu__dark_mode@uuuuumuuu
+      field = zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu
+      value = zendesk.ticket_field__custom_field_options.instance.SRD___Early_Product_Access_Type_tagger__dark_mode@sbssssuuuu
     },
   ]
   raw_title = "SRD - Access request::Dark Mode"

@@ -13,10 +13,10 @@ zendesk.ticket_field DP_Color_multiselect@su {
   removable = true
   agent_description = "Favorite Colors"
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect_su__goldish@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect_su__burnt_sienna@uumuuu,
-    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect_su__salmon@uumuu,
-    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect_su__puce@uumuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect__goldish@suuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect__burnt_sienna@suuuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect__salmon@suuu,
+    zendesk.ticket_field__custom_field_options.instance.DP_Color_multiselect__puce@suuu,
   ]
   _alias = "DP Color"
 }

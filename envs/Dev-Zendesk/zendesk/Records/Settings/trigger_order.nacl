@@ -22,7 +22,7 @@ zendesk.trigger_order {
         zendesk.trigger.instance.GWR_org_trigger@s,
         zendesk.trigger.instance.MKD___Preview_Access_Request__Beta_@sbssssjk,
         zendesk.trigger.instance.MKD___Preview_Access_Request__Alpha_@sbssssjk,
-        zendesk.trigger.instance._SRD__test_trigger_ID_mapping@jkssss,
+        zendesk.trigger.instance._SRD__Product_Access_Update@jksss,
         zendesk.trigger.instance.gwr_fetch_label@s,
         zendesk.trigger.instance.MKD___Test_Org@sbss,
       ]

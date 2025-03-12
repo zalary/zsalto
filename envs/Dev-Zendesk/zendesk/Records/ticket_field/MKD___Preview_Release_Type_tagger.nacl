@@ -16,9 +16,9 @@ Beta releases are close to completion and nearly ready for public release.
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu,
+    zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__alpha_tester@sbsssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__beta_tester@sbsssuuuu,
   ]
-  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__beta_tester@sbsssuuuu
   _alias = "MKD - Preview Release Type"
 }

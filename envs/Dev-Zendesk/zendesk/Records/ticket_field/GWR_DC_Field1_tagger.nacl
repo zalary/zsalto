@@ -12,10 +12,10 @@ zendesk.ticket_field GWR_DC_Field1_tagger@ssu {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger_ssu__gwr_blue@uuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger_ssu__gwr_green@uuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger_ssu____dc_gwr_dc1__@uuumuuuuvuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger__gwr_blue@ssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger__gwr_green@ssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger____dc_gwr_dc1__@ssuuuuuvuuu,
   ]
-  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger_ssu____dc_gwr_dc1__@uuumuuuuvuuu
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.GWR_DC_Field1_tagger____dc_gwr_dc1__@ssuuuuuvuuu
   _alias = "GWR DC Field1"
 }

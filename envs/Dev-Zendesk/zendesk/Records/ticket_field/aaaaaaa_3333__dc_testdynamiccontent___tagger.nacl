@@ -1,6 +1,6 @@
 zendesk.ticket_field aaaaaaa_3333__dc_testdynamiccontent___tagger@b_00123_00123v_00125_00125u {
   type = "tagger"
-  raw_title = "aaaaaaa-3333{{${ zendesk.dynamic_content_item.instance.testDynamicContent }}}"
+  raw_title = "aaaaaaa-3333{{${ zendesk.dynamic_content_item.instance.testdynamiccontent }}}"
   raw_description = ""
   active = true
   required = false
@@ -12,7 +12,7 @@ zendesk.ticket_field aaaaaaa_3333__dc_testdynamiccontent___tagger@b_00123_00123v
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.aaaaaaa_3333__dc_testdynamiccontent___tagger_b_00123_00123v_00125_00125u__smartphone_surfplatta3@uuuuuuumuuuuuud,
+    zendesk.ticket_field__custom_field_options.instance.aaaaaaa_3333__dc_testdynamiccontent___tagger__smartphone_surfplatta3@b_00123_00123v_00125_00125uuud,
   ]
   _alias = "aaaaaaa-3333aabbccddeeffgghhiikk"
 }

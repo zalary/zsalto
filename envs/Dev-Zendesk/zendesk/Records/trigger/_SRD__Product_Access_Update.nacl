@@ -1,0 +1,52 @@
+zendesk.trigger _SRD__Product_Access_Update@jksss {
+  title = "(SRD) Product Access Update"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.SRD___close_ticket@sbss,
+        '''
+{
+	"ticket" : {
+		"custom_fields": [
+			{
+				"id": 9300587954327,
+				"value": "{{ticket.ticket_field_${ zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu }}}"
+			}
+		]
+	}
+}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "open"
+      },
+      {
+        field = "priority"
+        operator = "is"
+        value = "urgent"
+      },
+      {
+        field = "comment_is_public"
+        operator = "is"
+        value = "false"
+      },
+      {
+        field = zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu
+        operator = "present"
+        value = ""
+      },
+    ]
+  }
+  raw_title = "(SRD) Product Access Update"
+  category_id = zendesk.trigger_category.instance.Notifications
+  _alias = "(SRD) Product Access Update"
+}

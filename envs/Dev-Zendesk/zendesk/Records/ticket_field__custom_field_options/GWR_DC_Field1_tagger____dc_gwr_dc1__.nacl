@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_DC_Field1_tagger____dc_gwr_dc1__@ssuuuuuvuuu {
+  raw_name = "{{${ zendesk.dynamic_content_item.instance.gwr_dc1@s }}}"
+  value = "__dc.gwr_dc1__"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_DC_Field1_tagger@ssu,
+  ]
+  _alias = "__dc.gwr_dc1__"
+}

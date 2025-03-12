@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_Metals_tagger__g_gold@suuuu {
+  raw_name = "Gold"
+  value = "g_gold"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_Metals_tagger@su,
+  ]
+  _alias = "g_gold"
+}

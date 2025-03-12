@@ -15,7 +15,7 @@ zendesk.macro MKD___Access_Request__Preview_Access@sbssffs {
     },
     {
       field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
-      value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__beta_tester@uuuuuumuuu
+      value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__beta_tester@sbsssuuuu
     },
   ]
   raw_title = "MKD - Access Request::Preview Access"

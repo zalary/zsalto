@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options GWR_classification_tagger__blue@suuu {
+  raw_name = "Blue"
+  value = "blue"
+  _parent = [
+    zendesk.ticket_field.instance.GWR_classification_tagger@su,
+  ]
+  _alias = "blue"
+}

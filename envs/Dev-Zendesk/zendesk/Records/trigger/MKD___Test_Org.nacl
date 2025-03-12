@@ -5,7 +5,7 @@ zendesk.trigger MKD___Test_Org@sbss {
   actions = [
     {
       field = zendesk.ticket_field.instance.MKD___Preview_Release_Type_tagger@sbsssu
-      value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger_sbsssu__alpha_tester@uuuuuumuuu
+      value = zendesk.ticket_field__custom_field_options.instance.MKD___Preview_Release_Type_tagger__alpha_tester@sbsssuuuu
     },
   ]
   conditions = {

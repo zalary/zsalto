@@ -15,7 +15,7 @@ zendesk.macro SRD___Test_Macro_V1@sbsss {
     },
     {
       field = zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu
-      value = zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger_sbsssu__option_b@uuuuuumuuu
+      value = zendesk.ticket_field__custom_field_options.instance.SRD___Test_Custom_Field_tagger__option_b@sbsssuuuu
     },
   ]
   restriction = {

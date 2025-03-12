@@ -5,7 +5,7 @@ zendesk.ticket_field DP_Field_2_text@bbu {
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.DP_My_Name@b }}} is here for the reference"
+  raw_title_in_portal = "{{${ zendesk.dynamic_content_item.instance.dp_my_name@b }}} is here for the reference"
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = false

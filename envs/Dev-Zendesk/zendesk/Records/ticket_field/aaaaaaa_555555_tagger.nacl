@@ -12,7 +12,7 @@ zendesk.ticket_field aaaaaaa_555555_tagger@bu {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.aaaaaaa_555555_tagger_bu__smartphone_surfplatta3666@uumuud,
+    zendesk.ticket_field__custom_field_options.instance.aaaaaaa_555555_tagger__smartphone_surfplatta3666@buuud,
   ]
   _alias = "aaaaaaa-555555"
 }

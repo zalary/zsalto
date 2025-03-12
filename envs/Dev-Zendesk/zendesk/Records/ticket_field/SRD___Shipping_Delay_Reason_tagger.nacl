@@ -12,11 +12,11 @@ zendesk.ticket_field SRD___Shipping_Delay_Reason_tagger@sbsssu {
   agent_can_edit = true
   removable = true
   custom_field_options = [
-    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__package_lost@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__inclement_weather@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__incorrect_address@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__processing_issue@uuuuuumuuu,
-    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger_sbsssu__other@uuuuuumuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger__package_lost@sbsssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger__inclement_weather@sbsssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger__incorrect_address@sbsssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger__processing_issue@sbsssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.SRD___Shipping_Delay_Reason_tagger__other@sbsssuuu,
   ]
   _alias = "SRD - Shipping Delay Reason"
 }

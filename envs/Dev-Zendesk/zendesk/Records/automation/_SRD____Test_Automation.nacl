@@ -9,7 +9,7 @@ zendesk.automation _SRD____Test_Automation@jksbss {
         "requester_and_ccs",
         "Test",
         '''
-The field SRD-Early Product Access Type is {{ticket.ticket_field_${ zendesk.ticket_field.instance.SRD_Early_Product_Access_Type_tagger@bsssu }}}
+The field SRD-Early Product Access Type is {{ticket.ticket_field_${ zendesk.ticket_field.instance.SRD___Early_Product_Access_Type_tagger@sbssssu }}}
 
 <a href="hc/en-us/requests/new?ticket_form_id=15465940257047"> Link </a>
 ''',

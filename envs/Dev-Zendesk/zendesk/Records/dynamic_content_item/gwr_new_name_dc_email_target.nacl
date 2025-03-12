@@ -1,0 +1,9 @@
+zendesk.dynamic_content_item gwr_new_name_dc_email_target@s {
+  name = "GWR new name DC email target"
+  placeholder = "{{dc.gwr_dc_email_target}}"
+  default_locale_id = zendesk.locale.instance.en_US@b
+  variants = [
+    zendesk.dynamic_content_item__variants.instance.gwr_new_name_dc_email_target_s__en_US_b@uuuuumuuum,
+  ]
+  _alias = "GWR new name DC email target"
+}

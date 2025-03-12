@@ -26,9 +26,9 @@ zendesk.trigger dge_test_trigger {
   conditions = {
     any = [
       {
-        field = zendesk.ticket_field.instance.aaaaaaa_44444_tagger@bu
+        field = zendesk.ticket_field.instance.aaaaa_44444_tagger@bu
         operator = "is"
-        value = zendesk.ticket_field__custom_field_options.instance.aaaaaaa_44444_tagger_bu__dator44@uumuu
+        value = zendesk.ticket_field__custom_field_options.instance.aaaaa_44444_tagger__dator44@buuu
       },
       {
         field = "organization_id"

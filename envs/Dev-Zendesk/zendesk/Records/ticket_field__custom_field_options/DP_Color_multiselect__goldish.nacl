@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP_Color_multiselect__goldish@suuu {
+  raw_name = "Goldish"
+  value = "goldish"
+  _parent = [
+    zendesk.ticket_field.instance.DP_Color_multiselect@su,
+  ]
+  _alias = "goldish"
+}

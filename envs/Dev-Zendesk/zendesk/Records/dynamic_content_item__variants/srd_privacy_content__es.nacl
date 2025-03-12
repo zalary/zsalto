@@ -1,0 +1,10 @@
+zendesk.dynamic_content_item__variants srd_privacy_content_s__es@uumuu {
+  content = "buenas"
+  locale_id = zendesk.locale.instance.es
+  active = true
+  default = false
+  _parent = [
+    zendesk.dynamic_content_item.instance.srd_privacy_content@s,
+  ]
+  _alias = "SRD Privacy Content - es"
+}
