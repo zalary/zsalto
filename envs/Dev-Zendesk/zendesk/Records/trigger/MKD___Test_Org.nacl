@@ -1,5 +1,5 @@
 zendesk.trigger MKD___Test_Org@sbss {
-  title = "MKD - Test Org"
+  title = "MKD - Test Org for Kirk"
   active = true
   default = false
   actions = [
@@ -17,7 +17,8 @@ zendesk.trigger MKD___Test_Org@sbss {
       },
     ]
   }
-  raw_title = "MKD - Test Org"
+  raw_title = "MKD - Test Org for Kirk"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "MKD - Test Org"
+  _alias = "MKD - Test Org for Kirk"
+  description = ""
 }
