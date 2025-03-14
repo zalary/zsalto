@@ -1,8 +1,8 @@
 zendesk.group ZGY {
   is_public = true
-  name = "ZGY"
+  name = "ZGY-New"
   description = ""
   default = false
   deleted = false
-  _alias = "ZGY"
+  _alias = "ZGY-New"
 }
