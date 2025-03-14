@@ -1,0 +1,19 @@
+zendesk.ticket_field HB_Test_drop_down_tagger@sssu {
+  type = "tagger"
+  raw_title = "HB Test drop down"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "HB Test drop down"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  agent_can_edit = true
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.HB_Test_drop_down_tagger__tag_1@sssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.HB_Test_drop_down_tagger__tag_2@sssuuuu,
+  ]
+  _alias = "HB Test drop down"
+}

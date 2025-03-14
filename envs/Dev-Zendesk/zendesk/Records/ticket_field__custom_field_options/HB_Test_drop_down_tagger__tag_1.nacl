@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options HB_Test_drop_down_tagger__tag_1@sssuuuu {
+  raw_name = "val 11"
+  value = "tag_1"
+  _parent = [
+    zendesk.ticket_field.instance.HB_Test_drop_down_tagger@sssu,
+  ]
+  _alias = "tag_1"
+}
