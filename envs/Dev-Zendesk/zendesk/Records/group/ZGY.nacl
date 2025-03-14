@@ -1,0 +1,8 @@
+zendesk.group ZGY {
+  is_public = true
+  name = "ZGY"
+  description = ""
+  default = false
+  deleted = false
+  _alias = "ZGY"
+}
