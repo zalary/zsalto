@@ -1571,7 +1571,7 @@ netsuite.transactionForm custform_79_t2257815_842 {
                     id = "CURRENCYNAME"
                     label = "Currency"
                     visible = true
-                    mandatory = true
+                    mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
@@ -1581,7 +1581,7 @@ netsuite.transactionForm custform_79_t2257815_842 {
                     id = "CURRENCY"
                     label = "Currency"
                     visible = true
-                    mandatory = true
+                    mandatory = false
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
