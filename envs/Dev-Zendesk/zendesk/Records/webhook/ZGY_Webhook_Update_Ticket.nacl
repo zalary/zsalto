@@ -1,0 +1,19 @@
+zendesk.webhook ZGY_Webhook_Update_Ticket@s {
+  name = "ZGY Webhook Update Ticket"
+  description = ""
+  status = "active"
+  subscriptions = [
+    "conditional_ticket_events",
+  ]
+  endpoint = "https://${ zendesk.brand.instance.Salto.subdomain }.zendesk.com/api/v2/tickets/{{ticket.id}}.json"
+  http_method = "PUT"
+  request_format = "json"
+  authentication = {
+    type = "basic_auth"
+    data = {
+      username = "zalary.young@salto.io/token"
+    }
+    add_position = "header"
+  }
+  _alias = "ZGY Webhook Update Ticket"
+}

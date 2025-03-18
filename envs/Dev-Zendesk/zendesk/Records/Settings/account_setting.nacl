@@ -334,5 +334,10 @@ zendesk.account_setting {
   messaging_inactivity = {
     timeout = 10
     enabled = false
+    default_localized_messages = {
+      pre_solved_message_1 = "Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved."
+      pre_solved_message_2 = "This ticket will be marked as solved soon. We hope to hear from you."
+      solved_message = "As we haven't heard from you in a while, we'll be marking this ticket as solved."
+    }
   }
 }

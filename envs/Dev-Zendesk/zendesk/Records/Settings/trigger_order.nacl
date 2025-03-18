@@ -90,6 +90,7 @@ zendesk.trigger_order {
       category = zendesk.trigger_category.instance.ZGY
       active = [
         zendesk.trigger.instance.ZGY_Orgs@s,
+        zendesk.trigger.instance.ZGY_Ticket_Trigger@s,
       ]
       inactive = [
         zendesk.trigger.instance._Salesforce_Integration__Sync_tickets_to_Salesforce__00D5f000005tQyREAU_@jsksssssjk,

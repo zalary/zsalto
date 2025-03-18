@@ -1,0 +1,43 @@
+zendesk.trigger ZGY_Ticket_Trigger@s {
+  title = "ZGY Ticket Trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_webhook"
+      value = [
+        zendesk.webhook.instance.ZGY_Webhook_Update_Ticket@s,
+        '''
+{
+    "ticket": {
+        "custom_fields": [
+            {
+                "id": 24444825124375,
+                "value": "{{ticket.ticket_field_${ zendesk.ticket_field.instance.zgy_list_tagger }}}"
+            }
+        ]
+    }
+}
+''',
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "role"
+        operator = "is"
+        value = "zalary.young@salto.io"
+      },
+      {
+        field = "requester_id"
+        operator = "is"
+        value = "zalary.young@salto.io"
+      },
+    ]
+  }
+  description = ""
+  raw_title = "ZGY Ticket Trigger"
+  category_id = zendesk.trigger_category.instance.ZGY
+  _alias = "ZGY Ticket Trigger"
+}
