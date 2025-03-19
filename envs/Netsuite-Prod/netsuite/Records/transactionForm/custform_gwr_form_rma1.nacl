@@ -352,36 +352,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               checkBoxDefault = "USE_FIELD_DEFAULT"
               index = 4
             }
-            custbody_esc_last_modified_date = {
-              id = "[scriptid=custbody_esc_last_modified_date]"
-              label = "Last Modified Date"
-              visible = false
-              mandatory = false
-              displayType = "INLINETEXT"
-              columnBreak = false
-              sameRowAsPrevious = false
-              index = 5
-            }
-            custbody_esc_created_date = {
-              id = "[scriptid=custbody_esc_created_date]"
-              label = "Created Date"
-              visible = false
-              mandatory = false
-              displayType = "INLINETEXT"
-              columnBreak = false
-              sameRowAsPrevious = false
-              index = 6
-            }
-            custbody_esc_campaign_category = {
-              id = "[scriptid=custbody_esc_campaign_category]"
-              label = "Campaign Category"
-              visible = false
-              mandatory = false
-              displayType = "NORMAL"
-              columnBreak = false
-              sameRowAsPrevious = false
-              index = 7
-            }
           }
           index = 0
         }
@@ -636,12 +606,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     label = "Display Name"
                     visible = false
                     index = 2
-                  }
-                  custcol_suiteworld_column = {
-                    id = netsuite.transactioncolumncustomfield.instance.custcol_suiteworld_column.scriptid
-                    label = "SuiteWorld Column"
-                    visible = true
-                    index = 34
                   }
                 }
               }
@@ -1069,39 +1033,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
               MIDDLE = {
                 position = "MIDDLE"
                 field = {
-                  custbody_aw_edit = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_edit.scriptid
-                    label = "GWR Amp Edit - WA (2)"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 3
-                  }
-                  custbody_aw_first_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_first_lvl_approval.scriptid
-                    label = "GWR Amp 1st Level Approval (2)"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 4
-                  }
-                  custbody_aw_second_lvl_approval = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_aw_second_lvl_approval.scriptid
-                    label = "GWR Amp 2nd Level Approval (2)"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    checkBoxDefault = "USE_FIELD_DEFAULT"
-                    index = 5
-                  }
                   custbody_gwr_edit = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_edit.scriptid
                     label = "GWR Amp Edit - WA"
@@ -1274,36 +1205,6 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     sameRowAsPrevious = false
                     index = 8
                   }
-                  custbody_mkd_transaction_body_field_2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_2.scriptid
-                    label = "MKD Transaction Body Field 2"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 9
-                  }
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 10
-                  }
-                  custbody_gwr_new2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_new2.scriptid
-                    label = "GWR New Body Field"
-                    visible = true
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 11
-                  }
                   cseg_nbc = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg_nbc]"
                     label = "Nearest Big City"
@@ -1312,17 +1213,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
-                  }
-                  custbody2 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody2.scriptid
-                    label = "GWR change ID"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 12
+                    index = 9
                   }
                   cseg3 = {
                     id = "[type=transactionbodycustomfield, scriptid=cseg3]"
@@ -1332,7 +1223,7 @@ netsuite.transactionForm custform_gwr_form_rma1 {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 10
                   }
                 }
                 index = 0
