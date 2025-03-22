@@ -1,0 +1,416 @@
+netsuite.financiallayout customlayout_4_t2257815_392 {
+  scriptid = "customlayout_4_t2257815_392"
+  layout = "a27765ad4c45219369b3044a77a0828903ea3ec88193e1f82de7e0a1da102c27@GZC@2024.2.17@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"
+  name = "Custom Income Statement Layout(US) 2"
+  rows = [
+    {
+      FIELD_KEY = 183
+      FIELD_NAME = "GP Percentage"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_72_T2257815_532"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 0
+      SEQ_NUMBER = 0
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FLAG_DYNAMIC_HEADER_TOTAL = false
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      FIELD_FORMULA_PARTS = 5
+      FLAG_TOP_ROW = true
+      RECORDS = [
+        {
+          SEQ_NUMBER = 0
+          KEY_SOURCE_ROW = 187
+          FIELD_LITERAL = 0
+          KEY_ROW = 187
+        },
+        {
+          SEQ_NUMBER = 1
+          KEY_SOURCE_ROW = 0
+          FIELD_OPERATOR = "/"
+          FIELD_LITERAL = 0
+          KEY_ROW = 0
+        },
+        {
+          SEQ_NUMBER = 2
+          KEY_SOURCE_ROW = 185
+          FIELD_LITERAL = 0
+          KEY_ROW = 185
+        },
+        {
+          SEQ_NUMBER = 3
+          KEY_SOURCE_ROW = 0
+          FIELD_OPERATOR = "*"
+          FIELD_LITERAL = 0
+          KEY_ROW = 0
+        },
+        {
+          SEQ_NUMBER = 4
+          KEY_SOURCE_ROW = 0
+          FIELD_LITERAL = 120
+          KEY_ROW = 0
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 184
+      FIELD_NAME = "Ordinary Income/Expense"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_73_T2257815_910"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 1
+      SEQ_NUMBER = 1
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 194
+      KEY_FORMULA = 189
+      FLAG_TOP_ROW = true
+    },
+    {
+      FIELD_KEY = 185
+      FIELD_NAME = "Income"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_74_T2257815_339"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 2
+      SEQ_NUMBER = 2
+      KEY_PARENT = 184
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FIELD_FINANCIAL_MARKER = "INCOME"
+      KEY_STYLE = 195
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 185
+      KEY_SECTION_COMP_ID = "TSTDRV2480139"
+      KEY_TOTAL_STYLE = 196
+      KEY_BODY_STYLE = 197
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 1596736
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 186
+      FIELD_NAME = "Cost Of Sales"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_75_T2257815_733"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 3
+      SEQ_NUMBER = 3
+      KEY_PARENT = 184
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 198
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 186
+      KEY_SECTION_COMP_ID = "TSTDRV2480139"
+      KEY_TOTAL_STYLE = 199
+      KEY_BODY_STYLE = 200
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 1596737
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 187
+      FIELD_NAME = "Gross Profit"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_76_T2257815_100"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 5
+      SEQ_NUMBER = 4
+      KEY_PARENT = 184
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 201
+      FLAG_DYNAMIC_HEADER_TOTAL = false
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      FIELD_FORMULA_PARTS = 3
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          SEQ_NUMBER = 0
+          KEY_SOURCE_ROW = 185
+          FIELD_LITERAL = 0
+          KEY_ROW = 185
+        },
+        {
+          SEQ_NUMBER = 1
+          KEY_SOURCE_ROW = 0
+          FIELD_OPERATOR = "-"
+          FIELD_LITERAL = 0
+          KEY_ROW = 0
+        },
+        {
+          SEQ_NUMBER = 2
+          KEY_SOURCE_ROW = 186
+          FIELD_LITERAL = 0
+          KEY_ROW = 186
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 188
+      FIELD_NAME = "Expense"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_77_T2257815_794"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 4
+      SEQ_NUMBER = 5
+      KEY_PARENT = 184
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FIELD_FINANCIAL_MARKER = "EXPENSE"
+      KEY_STYLE = 202
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 188
+      KEY_SECTION_COMP_ID = "TSTDRV2480139"
+      KEY_TOTAL_STYLE = 203
+      KEY_BODY_STYLE = 204
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 1596738
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 189
+      FIELD_NAME = "Net Ordinary Income"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_78_T2257815_261"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 6
+      SEQ_NUMBER = 6
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 205
+      FLAG_DYNAMIC_HEADER_TOTAL = false
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 184
+      FIELD_FORMULA_PARTS = 3
+      FLAG_TOP_ROW = true
+      RECORDS = [
+        {
+          SEQ_NUMBER = 0
+          KEY_SOURCE_ROW = 187
+          FIELD_LITERAL = 0
+          KEY_ROW = 187
+        },
+        {
+          SEQ_NUMBER = 1
+          KEY_SOURCE_ROW = 0
+          FIELD_OPERATOR = "-"
+          FIELD_LITERAL = 0
+          KEY_ROW = 0
+        },
+        {
+          SEQ_NUMBER = 2
+          KEY_SOURCE_ROW = 188
+          FIELD_LITERAL = 0
+          KEY_ROW = 188
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 190
+      FIELD_NAME = "Other Income and Expenses"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_79_T2257815_604"
+      FIELD_TYPE = "HEADER"
+      FIELD_PRIORITY = 7
+      SEQ_NUMBER = 7
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 206
+      KEY_FORMULA = 193
+      FLAG_TOP_ROW = true
+    },
+    {
+      FIELD_KEY = 191
+      FIELD_NAME = "Other Income"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_80_T2257815_535"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 8
+      SEQ_NUMBER = 8
+      KEY_PARENT = 190
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 207
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 191
+      KEY_SECTION_COMP_ID = "TSTDRV2480139"
+      KEY_TOTAL_STYLE = 208
+      KEY_BODY_STYLE = 209
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 1596739
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 192
+      FIELD_NAME = "Other Expense"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_81_T2257815_665"
+      FIELD_TYPE = "SECTION"
+      FIELD_PRIORITY = 9
+      SEQ_NUMBER = 9
+      KEY_PARENT = 190
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 210
+      FLAG_SECTION_USE_EXPRESSIONS = false
+      KEY_SECTION = 192
+      KEY_SECTION_COMP_ID = "TSTDRV2480139"
+      KEY_TOTAL_STYLE = 211
+      KEY_BODY_STYLE = 212
+      FLAG_TOP_ROW = false
+      RECORDS = [
+        {
+          FIELD_GROUP_BY = "ACCOUNT"
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_GROUP = 1596740
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+        {
+          FIELD_GROUP_BY_FULL = true
+          FIELD_ORDER_TYPE = "ALPHA"
+          FLAG_ORDER_DESC = false
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 193
+      FIELD_NAME = "Net Other Income"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_82_T2257815_587"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 10
+      SEQ_NUMBER = 10
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      KEY_STYLE = 213
+      FLAG_DYNAMIC_HEADER_TOTAL = false
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      KEY_HEADER_FORMULA_ROW = 190
+      FIELD_FORMULA_PARTS = 3
+      FLAG_TOP_ROW = true
+      RECORDS = [
+        {
+          SEQ_NUMBER = 0
+          KEY_SOURCE_ROW = 191
+          FIELD_LITERAL = 0
+          KEY_ROW = 191
+        },
+        {
+          SEQ_NUMBER = 1
+          KEY_SOURCE_ROW = 0
+          FIELD_OPERATOR = "-"
+          FIELD_LITERAL = 0
+          KEY_ROW = 0
+        },
+        {
+          SEQ_NUMBER = 2
+          KEY_SOURCE_ROW = 192
+          FIELD_LITERAL = 0
+          KEY_ROW = 192
+        },
+      ]
+    },
+    {
+      FIELD_KEY = 194
+      FIELD_NAME = "Net Income"
+      KEY_SCRIPT_ID = "CUSTOMFINANROW_83_T2257815_806"
+      FIELD_TYPE = "FORMULA"
+      FIELD_PRIORITY = 11
+      SEQ_NUMBER = 11
+      FLAG_SHOW_NAME = true
+      FLAG_SHOW_TOTAL_NAME = true
+      FIELD_COLLAPSED_SECTION = "EXPANDED"
+      FIELD_FINANCIAL_MARKER = "NETINCOME"
+      KEY_STYLE = 214
+      FLAG_DYNAMIC_HEADER_TOTAL = false
+      FLAG_FORMULA_USE_EXPRESSIONS = false
+      FIELD_FORMULA_PARTS = 3
+      FLAG_TOP_ROW = true
+      RECORDS = [
+        {
+          SEQ_NUMBER = 0
+          KEY_SOURCE_ROW = 189
+          FIELD_LITERAL = 0
+          KEY_ROW = 189
+        },
+        {
+          SEQ_NUMBER = 1
+          KEY_SOURCE_ROW = 0
+          FIELD_OPERATOR = "+"
+          FIELD_LITERAL = 0
+          KEY_ROW = 0
+        },
+        {
+          SEQ_NUMBER = 2
+          KEY_SOURCE_ROW = 193
+          FIELD_LITERAL = 0
+          KEY_ROW = 193
+        },
+      ]
+    },
+  ]
+  flags = {
+    FIELD_KEY = 8
+    KEY_SCRIPT_ID = "CUSTOMLAYOUT_4_T2257815_392"
+    FIELD_NAME = "Custom Income Statement Layout(US) 2"
+    FIELD_FINANCIAL_TYPE = "FINANCIAL_INCOME_STMT"
+    FIELD_EXPAND_LEVEL = "EXPANDED"
+    FIELD_OVERALL_INDENT = "HIERARCHY"
+    KEY_DEFAULT_HEADER_STYLE = 190
+    KEY_DEFAULT_SECTION_STYLE = 191
+    KEY_DEFAULT_FORMULA_STYLE = 192
+    KEY_DEFAULT_TEXT_STYLE = 193
+  }
+  _alias = "Custom Income Statement Layout(US) 2"
+}
