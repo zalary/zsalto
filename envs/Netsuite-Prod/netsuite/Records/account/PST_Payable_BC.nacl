@@ -1,0 +1,16 @@
+netsuite.account PST_Payable_BC@s {
+  acctType = "_otherCurrentLiability"
+  acctName = "PST Payable BC"
+  includeChildren = true
+  generalRate = "_current"
+  cashFlowRate = "_average"
+  isInactive = false
+  inventory = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  revalue = true
+  identifier = "PST Payable BC"
+  custom_custrecord_acct_special = false
+  _alias = "PST Payable BC"
+}

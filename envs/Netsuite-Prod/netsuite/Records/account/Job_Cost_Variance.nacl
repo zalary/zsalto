@@ -1,0 +1,16 @@
+netsuite.account Job_Cost_Variance@s {
+  acctType = "_otherCurrentLiability"
+  acctName = "Job Cost Variance"
+  includeChildren = true
+  generalRate = "_current"
+  cashFlowRate = "_average"
+  isInactive = true
+  inventory = false
+  subsidiaryList = [
+    netsuite.subsidiary.instance.Parent_Company@s,
+  ]
+  revalue = false
+  identifier = "Job Cost Variance"
+  custom_custrecord_acct_special = false
+  _alias = "Job Cost Variance"
+}
