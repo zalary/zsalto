@@ -1171,7 +1171,7 @@ netsuite.transactionForm custform_eshed_demo {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 11
+                    index = 12
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1181,7 +1181,7 @@ netsuite.transactionForm custform_eshed_demo {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 12
+                    index = 13
                   }
                   custbodygwr_bam_18 = {
                     id = netsuite.transactionbodycustomfield.instance.custbodygwr_bam_18.scriptid
@@ -1201,7 +1201,7 @@ netsuite.transactionForm custform_eshed_demo {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 13
+                    index = 11
                   }
                 }
                 index = 0
