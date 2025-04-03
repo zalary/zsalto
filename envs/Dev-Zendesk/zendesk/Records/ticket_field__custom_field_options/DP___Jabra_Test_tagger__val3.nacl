@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options DP___Jabra_Test_tagger__val3@sbssuuu {
+  raw_name = "val3"
+  value = "val3"
+  _parent = [
+    zendesk.ticket_field.instance.DP___Jabra_Test_tagger@sbssu,
+  ]
+  _alias = "val3"
+}
