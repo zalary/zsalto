@@ -17,6 +17,7 @@ netsuite.itemcustomfield custitem_slt_billable {
   defaultchecked = false
   description = "is the line item billable - updated for BORN Group"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

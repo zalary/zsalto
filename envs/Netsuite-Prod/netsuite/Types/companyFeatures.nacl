@@ -164,6 +164,9 @@ settings netsuite.companyFeatures {
   boolean MOSS {
     label = "EU One Stop Shop"
   }
+  boolean TAX_OVERHAULING {
+    label = "SuiteTax"
+  }
   boolean ESTIMATES {
     label = "Estimates"
   }
@@ -292,6 +295,9 @@ settings netsuite.companyFeatures {
   }
   boolean PAYMENTINSTRUMENTS {
     label = "Payment Instruments"
+  }
+  boolean VENDOR_PAYMENT_INSTRUMENTS {
+    label = "Vendor Payment Instruments"
   }
   boolean PAYMENTLINK {
     label = "Payment Link"
@@ -526,6 +532,9 @@ settings netsuite.companyFeatures {
   }
   boolean SUPPLYCHAINPREDICTEDRISKS {
     label = "Supply Chain Predicted Risks"
+  }
+  boolean HTML_FORMULAS_IN_SEARCH {
+    label = "HTML Formulas in Search"
   }
   boolean WEBSITE {
     label = "Website"

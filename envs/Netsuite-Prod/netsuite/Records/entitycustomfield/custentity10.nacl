@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity10 {
   defaultchecked = false
   description = "some desc from UI"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

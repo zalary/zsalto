@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity13 {
   defaultchecked = false
   description = "demo - added additional description"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "INTEGER"
   globalsearch = false

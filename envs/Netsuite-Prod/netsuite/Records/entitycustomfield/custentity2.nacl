@@ -19,6 +19,7 @@ netsuite.entitycustomfield custentity2 {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

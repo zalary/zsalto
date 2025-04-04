@@ -16,6 +16,7 @@ netsuite.itemcustomfield custitemdp_item_field_1 {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

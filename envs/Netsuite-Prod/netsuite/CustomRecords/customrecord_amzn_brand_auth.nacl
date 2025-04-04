@@ -119,6 +119,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -140,6 +141,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -161,6 +163,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -182,6 +185,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -203,6 +207,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -224,6 +229,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -245,6 +251,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -266,6 +273,7 @@ type netsuite.customrecord_amzn_brand_auth {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

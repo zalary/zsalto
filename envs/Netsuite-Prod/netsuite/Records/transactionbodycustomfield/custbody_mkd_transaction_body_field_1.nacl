@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbody_mkd_transaction_body_field_1 {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbody_slt_customer_balance_curr {
   checkspelling = false
   defaultchecked = false
   displaytype = "LOCKED"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

@@ -22,6 +22,7 @@ netsuite.entitycustomfield custentity_crpsm_notes {
   displayheight = 2
   displaytype = "NORMAL"
   displaywidth = 60
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CLOBTEXT"
   globalsearch = false

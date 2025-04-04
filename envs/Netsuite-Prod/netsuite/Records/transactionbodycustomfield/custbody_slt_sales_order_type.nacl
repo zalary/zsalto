@@ -28,6 +28,7 @@ netsuite.transactionbodycustomfield custbody_slt_sales_order_type {
   defaultchecked = false
   defaultselection = netsuite.customlist.instance.customlist_slt_sales_order_type.customvalues.customvalue.val_5673_2239021_447.scriptid
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

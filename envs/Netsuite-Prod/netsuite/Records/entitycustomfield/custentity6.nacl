@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity6 {
   defaultchecked = false
   description = "check"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

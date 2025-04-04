@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbody_rg_valid_forto_po {
   checkspelling = false
   defaultchecked = false
   displaytype = "STATICTEXT"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

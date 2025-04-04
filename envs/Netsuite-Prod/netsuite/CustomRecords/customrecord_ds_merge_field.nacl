@@ -119,6 +119,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -143,6 +144,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -166,6 +168,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -187,6 +190,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -208,6 +212,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -229,6 +234,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -250,6 +256,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -271,6 +278,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -292,6 +300,7 @@ type netsuite.customrecord_ds_merge_field {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false

@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity11 {
   defaultchecked = false
   description = "A brand new desc2"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

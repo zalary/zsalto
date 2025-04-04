@@ -1163,10 +1163,6 @@ netsuite.role customrole_salto_all_permissions {
         permkey = "ADMI_COPYPROJECTTASK"
         permlevel = "FULL"
       }
-      ADMI_HTMLFORMULA = {
-        permkey = "ADMI_HTMLFORMULA"
-        permlevel = "FULL"
-      }
       ADMI_CREATEJOBSFROMSALESTRANS = {
         permkey = "ADMI_CREATEJOBSFROMSALESTRANS"
         permlevel = "FULL"

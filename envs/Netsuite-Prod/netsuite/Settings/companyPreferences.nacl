@@ -101,6 +101,7 @@ netsuite.companyPreferences {
     text = "Demo: Blank US OneWorld Account"
   }
   SHOW_TRAN_NUMBERING_SETUP = false
+  SHOW_PRODUCT_RECOMMENDATIONS = true
   ALLOWLANGUAGE_DE_DE_ONLQA = false
   FLP_CHECKS_RECORD_SERVICE_EXTERNAL = 0
   MAXSEARCHROWS_BACKEND = 15000000
@@ -139,6 +140,7 @@ netsuite.companyPreferences {
   }
   ITEMNUMBERING = false
   ABBREVIATESTATES = true
+  REDWOOD = false
   TIMESELECTORSUSEFIRSTFISCALMONTH = true
   COMPANYLOGOFOLDER = {
     value = "-4"

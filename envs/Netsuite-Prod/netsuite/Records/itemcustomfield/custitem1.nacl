@@ -17,6 +17,7 @@ netsuite.itemcustomfield custitem1 {
   defaultchecked = false
   description = "Field copied from SFDC"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

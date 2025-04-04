@@ -39,6 +39,10 @@ settings netsuite.userPreferences {
     label = "Compensate for Large Fonts"
     type = "checkbox"
   }
+  netsuite.selectOption COLORTHEME_REDWOOD {
+    label = "Color Theme"
+    type = "select"
+  }
   boolean EXPOSEIDS {
     label = "Show Internal IDs"
     type = "checkbox"

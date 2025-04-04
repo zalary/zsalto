@@ -6,6 +6,7 @@ netsuite.othercustomfield custrecord_dp_other_field {
   defaultchecked = false
   description = "Something Here"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   isformula = false

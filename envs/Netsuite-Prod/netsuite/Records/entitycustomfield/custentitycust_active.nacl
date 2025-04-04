@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentitycust_active {
   defaultchecked = false
   description = "Indication if a customer or employee are active. updated"
   displaytype = "STATICTEXT"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

@@ -28,6 +28,7 @@ netsuite.transactionbodycustomfield custbody_slt_created_date {
   defaultchecked = false
   defaultvalue = "{createddate}"
   displaytype = "LOCKED"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "DATE"
   globalsearch = false

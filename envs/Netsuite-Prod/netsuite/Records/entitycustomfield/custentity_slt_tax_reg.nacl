@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity_slt_tax_reg {
   defaultchecked = false
   description = "US only"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "INTEGER"
   globalsearch = false

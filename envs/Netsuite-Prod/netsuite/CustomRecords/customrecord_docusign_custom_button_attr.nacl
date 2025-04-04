@@ -119,6 +119,7 @@ type netsuite.customrecord_docusign_custom_button_attr {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -142,6 +143,7 @@ type netsuite.customrecord_docusign_custom_button_attr {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -163,6 +165,7 @@ type netsuite.customrecord_docusign_custom_button_attr {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -187,6 +190,7 @@ type netsuite.customrecord_docusign_custom_button_attr {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "DOCUMENT"
     globalsearch = false

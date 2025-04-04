@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentitycust_slt_conflict1 {
   defaultchecked = false
   description = "Field to demonstrate a conflict between feature branch and master."
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

@@ -119,6 +119,7 @@ type netsuite.customrecord_ds_custom_btn_recipient {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -143,6 +144,7 @@ type netsuite.customrecord_ds_custom_btn_recipient {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -164,6 +166,7 @@ type netsuite.customrecord_ds_custom_btn_recipient {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -185,6 +188,7 @@ type netsuite.customrecord_ds_custom_btn_recipient {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "EMAIL"
     globalsearch = false

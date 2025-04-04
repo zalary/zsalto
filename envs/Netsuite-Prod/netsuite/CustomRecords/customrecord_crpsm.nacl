@@ -120,6 +120,7 @@ type netsuite.customrecord_crpsm {
     defaultchecked = false
     description = "Select the banner style to display for this status."
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -144,6 +145,7 @@ type netsuite.customrecord_crpsm {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -169,6 +171,7 @@ type netsuite.customrecord_crpsm {
     defaultchecked = false
     description = "Numeric Metric for this Project Status Metric."
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false

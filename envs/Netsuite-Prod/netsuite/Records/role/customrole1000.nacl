@@ -71,10 +71,6 @@ netsuite.role customrole1000 {
         permkey = "ADMI_CRMLIST"
         permlevel = "FULL"
       }
-      ADMI_HTMLFORMULA = {
-        permkey = "ADMI_HTMLFORMULA"
-        permlevel = "FULL"
-      }
       ADMI_CUSTADDRESSFORM = {
         permkey = "ADMI_CUSTADDRESSFORM"
         permlevel = "FULL"

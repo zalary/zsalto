@@ -13,6 +13,7 @@ netsuite.usereventscript customscript_feat1_test_ue {
         alllocalizationcontexts = true
         allpartners = false
         allroles = true
+        audslctrole = "[scriptid=customrole_srd_test_cust_role]|[scriptid=customrole1014]|[scriptid=customrole1015]|CUSTOMER_CENTER|EMPLOYEE_CENTER|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|[scriptid=customrole_srd_customer_center]|[scriptid=customrole_test_emp]|VENDOR_CENTER"
         executioncontext = "ACTION|ADVANCEDREVREC|BANKCONNECTIVITY|BANKSTATEMENTPARSER|BUNDLEINSTALLATION|CLIENT|CONSOLRATEADJUSTOR|CSVIMPORT|CUSTOMGLLINES|CUSTOMMASSUPDATE|DATASETBUILDER|DEBUGGER|EMAILCAPTURE|FICONNECTIVITY|FIPARSER|MAPREDUCE|OCRPLUGIN|OTHER|PAYMENTGATEWAY|PAYMENTPOSTBACK|PLATFORMEXTENSION|PORTLET|PROMOTIONS|RECORDACTION|RESTLET|RESTWEBSERVICES|SCHEDULED|SDFINSTALLATION|SHIPPINGPARTNERS|SUITELET|TAXCALCULATION|USEREVENT|USERINTERFACE|WEBSERVICES|WORKBOOKBUILDER|WORKFLOW"
         isdeployed = false
         loglevel = "DEBUG"
@@ -22,5 +23,22 @@ netsuite.usereventscript customscript_feat1_test_ue {
     }
   }
   isInactive = false
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole1014.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole1015.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_customer_center.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_test_emp.scriptid
+    },
+  ]
   _alias = "test"
 }

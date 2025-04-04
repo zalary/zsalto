@@ -19,6 +19,7 @@ netsuite.entitycustomfield custentityslt_demo_moti {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

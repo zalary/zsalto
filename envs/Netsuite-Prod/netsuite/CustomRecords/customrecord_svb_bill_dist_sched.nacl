@@ -119,6 +119,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -144,6 +145,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -169,6 +171,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "LOCKED"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -191,6 +194,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -217,6 +221,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -241,6 +246,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -266,6 +272,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -292,6 +299,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -314,6 +322,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -336,6 +345,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -358,6 +368,7 @@ type netsuite.customrecord_svb_bill_dist_sched {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXTAREA"
     globalsearch = false

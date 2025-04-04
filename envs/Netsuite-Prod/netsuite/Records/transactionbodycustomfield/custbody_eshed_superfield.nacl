@@ -28,6 +28,7 @@ netsuite.transactionbodycustomfield custbody_eshed_superfield {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

@@ -119,6 +119,7 @@ type netsuite.customrecord108 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PASSWORD"
     globalsearch = false
@@ -140,6 +141,7 @@ type netsuite.customrecord108 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "IMAGE"
     globalsearch = false
@@ -161,6 +163,7 @@ type netsuite.customrecord108 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "HELP"
     globalsearch = false
@@ -182,6 +185,7 @@ type netsuite.customrecord108 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

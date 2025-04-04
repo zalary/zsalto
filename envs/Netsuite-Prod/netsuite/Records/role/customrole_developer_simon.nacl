@@ -83,10 +83,6 @@ netsuite.role customrole_developer_simon {
         permkey = "ADMI_WEBSERVICESOVERRIDESSTRIG"
         permlevel = "FULL"
       }
-      ADMI_HTMLFORMULA = {
-        permkey = "ADMI_HTMLFORMULA"
-        permlevel = "FULL"
-      }
       ADMI_CUSTADDRESSFORM = {
         permkey = "ADMI_CUSTADDRESSFORM"
         permlevel = "FULL"

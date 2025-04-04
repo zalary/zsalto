@@ -19,6 +19,7 @@ netsuite.entitycustomfield custentitydemo_testing {
   checkspelling = false
   defaultchecked = true
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

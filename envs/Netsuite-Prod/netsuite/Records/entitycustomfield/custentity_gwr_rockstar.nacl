@@ -19,6 +19,7 @@ netsuite.entitycustomfield custentity_gwr_rockstar {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

@@ -119,6 +119,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -141,6 +142,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -162,6 +164,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -183,6 +186,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -205,6 +209,7 @@ type netsuite.customrecord_docusign_record_settings {
     defaultchecked = false
     description = "This setting is for Estimate Record only"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -226,6 +231,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -247,6 +253,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXTAREA"
     globalsearch = false
@@ -268,6 +275,7 @@ type netsuite.customrecord_docusign_record_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false

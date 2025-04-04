@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentitytier {
   defaultchecked = false
   description = "Tiering of customers. updated just in time for NSUG"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

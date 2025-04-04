@@ -120,6 +120,7 @@ type netsuite.customrecordtestrecordtype {
     defaultchecked = false
     description = "test"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -141,6 +142,7 @@ type netsuite.customrecordtestrecordtype {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

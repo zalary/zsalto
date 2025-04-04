@@ -119,6 +119,7 @@ type netsuite.customrecord2652 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "DATE"
     globalsearch = false
@@ -140,6 +141,7 @@ type netsuite.customrecord2652 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "DOCUMENT"
     globalsearch = false
@@ -161,6 +163,7 @@ type netsuite.customrecord2652 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CLOBTEXT"
     globalsearch = false

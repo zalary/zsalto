@@ -12,6 +12,7 @@ netsuite.restlet customscript_ds_restlet {
         allemployees = false
         allpartners = false
         allroles = true
+        audslctrole = "[scriptid=customrole_srd_test_cust_role]|[scriptid=customrole1014]|[scriptid=customrole1015]|CUSTOMER_CENTER|EMPLOYEE_CENTER|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|[scriptid=customrole_srd_customer_center]|[scriptid=customrole_test_emp]|VENDOR_CENTER"
         isdeployed = true
         loglevel = "DEBUG"
         status = "RELEASED"
@@ -21,5 +22,22 @@ netsuite.restlet customscript_ds_restlet {
   }
   isInactive = false
   bundle = netsuite.bundle.instance.bundle_351444
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole1014.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole1015.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_customer_center.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_test_emp.scriptid
+    },
+  ]
   _alias = "DocuSign RESTLet"
 }

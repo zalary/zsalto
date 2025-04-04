@@ -120,6 +120,7 @@ type netsuite.customrecord_item_snapshots {
     defaultchecked = false
     description = "Snapshot Date"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "DATE"
     globalsearch = false
@@ -143,6 +144,7 @@ type netsuite.customrecord_item_snapshots {
     defaultchecked = false
     description = "Snapshot Room"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -166,6 +168,7 @@ type netsuite.customrecord_item_snapshots {
     defaultchecked = false
     description = "Snapshot Item Count"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false

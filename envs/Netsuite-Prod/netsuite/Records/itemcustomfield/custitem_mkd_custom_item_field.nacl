@@ -17,6 +17,7 @@ netsuite.itemcustomfield custitem_mkd_custom_item_field {
   defaultchecked = false
   description = "Kirk Testing Stuff"
   displaytype = "STATICTEXT"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CLOBTEXT"
   globalsearch = false

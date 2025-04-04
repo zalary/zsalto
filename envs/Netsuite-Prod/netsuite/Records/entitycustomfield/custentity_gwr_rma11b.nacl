@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity_gwr_rma11b {
   defaultchecked = false
   description = "___old description"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

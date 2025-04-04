@@ -1071,6 +1071,10 @@ settings netsuite.accountingPreferences {
     label = "Display Current Count on Adjustments"
     type = "checkbox"
   }
+  netsuite.selectOption WS_SUPPORT_RETIRED_ENDPOINT {
+    label = "Enable retired SOAP endpoint"
+    type = "select"
+  }
   boolean NEWITEMCOMMITMENT {
     label = "SCM: Inventory: Commitment: Use New Item Commitment Engine"
     type = "checkbox"
@@ -1156,10 +1160,6 @@ settings netsuite.accountingPreferences {
   netsuite.selectOption RATE_PROVIDER_TO_BE_REMOVED {
     label = "Provider key of the Rate Provider to be removed"
     type = "select"
-  }
-  boolean REST_BETA_RECORD_REENABLED {
-    label = "REST WS: Forcibly re-enable deprecated feature REST Record Service (Beta)"
-    type = "checkbox"
   }
   number SCM_BULK_PROC_SUBMISSIONS_TO_DELETE {
     label = "SCM: Number of bulk processing submissions to delete per day"

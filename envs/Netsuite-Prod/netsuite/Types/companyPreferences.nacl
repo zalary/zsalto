@@ -280,6 +280,10 @@ settings netsuite.companyPreferences {
     label = "Show Transaction Numbering Setup"
     type = "checkbox"
   }
+  boolean SHOW_PRODUCT_RECOMMENDATIONS {
+    label = "Show product recommendations"
+    type = "checkbox"
+  }
   string ALLOWSUBSIDHIERARCHYCHANGE {
     label = "Allow subsidiary hierarchy to be modified [Max: 30 Days]"
     type = "date"
@@ -387,6 +391,10 @@ settings netsuite.companyPreferences {
   }
   boolean ITEMNUMBERING {
     label = "Show Display Name with Item Codes"
+    type = "checkbox"
+  }
+  boolean REDWOOD {
+    label = "Enable Redwood theme"
     type = "checkbox"
   }
   boolean TIMESELECTORSUSEFIRSTFISCALMONTH {

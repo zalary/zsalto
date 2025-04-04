@@ -21,6 +21,7 @@ netsuite.entitycustomfield custentitygwr_field1 {
   defaultvalue = "gwr text for default value"
   description = "updated descr 20220203"
   displaytype = "HIDDEN"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

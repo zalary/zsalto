@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity_crpsm {
   defaultchecked = false
   description = "Project Status Metric"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

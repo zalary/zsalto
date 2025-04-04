@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbodytb_payment_processor {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

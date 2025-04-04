@@ -119,6 +119,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -144,6 +145,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "HIDDEN"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -171,6 +173,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -195,6 +198,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -219,6 +223,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -243,6 +248,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -267,6 +273,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -300,6 +307,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -324,6 +332,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PERCENT"
     globalsearch = false
@@ -346,6 +355,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -371,6 +381,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     defaultchecked = false
     description = "Intercompany AP account, represents the destination subs payable account"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -404,6 +415,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "HIDDEN"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -426,6 +438,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "HIDDEN"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -449,6 +462,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "HIDDEN"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -474,6 +488,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "HIDDEN"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -497,6 +512,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -520,6 +536,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "LOCKED"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -544,6 +561,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "HIDDEN"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -649,6 +667,7 @@ type netsuite.customrecord_svb_line_is_source_sub {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

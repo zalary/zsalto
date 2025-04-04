@@ -119,6 +119,7 @@ type netsuite.customrecord2653 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -142,6 +143,7 @@ type netsuite.customrecord2653 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "FLOAT"
     globalsearch = false
@@ -163,6 +165,7 @@ type netsuite.customrecord2653 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "FLOAT"
     globalsearch = false
@@ -184,6 +187,7 @@ type netsuite.customrecord2653 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false
@@ -205,6 +209,7 @@ type netsuite.customrecord2653 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false

@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbodybundle_type {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

@@ -10,6 +10,7 @@ netsuite.crmcustomfield custeventdemo_crm {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "PHONE"
   globalsearch = false

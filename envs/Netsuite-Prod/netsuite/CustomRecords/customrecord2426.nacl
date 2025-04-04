@@ -119,6 +119,7 @@ type netsuite.customrecord2426 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -142,6 +143,7 @@ type netsuite.customrecord2426 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false

@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity_created {
   defaultchecked = false
   description = "Created using Salto!"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

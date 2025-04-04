@@ -354,7 +354,7 @@ netsuite.accountingPreferences {
   CUSTOMAPPROVALPURCHORD = false
   USEBOMDECORATOR = false
   STRICT_SELECTION_OF_PPP = true
-  BFO_VERSION = 1
+  BFO_VERSION = 0
   TIMELIMITDAYMINACTION = {
     value = "ERROR"
     text = "Do not allow time outside limit"
@@ -397,7 +397,6 @@ netsuite.accountingPreferences {
   }
   MAX_ITEM_COMMITMENT_CONTEXT_LINES = 100000
   LOCMANDATORY = false
-  REST_BETA_RECORD_REENABLED = false
   MAX_LINES_IN_REVAL_BUCKET = 4000000
   COMMITORDERSAFTERDECOMMITTING = true
   CUSTCREDLIMHANDLING = {

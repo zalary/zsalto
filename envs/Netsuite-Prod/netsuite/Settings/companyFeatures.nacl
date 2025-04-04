@@ -54,6 +54,7 @@ netsuite.companyFeatures {
   RULEBASEDRECOGNITIONTREATMENT = false
   ADVTAXENGINE = true
   MOSS = false
+  TAX_OVERHAULING = false
   ESTIMATES = true
   SALESORDERS = true
   RETURNAUTHS = true
@@ -97,6 +98,7 @@ netsuite.companyFeatures {
   EFT = false
   ACHVEND = false
   PAYMENTINSTRUMENTS = false
+  VENDOR_PAYMENT_INSTRUMENTS = false
   PAYMENTLINK = false
   DROPSHIPMENTS = false
   MATRIXITEMS = true
@@ -175,6 +177,7 @@ netsuite.companyFeatures {
   USR = true
   SUITECUBE_ENTERPRISE = false
   SUPPLYCHAINPREDICTEDRISKS = false
+  HTML_FORMULAS_IN_SEARCH = false
   WEBSITE = true
   ADVANCEDSITECUST = true
   ADVWEBREPORTS = true

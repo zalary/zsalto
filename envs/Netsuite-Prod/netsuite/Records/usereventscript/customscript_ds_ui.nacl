@@ -13,6 +13,7 @@ netsuite.usereventscript customscript_ds_ui {
         alllocalizationcontexts = true
         allpartners = false
         allroles = true
+        audslctrole = "[scriptid=customrole_srd_test_cust_role]|[scriptid=customrole1014]|[scriptid=customrole1015]|CUSTOMER_CENTER|EMPLOYEE_CENTER|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|[scriptid=customrole_srd_customer_center]|[scriptid=customrole_test_emp]|VENDOR_CENTER"
         executioncontext = "CLIENT|DATASETBUILDER|FIPARSER|OCRPLUGIN|USERINTERFACE|WORKBOOKBUILDER"
         isdeployed = true
         loglevel = "DEBUG"
@@ -23,5 +24,22 @@ netsuite.usereventscript customscript_ds_ui {
   }
   isInactive = false
   bundle = netsuite.bundle.instance.bundle_351444
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole1014.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole1015.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_customer_center.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_test_emp.scriptid
+    },
+  ]
   _alias = "DocuSign UI"
 }

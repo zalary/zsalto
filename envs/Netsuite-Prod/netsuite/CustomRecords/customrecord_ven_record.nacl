@@ -119,6 +119,7 @@ type netsuite.customrecord_ven_record {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PHONE"
     globalsearch = false
@@ -140,6 +141,7 @@ type netsuite.customrecord_ven_record {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "EMAIL"
     globalsearch = false
@@ -161,6 +163,7 @@ type netsuite.customrecord_ven_record {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CLOBTEXT"
     globalsearch = false
@@ -182,6 +185,7 @@ type netsuite.customrecord_ven_record {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -205,6 +209,7 @@ type netsuite.customrecord_ven_record {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false

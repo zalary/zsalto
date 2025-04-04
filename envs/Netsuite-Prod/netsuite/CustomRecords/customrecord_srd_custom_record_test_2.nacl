@@ -119,6 +119,7 @@ type netsuite.customrecord_srd_custom_record_test_2 {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbody_svb_schedule_is_intercompany {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

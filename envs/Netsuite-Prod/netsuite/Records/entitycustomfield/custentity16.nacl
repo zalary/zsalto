@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity16 {
   defaultchecked = false
   description = "Created for testing"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

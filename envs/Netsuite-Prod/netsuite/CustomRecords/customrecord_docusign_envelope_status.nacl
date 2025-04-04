@@ -119,6 +119,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -140,6 +141,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -161,6 +163,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -182,6 +185,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -203,6 +207,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -224,6 +229,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -245,6 +251,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -266,6 +273,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -287,6 +295,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -308,6 +317,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "DATETIMETZ"
     globalsearch = false
@@ -329,6 +339,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -350,6 +361,7 @@ type netsuite.customrecord_docusign_envelope_status {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -372,6 +384,7 @@ type netsuite.customrecord_docusign_envelope_status {
     defaultchecked = false
     defaultvalue = "0"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false

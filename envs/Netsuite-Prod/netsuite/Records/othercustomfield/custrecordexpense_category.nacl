@@ -6,6 +6,7 @@ netsuite.othercustomfield custrecordexpense_category {
   defaultchecked = false
   description = "This is used for expense categorization"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   isformula = false

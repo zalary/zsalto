@@ -121,6 +121,7 @@ type netsuite.customrecord_dash_refresh_config {
     description = "Employee"
     displaytype = "NORMAL"
     dynamicdefault = "ME"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -147,6 +148,7 @@ type netsuite.customrecord_dash_refresh_config {
     defaultchecked = false
     description = "Dashboard Refresh Configuration Data"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXTAREA"
     globalsearch = false

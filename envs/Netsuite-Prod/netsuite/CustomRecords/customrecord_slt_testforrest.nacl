@@ -120,6 +120,7 @@ type netsuite.customrecord_slt_testforrest {
     defaultchecked = false
     description = "This is a field that is defined in a custom record"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -141,6 +142,7 @@ type netsuite.customrecord_slt_testforrest {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PERCENT"
     globalsearch = false
@@ -162,6 +164,7 @@ type netsuite.customrecord_slt_testforrest {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

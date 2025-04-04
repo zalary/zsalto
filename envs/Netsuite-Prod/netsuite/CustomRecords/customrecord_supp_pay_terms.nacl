@@ -119,6 +119,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PERCENT"
     globalsearch = false
@@ -140,6 +141,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false
@@ -162,6 +164,7 @@ type netsuite.customrecord_supp_pay_terms {
     defaultchecked = false
     defaultvalue = "0.0%"
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PERCENT"
     globalsearch = false
@@ -183,6 +186,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PERCENT"
     globalsearch = false
@@ -204,6 +208,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false
@@ -225,6 +230,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "PERCENT"
     globalsearch = false
@@ -246,6 +252,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "INTEGER"
     globalsearch = false
@@ -267,6 +274,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -290,6 +298,7 @@ type netsuite.customrecord_supp_pay_terms {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false

@@ -19,6 +19,7 @@ netsuite.entitycustomfield custentitypurchasing_email_address {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "EMAIL"
   globalsearch = false

@@ -27,6 +27,7 @@ netsuite.transactionbodycustomfield custbody_svb_vb_to_bell_dist_sched {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "SELECT"
   globalsearch = false

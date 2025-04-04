@@ -14,6 +14,7 @@ netsuite.portlet customscript_dashboard_refresh {
         allemployees = false
         allpartners = false
         allroles = true
+        audslctrole = "[scriptid=customrole_srd_test_cust_role]|[scriptid=customrole1014]|[scriptid=customrole1015]|CUSTOMER_CENTER|EMPLOYEE_CENTER|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|[scriptid=customrole_srd_customer_center]|[scriptid=customrole_test_emp]|VENDOR_CENTER"
         dashboardapp = false
         isdeployed = true
         loglevel = "ERROR"
@@ -24,5 +25,22 @@ netsuite.portlet customscript_dashboard_refresh {
     }
   }
   isInactive = false
+  _generated_dependencies = [
+    {
+      reference = netsuite.role.instance.customrole1014.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole1015.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_customer_center.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_srd_test_cust_role.scriptid
+    },
+    {
+      reference = netsuite.role.instance.customrole_test_emp.scriptid
+    },
+  ]
   _alias = "Dashboard Refresh"
 }

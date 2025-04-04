@@ -15,6 +15,10 @@ netsuite.userPreferences {
     text = "Comma"
   }
   SYSTEMLARGEFONTS = false
+  COLORTHEME_REDWOOD = {
+    value = "-2"
+    text = "- Default -"
+  }
   EXPOSEIDS = true
   ONLYSHOWLASTSUBACCT = false
   CLASSSUBS = false

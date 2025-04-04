@@ -119,6 +119,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false
@@ -142,6 +143,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -163,6 +165,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -184,6 +187,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "EMAIL"
     globalsearch = false
@@ -205,6 +209,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "TEXT"
     globalsearch = false
@@ -226,6 +231,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -247,6 +253,7 @@ type netsuite.customrecord_docusign_account_settings {
     checkspelling = false
     defaultchecked = false
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "CHECKBOX"
     globalsearch = false
@@ -273,6 +280,7 @@ type netsuite.customrecord_docusign_account_settings {
 2 = User Envelope Subject
 '''
     displaytype = "NORMAL"
+    enabletextenhance = false
     encryptatrest = false
     fieldtype = "SELECT"
     globalsearch = false

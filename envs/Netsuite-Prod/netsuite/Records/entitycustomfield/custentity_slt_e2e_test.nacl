@@ -20,6 +20,7 @@ netsuite.entitycustomfield custentity_slt_e2e_test {
   defaultchecked = false
   description = "Some string with special chars !\"&​’"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false

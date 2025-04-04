@@ -19,6 +19,7 @@ netsuite.entitycustomfield custentity21 {
   checkspelling = false
   defaultchecked = false
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "DATETIMETZ"
   globalsearch = false

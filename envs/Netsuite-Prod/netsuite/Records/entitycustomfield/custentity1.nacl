@@ -21,6 +21,7 @@ netsuite.entitycustomfield custentity1 {
   defaultvalue = "None"
   description = "A field for Gil"
   displaytype = "NORMAL"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "TEXT"
   globalsearch = false

@@ -28,6 +28,7 @@ netsuite.transactionbodycustomfield custbody_slt_last_modified_date {
   defaultchecked = false
   defaultvalue = "{lastmodifieddate}"
   displaytype = "LOCKED"
+  enabletextenhance = false
   encryptatrest = false
   fieldtype = "DATE"
   globalsearch = false
