@@ -41,6 +41,13 @@ netsuite.customlist customlist_gwr_workflow_selector_list {
         index = 4
         isInactive = false
       }
+      val_63119_t2257815_168 = {
+        scriptid = "val_63119_t2257815_168"
+        abbreviation = "G"
+        value = "Gold"
+        index = 5
+        isInactive = false
+      }
     }
   }
   isInactive = false
