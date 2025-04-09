@@ -9,3 +9,15 @@ zendesk.article_attachment Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_s
   ]
   _alias = "error.png - Another ZGY Test"
 }
+zendesk.article_attachment Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__error_png_true@uuuuuuuuuumuuvu {
+  file_name = "error.png"
+  locale = "en-au"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.ZGY
+  content = file("zendesk/article_attachments/guide/brands/ZGY/categories/ZGY_Cat_1/sections/ZGY_Section_1/articles/Another_ZGY_Test/article_attachment/error/1acf60a791_4d1ba02ee1_error.png")
+  _parent = [
+    zendesk.article.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@ssuuuuuuum,
+  ]
+  _alias = "error.png - Another ZGY Test"
+}
