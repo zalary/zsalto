@@ -16,4 +16,7 @@ zendesk.article ZGY_Dec62_Published_FAQ_General_ZGY@ssuuu {
   ]
   brand = zendesk.brand.instance.ZGY
   _alias = "ZGY Dec62 Published"
+  attachments = [
+    zendesk.article_attachment.instance.ZGY_Dec62_Published_FAQ_General_ZGY_ssuuu__error_png_false@uuuuumuuvu,
+  ]
 }

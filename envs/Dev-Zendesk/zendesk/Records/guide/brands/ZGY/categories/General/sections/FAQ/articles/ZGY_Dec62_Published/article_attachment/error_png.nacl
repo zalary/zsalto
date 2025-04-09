@@ -1,0 +1,11 @@
+zendesk.article_attachment ZGY_Dec62_Published_FAQ_General_ZGY_ssuuu__error_png_false@uuuuumuuvu {
+  file_name = "error.png"
+  content_type = "image/png"
+  inline = false
+  brand = zendesk.brand.instance.ZGY
+  content = file("zendesk/article_attachments/guide/brands/ZGY/categories/General/sections/FAQ/articles/ZGY_Dec62_Published/article_attachment/error/f9606f2009_4d1ba02ee1_error.png")
+  _parent = [
+    zendesk.article.instance.ZGY_Dec62_Published_FAQ_General_ZGY@ssuuu,
+  ]
+  _alias = "error.png - ZGY Dec62 Published"
+}
