@@ -9,6 +9,10 @@ zendesk.trigger DP___Tag_Test_1@sbsss {
         zendesk.tag.instance.dp_23456@b,
       ]
     },
+    {
+      field = zendesk.ticket_field.instance.Severity_integer
+      value = "10"
+    },
   ]
   conditions = {
     all = [
