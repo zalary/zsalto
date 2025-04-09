@@ -16,4 +16,7 @@ zendesk.article Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@ssuuuuuuum {
   ]
   brand = zendesk.brand.instance.ZGY
   _alias = "Another ZGY Test"
+  attachments = [
+    zendesk.article_attachment.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__error_png_false@uuuuuuuuuumuuvu,
+  ]
 }
