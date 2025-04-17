@@ -1785,6 +1785,16 @@ netsuite.transactionForm custform_gwr_csform1 {
                     sameRowAsPrevious = false
                     index = 17
                   }
+                  custbody_gwr_new2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_new2.scriptid
+                    label = "GWR New Body Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 18
+                  }
                 }
                 index = 0
               }

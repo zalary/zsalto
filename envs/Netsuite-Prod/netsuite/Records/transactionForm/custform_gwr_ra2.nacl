@@ -949,6 +949,16 @@ netsuite.transactionForm custform_gwr_ra2 {
                     sameRowAsPrevious = false
                     index = 10
                   }
+                  custbody_gwr_new2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_new2.scriptid
+                    label = "GWR New Body Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 11
+                  }
                 }
                 index = 0
               }

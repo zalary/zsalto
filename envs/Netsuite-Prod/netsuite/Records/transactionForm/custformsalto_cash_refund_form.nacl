@@ -1686,6 +1686,16 @@ netsuite.transactionForm custformsalto_cash_refund_form {
                     sameRowAsPrevious = false
                     index = 15
                   }
+                  custbody_gwr_new2 = {
+                    id = netsuite.transactionbodycustomfield.instance.custbody_gwr_new2.scriptid
+                    label = "GWR New Body Field"
+                    visible = true
+                    mandatory = false
+                    displayType = "NORMAL"
+                    columnBreak = false
+                    sameRowAsPrevious = false
+                    index = 16
+                  }
                 }
                 index = 0
               }
