@@ -141,3 +141,7 @@ zendesk.tag dp_98765@b {
   id = "dp-98765"
   _alias = "dp-98765"
 }
+zendesk.tag a10 {
+  id = "a10"
+  _alias = "a10"
+}

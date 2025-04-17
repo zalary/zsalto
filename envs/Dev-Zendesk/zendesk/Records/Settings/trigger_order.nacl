@@ -28,6 +28,7 @@ zendesk.trigger_order {
       ]
       inactive = [
         zendesk.trigger.instance.GWR_Agent_Trigger@s,
+        zendesk.trigger.instance.GWR_a10@s,
       ]
     },
     {
