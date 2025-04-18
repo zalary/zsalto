@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_pivot_8_4e5f4a70ecca4cccb224f06e {
+  scriptid = "custcollectiontranslations_pivot_8_4e5f4a70ecca4cccb224f06e"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_pivot_8_4e5f4a70ecca4cccb224f06e.strings.string.report_name_1_7.scriptid
+  strings = {
+    string = {
+      report_name_1_7 = {
+        scriptid = "report_name_1_7"
+        defaulttranslation = "Pivot - Median Unit Cost per Assembly by Quarter"
+        description = "Name of pivot"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Pivot - Median Unit Cost per Assembly by Quarter"
+}

@@ -1,0 +1,35 @@
+netsuite.translationcollection custcollectiontranslations_chart_4_7e7857f87bce4d498ff4e921 {
+  scriptid = "custcollectiontranslations_chart_4_7e7857f87bce4d498ff4e921"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_chart_4_7e7857f87bce4d498ff4e921.strings.string.chart_name_1_20.scriptid
+  strings = {
+    string = {
+      chart_category_axis_1_18 = {
+        scriptid = "chart_category_axis_1_18"
+        defaulttranslation = "Year-Month"
+        description = "Chart category axis"
+        index = 0
+      }
+      chart_legend_axis_1_19 = {
+        scriptid = "chart_legend_axis_1_19"
+        defaulttranslation = "Assembly"
+        description = "Chart legend axis"
+        index = 1
+      }
+      chart_name_1_20 = {
+        scriptid = "chart_name_1_20"
+        defaulttranslation = "Chart - Median Assembly Cost Trend"
+        description = "Chart name"
+        index = 2
+      }
+      chart_title_1_17 = {
+        scriptid = "chart_title_1_17"
+        defaulttranslation = "Chart - Median Assembly Cost Trend"
+        description = "Chart title"
+        index = 3
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Chart - Median Assembly Cost Trend"
+}

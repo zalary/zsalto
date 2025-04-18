@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_tableview_2_cf0fadceb1d349fd9059 {
+  scriptid = "custcollectiontranslations_tableview_2_cf0fadceb1d349fd9059"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_tableview_2_cf0fadceb1d349fd9059.strings.string.tableview_name_1_3.scriptid
+  strings = {
+    string = {
+      tableview_name_1_3 = {
+        scriptid = "tableview_name_1_3"
+        defaulttranslation = "Manufacturing Workbook"
+        description = "Name in tableView"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Manufacturing Workbook"
+}

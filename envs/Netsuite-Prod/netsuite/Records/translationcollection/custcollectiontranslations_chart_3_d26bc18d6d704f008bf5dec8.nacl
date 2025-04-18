@@ -1,0 +1,35 @@
+netsuite.translationcollection custcollectiontranslations_chart_3_d26bc18d6d704f008bf5dec8 {
+  scriptid = "custcollectiontranslations_chart_3_d26bc18d6d704f008bf5dec8"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_chart_3_d26bc18d6d704f008bf5dec8.strings.string.chart_name_1_14.scriptid
+  strings = {
+    string = {
+      chart_category_axis_1_15 = {
+        scriptid = "chart_category_axis_1_15"
+        defaulttranslation = "Year-Month"
+        description = "Chart category axis"
+        index = 0
+      }
+      chart_legend_axis_1_16 = {
+        scriptid = "chart_legend_axis_1_16"
+        defaulttranslation = "Total"
+        description = "Chart legend axis"
+        index = 1
+      }
+      chart_name_1_14 = {
+        scriptid = "chart_name_1_14"
+        defaulttranslation = "Chart - Total production Cost by Month"
+        description = "Chart name"
+        index = 2
+      }
+      chart_title_1_13 = {
+        scriptid = "chart_title_1_13"
+        defaulttranslation = "Chart - Total production Cost by Month"
+        description = "Chart title"
+        index = 3
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Chart - Total production Cost by Month"
+}

@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_pivot_10_c3224c9e9f844e0bb9fdb23 {
+  scriptid = "custcollectiontranslations_pivot_10_c3224c9e9f844e0bb9fdb23"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_pivot_10_c3224c9e9f844e0bb9fdb23.strings.string.report_name_1_11.scriptid
+  strings = {
+    string = {
+      report_name_1_11 = {
+        scriptid = "report_name_1_11"
+        defaulttranslation = "Pivot - Production Cost by Location"
+        description = "Name of pivot"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Pivot - Production Cost by Location"
+}

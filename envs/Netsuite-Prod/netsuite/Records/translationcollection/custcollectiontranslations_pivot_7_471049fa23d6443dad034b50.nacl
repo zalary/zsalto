@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_pivot_7_471049fa23d6443dad034b50 {
+  scriptid = "custcollectiontranslations_pivot_7_471049fa23d6443dad034b50"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_pivot_7_471049fa23d6443dad034b50.strings.string.report_name_1_5.scriptid
+  strings = {
+    string = {
+      report_name_1_5 = {
+        scriptid = "report_name_1_5"
+        defaulttranslation = "Pivot - Production Cost per period by Assembly"
+        description = "Name of pivot"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Pivot - Production Cost per period by Assembly"
+}

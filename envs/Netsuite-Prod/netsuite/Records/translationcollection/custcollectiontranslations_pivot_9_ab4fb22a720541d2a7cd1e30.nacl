@@ -1,0 +1,17 @@
+netsuite.translationcollection custcollectiontranslations_pivot_9_ab4fb22a720541d2a7cd1e30 {
+  scriptid = "custcollectiontranslations_pivot_9_ab4fb22a720541d2a7cd1e30"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_pivot_9_ab4fb22a720541d2a7cd1e30.strings.string.report_name_1_9.scriptid
+  strings = {
+    string = {
+      report_name_1_9 = {
+        scriptid = "report_name_1_9"
+        defaulttranslation = "Pivot - Produced Quantity per Assembly by Quarter"
+        description = "Name of pivot"
+        index = 0
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Pivot - Produced Quantity per Assembly by Quarter"
+}

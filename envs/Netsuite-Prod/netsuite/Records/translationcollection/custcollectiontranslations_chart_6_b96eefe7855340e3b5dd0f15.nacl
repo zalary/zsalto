@@ -1,0 +1,35 @@
+netsuite.translationcollection custcollectiontranslations_chart_6_b96eefe7855340e3b5dd0f15 {
+  scriptid = "custcollectiontranslations_chart_6_b96eefe7855340e3b5dd0f15"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_chart_6_b96eefe7855340e3b5dd0f15.strings.string.chart_name_1_25.scriptid
+  strings = {
+    string = {
+      chart_category_axis_1_26 = {
+        scriptid = "chart_category_axis_1_26"
+        defaulttranslation = "Year-Quarter-Location"
+        description = "Chart category axis"
+        index = 0
+      }
+      chart_legend_axis_1_28 = {
+        scriptid = "chart_legend_axis_1_28"
+        defaulttranslation = "Assembly"
+        description = "Chart legend axis"
+        index = 1
+      }
+      chart_name_1_25 = {
+        scriptid = "chart_name_1_25"
+        defaulttranslation = "Chart - Production Cost by quarter by Location"
+        description = "Chart name"
+        index = 2
+      }
+      chart_title_1_27 = {
+        scriptid = "chart_title_1_27"
+        defaulttranslation = "Chart - Production Cost by quarter by Location"
+        description = "Chart title"
+        index = 3
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "Chart - Production Cost by quarter by Location"
+}

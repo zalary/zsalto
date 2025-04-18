@@ -1,0 +1,23 @@
+netsuite.translationcollection custcollectiontranslations_workbook_1_82f58eb6c21043219b247 {
+  scriptid = "custcollectiontranslations_workbook_1_82f58eb6c21043219b247"
+  defaultlanguage = "en-US"
+  name = netsuite.translationcollection.instance.custcollectiontranslations_workbook_1_82f58eb6c21043219b247.strings.string.workbook_name_1_1.scriptid
+  strings = {
+    string = {
+      workbook_description_1_2 = {
+        scriptid = "workbook_description_1_2"
+        defaulttranslation = "Kirk's workbook for testing purposes"
+        description = "Description of a workbook"
+        index = 0
+      }
+      workbook_name_1_1 = {
+        scriptid = "workbook_name_1_1"
+        defaulttranslation = "MKD Manufacturing Workbook"
+        description = "Name in workbook"
+        index = 1
+      }
+    }
+  }
+  nameTranslate = true
+  _alias = "MKD Manufacturing Workbook"
+}
