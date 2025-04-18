@@ -1,0 +1,4 @@
+zendesk.trigger_category CB {
+  name = "CB"
+  _alias = "CB"
+}

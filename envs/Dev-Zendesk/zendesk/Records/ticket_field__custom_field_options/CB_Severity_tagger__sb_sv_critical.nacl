@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options CB_Severity_tagger__sb_sv_critical@suuuuu {
+  raw_name = "Critical"
+  value = "sb_sv_critical"
+  _parent = [
+    zendesk.ticket_field.instance.CB_Severity_tagger@su,
+  ]
+  _alias = "sb_sv_critical"
+}
