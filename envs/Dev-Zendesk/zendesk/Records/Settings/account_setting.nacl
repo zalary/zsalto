@@ -49,15 +49,20 @@ zendesk.account_setting {
     auto_translation_enabled = false
     agent_invitation_enabled = false
     chat_sla_enablement = false
+    custom_statuses_enabled = false
     modify_closed_tickets_customer_setting = false
   }
   agents = {
-    agent_workspace = false
+    agent_workspace = true
     focus_mode = false
     aw_self_serve_migration_enabled = true
     aw_auto_activation_status = 0
     aw_prevent_opt_out = false
     agent_as_a_requester = "private-groups"
+    idle_timeout_enabled = false
+    agent_home = true
+    dark_mode_agent_workspace = false
+    dark_mode_terms_and_conditions_accepted = false
   }
   groups = {
     check_group_name_uniqueness = true
@@ -174,7 +179,6 @@ zendesk.account_setting {
     allow_email_template_customization = true
     custom_objects_activated = false
     data_masking_configured_in_roles = false
-    customer_context_as_default = false
   }
   ticket_form = {
     ticket_forms_instructions = "Please choose your issue below"
@@ -315,6 +319,13 @@ zendesk.account_setting {
 
 {{footer}}
 '''
+  }
+  side_conversations = {
+    email_channel = false
+    msteams_channel = false
+    slack_channel = false
+    tickets_channel = false
+    show_in_context_panel = true
   }
   sandbox = {
     type = "standard"

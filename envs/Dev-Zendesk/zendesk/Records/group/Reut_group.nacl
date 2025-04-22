@@ -1,0 +1,8 @@
+zendesk.group Reut_group@s {
+  is_public = true
+  name = "Reut group"
+  description = ""
+  default = false
+  deleted = false
+  _alias = "Reut group"
+}
