@@ -1,15 +1,15 @@
 zendesk.ticket_field Description_description {
   type = "description"
-  raw_title = "Description"
-  raw_description = "Please enter the details of your request. A member of our support staff will respond as soon as possible."
+  raw_title = "Descripción"
+  raw_description = "Ingrese los detalles de esta solicitud. Un integrante de nuestro personal de soporte responderá en breve."
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "Description"
+  raw_title_in_portal = "Descripción"
   visible_in_portal = true
   editable_in_portal = true
   required_in_portal = true
   agent_can_edit = true
   removable = false
-  _alias = "Description"
+  _alias = "Descripción"
 }

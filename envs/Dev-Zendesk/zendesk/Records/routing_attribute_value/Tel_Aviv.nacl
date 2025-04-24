@@ -20,7 +20,7 @@ zendesk.routing_attribute_value Location__Tel_Aviv@uub {
       {
         subject = "via_id"
         operator = "is"
-        value = zendesk.channel.instance.Web_form@s
+        value = zendesk.channel.instance.Formulario_web@s
       },
       {
         subject = "ticket_is_public"
@@ -45,7 +45,7 @@ zendesk.routing_attribute_value Location__Tel_Aviv@uub {
       {
         subject = "current_via_id"
         operator = "is"
-        value = zendesk.channel.instance.X_Corp_DM@s
+        value = zendesk.channel.instance.Mensaje_directo_de_X_Corp@s
       },
       {
         subject = "requester_role"

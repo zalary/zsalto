@@ -8,7 +8,7 @@ zendesk.view Your_unsolved_tickets@s {
     sort_order = "desc"
     group = {
       id = "status"
-      title = "Status"
+      title = "Estado"
       filterable = true
       sortable = true
       order = "asc"
@@ -23,31 +23,31 @@ zendesk.view Your_unsolved_tickets@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "type"
-        title = "Type"
+        title = "Tipo"
         filterable = true
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
@@ -55,31 +55,31 @@ zendesk.view Your_unsolved_tickets@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "type"
-        title = "Type"
+        title = "Tipo"
         filterable = true
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
@@ -100,5 +100,5 @@ zendesk.view Your_unsolved_tickets@s {
     ]
   }
   raw_title = "{{zd.your_unsolved_tickets}}"
-  _alias = "Your unsolved tickets"
+  _alias = "Sus tickets sin resolver"
 }

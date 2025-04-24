@@ -1,0 +1,4 @@
+zendesk.channel Ticket_cerrado@s {
+  name = "Ticket cerrado"
+  _alias = "Ticket cerrado"
+}

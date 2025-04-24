@@ -1,4 +1,0 @@
-zendesk.channel Messagebird_SMS@s {
-  name = "Messagebird SMS"
-  _alias = "Messagebird SMS"
-}

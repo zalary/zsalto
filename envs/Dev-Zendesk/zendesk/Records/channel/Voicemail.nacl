@@ -1,4 +1,0 @@
-zendesk.channel Voicemail {
-  name = "Voicemail"
-  _alias = "Voicemail"
-}

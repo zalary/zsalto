@@ -8,7 +8,7 @@ zendesk.view Pending_tickets@s {
     sort_order = "desc"
     group = {
       id = "updated"
-      title = "Updated"
+      title = "Actualización"
       filterable = true
       sortable = true
       order = "asc"
@@ -23,37 +23,37 @@ zendesk.view Pending_tickets@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Group"
+        title = "Grupo"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },
@@ -68,37 +68,37 @@ zendesk.view Pending_tickets@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Group"
+        title = "Grupo"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },

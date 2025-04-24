@@ -1,4 +1,0 @@
-zendesk.channel Web_form@s {
-  name = "Web form"
-  _alias = "Web form"
-}

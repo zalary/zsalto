@@ -1,5 +1,5 @@
 zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
-  title = "Notify requester and CCs of received request"
+  title = "Notificar al solicitante y a los destinatarios de copias (CC) sobre la solicitud recibida"
   active = true
   default = false
   actions = [
@@ -7,11 +7,11 @@ zendesk.trigger Notify_requester_and_CCs_of_received_request@s {
       field = "notification_user"
       value = [
         "requester_and_ccs",
-        "[Request received]",
+        "[Solicitud recibida]",
         '''
-Your request ({{ticket.id}}) has been received and is being reviewed by our support staff.
+Hemos recibido su solicitud ({{ticket.id}}) y nuestro personal de soporte la está revisando.
 
-To add additional comments, reply to this email.
+Si desea agregar más comentarios, responda a este correo electrónico.
 ''',
       ]
     },
@@ -46,7 +46,7 @@ To add additional comments, reply to this email.
     ]
   }
   description = "Sends an auto-response email to your customers when they submit a ticket. It's best practice to keep this enabled."
-  raw_title = "Notify requester and CCs of received request"
+  raw_title = "Notificar al solicitante y a los destinatarios de copias (CC) sobre la solicitud recibida"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notify requester and CCs of received request"
+  _alias = "Notificar al solicitante y a los destinatarios de copias (CC) sobre la solicitud recibida"
 }

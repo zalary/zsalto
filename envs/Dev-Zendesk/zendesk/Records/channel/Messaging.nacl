@@ -1,4 +1,0 @@
-zendesk.channel Messaging {
-  name = "Messaging"
-  _alias = "Messaging"
-}

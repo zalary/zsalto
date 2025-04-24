@@ -1,0 +1,4 @@
+zendesk.channel SMS_de_MessageBird@s {
+  name = "SMS de MessageBird"
+  _alias = "SMS de MessageBird"
+}

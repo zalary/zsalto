@@ -2,8 +2,8 @@ zendesk.locale he {
   locale = "he"
   name = "עִבְרִית (Hebrew)"
   native_name = "עברית"
-  presentation_name = "Hebrew - עברית"
+  presentation_name = "hebreo - עברית"
   rtl = true
-  _alias = "Hebrew - עברית"
+  _alias = "hebreo - עברית"
   id = 30
 }

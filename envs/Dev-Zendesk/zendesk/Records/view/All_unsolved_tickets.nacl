@@ -8,7 +8,7 @@ zendesk.view All_unsolved_tickets@s {
     sort_order = "desc"
     group = {
       id = "assignee"
-      title = "Assignee"
+      title = "Agente asignado"
       filterable = true
       sortable = true
       order = "asc"
@@ -23,31 +23,31 @@ zendesk.view All_unsolved_tickets@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "updated"
-        title = "Updated"
+        title = "Actualización"
         filterable = true
         sortable = true
       },
@@ -55,31 +55,31 @@ zendesk.view All_unsolved_tickets@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "updated"
-        title = "Updated"
+        title = "Actualización"
         filterable = true
         sortable = true
       },
@@ -95,5 +95,5 @@ zendesk.view All_unsolved_tickets@s {
     ]
   }
   raw_title = "{{zd.all_unsolved_tickets}}"
-  _alias = "All unsolved tickets"
+  _alias = "Todos los tickets sin resolver"
 }

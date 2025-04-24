@@ -1,6 +1,6 @@
 zendesk.custom_role Contributor {
-  name = "Contributor"
-  description = "Can provide limited support"
+  name = "Colaborador"
+  description = "Puede ofrecer soporte limitado"
   configuration = {
     chat_access = false
     end_user_list_access = "none"
@@ -60,5 +60,5 @@ zendesk.custom_role Contributor {
     assign_agent_statuses = false
     manage_malicious_attachments = false
   }
-  _alias = "Contributor"
+  _alias = "Colaborador"
 }

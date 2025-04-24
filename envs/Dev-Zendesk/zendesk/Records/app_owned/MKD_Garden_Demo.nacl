@@ -6,17 +6,8 @@ zendesk.app_owned MKD_Garden_Demo@s {
   author_name = "Zendesk"
   author_email = "support@zendesk.com"
   author_url = "https://help.zendesk.com"
-  short_description = "Demo app showing Zendesk Garden styles"
-  long_description = '''
-<p>Demo app showing Zendesk Garden styles</p>
-
-'''
-  raw_long_description = "Demo app showing Zendesk Garden styles"
-  installation_instructions = '''
-<p>Find the app in the Zendesk marketplace.</p>
-
-'''
-  raw_installation_instructions = "Find the app in the Zendesk marketplace."
+  long_description = ""
+  installation_instructions = ""
   small_icon = "https://1107281.apps.zdusercontent.com/1107281/assets/1739477243-68e7c7ca50394b4c36e789134fd6e0f9/logo-small.png"
   large_icon = "https://1107281.apps.zdusercontent.com/1107281/assets/1739477243-68e7c7ca50394b4c36e789134fd6e0f9/logo.png"
   visibility = "private"

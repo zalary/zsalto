@@ -8,14 +8,14 @@ zendesk.view Recently_updated_tickets@s {
     sort_order = "desc"
     group = {
       id = "status"
-      title = "Status"
+      title = "Estado"
       filterable = true
       sortable = true
       order = "asc"
     }
     sort = {
       id = "updated"
-      title = "Updated"
+      title = "Actualización"
       filterable = true
       sortable = true
       order = "desc"
@@ -23,37 +23,37 @@ zendesk.view Recently_updated_tickets@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Group"
+        title = "Grupo"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },
@@ -61,37 +61,37 @@ zendesk.view Recently_updated_tickets@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Group"
+        title = "Grupo"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },
@@ -112,5 +112,5 @@ zendesk.view Recently_updated_tickets@s {
     ]
   }
   raw_title = "{{zd.recently_updated_tickets}}"
-  _alias = "Recently updated tickets"
+  _alias = "Tickets recién actualizados"
 }

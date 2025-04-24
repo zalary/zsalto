@@ -5,5 +5,5 @@ zendesk.custom_status new___zd_status_new__@u_00123_00123vu_00125_00125 {
   raw_description = "{{zd.status_new_description}}"
   raw_end_user_description = "{{zd.status_end_user_new_description}}"
   active = true
-  _alias = "New"
+  _alias = "Nuevo"
 }

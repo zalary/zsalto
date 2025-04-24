@@ -1,0 +1,4 @@
+zendesk.channel Tema_de_foro@s {
+  name = "Tema de foro"
+  _alias = "Tema de foro"
+}

@@ -2,8 +2,8 @@ zendesk.locale es {
   locale = "es"
   name = "Español"
   native_name = "español"
-  presentation_name = "Spanish - español"
+  presentation_name = "español"
   rtl = false
-  _alias = "Spanish - español"
+  _alias = "español"
   id = 2
 }

@@ -1,11 +1,11 @@
 zendesk.ticket_field Status_status {
   type = "status"
-  raw_title = "Status"
-  raw_description = "Request status"
+  raw_title = "Estado"
+  raw_description = "Estado de solicitud"
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "Status"
+  raw_title_in_portal = "Estado"
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
@@ -13,18 +13,18 @@ zendesk.ticket_field Status_status {
   removable = false
   system_field_options = [
     {
-      name = "Open"
+      name = "Abierto"
       value = "open"
     },
     {
-      name = "Pending"
+      name = "Pendiente"
       value = "pending"
     },
     {
-      name = "Solved"
+      name = "Resuelto"
       value = "solved"
     },
   ]
   sub_type_id = 0
-  _alias = "Status"
+  _alias = "Estado"
 }

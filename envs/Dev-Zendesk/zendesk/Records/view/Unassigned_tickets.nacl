@@ -7,7 +7,7 @@ zendesk.view Unassigned_tickets@s {
     sort_order = "desc"
     sort = {
       id = "created"
-      title = "Requested"
+      title = "Solicitado"
       filterable = false
       sortable = true
       order = "desc"
@@ -15,31 +15,31 @@ zendesk.view Unassigned_tickets@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Group"
+        title = "Grupo"
         filterable = true
         sortable = true
       },
@@ -47,31 +47,31 @@ zendesk.view Unassigned_tickets@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Group"
+        title = "Grupo"
         filterable = true
         sortable = true
       },
@@ -92,5 +92,5 @@ zendesk.view Unassigned_tickets@s {
     ]
   }
   raw_title = "{{zd.unassigned_tickets}}"
-  _alias = "Unassigned tickets"
+  _alias = "Tickets sin asignar"
 }

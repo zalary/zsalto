@@ -5,5 +5,5 @@ zendesk.custom_status pending___zd_status_pending__@u_00123_00123vu_00125_00125 
   raw_description = "{{zd.status_pending_description}}"
   raw_end_user_description = "{{zd.status_end_user_pending_description}}"
   active = true
-  _alias = "Pending"
+  _alias = "Pendiente"
 }

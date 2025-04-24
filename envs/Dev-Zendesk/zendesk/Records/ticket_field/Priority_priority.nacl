@@ -1,11 +1,11 @@
 zendesk.ticket_field Priority_priority {
   type = "priority"
-  raw_title = "Priority"
-  raw_description = "Request priority"
+  raw_title = "Prioridad"
+  raw_description = "Prioridad de solicitud"
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "Priority"
+  raw_title_in_portal = "Prioridad"
   visible_in_portal = true
   editable_in_portal = false
   required_in_portal = false
@@ -13,7 +13,7 @@ zendesk.ticket_field Priority_priority {
   removable = true
   system_field_options = [
     {
-      name = "Low"
+      name = "Baja"
       value = "low"
     },
     {
@@ -21,14 +21,14 @@ zendesk.ticket_field Priority_priority {
       value = "normal"
     },
     {
-      name = "High"
+      name = "Alta"
       value = "high"
     },
     {
-      name = "Urgent"
+      name = "Urgente"
       value = "urgent"
     },
   ]
   sub_type_id = 0
-  _alias = "Priority"
+  _alias = "Prioridad"
 }

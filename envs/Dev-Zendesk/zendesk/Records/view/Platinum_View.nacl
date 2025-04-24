@@ -8,31 +8,31 @@ zendesk.view Platinum_View@s {
     columns = [
       {
         id = "satisfaction_score"
-        title = "Satisfaction"
+        title = "Índice de satisfacción"
         filterable = true
         sortable = true
       },
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },
@@ -47,31 +47,31 @@ zendesk.view Platinum_View@s {
     fields = [
       {
         id = "satisfaction_score"
-        title = "Satisfaction"
+        title = "Índice de satisfacción"
         filterable = true
         sortable = true
       },
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },

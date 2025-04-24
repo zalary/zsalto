@@ -1,0 +1,4 @@
+zendesk.channel Llamada_telef_nica__entrante_@s_00243sjk {
+  name = "Llamada telefónica (entrante)"
+  _alias = "Llamada telefónica (entrante)"
+}

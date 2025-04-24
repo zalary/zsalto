@@ -13,7 +13,7 @@ zendesk.trigger DP_Channel_Trigger@s {
       {
         field = "via_id"
         operator = "is"
-        value = zendesk.channel.instance.Email
+        value = zendesk.channel.instance.Correo_electr_nico@s_00243
       },
     ]
   }

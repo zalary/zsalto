@@ -8,7 +8,7 @@ zendesk.view Unsolved_tickets_in_your_groups@s {
     sort_order = "desc"
     group = {
       id = "group"
-      title = "Group"
+      title = "Grupo"
       filterable = true
       sortable = true
       order = "desc"
@@ -23,25 +23,25 @@ zendesk.view Unsolved_tickets_in_your_groups@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "status"
-        title = "Status"
+        title = "Estado"
         filterable = true
         sortable = true
       },
@@ -49,25 +49,25 @@ zendesk.view Unsolved_tickets_in_your_groups@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "status"
-        title = "Status"
+        title = "Estado"
         filterable = true
         sortable = true
       },
@@ -88,5 +88,5 @@ zendesk.view Unsolved_tickets_in_your_groups@s {
     ]
   }
   raw_title = "{{zd.unsolved_tickets_in_group}}"
-  _alias = "Unsolved tickets in your groups"
+  _alias = "Tickets sin resolver en sus grupos"
 }

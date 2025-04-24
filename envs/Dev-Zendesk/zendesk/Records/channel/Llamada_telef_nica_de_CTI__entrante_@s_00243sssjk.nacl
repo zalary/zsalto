@@ -1,0 +1,4 @@
+zendesk.channel Llamada_telef_nica_de_CTI__entrante_@s_00243sssjk {
+  name = "Llamada telefónica de CTI (entrante)"
+  _alias = "Llamada telefónica de CTI (entrante)"
+}

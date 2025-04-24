@@ -8,14 +8,14 @@ zendesk.view New_tickets_in_your_groups@s {
     sort_order = "desc"
     group = {
       id = "group"
-      title = "Group"
+      title = "Grupo"
       filterable = true
       sortable = true
       order = "desc"
     }
     sort = {
       id = "created"
-      title = "Requested"
+      title = "Solicitado"
       filterable = false
       sortable = true
       order = "desc"
@@ -23,31 +23,31 @@ zendesk.view New_tickets_in_your_groups@s {
     columns = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },
@@ -55,31 +55,31 @@ zendesk.view New_tickets_in_your_groups@s {
     fields = [
       {
         id = "subject"
-        title = "Subject"
+        title = "Asunto"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Requester"
+        title = "Solicitante"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Requested"
+        title = "Solicitado"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Priority"
+        title = "Prioridad"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Assignee"
+        title = "Agente asignado"
         filterable = true
         sortable = true
       },
@@ -105,5 +105,5 @@ zendesk.view New_tickets_in_your_groups@s {
     ]
   }
   raw_title = "{{zd.new_tickets_in_group}}"
-  _alias = "New tickets in your groups"
+  _alias = "Nuevos tickets en sus grupos"
 }

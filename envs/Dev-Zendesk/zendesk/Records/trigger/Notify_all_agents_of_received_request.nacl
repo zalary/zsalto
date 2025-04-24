@@ -1,5 +1,5 @@
 zendesk.trigger Notify_all_agents_of_received_request@s {
-  title = "Notify all agents of received request"
+  title = "Notificar a todos los agentes sobre solicitud recibida"
   active = true
   default = false
   actions = [
@@ -9,7 +9,7 @@ zendesk.trigger Notify_all_agents_of_received_request@s {
         "all_agents",
         "[{{ticket.account}}] {{ticket.title}}",
         '''
-A ticket (#{{ticket.id}}) by {{ticket.requester.name}} has been received. It is unassigned.
+Se ha recibido un ticket (n.° #{{ticket.id}}) de {{ticket.requester.name}}. Está sin asignar.
 
 {{ticket.comments_formatted}}
 ''',
@@ -25,7 +25,7 @@ A ticket (#{{ticket.id}}) by {{ticket.requester.name}} has been received. It is 
       },
     ]
   }
-  raw_title = "Notify all agents of received request"
+  raw_title = "Notificar a todos los agentes sobre solicitud recibida"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notify all agents of received request"
+  _alias = "Notificar a todos los agentes sobre solicitud recibida"
 }

@@ -1,0 +1,4 @@
+zendesk.channel Formulario_web@s {
+  name = "Formulario web"
+  _alias = "Formulario web"
+}

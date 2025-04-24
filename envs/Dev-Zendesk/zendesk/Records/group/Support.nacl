@@ -1,8 +1,8 @@
 zendesk.group Support {
   is_public = true
-  name = "Support"
+  name = "Soporte"
   description = ""
   default = true
   deleted = false
-  _alias = "Support"
+  _alias = "Soporte"
 }

@@ -72,7 +72,7 @@ zendesk.account_setting {
     integrated = true
     available = true
     maximum_request_count = 1
-    welcome_message = "Hi there. How can I help today?"
+    welcome_message = "Hola. ¿Cómo puedo ayudarlo?"
     ctm_auto_activation_status = 0
     ctm_operating_hours_migration_status = 0
     ctm_chat_triggers_migration_status = 0
@@ -181,8 +181,8 @@ zendesk.account_setting {
     data_masking_configured_in_roles = false
   }
   ticket_form = {
-    ticket_forms_instructions = "Please choose your issue below"
-    raw_ticket_forms_instructions = "Please choose your issue below"
+    ticket_forms_instructions = "Elija su problema a continuación"
+    raw_ticket_forms_instructions = "Elija su problema a continuación"
   }
   brands = {
     default_brand_id = zendesk.brand.instance.Salto
