@@ -1,0 +1,29 @@
+zendesk.trigger Add__LL__tag_to_LL_Tickets@srrssss {
+  title = "Add \"LL\" tag to LL Tickets"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.ll,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "requester_id"
+        operator = "is"
+        value = "lawrence.lin@salto.io"
+      },
+    ]
+  }
+  description = '''
+Add "LL" tag to LL Tickets
+(Text for Content Search) These tickets are for designated Unicorn customers
+'''
+  raw_title = "Add \"LL\" tag to LL Tickets"
+  category_id = zendesk.trigger_category.instance.LL
+  _alias = "Add \"LL\" tag to LL Tickets"
+}

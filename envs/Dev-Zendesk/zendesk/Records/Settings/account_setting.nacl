@@ -166,7 +166,7 @@ zendesk.account_setting {
     twitter = false
     facebook = false
     dynamic_contents = true
-    light_agents = false
+    light_agents = true
     ticket_forms = true
     user_org_fields = true
     is_abusive = false

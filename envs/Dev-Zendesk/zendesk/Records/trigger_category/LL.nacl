@@ -1,0 +1,4 @@
+zendesk.trigger_category LL {
+  name = "LL"
+  _alias = "LL"
+}

@@ -33,6 +33,7 @@ zendesk.view_order {
     zendesk.view.instance.ZGY_Support_Personal_View@s,
     zendesk.view.instance.SRD___Custom_View@sbss,
     zendesk.view.instance.MKD_Attempt_to_Break@s,
+    zendesk.view.instance.LL_Tickets@s,
   ]
   inactive = [
   ]

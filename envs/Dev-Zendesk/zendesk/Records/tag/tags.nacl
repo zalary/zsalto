@@ -149,3 +149,7 @@ zendesk.tag cb_urgent_tag {
   id = "cb_urgent_tag"
   _alias = "cb_urgent_tag"
 }
+zendesk.tag ll {
+  id = "ll"
+  _alias = "ll"
+}
