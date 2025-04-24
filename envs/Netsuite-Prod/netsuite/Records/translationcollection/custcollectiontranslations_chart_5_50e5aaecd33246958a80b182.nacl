@@ -8,13 +8,13 @@ netsuite.translationcollection custcollectiontranslations_chart_5_50e5aaecd33246
         scriptid = "chart_category_axis_1_22"
         defaulttranslation = "Year-Quarter"
         description = "Chart category axis"
-        index = 0
+        index = 1
       }
       chart_legend_axis_1_24 = {
         scriptid = "chart_legend_axis_1_24"
         defaulttranslation = "Assembly"
         description = "Chart legend axis"
-        index = 1
+        index = 3
       }
       chart_name_1_23 = {
         scriptid = "chart_name_1_23"
@@ -26,7 +26,7 @@ netsuite.translationcollection custcollectiontranslations_chart_5_50e5aaecd33246
         scriptid = "chart_title_1_21"
         defaulttranslation = "Chart - Production Quantity trend"
         description = "Chart title"
-        index = 3
+        index = 0
       }
     }
   }

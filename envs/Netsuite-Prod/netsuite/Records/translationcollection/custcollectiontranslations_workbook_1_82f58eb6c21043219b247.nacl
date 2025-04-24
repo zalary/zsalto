@@ -8,13 +8,13 @@ netsuite.translationcollection custcollectiontranslations_workbook_1_82f58eb6c21
         scriptid = "workbook_description_1_2"
         defaulttranslation = "Kirk's workbook for testing purposes"
         description = "Description of a workbook"
-        index = 0
+        index = 1
       }
       workbook_name_1_1 = {
         scriptid = "workbook_name_1_1"
         defaulttranslation = "MKD Manufacturing Workbook"
         description = "Name in workbook"
-        index = 1
+        index = 0
       }
     }
   }

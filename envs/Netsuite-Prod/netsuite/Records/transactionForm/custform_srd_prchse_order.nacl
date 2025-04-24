@@ -1602,16 +1602,6 @@ netsuite.transactionForm custform_srd_prchse_order {
                     sameRowAsPrevious = false
                     index = 12
                   }
-                  custbody_mkd_transaction_body_field_1 = {
-                    id = netsuite.transactionbodycustomfield.instance.custbody_mkd_transaction_body_field_1.scriptid
-                    label = "MKD Transaction Body Field 1"
-                    visible = false
-                    mandatory = false
-                    displayType = "NORMAL"
-                    columnBreak = false
-                    sameRowAsPrevious = false
-                    index = 13
-                  }
                   custbody_itr_doc_number = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_itr_doc_number.scriptid
                     label = "GWR Amp doc number"
@@ -1620,7 +1610,7 @@ netsuite.transactionForm custform_srd_prchse_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 14
+                    index = 13
                   }
                   custbody_gwr_workflow_selector = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_workflow_selector.scriptid
@@ -1630,7 +1620,7 @@ netsuite.transactionForm custform_srd_prchse_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 15
+                    index = 14
                   }
                   custbody_gwr_new2 = {
                     id = netsuite.transactionbodycustomfield.instance.custbody_gwr_new2.scriptid
@@ -1640,7 +1630,7 @@ netsuite.transactionForm custform_srd_prchse_order {
                     displayType = "NORMAL"
                     columnBreak = false
                     sameRowAsPrevious = false
-                    index = 16
+                    index = 15
                   }
                 }
                 index = 0
