@@ -109,6 +109,7 @@ zendesk.trigger_order {
       category = zendesk.trigger_category.instance.CB
       active = [
         zendesk.trigger.instance.CB___Trigger@sbs,
+        zendesk.trigger.instance.CB___Support_level@sbss,
       ]
       inactive = [
       ]

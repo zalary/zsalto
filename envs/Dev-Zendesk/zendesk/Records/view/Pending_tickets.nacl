@@ -122,6 +122,6 @@ zendesk.view Pending_tickets@s {
       },
     ]
   }
-  raw_title = "Pending tickets"
-  _alias = "Pending tickets"
+  raw_title = "Tickets pendientes"
+  _alias = "Tickets pendientes"
 }

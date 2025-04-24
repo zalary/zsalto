@@ -1,7 +1,7 @@
 zendesk.dynamic_content_item testdynamiccontent {
   name = "testDynamicContent"
   placeholder = "{{dc.testdynamiccontent}}"
-  default_locale_id = zendesk.locale.instance.en_US@b
+  default_locale_id = zendesk.locale.instance.missing_1
   variants = [
     zendesk.dynamic_content_item__variants.instance.testdynamiccontent__en_US_b@uuum,
   ]

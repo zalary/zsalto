@@ -4,11 +4,10 @@ The field SRD-Early Product Access Type is {{ticket.ticket_field_${ zendesk.tick
 
 <a href="hc/en-us/requests/new?ticket_form_id=15465940257047"> Link </a>
 '''
-  locale_id = zendesk.locale.instance.en_US@b
+  locale_id = zendesk.locale.instance.missing_1
   active = true
   default = false
   _parent = [
     zendesk.dynamic_content_item.instance.srd___demo@sbs,
   ]
-  _alias = "SRD - Demo - en-US"
 }

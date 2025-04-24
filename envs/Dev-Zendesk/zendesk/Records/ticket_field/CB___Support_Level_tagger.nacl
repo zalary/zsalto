@@ -1,0 +1,21 @@
+zendesk.ticket_field CB___Support_Level_tagger@sbssu {
+  type = "tagger"
+  raw_title = "CB - Support Level"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "CB - Support Level"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  agent_can_edit = true
+  removable = true
+  custom_field_options = [
+    zendesk.ticket_field__custom_field_options.instance.CB___Support_Level_tagger__support_bronze@sbssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.CB___Support_Level_tagger__support_silver@sbssuuuu,
+    zendesk.ticket_field__custom_field_options.instance.CB___Support_Level_tagger__support_gold@sbssuuuu,
+  ]
+  default_custom_field_option = zendesk.ticket_field__custom_field_options.instance.CB___Support_Level_tagger__support_bronze@sbssuuuu
+  _alias = "CB - Support Level"
+}

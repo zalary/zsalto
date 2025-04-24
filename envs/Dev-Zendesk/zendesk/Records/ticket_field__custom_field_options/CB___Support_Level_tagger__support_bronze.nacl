@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options CB___Support_Level_tagger__support_bronze@sbssuuuu {
+  raw_name = "Bronze"
+  value = "support_bronze"
+  _parent = [
+    zendesk.ticket_field.instance.CB___Support_Level_tagger@sbssu,
+  ]
+  _alias = "support_bronze"
+}

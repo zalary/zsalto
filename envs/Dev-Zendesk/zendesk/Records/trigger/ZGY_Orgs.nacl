@@ -27,7 +27,7 @@ zendesk.trigger ZGY_Orgs@s {
       {
         field = "locale_id"
         operator = "is"
-        value = zendesk.locale.instance.en_US@b
+        value = zendesk.locale.instance.missing_1
       },
     ]
   }

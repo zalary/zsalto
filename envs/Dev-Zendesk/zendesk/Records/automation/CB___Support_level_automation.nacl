@@ -1,0 +1,36 @@
+zendesk.automation CB___Support_level_automation@sbsss {
+  title = "CB - Support level automation"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "notification_user"
+      value = [
+        "requester_and_ccs",
+        "Ticket escalated",
+        "Your ticket has been automatically escalated to ensure we meet the SLA of your {{ticket.ticket_field_${ zendesk.ticket_field.instance.CB___Support_Level_tagger@sbssu }}} subscription.",
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.CB___Support_Level_tagger@sbssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.CB___Support_Level_tagger__support_gold@sbssuuuu
+      },
+      {
+        field = "NEW"
+        operator = "is"
+        value = "24"
+      },
+      {
+        field = "status"
+        operator = "is"
+        value = "new"
+      },
+    ]
+  }
+  raw_title = "CB - Support level automation"
+  _alias = "CB - Support level automation"
+}

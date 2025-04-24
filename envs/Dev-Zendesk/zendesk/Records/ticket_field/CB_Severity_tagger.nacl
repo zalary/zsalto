@@ -1,11 +1,11 @@
 zendesk.ticket_field CB_Severity_tagger@su {
   type = "tagger"
-  raw_title = "CB Severity"
+  raw_title = "CB - Severity"
   raw_description = ""
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "CB Severity"
+  raw_title_in_portal = "CB - Severity"
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
@@ -18,5 +18,5 @@ zendesk.ticket_field CB_Severity_tagger@su {
     zendesk.ticket_field__custom_field_options.instance.CB_Severity_tagger__cb_sv_high@suuuuu,
     zendesk.ticket_field__custom_field_options.instance.CB_Severity_tagger__sb_sv_critical@suuuuu,
   ]
-  _alias = "CB Severity"
+  _alias = "CB - Severity"
 }

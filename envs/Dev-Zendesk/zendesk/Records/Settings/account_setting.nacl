@@ -334,7 +334,7 @@ zendesk.account_setting {
   localization = {
     time_zone = "American Samoa"
     iana_time_zone = "Pacific/Pago_Pago"
-    default_locale_identifier = "en-US"
+    default_locale_identifier = "es"
     uses_12_hour_clock = false
   }
   device_metadata = {
@@ -347,9 +347,9 @@ zendesk.account_setting {
     enabled = false
     reminders = "[]"
     default_localized_messages = {
-      pre_solved_message_1 = "Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved."
-      pre_solved_message_2 = "This ticket will be marked as solved soon. We hope to hear from you."
-      solved_message = "As we haven't heard from you in a while, we'll be marking this ticket as solved."
+      pre_solved_message_1 = "Esperando su respuesta. Si no tenemos noticias suyas en unos minutos, este ticket se marcará como resuelto."
+      pre_solved_message_2 = "Este ticket se marcará como resuelto pronto. Esperamos saber de usted."
+      solved_message = "Como no hemos tenido noticias suyas por un tiempo, marcaremos este ticket como resuelto."
     }
   }
 }

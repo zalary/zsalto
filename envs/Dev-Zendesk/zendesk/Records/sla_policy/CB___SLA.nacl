@@ -1,0 +1,44 @@
+zendesk.sla_policy CB___SLA@sbs {
+  title = "CB - SLA"
+  description = "Carl's support level SLA"
+  filter = {
+    all = [
+      {
+        field = zendesk.ticket_field.instance.CB___Support_Level_tagger@sbssu
+        operator = "is"
+        value = zendesk.ticket_field__custom_field_options.instance.CB___Support_Level_tagger__support_gold@sbssuuuu
+      },
+    ]
+  }
+  policy_metrics = [
+    {
+      priority = "low"
+      metric = "first_reply_time"
+      target = 1440
+      business_hours = false
+      target_in_seconds = 86400
+    },
+    {
+      priority = "normal"
+      metric = "first_reply_time"
+      target = 1440
+      business_hours = false
+      target_in_seconds = 86400
+    },
+    {
+      priority = "high"
+      metric = "first_reply_time"
+      target = 1440
+      business_hours = false
+      target_in_seconds = 86400
+    },
+    {
+      priority = "urgent"
+      metric = "first_reply_time"
+      target = 1440
+      business_hours = false
+      target_in_seconds = 86400
+    },
+  ]
+  _alias = "CB - SLA"
+}
