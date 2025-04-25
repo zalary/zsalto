@@ -72,7 +72,7 @@ zendesk.account_setting {
     integrated = true
     available = true
     maximum_request_count = 1
-    welcome_message = "Hola. ¿Cómo puedo ayudarlo?"
+    welcome_message = "Hi there. How can I help today?"
     ctm_auto_activation_status = 0
     ctm_operating_hours_migration_status = 0
     ctm_chat_triggers_migration_status = 0
@@ -181,8 +181,8 @@ zendesk.account_setting {
     data_masking_configured_in_roles = false
   }
   ticket_form = {
-    ticket_forms_instructions = "Elija su problema a continuación"
-    raw_ticket_forms_instructions = "Elija su problema a continuación"
+    ticket_forms_instructions = "Please choose your issue below"
+    raw_ticket_forms_instructions = "Please choose your issue below"
   }
   brands = {
     default_brand_id = zendesk.brand.instance.Salto
@@ -334,7 +334,7 @@ zendesk.account_setting {
   localization = {
     time_zone = "American Samoa"
     iana_time_zone = "Pacific/Pago_Pago"
-    default_locale_identifier = "es"
+    default_locale_identifier = "en-US"
     uses_12_hour_clock = false
   }
   device_metadata = {
@@ -347,9 +347,9 @@ zendesk.account_setting {
     enabled = false
     reminders = "[]"
     default_localized_messages = {
-      pre_solved_message_1 = "Esperando su respuesta. Si no tenemos noticias suyas en unos minutos, este ticket se marcará como resuelto."
-      pre_solved_message_2 = "Este ticket se marcará como resuelto pronto. Esperamos saber de usted."
-      solved_message = "Como no hemos tenido noticias suyas por un tiempo, marcaremos este ticket como resuelto."
+      pre_solved_message_1 = "Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved."
+      pre_solved_message_2 = "This ticket will be marked as solved soon. We hope to hear from you."
+      solved_message = "As we haven't heard from you in a while, we'll be marking this ticket as solved."
     }
   }
 }

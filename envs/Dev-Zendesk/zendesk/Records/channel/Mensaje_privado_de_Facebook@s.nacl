@@ -1,4 +1,0 @@
-zendesk.channel Mensaje_privado_de_Facebook@s {
-  name = "Mensaje privado de Facebook"
-  _alias = "Mensaje privado de Facebook"
-}

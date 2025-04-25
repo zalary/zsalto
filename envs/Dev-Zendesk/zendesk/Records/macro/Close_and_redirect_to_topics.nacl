@@ -1,5 +1,5 @@
 zendesk.macro Close_and_redirect_to_topics@s {
-  title = "Cerrar y redirigir a temas"
+  title = "Close and redirect to topics"
   active = true
   default = false
   actions = [
@@ -25,9 +25,9 @@ zendesk.macro Close_and_redirect_to_topics@s {
     },
     {
       field = "comment_value"
-      value = "Le agradecemos su solicitud. El problema que ha reportado es conocido. Si desea más información, visite nuestros foros. "
+      value = "Thanks for your request. This issue you reported is a known issue. For more information, please visit our forums. "
     },
   ]
-  raw_title = "Cerrar y redirigir a temas"
-  _alias = "Cerrar y redirigir a temas"
+  raw_title = "Close and redirect to topics"
+  _alias = "Close and redirect to topics"
 }

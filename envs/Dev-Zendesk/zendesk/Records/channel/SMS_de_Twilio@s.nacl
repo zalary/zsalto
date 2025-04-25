@@ -1,4 +1,0 @@
-zendesk.channel SMS_de_Twilio@s {
-  name = "SMS de Twilio"
-  _alias = "SMS de Twilio"
-}

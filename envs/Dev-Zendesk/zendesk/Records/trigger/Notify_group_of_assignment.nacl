@@ -1,5 +1,5 @@
 zendesk.trigger Notify_group_of_assignment@s {
-  title = "Notificar al grupo sobre asignación"
+  title = "Notify group of assignment"
   active = true
   default = false
   actions = [
@@ -7,9 +7,9 @@ zendesk.trigger Notify_group_of_assignment@s {
       field = "notification_group"
       value = [
         "group_id",
-        "Asignación de [{{ticket.account}}] \"{{ticket.group.name}}\": {{ticket.title}}",
+        "[{{ticket.account}}] \"{{ticket.group.name}}\" assignment:  {{ticket.title}}",
         '''
-Este ticket (#{{ticket.id}}) ha sido asignado al grupo '{{ticket.group.name}}', al cual usted pertenece.
+This ticket (#{{ticket.id}}) has been assigned to group '{{ticket.group.name}}', of which you are a member.
 
 {{ticket.comments_formatted}}
 ''',
@@ -42,7 +42,7 @@ Este ticket (#{{ticket.id}}) ha sido asignado al grupo '{{ticket.group.name}}', 
       },
     ]
   }
-  raw_title = "Notificar al grupo sobre asignación"
+  raw_title = "Notify group of assignment"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notificar al grupo sobre asignación"
+  _alias = "Notify group of assignment"
 }

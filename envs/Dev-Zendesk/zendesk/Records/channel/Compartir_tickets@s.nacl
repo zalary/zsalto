@@ -1,4 +1,0 @@
-zendesk.channel Compartir_tickets@s {
-  name = "Compartir tickets"
-  _alias = "Compartir tickets"
-}

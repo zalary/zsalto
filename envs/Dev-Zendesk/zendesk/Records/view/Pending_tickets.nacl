@@ -8,7 +8,7 @@ zendesk.view Pending_tickets@s {
     sort_order = "desc"
     group = {
       id = "updated"
-      title = "Actualización"
+      title = "Updated"
       filterable = true
       sortable = true
       order = "asc"
@@ -23,37 +23,37 @@ zendesk.view Pending_tickets@s {
     columns = [
       {
         id = "subject"
-        title = "Asunto"
+        title = "Subject"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Solicitante"
+        title = "Requester"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Solicitado"
+        title = "Requested"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Prioridad"
+        title = "Priority"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Grupo"
+        title = "Group"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Agente asignado"
+        title = "Assignee"
         filterable = true
         sortable = true
       },
@@ -68,37 +68,37 @@ zendesk.view Pending_tickets@s {
     fields = [
       {
         id = "subject"
-        title = "Asunto"
+        title = "Subject"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Solicitante"
+        title = "Requester"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Solicitado"
+        title = "Requested"
         filterable = false
         sortable = true
       },
       {
         id = "priority"
-        title = "Prioridad"
+        title = "Priority"
         filterable = true
         sortable = true
       },
       {
         id = "group"
-        title = "Grupo"
+        title = "Group"
         filterable = true
         sortable = true
       },
       {
         id = "assignee"
-        title = "Agente asignado"
+        title = "Assignee"
         filterable = true
         sortable = true
       },
@@ -122,6 +122,6 @@ zendesk.view Pending_tickets@s {
       },
     ]
   }
-  raw_title = "Tickets pendientes"
-  _alias = "Tickets pendientes"
+  raw_title = "Pending tickets"
+  _alias = "Pending tickets"
 }

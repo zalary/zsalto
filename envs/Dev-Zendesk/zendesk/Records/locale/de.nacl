@@ -3,7 +3,7 @@ zendesk.locale de {
   locale = "de"
   name = "Deutsch"
   native_name = "Deutsch"
-  presentation_name = "alemán - Deutsch"
+  presentation_name = "German - Deutsch"
   rtl = false
-  _alias = "alemán - Deutsch"
+  _alias = "German - Deutsch"
 }

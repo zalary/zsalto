@@ -1,5 +1,5 @@
 zendesk.trigger Notify_requester_and_CCs_of_comment_update@s {
-  title = "Notificar al solicitante y a los destinatarios de copias (CC) sobre la actualización de los comentarios"
+  title = "Notify requester and CCs of comment update"
   active = true
   default = false
   actions = [
@@ -7,9 +7,9 @@ zendesk.trigger Notify_requester_and_CCs_of_comment_update@s {
       field = "notification_user"
       value = [
         "requester_and_ccs",
-        "[{{ticket.account}}] Asunto: {{ticket.title}}",
+        "[{{ticket.account}}] Re: {{ticket.title}}",
         '''
-Su solicitud ({{ticket.id}}) ha sido actualizada. Para agregar comentarios adicionales, responda a este correo electrónico o utilice el vínculo a continuación:
+Your request ({{ticket.id}}) has been updated. To add additional comments, reply to this email or click the link below:
 {{ticket.link}}
 
 {{ticket.comments_formatted}}
@@ -31,7 +31,7 @@ Su solicitud ({{ticket.id}}) ha sido actualizada. Para agregar comentarios adici
       },
     ]
   }
-  raw_title = "Notificar al solicitante y a los destinatarios de copias (CC) sobre la actualización de los comentarios"
+  raw_title = "Notify requester and CCs of comment update"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notificar al solicitante y a los destinatarios de copias (CC) sobre la actualización de los comentarios"
+  _alias = "Notify requester and CCs of comment update"
 }

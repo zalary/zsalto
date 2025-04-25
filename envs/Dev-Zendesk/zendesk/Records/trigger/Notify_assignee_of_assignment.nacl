@@ -1,5 +1,5 @@
 zendesk.trigger Notify_assignee_of_assignment@s {
-  title = "Notificar al agente asignado sobre asignación"
+  title = "Notify assignee of assignment"
   active = true
   default = false
   actions = [
@@ -7,9 +7,9 @@ zendesk.trigger Notify_assignee_of_assignment@s {
       field = "notification_user"
       value = [
         "assignee_id",
-        "Asignación de [{{ticket.account}}]: {{ticket.title}}",
+        "[{{ticket.account}}] Assignment: {{ticket.title}}",
         '''
-Usted ha sido asignado a este ticket (n.° #{{ticket.id}}).
+You have been assigned to this ticket (#{{ticket.id}}).
 
 {{ticket.comments_formatted}}
 ''',
@@ -29,7 +29,7 @@ Usted ha sido asignado a este ticket (n.° #{{ticket.id}}).
       },
     ]
   }
-  raw_title = "Notificar al agente asignado sobre asignación"
+  raw_title = "Notify assignee of assignment"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notificar al agente asignado sobre asignación"
+  _alias = "Notify assignee of assignment"
 }

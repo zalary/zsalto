@@ -8,31 +8,31 @@ zendesk.view Test {
     columns = [
       {
         id = "satisfaction_score"
-        title = "Índice de satisfacción"
+        title = "Satisfaction"
         filterable = true
         sortable = true
       },
       {
         id = "subject"
-        title = "Asunto"
+        title = "Subject"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Solicitante"
+        title = "Requester"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Solicitado"
+        title = "Requested"
         filterable = false
         sortable = true
       },
       {
         id = "assignee"
-        title = "Agente asignado"
+        title = "Assignee"
         filterable = true
         sortable = true
       },
@@ -54,31 +54,31 @@ zendesk.view Test {
     fields = [
       {
         id = "satisfaction_score"
-        title = "Índice de satisfacción"
+        title = "Satisfaction"
         filterable = true
         sortable = true
       },
       {
         id = "subject"
-        title = "Asunto"
+        title = "Subject"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Solicitante"
+        title = "Requester"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Solicitado"
+        title = "Requested"
         filterable = false
         sortable = true
       },
       {
         id = "assignee"
-        title = "Agente asignado"
+        title = "Assignee"
         filterable = true
         sortable = true
       },

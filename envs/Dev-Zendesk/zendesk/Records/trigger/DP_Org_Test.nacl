@@ -44,7 +44,7 @@ zendesk.trigger DP_Org_Test@s {
       {
         field = "locale_id"
         operator = "is_not"
-        value = zendesk.locale.instance.missing_1
+        value = zendesk.locale.instance.en_US@b
       },
     ]
   }

@@ -1,5 +1,5 @@
 zendesk.macro Downgrade_and_inform@s {
-  title = "Reducir prioridad e informar"
+  title = "Downgrade and inform"
   active = true
   default = false
   actions = [
@@ -9,9 +9,9 @@ zendesk.macro Downgrade_and_inform@s {
     },
     {
       field = "comment_value"
-      value = "En este momento tenemos un nivel de tráfico más alto que de costumbre. Nos comunicaremos con usted lo antes posible."
+      value = "We're currently experiencing unusually high traffic. We'll get back to you as soon as possible."
     },
   ]
-  raw_title = "Reducir prioridad e informar"
-  _alias = "Reducir prioridad e informar"
+  raw_title = "Downgrade and inform"
+  _alias = "Downgrade and inform"
 }

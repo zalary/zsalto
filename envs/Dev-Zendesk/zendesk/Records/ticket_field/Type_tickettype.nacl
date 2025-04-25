@@ -1,11 +1,11 @@
 zendesk.ticket_field Type_tickettype {
   type = "tickettype"
-  raw_title = "Tipo"
-  raw_description = "Tipo de solicitud"
+  raw_title = "Type"
+  raw_description = "Request type"
   active = true
   required = false
   collapsed_for_agents = false
-  raw_title_in_portal = "Tipo"
+  raw_title_in_portal = "Type"
   visible_in_portal = false
   editable_in_portal = false
   required_in_portal = false
@@ -13,21 +13,21 @@ zendesk.ticket_field Type_tickettype {
   removable = true
   system_field_options = [
     {
-      name = "Pregunta"
+      name = "Question"
       value = "question"
     },
     {
-      name = "Incidente"
+      name = "Incident"
       value = "incident"
     },
     {
-      name = "Problema"
+      name = "Problem"
       value = "problem"
     },
     {
-      name = "Tarea"
+      name = "Task"
       value = "task"
     },
   ]
-  _alias = "Tipo"
+  _alias = "Type"
 }

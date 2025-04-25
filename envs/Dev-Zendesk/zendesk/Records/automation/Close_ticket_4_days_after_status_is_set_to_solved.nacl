@@ -1,5 +1,5 @@
 zendesk.automation Close_ticket_4_days_after_status_is_set_to_solved@s {
-  title = "Cerrar el ticket 4 días después de que el estado se haya definido como resuelto"
+  title = "Close ticket 4 days after status is set to solved"
   active = true
   default = true
   actions = [
@@ -22,6 +22,6 @@ zendesk.automation Close_ticket_4_days_after_status_is_set_to_solved@s {
       },
     ]
   }
-  raw_title = "Cerrar el ticket 4 días después de que el estado se haya definido como resuelto"
-  _alias = "Cerrar el ticket 4 días después de que el estado se haya definido como resuelto"
+  raw_title = "Close ticket 4 days after status is set to solved"
+  _alias = "Close ticket 4 days after status is set to solved"
 }

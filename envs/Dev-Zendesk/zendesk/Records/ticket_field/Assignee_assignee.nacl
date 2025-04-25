@@ -1,15 +1,15 @@
 zendesk.ticket_field Assignee_assignee {
   type = "assignee"
-  raw_title = "Agente asignado"
-  raw_description = "Agente asignado a su solicitud"
+  raw_title = "Assignee"
+  raw_description = "Agent assigned to your request"
   active = true
   required = true
   collapsed_for_agents = false
-  raw_title_in_portal = "Agente asignado"
+  raw_title_in_portal = "Assignee"
   visible_in_portal = true
   editable_in_portal = false
   required_in_portal = false
   agent_can_edit = true
   removable = false
-  _alias = "Agente asignado"
+  _alias = "Assignee"
 }

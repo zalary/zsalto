@@ -1,5 +1,5 @@
 zendesk.macro Customer_not_responding@s {
-  title = "Cliente no responde"
+  title = "Customer not responding"
   active = true
   default = false
   actions = [
@@ -9,9 +9,9 @@ zendesk.macro Customer_not_responding@s {
     },
     {
       field = "comment_value"
-      value = "Hola, {{ticket.requester.name}}. Nuestro agente {{current_user.name}} ha intentado comunicarse con usted sobre esta solicitud, pero no hemos sabido nada de parte suya. Le agradecemos nos indique si podemos proporcionarle más asistencia. Gracias. "
+      value = "Hello {{ticket.requester.name}}. Our agent {{current_user.name}} has tried to contact you about this request but we haven't heard back from you yet. Please let us know if we can be of further assistance. Thanks. "
     },
   ]
-  raw_title = "Cliente no responde"
-  _alias = "Cliente no responde"
+  raw_title = "Customer not responding"
+  _alias = "Customer not responding"
 }

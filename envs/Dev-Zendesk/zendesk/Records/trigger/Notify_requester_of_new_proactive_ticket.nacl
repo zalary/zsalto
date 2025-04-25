@@ -1,5 +1,5 @@
 zendesk.trigger Notify_requester_of_new_proactive_ticket@s {
-  title = "Notificar al solicitante sobre nuevo ticket proactivo"
+  title = "Notify requester of new proactive ticket"
   active = true
   default = false
   actions = [
@@ -9,11 +9,11 @@ zendesk.trigger Notify_requester_of_new_proactive_ticket@s {
         "requester_and_ccs",
         "{{ticket.title}}",
         '''
-Este ticket fue creado en su nombre.
+This ticket was created on your behalf.
 
 {{ticket.comments_formatted}}
 
-Si desea agregar comentarios adicionales, responda a este correo electrónico.
+To add additional comments, reply to this email.
 ''',
       ]
     },
@@ -37,8 +37,8 @@ Si desea agregar comentarios adicionales, responda a este correo electrónico.
       },
     ]
   }
-  description = "Un ticket proactivo es un ticket creado por un agente en nombre del solicitante."
-  raw_title = "Notificar al solicitante sobre nuevo ticket proactivo"
+  description = "A proactive ticket is a ticket created by an agent on behalf of the requester."
+  raw_title = "Notify requester of new proactive ticket"
   category_id = zendesk.trigger_category.instance.Notifications
-  _alias = "Notificar al solicitante sobre nuevo ticket proactivo"
+  _alias = "Notify requester of new proactive ticket"
 }

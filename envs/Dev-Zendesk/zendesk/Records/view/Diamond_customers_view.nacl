@@ -8,7 +8,7 @@ zendesk.view Diamond_customers_view@s {
     sort_order = "desc"
     group = {
       id = "requester"
-      title = "Solicitante"
+      title = "Requester"
       filterable = true
       sortable = true
       order = "desc"
@@ -16,31 +16,31 @@ zendesk.view Diamond_customers_view@s {
     columns = [
       {
         id = "satisfaction_score"
-        title = "Índice de satisfacción"
+        title = "Satisfaction"
         filterable = true
         sortable = true
       },
       {
         id = "subject"
-        title = "Asunto"
+        title = "Subject"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Solicitante"
+        title = "Requester"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Solicitado"
+        title = "Requested"
         filterable = false
         sortable = true
       },
       {
         id = "assignee"
-        title = "Agente asignado"
+        title = "Assignee"
         filterable = true
         sortable = true
       },
@@ -48,31 +48,31 @@ zendesk.view Diamond_customers_view@s {
     fields = [
       {
         id = "satisfaction_score"
-        title = "Índice de satisfacción"
+        title = "Satisfaction"
         filterable = true
         sortable = true
       },
       {
         id = "subject"
-        title = "Asunto"
+        title = "Subject"
         filterable = false
         sortable = false
       },
       {
         id = "requester"
-        title = "Solicitante"
+        title = "Requester"
         filterable = true
         sortable = true
       },
       {
         id = "created"
-        title = "Solicitado"
+        title = "Requested"
         filterable = false
         sortable = true
       },
       {
         id = "assignee"
-        title = "Agente asignado"
+        title = "Assignee"
         filterable = true
         sortable = true
       },
