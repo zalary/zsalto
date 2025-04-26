@@ -1,0 +1,16 @@
+zendesk.webhook CB___Ticket_Created_Webhook@sbsss {
+  name = "CB - Ticket Created Webhook"
+  description = ""
+  status = "active"
+  subscriptions = [
+    "zen:event-type:ticket.created",
+  ]
+  endpoint = "https://www.example.com/endpoint"
+  http_method = "POST"
+  request_format = "json"
+  authentication = {
+    type = "bearer_token"
+    add_position = "header"
+  }
+  _alias = "CB - Ticket Created Webhook"
+}

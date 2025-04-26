@@ -2,6 +2,7 @@ zendesk.macro CB___Support_level_@sbsss {
   title = "CB - Support level "
   active = true
   default = false
+  description = ""
   actions = [
     {
       field = zendesk.ticket_field.instance.CB___Support_Level_tagger@sbssu
@@ -9,7 +10,7 @@ zendesk.macro CB___Support_level_@sbsss {
     },
     {
       field = "comment_value_html"
-      value = "<p>Updated the ticket's support level based on the rules in {{ticket.ticket_field_<span style=\"background-color:rgba(31,115,183,0.08);color:rgb(41,50,57);\">31636205718423</span>}}</p>"
+      value = "<p>Updated the ticket's support level based on the rules in {{ticket.ticket_field_${ zendesk.ticket_field.instance.CB___Support_Level_tagger@sbssu }}}</p>"
     },
   ]
   raw_title = "CB - Support level "

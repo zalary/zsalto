@@ -1,0 +1,17 @@
+zendesk.macro CB___HTML_Macro@sbss {
+  title = "CB - HTML Macro"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "comment_mode_is_public"
+      value = "false"
+    },
+    {
+      field = "comment_value_html"
+      value = "<p>Test text {{ticket.ticket_field_<span style=\"background-color:rgb(255,255,255);color:rgb(41,50,57);\">31636205718423</span>}}</p>"
+    },
+  ]
+  raw_title = "CB - HTML Macro"
+  _alias = "CB - HTML Macro"
+}
