@@ -1,0 +1,279 @@
+netsuite.savedsearch customsearch_mkd_search_demo1 {
+  scriptid = "customsearch_mkd_search_demo1"
+  dependencies = {
+    dependency = [
+      netsuite.transactionbodycustomfield.instance.custbody_slt_opportunity_owner.scriptid,
+      netsuite.transactionbodycustomfield.instance.custbodybundle_type.scriptid,
+    ]
+  }
+  definition = "a7b2c07ed18febc57dacb8de7e3d4f4e7daffd89da15853bd87b2fa96d112aa8@GZC@2025.1.13@H4sIAAAAAAAA/+2dWXPiuBbH36dqvgNFnjvgNUsRpowtEk+8UF6y3BeXG9zTnmFJGaf7pj/9lW05QCALiqxkdFXV1QFjH+kc6S/9fJBw74//zqatH0m2TBfzs7Zw2G23kvl4MUnnf521w2D45bj9R//333rz5XIxPvWTLI2n6a9k4n79Oxnn+mKex+k8yVrQzHx5Wp511v6e53ennc7Pnz8P50m+vE/z5HC8mHWW4+/JLF52ytParft0ctYO/MDwrkT5uCtIJ6d+/COZ+Emcjb+fju+X+WK2LN9Es38mEXo5SWYL4VQ4khVVVo6Vo25Xbq9c6B4K7VaezpJlHs/uoEsb5/WRI7P47g7WeuOqPqxiUd9pMvkryWCFs+SwKhL+QX5nh9WVh1Ud7fJNr7NutC5iknxL52kOzfd71dnG2pFJshxn6V2+gOdnCSxrEjzcJa3xNF4uz9rV+d7j8XbfB5qnX0TACbzbXmd1Rb/3I57eJ8t+76r42/qWJtPyg9rIsD7Qrj47a1+C22ik6ZfaOWi3Onte6OueOQoi02gXdf3166y9zDPYWWD0XmquXqcsZY/ChiawjMgAQy20gsjRbFjZSXKXzCewfz5cJg9nbWsxjqeJ8RjJUxSkwAwscNDdqqF9abSq4loGrFQLu1Z1ObcjsFVIkMXzZTwuWhnDvKWdR6NwYJn6o+Gvi8U0ieft/rd4ukwwbVqmH5C1OHI9GGXCRm1NvzAdQNaoB2zTMYBH1qp/4V7DsDqXhMPqgSHwPGA00WSPthtpvJX5RppxZX7oenZTtj3gw/HGJ2v+ygTXkeZD40Xgm7F97mmji6ZMrw33RCyHDoxz4Jl6AMhZtrWbyHOv/f0mtbI+hulrAwtEhmdaVmS41w45f8sZQw9h73L028jTArB74tB0PSg+wAzphWmAaGhaAfCgG+6ocIJcNy6m/nouDsBNEFVuVeVtueIHmhf412ZwgemMdqWZVtkisPsNAcFOUpo/t9yBZkXAMAmLUfevyBoENzqwCI91xpBw5wY2bK1o6Ln2ntJbu9oPB38CPcA3MHCNW/yrdde2IVtjDB1wFDs/B8XUoVmA9ODu6xfACC0qxmET2LbmmYDw5OcDp4jyKLhtZnKtKq9ZFuQx2IuKG5QBYfSoijAd3QrhIFtOi7vJL8/uccu4gCNd4AaaRTg8da1HwDNd2BCwMQJPc3xND0yX4AxRqWkQWpeRO4J6Mva8uVy7vrzJLSkP3qd6mo0zow9CODVB5wn7544C0zb/A+dYCLg4w0WpBteJwpEBSaCBWxIthLNa0cTmq/NGp04ddNazEd/SaZ5k8Gi+lZAA02SWzPONjESFAH6vk29kI+qKFrb6vbs4g9fVxvTFdJqUd8jtVpZ8S+BnY+jb4WGn/FdGFTM/AvsL7D0XwIdtVOPJO9MlFSCW2GbaADag7jqEeaSYOteY5wlVESnCcQnPHi7BClbS8iLd0kIfhjjQgnA1Mo2/x1m77+DadUI7ssAwqPrGymw6z9v97nuswpn/grBZBPA7011fJ9lpPH84nd9Ppy+lncrOqnsA/m9g1wMOvqGl4QzhtmuY8NX2XUFxP2BiN6MWQNIahGtj5qPrrqHd4prdeStWBLAQ+ysjZX1wn4EyutKsEGwNl9VQhjNQvnNwrOpDIKO8liJ4nwTKCj3amsQ5dEDsitKXrvJFOG51j067XfjvsNsKA31HC9WhZC+k2PnqF0N60uqqp8rJW0K6OvL4YnOe57M+n/X5rP8xs/7AtCzdDasvCD9w1t//2uends25dYdEp3YfWEAP+MT+cRP7k/5dTRalqbVvcp/p2AdrA0TdoqHPIYBW+HVtK/y69n8VfvEjw2/fbK9puOG8xnmN89q/j9fqr4Q5rHFYYwfW6l59IGy1pvCemWp1/PH7ieX9bBZnD8P9vq+ovuW8ffq9ReeptfhHnE7jr9OkOlLG6c2FPJ0lVsU8YzZL8vtsvl8hHghCz6lWYnxMV16vwXvn72pwsUzNxx9SXc8AHuYamrL8Yp3gDSHehu1fLN14bc3qegwPFJwRue7ROAWq7ymwGrP3v34YOuWXz1jX4s966NIIeF4DWGSUa0AGt3Uf7nzY/dBnU6WtmY5lOiRFiX0XhqORI9qiPOai5KJsWJTFGqDidpmgKCWaojyhLUqhy1XJVdmwKjXfHRJWpUxTlYJAXZYilyWXZcOyHLl+YDrn1RJagtpUqGpToq5NmWuTa7NpkNVuiOtSpapL6kkfgWd9uC4b1yXZNOwRVUlST/kIPOfDJdm0JJ3QHhQLLYiJ8piqKKmnfESe8uGibFyUmk1ynjyhKUmRerpH5OkeLsnGs7B6ueCS5CIC7HU4WCKhnukReaaHy7LxdQTAdklqkurKHpF6lkfkWR6uyaY1WexOMJ3zBmZMqkt8ROoJH5EnfLg6GwdZm7Qqqa7xEalnfCSe8eGqxFSlXv7+sRHn8VrvqrqVHvpB8ft0kW8FkTsqfgQ0dMzgNnKvHeAdvPL59pbLF08nKXeqi4ekd+V2sEp8140ylzuX+4tyH4SOYVW/9nqw6+Czwl47h6SaqS43kqjf8Er8hpeqmldHNnevTZI8Tqf1u3xLs7v2shkgKH9Dtiif72VrbC8b1YVNEvWbaonfVPP5vPE0NPntbJR1Sf22Wua31VyXjS84JL+jja4uZeqrKWS+moLrsvEkNPk9bZR1SX05hcyXU3BdNq3Lpja1URYn9TSTzNNMXJyNw2wDu9ooC5N69kfm2R8uzMaF+W/OyMrUMz8Kz/xwTTatSeL72uiqUqGe91F43oersnFVkt3YRlmT1HM+Cs/5cE02noslv06friypZ3sUnu3hsmx8SQHhnW10NUk90aPwRA/XZNOabG5nG111Uk/5qDzlw9XZOMgS39lGVZUq9ZSPylM+XJWYqmRxZxtduVPPJqk8m8Tl3pzcP9vONrpqpv+UJp6E+qCdbZt72ZaLLIeavp/N3/64OTiFRbprhbbzMfva1ipA4PmCZRg/aFOb9diC739CW/m0WODrwDHgTf5rveylHrLRJ6CGsxyek96lsEXrbvO2nqJZMDRwjNfNkQmcwH+yGbKz2/bmUezCnill9RxGI/mWztOiEeGh+XK5GJ9O1g7VR1C3SIvQPDn20MrLNnk61LVb9+lkxwiIahqYgQUOuu1WcVK33e89PbFyub9+eu3NP8lD8QTM4k8vL7rhNC6qC+sGfcvgwaqP9pN5VDxFHL2rj9qXRqtyvmUks0VLWJ3RQdd3Nq12tuvWeRqFZ+Oy89maKDj7PyS9uEqA0dp5Zb9X6mAr34UMFM/YLD6uhojyAes/kBCeMfcRXhbPIi+uEsl4WTzH/BN6WTzyu7hKIuNl8bjwT+Ll+pNiiyvkfTxcPTx5wz2BoHdvHaeePsCzOEl5fpzahPjVOKXsP04V020JMA2MRljeq5X36v7eqwx4f1R5f7S/90cMeH9ceX+8v/fHDHh/Unl/sr/3Jwx4LyA8E17gs+f8FzAA7fMFAM1hgoARAIGFAIgoACJGAEQWAiChAEgYAZBYCICMAiBjBEBmIQCI/QQM+BNYoD8B4Z+AwX8CCwAoIAIUMBBQYIEBBQSBAgYFCixgoIA4UMAAQYEFEhQRCYoYJCiyQIIiIkERgwRFFkhQRCQoYpCgyAIJiogERQwSFFkgQRGRoIhBgiILJCgiEhQxSFBkgQRFRIIiBgmKLJCgiEhQxCBBkQUSFBEJihgkKLJAgiIiQRGDBEUWSFBCJChhkKD0yUhw14ooFIQG10aW0SswclcZMAzlK3Py6qLJxxN7E2iiXPyBIv74vre8n81iGDa07qF+25vHs+TVAsqTep3d1Wy6myHclDBwU2IBNyWEmxIGbkqfDDffp7PXFyWWcZLfrqiN1YrEZLRh9UO1gzhVwuBUiQVOlRCnShicKrHAqRLiVAmDUyUWOFVCnCphcKrEAqdKiFMlDE6VWOBUGXGqjMGp8ifjVLwA1OuvMDKWMgsZSxkhpIyBkDILCCkjhJQxEFL+ZAiJFwCUsZQxMpYyCxlLGZGgjEGCMgskKCMSlDFIUGaBBGVEgjIGCcoskKCMSFDGIEGZBRKUEQnKGCQos0CCCiJBBYMEFRZIUEEkqGCQoMICCSqIBBUMElRYIEEFkaCCQYIKCySoIBJUMEhQYYEElXoHC84WFhZIUEEkqGCQoMICCSqIBBUMElRYIEEFkaCCQYIKCySoIBJUMEhQYYEEVUSCKgYJqiyQoIpIUMUgQZUFElQRCaoYJKiyQIIqIkEVgwRVFkhQRSSoYpCgygIJqogEVQwSVFkgQbXezoyzn/mjSPDpofKXONBBP8nSeJr+Sibu17+Tca4v5nmczpOs//tv/wP6OUlqCeAAAA=="
+  search_filter = [
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_DATECREATED"
+      FIELD_MODIFIER = "WITHIN"
+      FIELD_ATTRIBUTE = "TODAY"
+      FIELD_TYPE = "DATETIME"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "2023-05-18 07:00:00.0 UTC"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "2023-05-19 06:59:00.0 UTC"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_BILLCOUNTRY"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "US"
+        },
+        {
+          KEY_ID = 1
+          FIELD_VALUE = "CA"
+        },
+        {
+          KEY_ID = 2
+          FIELD_VALUE = "MX"
+        },
+      ]
+    },
+    {
+      FLAG_DATE_TIME_SECOND = false
+      FLAG_FROM_AVAILABLE_FILTER = false
+      FLAG_NOT = false
+      FLAG_OR = false
+      FIELD_OR_CLAUSE_STATUS = "N"
+      FIELD_NUM_LEFT_PARENS = 0
+      FIELD_NUM_RIGHT_PARENS = 0
+      FIELD_FILTER_NAME = "Transaction_CURRENCY"
+      FIELD_ATTRIBUTE = "ANYOF"
+      FIELD_TYPE = "SELECT"
+      RECORDS = [
+        {
+          KEY_ID = 0
+          FIELD_VALUE = "1"
+        },
+      ]
+    },
+  ]
+  return_fields = [
+    {
+      FIELD_ALIAS = "Transaction_ORDERTYPE"
+      FIELD_INDEX = 1
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MAINLINE"
+      FIELD_INDEX = 2
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 3
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ASOFDATE"
+      FIELD_INDEX = 4
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_POSTINGPERIOD"
+      FIELD_INDEX = 5
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TAXPERIOD"
+      FIELD_INDEX = 6
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TYPE"
+      FIELD_INDEX = 7
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 8
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 9
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ACCOUNT"
+      FIELD_INDEX = 10
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MEMO"
+      FIELD_INDEX = 11
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_BILLINGACCOUNT"
+      FIELD_INDEX = 12
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 13
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTBODY_SLT_OPPORTUNITY_OWNER"
+      FIELD_INDEX = 14
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTBODYBUNDLE_TYPE"
+      FIELD_INDEX = 15
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  detail_fields = [
+    {
+      FIELD_ALIAS = "Transaction_ORDERTYPE"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MAINLINE"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TRANDATE"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ASOFDATE"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_POSTINGPERIOD"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TAXPERIOD"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_TYPE"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NUMBER"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_NAME"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_ACCOUNT"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_MEMO"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_BILLINGACCOUNT"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "Transaction_AMOUNT"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTBODY_SLT_OPPORTUNITY_OWNER"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+    {
+      FIELD_ALIAS = "CUSTBODYBUNDLE_TYPE"
+      FIELD_INDEX = 16
+      FIELD_FORMULA_ERROR = false
+    },
+  ]
+  sort_columns = [
+    {
+      KEY_FIELD = "Transaction_ORDERTYPE"
+      FILELD_ORDER = 1
+      FLAG_DESCENDING = false
+    },
+  ]
+  KEY_SCRIPT_ID = "customsearch_mkd_search_demo1"
+  FIELD_DEFAULT_NAME = "MKD Search Demo 1"
+  FIELD_SEARCH_TYPE = "Transaction"
+  FLAG_PUBLIC = false
+  FLAG_LIST = false
+  FLAG_PORTLET = false
+  FLAG_MACHINE = false
+  FLAG_REMINDER = false
+  FLAG_SHOW_LINK = false
+  FLAG_PREFERRED_LIST = false
+  FLAG_PREFERRED_PORTLET = false
+  FLAG_PREFERRED_MACHINE = false
+  FLAG_PREFERRED_FORM = false
+  FLAG_PREFERRED_RESULTS = false
+  FLAG_VIEW_AS_REPORT = false
+  FLAG_VIEW_AS_GRAPH = false
+  FLAG_VIEW_AS_GRID = false
+  FLAG_UNRESTRICTED = false
+  FLAG_DISABLE_DRILL_DOWN = false
+  FIELD_CURRENCY_RATE_TYPE = "ACCTTYPE"
+  FLAG_HIDE_FILTER_DROPDOWNS = false
+  KEY_DEFAULT_TEXT_FIELD_FILTER = "STARTSWITH"
+  FLAG_AVAILABLE_AS_FEED = false
+  FLAG_GLOBAL_EDIT = false
+  FLAG_CSV = false
+  FLAG_EXCEL = false
+  FLAG_PDF = false
+  FLAG_TRIGGERED_ALERT = false
+  FLAG_SCHEDULED_ALERT = false
+  FLAG_SCHEDULED_ALERT_SUMMARIES = false
+  FLAG_SEND_EMPTY_RESULTS = false
+  FLAG_ALERT_ALLOW_SUBSCRIBE = false
+  FLAG_ALERT_INCLUDE_VIEW_LINK = true
+  FLAG_HAS_TOTALS = false
+  FLAG_INCLUDE_PERIOD_END_TRANSACTIONS = false
+  FLAG_BUILT_IN = false
+  FLAG_SEND_ON_UPDATE = false
+  FLAG_SHOW_AUDIT_TRAIL = false
+  _alias = "MKD Search Demo 1"
+}
