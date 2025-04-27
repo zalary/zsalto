@@ -1,5 +1,5 @@
 zendesk.trigger Add__LL__tag_to_LL_Tickets@srrssss {
-  title = "Add \"LL\" tag to LL Tickets"
+  title = "LL Add \"LL\" tag to LL Tickets"
   active = true
   default = false
   actions = [
@@ -23,7 +23,7 @@ zendesk.trigger Add__LL__tag_to_LL_Tickets@srrssss {
 Add "LL" tag to LL Tickets
 (Text for Content Search) These tickets are for designated Unicorn customers
 '''
-  raw_title = "Add \"LL\" tag to LL Tickets"
+  raw_title = "LL Add \"LL\" tag to LL Tickets"
   category_id = zendesk.trigger_category.instance.LL
-  _alias = "Add \"LL\" tag to LL Tickets"
+  _alias = "LL Add \"LL\" tag to LL Tickets"
 }
