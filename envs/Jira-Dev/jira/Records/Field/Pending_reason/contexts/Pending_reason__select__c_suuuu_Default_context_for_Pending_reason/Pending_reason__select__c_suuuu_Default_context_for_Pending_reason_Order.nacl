@@ -1,0 +1,11 @@
+jira.FieldContextOptionsOrder Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_order_child@uuuuumussssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_More_info_required@uuuuumussssuss,
+    jira.CustomFieldContextOption.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_Awaiting_approval@uuuuumussssus,
+    jira.CustomFieldContextOption.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_Waiting_on_vendor@uuuuumussssuss,
+    jira.CustomFieldContextOption.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_Pending_on_change_request@uuuuumussssusss,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason@uuuuumussss,
+  ]
+}

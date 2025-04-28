@@ -1,0 +1,28 @@
+jira.CustomFieldContextOption Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_Awaiting_approval@uuuuumussssus {
+  value = "Awaiting approval"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_More_info_required@uuuuumussssuss {
+  value = "More info required"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_Pending_on_change_request@uuuuumussssusss {
+  value = "Pending on change request"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Pending_reason__select__c_suuuu_Default_context_for_Pending_reason_Waiting_on_vendor@uuuuumussssuss {
+  value = "Waiting on vendor"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Pending_reason__select__c_suuuu_Default_context_for_Pending_reason@uuuuumussss,
+  ]
+}

@@ -1,0 +1,77 @@
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_a@uuuuusssu {
+  value = "a"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_a1@uuuuusssuu {
+  value = "a1"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a@uuuuusssu,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_a2@uuuuusssuu {
+  value = "a2"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a@uuuuusssu,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_a3@uuuuusssuu {
+  value = "a3"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a@uuuuusssu,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_b@uuuuusssu {
+  value = "b"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_b1@uuuuusssuu {
+  value = "b1"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b@uuuuusssu,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_b2@uuuuusssuu {
+  value = "b2"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b@uuuuusssu,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_b3@uuuuusssuu {
+  value = "b3"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b@uuuuusssu,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_c@uuuuusssu {
+  value = "c"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_d@uuuuusssu {
+  value = "d"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Cascade2__cascadingselect__c_Default_context_for_Cascade2_d_d1@uuuuusssuu {
+  value = "d1"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_d@uuuuusssu,
+  ]
+}

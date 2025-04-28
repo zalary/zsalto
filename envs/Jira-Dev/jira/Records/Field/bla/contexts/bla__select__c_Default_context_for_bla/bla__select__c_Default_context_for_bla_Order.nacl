@@ -1,0 +1,9 @@
+jira.FieldContextOptionsOrder bla__select__c_Default_context_for_bla_order_child@uuuuusssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.bla__select__c_Default_context_for_bla_s@uuuuusssu,
+    jira.CustomFieldContextOption.instance.bla__select__c_Default_context_for_bla_f@uuuuusssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.bla__select__c_Default_context_for_bla@uuuuusss,
+  ]
+}

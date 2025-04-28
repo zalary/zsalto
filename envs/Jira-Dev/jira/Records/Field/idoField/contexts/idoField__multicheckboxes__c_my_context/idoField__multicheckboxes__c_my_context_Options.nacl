@@ -1,0 +1,49 @@
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context@uuuuus {
+  value = ""
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context_1@uuuuusu {
+  value = "1"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context_2@uuuuusu {
+  value = "2"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context_Repeat@uuuuusu {
+  value = "Repeat"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context___@uuuuusurr {
+  value = "\"\""
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context_hello@uuuuusu {
+  value = "hello"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}
+jira.CustomFieldContextOption idoField__multicheckboxes__c_my_context_l@uuuuusu {
+  value = "l"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField__multicheckboxes__c_my_context@uuuuus,
+  ]
+}

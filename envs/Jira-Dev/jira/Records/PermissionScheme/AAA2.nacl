@@ -1,0 +1,14 @@
+jira.PermissionScheme AAA2 {
+  name = "AAA2"
+  permissions = [
+    {
+      holder = {
+        type = "user"
+        parameter = {
+          id = "eshedg"
+        }
+      }
+      permission = "BROWSE_ARCHIVE"
+    },
+  ]
+}

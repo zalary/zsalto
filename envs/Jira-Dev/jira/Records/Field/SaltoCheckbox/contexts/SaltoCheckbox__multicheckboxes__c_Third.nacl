@@ -1,18 +1,6 @@
 jira.CustomFieldContext SaltoCheckbox__multicheckboxes__c_Third {
   name = "Third"
   description = ""
-  options = {
-    r = {
-      value = "r"
-      disabled = false
-      position = 1
-    }
-    q = {
-      value = "q"
-      disabled = false
-      position = 2
-    }
-  }
   defaultValue = {
     type = "option.multiple"
   }

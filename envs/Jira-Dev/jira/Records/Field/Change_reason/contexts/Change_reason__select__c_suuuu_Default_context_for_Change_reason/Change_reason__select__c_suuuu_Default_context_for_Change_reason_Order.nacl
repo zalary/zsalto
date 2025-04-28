@@ -1,0 +1,12 @@
+jira.FieldContextOptionsOrder Change_reason__select__c_suuuu_Default_context_for_Change_reason_order_child@uuuuumussssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason_Repair@uuuuumussssu,
+    jira.CustomFieldContextOption.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason_Upgrade@uuuuumussssu,
+    jira.CustomFieldContextOption.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason_Maintenance@uuuuumussssu,
+    jira.CustomFieldContextOption.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason_New_functionality@uuuuumussssus,
+    jira.CustomFieldContextOption.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason_Other@uuuuumussssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason@uuuuumussss,
+  ]
+}

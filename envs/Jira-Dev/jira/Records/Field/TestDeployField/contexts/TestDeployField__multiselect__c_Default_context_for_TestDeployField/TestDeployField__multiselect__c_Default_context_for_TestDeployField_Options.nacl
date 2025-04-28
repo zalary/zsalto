@@ -1,0 +1,21 @@
+jira.CustomFieldContextOption TestDeployField__multiselect__c_Default_context_for_TestDeployField_a@uuuuusssu {
+  value = "a"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption TestDeployField__multiselect__c_Default_context_for_TestDeployField_b@uuuuusssu {
+  value = "b"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption TestDeployField__multiselect__c_Default_context_for_TestDeployField_c@uuuuusssu {
+  value = "c"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField@uuuuusss,
+  ]
+}

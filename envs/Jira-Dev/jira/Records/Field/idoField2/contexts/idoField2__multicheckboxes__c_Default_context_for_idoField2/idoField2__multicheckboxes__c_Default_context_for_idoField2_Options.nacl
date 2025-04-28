@@ -1,0 +1,21 @@
+jira.CustomFieldContextOption idoField2__multicheckboxes__c_Default_context_for_idoField2@uuuuusss {
+  value = ""
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption idoField2__multicheckboxes__c_Default_context_for_idoField2_hi@uuuuusssu {
+  value = "hi"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption idoField2__multicheckboxes__c_Default_context_for_idoField2_whats@uuuuusssu {
+  value = "whats"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2@uuuuusss,
+  ]
+}

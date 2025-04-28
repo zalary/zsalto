@@ -1,0 +1,14 @@
+jira.CustomFieldContextOption SaltoCheckbox__multicheckboxes__c_Default_context_for_SaltoCheckbox_a@uuuuusssu {
+  value = "a"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_Default_context_for_SaltoCheckbox@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption SaltoCheckbox__multicheckboxes__c_Default_context_for_SaltoCheckbox_b@uuuuusssu {
+  value = "b"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_Default_context_for_SaltoCheckbox@uuuuusss,
+  ]
+}

@@ -1,0 +1,35 @@
+jira.CustomFieldContextOption Change_reason__select__c_suuuu_Default_context_for_Change_reason_Maintenance@uuuuumussssu {
+  value = "Maintenance"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Change_reason__select__c_suuuu_Default_context_for_Change_reason_New_functionality@uuuuumussssus {
+  value = "New functionality"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Change_reason__select__c_suuuu_Default_context_for_Change_reason_Other@uuuuumussssu {
+  value = "Other"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Change_reason__select__c_suuuu_Default_context_for_Change_reason_Repair@uuuuumussssu {
+  value = "Repair"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Change_reason__select__c_suuuu_Default_context_for_Change_reason_Upgrade@uuuuumussssu {
+  value = "Upgrade"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_reason__select__c_suuuu_Default_context_for_Change_reason@uuuuumussss,
+  ]
+}

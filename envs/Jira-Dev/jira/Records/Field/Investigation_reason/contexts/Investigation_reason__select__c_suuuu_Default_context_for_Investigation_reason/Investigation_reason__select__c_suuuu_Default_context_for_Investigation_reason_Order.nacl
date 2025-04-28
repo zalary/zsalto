@@ -1,0 +1,11 @@
+jira.FieldContextOptionsOrder Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_order_child@uuuuumussssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_High_impact_incident@uuuuumussssuss,
+    jira.CustomFieldContextOption.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_Recurring_incident@uuuuumussssus,
+    jira.CustomFieldContextOption.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_Non_routine_incident@uuuuumussssubs,
+    jira.CustomFieldContextOption.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_Other@uuuuumussssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason@uuuuumussss,
+  ]
+}

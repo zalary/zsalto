@@ -1,0 +1,9 @@
+jira.FieldContextOptionsOrder SaltoCheckbox__multicheckboxes__c_Third_order_child {
+  options = [
+    jira.CustomFieldContextOption.instance.SaltoCheckbox__multicheckboxes__c_Third_r,
+    jira.CustomFieldContextOption.instance.SaltoCheckbox__multicheckboxes__c_Third_q,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_Third,
+  ]
+}

@@ -1,0 +1,10 @@
+jira.FieldContextOptionsOrder Change_type__select__c_suuuu_Default_context_for_Change_type_order_child@uuuuumussssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Change_type__select__c_suuuu_Default_context_for_Change_type_Standard@uuuuumussssu,
+    jira.CustomFieldContextOption.instance.Change_type__select__c_suuuu_Default_context_for_Change_type_Normal@uuuuumussssu,
+    jira.CustomFieldContextOption.instance.Change_type__select__c_suuuu_Default_context_for_Change_type_Emergency@uuuuumussssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.Change_type__select__c_suuuu_Default_context_for_Change_type@uuuuumussss,
+  ]
+}

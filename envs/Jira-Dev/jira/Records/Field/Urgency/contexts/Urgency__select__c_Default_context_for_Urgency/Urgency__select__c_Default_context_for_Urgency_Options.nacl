@@ -1,0 +1,28 @@
+jira.CustomFieldContextOption Urgency__select__c_Default_context_for_Urgency_Critical@uuuuusssu {
+  value = "Critical"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Urgency__select__c_Default_context_for_Urgency@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Urgency__select__c_Default_context_for_Urgency_High@uuuuusssu {
+  value = "High"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Urgency__select__c_Default_context_for_Urgency@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Urgency__select__c_Default_context_for_Urgency_Low@uuuuusssu {
+  value = "Low"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Urgency__select__c_Default_context_for_Urgency@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption Urgency__select__c_Default_context_for_Urgency_Medium@uuuuusssu {
+  value = "Medium"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Urgency__select__c_Default_context_for_Urgency@uuuuusss,
+  ]
+}

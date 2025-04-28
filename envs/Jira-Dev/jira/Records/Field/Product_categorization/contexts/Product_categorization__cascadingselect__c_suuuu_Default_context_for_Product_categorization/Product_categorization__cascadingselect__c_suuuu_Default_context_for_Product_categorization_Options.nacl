@@ -1,0 +1,98 @@
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Communication@uuuuumussssu {
+  value = "Communication"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Document@uuuuumussssu {
+  value = "Document"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu {
+  value = "Hardware"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_CPD@uuuuumussssuu {
+  value = "CPD"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Component@uuuuumussssuu {
+  value = "Component"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Disc@uuuuumussssuu {
+  value = "Disc"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Peripheral@uuuuumussssuu {
+  value = "Peripheral"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Power@uuuuumussssuu {
+  value = "Power"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Process_Equipment@uuuuumussssuus {
+  value = "Process Equipment"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Tape@uuuuumussssuu {
+  value = "Tape"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware_Virtual@uuuuumussssuu {
+  value = "Virtual"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContextOption.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Hardware@uuuuumussssu,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_People@uuuuumussssu {
+  value = "People"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Service@uuuuumussssu {
+  value = "Service"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization_Software@uuuuumussssu {
+  value = "Software"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+}

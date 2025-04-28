@@ -1,0 +1,10 @@
+jira.FieldContextOptionsOrder TestDeployField__multiselect__c_Default_context_for_TestDeployField_order_child@uuuuusssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField_a@uuuuusssu,
+    jira.CustomFieldContextOption.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField_b@uuuuusssu,
+    jira.CustomFieldContextOption.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField_c@uuuuusssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.TestDeployField__multiselect__c_Default_context_for_TestDeployField@uuuuusss,
+  ]
+}

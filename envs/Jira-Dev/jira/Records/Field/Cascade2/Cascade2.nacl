@@ -1,0 +1,10 @@
+jira.Field Cascade2__cascadingselect__c {
+  name = "Cascade2"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselectsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselect"
+  contexts = [
+    jira.CustomFieldContext.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2@uuuuusss,
+  ]
+  description = ""
+  _alias = "Cascade2"
+}

@@ -1,0 +1,39 @@
+jira.FieldContextOptionsOrder Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_order_child@uuuuusssuuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_a1@uuuuusssuu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_a2@uuuuusssuu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a_a3@uuuuusssuu,
+  ]
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a@uuuuusssu,
+  ]
+}
+jira.FieldContextOptionsOrder Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_order_child@uuuuusssuuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_b1@uuuuusssuu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_b2@uuuuusssuu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b_b3@uuuuusssuu,
+  ]
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b@uuuuusssu,
+  ]
+}
+jira.FieldContextOptionsOrder Cascade2__cascadingselect__c_Default_context_for_Cascade2_d_order_child@uuuuusssuuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_d_d1@uuuuusssuu,
+  ]
+  _parent = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_d@uuuuusssu,
+  ]
+}
+jira.FieldContextOptionsOrder Cascade2__cascadingselect__c_Default_context_for_Cascade2_order_child@uuuuusssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_a@uuuuusssu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_b@uuuuusssu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_c@uuuuusssu,
+    jira.CustomFieldContextOption.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2_d@uuuuusssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.Cascade2__cascadingselect__c_Default_context_for_Cascade2@uuuuusss,
+  ]
+}

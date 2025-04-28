@@ -1,0 +1,4 @@
+jira.ProjectCategory aaa {
+  description = ""
+  name = "aaa"
+}

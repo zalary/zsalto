@@ -1,0 +1,10 @@
+jira.FieldContextOptionsOrder idoField2__multicheckboxes__c_Default_context_for_idoField2_order_child@uuuuusssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2@uuuuusss,
+    jira.CustomFieldContextOption.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2_hi@uuuuusssu,
+    jira.CustomFieldContextOption.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2_whats@uuuuusssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.idoField2__multicheckboxes__c_Default_context_for_idoField2@uuuuusss,
+  ]
+}

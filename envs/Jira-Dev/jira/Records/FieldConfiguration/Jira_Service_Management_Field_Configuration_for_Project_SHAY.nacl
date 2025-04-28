@@ -214,5 +214,13 @@ jira.FieldConfiguration Jira_Service_Management_Field_Configuration_for_Project_
       isHidden = false
       isRequired = false
     }
+    Cascade__cascadingselect__c = {
+      isHidden = false
+      isRequired = false
+    }
+    Cascade2__cascadingselect__c = {
+      isHidden = false
+      isRequired = false
+    }
   }
 }

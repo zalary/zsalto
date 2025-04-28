@@ -1,0 +1,14 @@
+jira.CustomFieldContextOption bla__select__c_Default_context_for_bla_f@uuuuusssu {
+  value = "f"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.bla__select__c_Default_context_for_bla@uuuuusss,
+  ]
+}
+jira.CustomFieldContextOption bla__select__c_Default_context_for_bla_s@uuuuusssu {
+  value = "s"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.bla__select__c_Default_context_for_bla@uuuuusss,
+  ]
+}

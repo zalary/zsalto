@@ -120,6 +120,10 @@ jira.FieldConfiguration shayFieldConfiguration9 {
       isRequired = false
       renderer = "jira-text-renderer"
     }
+    Cascade__cascadingselect__c = {
+      isHidden = false
+      isRequired = false
+    }
     Change_managers__multiuserpicker__c@suuuu = {
       description = "Contains the change managers for the change management process."
       isHidden = false
@@ -127,6 +131,10 @@ jira.FieldConfiguration shayFieldConfiguration9 {
     }
     CAB__multiuserpicker__c = {
       description = "Change Advisory Board members"
+      isHidden = false
+      isRequired = false
+    }
+    Cascade2__cascadingselect__c = {
       isHidden = false
       isRequired = false
     }

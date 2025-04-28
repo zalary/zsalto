@@ -1,0 +1,28 @@
+jira.CustomFieldContextOption Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_High_impact_incident@uuuuumussssuss {
+  value = "High impact incident"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_Non_routine_incident@uuuuumussssubs {
+  value = "Non-routine incident"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_Other@uuuuumussssu {
+  value = "Other"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason_Recurring_incident@uuuuumussssus {
+  value = "Recurring incident"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Investigation_reason__select__c_suuuu_Default_context_for_Investigation_reason@uuuuumussss,
+  ]
+}

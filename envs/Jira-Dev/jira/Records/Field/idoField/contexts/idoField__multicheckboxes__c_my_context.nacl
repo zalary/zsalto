@@ -1,43 +1,6 @@
 jira.CustomFieldContext idoField__multicheckboxes__c_my_context@uuuuus {
   name = "my context"
   description = "cool"
-  options = {
-    "1@" = {
-      value = "1"
-      disabled = false
-      position = 1
-    }
-    "@" = {
-      value = ""
-      disabled = false
-      position = 2
-    }
-    l = {
-      value = "l"
-      disabled = false
-      position = 3
-    }
-    "2@" = {
-      value = "2"
-      disabled = false
-      position = 4
-    }
-    Repeat = {
-      value = "Repeat"
-      disabled = false
-      position = 5
-    }
-    __@r = {
-      value = "\"\""
-      disabled = false
-      position = 6
-    }
-    hello = {
-      value = "hello"
-      disabled = false
-      position = 7
-    }
-  }
   defaultValue = {
     type = "option.multiple"
   }

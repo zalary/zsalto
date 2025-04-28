@@ -1,0 +1,11 @@
+jira.FieldContextOptionsOrder Urgency__select__c_Default_context_for_Urgency_order_child@uuuuusssuu {
+  options = [
+    jira.CustomFieldContextOption.instance.Urgency__select__c_Default_context_for_Urgency_Critical@uuuuusssu,
+    jira.CustomFieldContextOption.instance.Urgency__select__c_Default_context_for_Urgency_High@uuuuusssu,
+    jira.CustomFieldContextOption.instance.Urgency__select__c_Default_context_for_Urgency_Medium@uuuuusssu,
+    jira.CustomFieldContextOption.instance.Urgency__select__c_Default_context_for_Urgency_Low@uuuuusssu,
+  ]
+  _parent = [
+    jira.CustomFieldContext.instance.Urgency__select__c_Default_context_for_Urgency@uuuuusss,
+  ]
+}

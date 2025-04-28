@@ -1,0 +1,21 @@
+jira.CustomFieldContextOption Change_type__select__c_suuuu_Default_context_for_Change_type_Emergency@uuuuumussssu {
+  value = "Emergency"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_type__select__c_suuuu_Default_context_for_Change_type@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Change_type__select__c_suuuu_Default_context_for_Change_type_Normal@uuuuumussssu {
+  value = "Normal"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_type__select__c_suuuu_Default_context_for_Change_type@uuuuumussss,
+  ]
+}
+jira.CustomFieldContextOption Change_type__select__c_suuuu_Default_context_for_Change_type_Standard@uuuuumussssu {
+  value = "Standard"
+  disabled = false
+  _parent = [
+    jira.CustomFieldContext.instance.Change_type__select__c_suuuu_Default_context_for_Change_type@uuuuumussss,
+  ]
+}
