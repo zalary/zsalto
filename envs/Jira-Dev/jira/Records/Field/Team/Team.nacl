@@ -1,0 +1,11 @@
+jira.Field Team__rm_teams_custom_field_team__c@uubbbbuu {
+  name = "Parent Link"
+  searcherKey = "com.atlassian.jpo:jpo-custom-field-parent-searcher"
+  isLocked = true
+  type = "com.atlassian.jpo:jpo-custom-field-parent"
+  contexts = [
+    jira.CustomFieldContext.instance.Team__rm_teams_custom_field_team__c_uubbbbuu_Default_Configuration_Scheme_for_Parent_Link@uuuuuuuumusssss,
+  ]
+  description = ""
+  _alias = "Parent Link"
+}

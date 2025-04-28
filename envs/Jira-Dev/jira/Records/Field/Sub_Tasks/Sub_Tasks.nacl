@@ -1,0 +1,10 @@
+jira.Field Sub_Tasks__array@buu {
+  name = "Sub-Tasks"
+  schema = {
+    type = "array"
+    system = "subtasks"
+    items = "issuelinks"
+  }
+  description = ""
+  _alias = "Sub-Tasks"
+}

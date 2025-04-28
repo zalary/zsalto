@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Worklog_Deleted@s {
+  name = "Issue Worklog Deleted"
+  description = "This is the 'issue worklog deleted' event."
+  templateName = "Issue Worklog Deleted"
+}

@@ -1,0 +1,29 @@
+jira.Screen DEP4__Software_Development_Default_Issue_Screen@fsssss {
+  name = "DEP4: Software Development Default Issue Screen"
+  description = ""
+  tabs = {
+    Field_Tab@s = {
+      name = "Field Tab"
+      fields = [
+        jira.Field.instance.Original_story_points__jpo_custom_field_original_story_points__c@ssuubbbbbuu,
+        jira.Field.instance.Summary__string,
+        jira.Field.instance.Issue_Type__issuetype@suu,
+        jira.Field.instance.Reporter__user,
+        jira.Field.instance.Component_s__array@duu,
+        jira.Field.instance.Description__string,
+        jira.Field.instance.Fix_Version_s__array@sduu,
+        jira.Field.instance.Priority__priority,
+        jira.Field.instance.Labels__array,
+        jira.Field.instance.Time_Tracking__timetracking@suu,
+        jira.Field.instance.Security_Level__securitylevel@suu,
+        jira.Field.instance.Attachment__array,
+        jira.Field.instance.Due_Date__date@suu,
+        jira.Field.instance.Linked_Issues__array@suu,
+        jira.Field.instance.Assignee__user,
+        jira.Field.instance.Target_start__jpo_custom_field_baseline_start__c@suubbbbuu,
+        jira.Field.instance.Groups__sd_request_groups__c@uubbuu,
+      ]
+      position = 0
+    }
+  }
+}

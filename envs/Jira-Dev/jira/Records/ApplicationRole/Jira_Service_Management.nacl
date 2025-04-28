@@ -1,0 +1,16 @@
+jira.ApplicationRole Jira_Service_Management@s {
+  key = "jira-servicedesk"
+  groups = [
+    jira.Group.instance.jira_servicedesk_users@b,
+  ]
+  name = "Jira Service Management"
+  defaultGroups = [
+    jira.Group.instance.jira_servicedesk_users@b,
+  ]
+  selectedByDefault = false
+  defined = true
+  numberOfSeats = -1
+  userCountDescription = "agent"
+  hasUnlimitedSeats = true
+  platform = false
+}

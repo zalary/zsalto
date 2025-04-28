@@ -1,0 +1,5 @@
+jira.IssueType IT_Help@s {
+  description = "For general IT problems and questions. Created by Jira Service Management."
+  name = "IT Help"
+  hierarchyLevel = 0
+}

@@ -1,0 +1,34 @@
+jira.Project shay_jsm@s {
+  key = "SJ"
+  description = ""
+  name = "shay jsm"
+  projectTypeKey = "service_desk"
+  components = [
+    jira.ProjectComponent.instance.shay_jsm_s__Active_Directory@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__Analytics_and_Reporting_Service@umuusss,
+    jira.ProjectComponent.instance.shay_jsm_s__Billing_Services@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__Cloud_Storage_Services@umuuss,
+    jira.ProjectComponent.instance.shay_jsm_s__Data_Center_Services@umuuss,
+    jira.ProjectComponent.instance.shay_jsm_s__Email_and_Collaboration_Services@umuusss,
+    jira.ProjectComponent.instance.shay_jsm_s__Financial_Services@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__HR_Services@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__Intranet@umuu,
+    jira.ProjectComponent.instance.shay_jsm_s__Jira@umuu,
+    jira.ProjectComponent.instance.shay_jsm_s__Office_Network@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__Payroll_Services@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__Printers@umuu,
+    jira.ProjectComponent.instance.shay_jsm_s__Public_Website@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__VPN_Server@umuus,
+    jira.ProjectComponent.instance.shay_jsm_s__Webstore_Purchasing_Services@umuuss,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.Jira_Service_Management_IT_Support_Workflow_Scheme_generated_for_Project_SJ@s
+  permissionScheme = jira.PermissionScheme.instance.Jira_Service_Management_Permission_Scheme_for_Project_SJ@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.SJ__Jira_Service_Management_Issue_Type_Screen_Scheme@fsssssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.SJ__Jira_Service_Management_Issue_Type_Scheme@fssssss
+  fieldConfigurationScheme = jira.FieldConfigurationScheme.instance.Jira_Service_Management_Field_Configuration_Scheme_for_Project_SJ@s
+  priorityScheme = jira.PriorityScheme.instance.SJ___Jira_Service_Management_Priority_Scheme@sbsssss
+  leadAccountId = {
+    id = "salto"
+  }
+}

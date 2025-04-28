@@ -1,0 +1,7 @@
+jira.Field ToChange3__multicheckboxes__c {
+  name = "ToChange3"
+  description = "CCCEEEE"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+  _alias = "ToChange3"
+}

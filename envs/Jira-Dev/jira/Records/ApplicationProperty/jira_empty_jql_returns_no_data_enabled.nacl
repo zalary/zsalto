@@ -1,0 +1,6 @@
+jira.ApplicationProperty jira_empty_jql_returns_no_data_enabled@v {
+  id = "jira.empty.jql.returns.no.data.enabled"
+  value = "false"
+  name = "jira.empty.jql.returns.no.data.enabled"
+  type = "boolean"
+}

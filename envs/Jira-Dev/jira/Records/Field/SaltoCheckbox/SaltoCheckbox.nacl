@@ -1,0 +1,13 @@
+jira.Field SaltoCheckbox__multicheckboxes__c {
+  name = "SaltoCheckbox"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:multiselectsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes"
+  contexts = [
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_Default_context_for_SaltoCheckbox@uuuuusss,
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_Third,
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_FOrth,
+    jira.CustomFieldContext.instance.SaltoCheckbox__multicheckboxes__c_fiveaa,
+  ]
+  description = ""
+  _alias = "SaltoCheckbox"
+}

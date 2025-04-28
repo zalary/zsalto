@@ -1,0 +1,10 @@
+jira.Field Approvers__multiuserpicker__c {
+  name = "Approvers"
+  description = "Contains users needed for approval. This custom field was created by Jira Service Management."
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:userpickergroupsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker"
+  contexts = [
+    jira.CustomFieldContext.instance.Approvers__multiuserpicker__c_Default_context_for_Approvers@uuuuusss,
+  ]
+  _alias = "Approvers"
+}

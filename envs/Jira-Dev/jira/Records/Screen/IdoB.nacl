@@ -1,0 +1,14 @@
+jira.Screen IdoB {
+  name = "IdoB"
+  description = "bbb"
+  tabs = {
+    DOLLAREEL_tab@s = {
+      name = "DOLLAREEL tab"
+      fields = [
+        jira.Field.instance.DOLLAREEL___NUMBER__float__c@sbsuuuu,
+        jira.Field.instance.DOLLAREEL___TEXT__textfield__c@sbsuuuu,
+      ]
+      position = 0
+    }
+  }
+}

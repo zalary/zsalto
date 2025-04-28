@@ -1,0 +1,5 @@
+jira.IssueType Incident {
+  description = "For system outages or incidents. Created by Jira Service Management."
+  name = "Incident"
+  hierarchyLevel = 0
+}

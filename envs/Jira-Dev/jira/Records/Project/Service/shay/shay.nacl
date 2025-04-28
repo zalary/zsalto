@@ -1,0 +1,21 @@
+jira.Project shay {
+  key = "SHAY"
+  description = ""
+  name = "shay"
+  projectTypeKey = "service_desk"
+  components = [
+    jira.ProjectComponent.instance.shay__Intranet,
+    jira.ProjectComponent.instance.shay__Jira,
+    jira.ProjectComponent.instance.shay__Public_website@uus,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.Jira_Service_Management_IT_Support_Workflow_Scheme_generated_for_Project_SHAY@s
+  permissionScheme = jira.PermissionScheme.instance.Jira_Service_Management_Permission_Scheme_for_Project_SHAY@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.SHAY__Jira_Service_Management_Issue_Type_Screen_Scheme@fsssssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.SHAY__Jira_Service_Management_Issue_Type_Scheme@fssssss
+  fieldConfigurationScheme = jira.FieldConfigurationScheme.instance.Jira_Service_Management_Field_Configuration_Scheme_for_Project_SHAY@s
+  priorityScheme = jira.PriorityScheme.instance.SHAY___Jira_Service_Management_Priority_Scheme@sbsssss
+  leadAccountId = {
+    id = "salto"
+  }
+}

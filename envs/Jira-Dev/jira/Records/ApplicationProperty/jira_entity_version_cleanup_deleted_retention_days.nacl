@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_entity_version_cleanup_deleted_retention_days@v {
+  id = "jira.entity.version.cleanup.deleted.retention.days"
+  value = "2"
+  name = "jira.entity.version.cleanup.deleted.retention.days"
+  desc = "Threshold in days after which the deleted versions will be cleaned. The default for this value is the same as default value for RETENTION_PERIOD of ReplicatedIndexCleaningService"
+  type = "uint"
+}

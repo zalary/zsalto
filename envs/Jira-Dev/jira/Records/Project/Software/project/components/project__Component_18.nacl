@@ -1,0 +1,12 @@
+jira.ProjectComponent project__Component_18@uus {
+  name = "Component 18"
+  description = "This is a Jira component"
+  assigneeType = "PROJECT_LEAD"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.project,
+  ]
+  _alias = "Test Project:Component 18"
+}

@@ -1,0 +1,8 @@
+jira.ProjectComponent project__Comp5 {
+  name = "Comp5"
+  assigneeType = "COMPONENT_LEAD"
+  _parent = [
+    jira.Project.instance.project,
+  ]
+  _alias = "Test Project:Comp5"
+}

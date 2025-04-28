@@ -1,0 +1,3 @@
+jira.Group test_deploy@b {
+  name = "test-deploy"
+}

@@ -1,0 +1,11 @@
+jira.Field Target_start__jpo_custom_field_baseline_start__c@suubbbbuu {
+  name = "Epic Link"
+  description = "Choose an epic to assign this issue to."
+  searcherKey = "com.pyxis.greenhopper.jira:gh-epic-link-searcher"
+  isLocked = true
+  type = "com.pyxis.greenhopper.jira:gh-epic-link"
+  contexts = [
+    jira.CustomFieldContext.instance.Target_start__jpo_custom_field_baseline_start__c_suubbbbuu_Default_Configuration_Scheme_for_Epic_Link@uuuuuuuuumusssss,
+  ]
+  _alias = "Epic Link"
+}

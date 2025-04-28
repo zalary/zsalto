@@ -1,0 +1,16 @@
+jira.Screen TestDeployScreen {
+  name = "TestDeployScreen"
+  description = ""
+  tabs = {
+    Field_Tab@s = {
+      name = "Field Tab"
+      fields = [
+        jira.Field.instance.Archiver__user,
+        jira.Field.instance.Target_start__jpo_custom_field_baseline_start__c@suubbbbuu,
+        jira.Field.instance.Assignee__user,
+        jira.Field.instance.TestDeployField__multiselect__c,
+      ]
+      position = 0
+    }
+  }
+}

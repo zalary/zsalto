@@ -1,0 +1,18 @@
+jira.ApplicationProperty jira_safeguards_config_restricted_groups@v {
+  id = "jira.safeguards.config.restricted.groups"
+  value = ""
+  name = "jira.safeguards.config.restricted.groups"
+  desc = '''
+
+                A DC-only configuration of a comma separated list of groups for which the safeguards limitations are enforced. This means that users included in these
+                groups will have their actions blocked in the case of a limit breach. A default value of no group ("") implies no group is
+                being limited.
+                We recommend including in the group the accounts used for automation and artificial content generation (bot accounts).
+
+                For this to take effect, also configure the "jira.safeguards.issue.comments" setting.
+                For more information about the processing and the impact on the instance, see the Safeguards documentation:
+                https://docs.atlassian.com/jira/jadm-docs-0900/Configuring+Safeguards
+            
+'''
+  type = "list<string>"
+}

@@ -1,0 +1,15 @@
+jira.Filter Ready_for_review__EGODEMO_@sssjk {
+  name = "Ready for review (EGODEMO)"
+  jql = "${ jira.Field.instance.Project__project } = ${ jira.Project.instance.Eshed_Demo_Proj } and ${ jira.Field.instance.Status__status } = \"${ jira.Status.instance.under_review@s.name }\" ORDER BY ${ jira.Field.instance.Priority__priority } desc"
+  owner = {
+    id = "salto"
+  }
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.Eshed_Demo_Proj
+      }
+    },
+  ]
+}

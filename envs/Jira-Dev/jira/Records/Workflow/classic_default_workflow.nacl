@@ -1,0 +1,504 @@
+jira.Workflow classic_default_workflow@s {
+  description = "The classic Jira default workflow"
+  statuses = [
+    {
+      id = jira.Status.instance.closed
+      name = "Closed"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "false"
+        },
+      ]
+      location = {
+        x = 1569
+        y = 210
+      }
+    },
+    {
+      id = jira.Status.instance.in_progress@s
+      name = "In Progress"
+      location = {
+        x = 1373
+        y = 419
+      }
+    },
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      location = {
+        x = 1429.5
+        y = 97
+      }
+    },
+    {
+      id = jira.Status.instance.reopened
+      name = "Reopened"
+      location = {
+        x = 1749.5
+        y = 418
+      }
+    },
+    {
+      id = jira.Status.instance.resolved
+      name = "Resolved"
+      location = {
+        x = 1709
+        y = 97
+      }
+    },
+  ]
+  transitions = {
+    Create_Issue__From__none__Initial@sfffsff = {
+      name = "Create Issue"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.title"
+          value = "common.forms.create"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "0"
+        },
+      ]
+    }
+    Close_Issue__From__In_Progress_Open_Reopened__Directed@sfffsszdzdff = {
+      name = "Close Issue"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.in_progress@s
+        },
+        {
+          id = jira.Status.instance.open
+        },
+        {
+          id = jira.Status.instance.reopened
+        },
+      ]
+      to = jira.Status.instance.closed
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Closed@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.jira.workflow.condition.PermissionCondition"
+              configuration = {
+                permission = "Resolve Issue"
+              }
+            },
+            {
+              type = "com.atlassian.jira.workflow.condition.PermissionCondition"
+              configuration = {
+                permission = "Close Issue"
+              }
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = "closeissue.desc"
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "closeissue.close"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "closeissue.title"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "60"
+        },
+      ]
+    }
+    Reopen_Issue__From__Closed_Resolved__Directed@sfffszdff = {
+      name = "Reopen Issue"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.closed
+        },
+        {
+          id = jira.Status.instance.resolved
+        },
+      ]
+      to = jira.Status.instance.reopened
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueFieldFunction"
+            configuration = {
+              fieldValue = ""
+              fieldId = jira.Field.instance.Resolution__resolution
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Reopened@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.jira.workflow.condition.PermissionCondition"
+              configuration = {
+                permission = "Resolve Issue"
+              }
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = "issue.operations.reopen.description"
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "issue.operations.reopen.issue"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "issue.operations.reopen.issue"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "80"
+        },
+      ]
+    }
+    Start_Progress__From__Open_Reopened__Directed@sfffszdff = {
+      name = "Start Progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.open
+        },
+        {
+          id = jira.Status.instance.reopened
+        },
+      ]
+      to = jira.Status.instance.in_progress@s
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueFieldFunction"
+            configuration = {
+              fieldValue = ""
+              fieldId = jira.Field.instance.Resolution__resolution
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Work_Started_On_Issue@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.jira.workflow.condition.AllowOnlyAssignee"
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.title"
+          value = "startprogress.title"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "20"
+        },
+      ]
+    }
+    Resolve_Issue__From__In_Progress_Open_Reopened__Directed@sfffsszdzdff = {
+      name = "Resolve Issue"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.in_progress@s
+        },
+        {
+          id = jira.Status.instance.open
+        },
+        {
+          id = jira.Status.instance.reopened
+        },
+      ]
+      to = jira.Status.instance.resolved
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Resolved@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.jira.workflow.condition.PermissionCondition"
+              configuration = {
+                permission = "Resolve Issue"
+              }
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = "resolveissue.desc.line1"
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "resolveissue.resolve"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "resolveissue.title"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "40"
+        },
+      ]
+    }
+    Stop_Progress__From__In_Progress__Directed@sfffssff = {
+      name = "Stop Progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.in_progress@s
+        },
+      ]
+      to = jira.Status.instance.open
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueFieldFunction"
+            configuration = {
+              fieldValue = ""
+              fieldId = jira.Field.instance.Resolution__resolution
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Work_Stopped_On_Issue@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.jira.workflow.condition.AllowOnlyAssignee"
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.title"
+          value = "stopprogress.title"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "20"
+        },
+      ]
+    }
+    Close_Issue__From__Resolved__Directed@sfffsff = {
+      name = "Close Issue"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.resolved
+        },
+      ]
+      to = jira.Status.instance.closed
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Closed@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.jira.workflow.condition.PermissionCondition"
+              configuration = {
+                permission = "Close Issue"
+              }
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = "closeissue.desc"
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "closeissue.close"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "closeissue.title"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "60"
+        },
+      ]
+    }
+  }
+  name = "classic default workflow"
+  diagramInitialEntry = {
+    x = 1405
+    y = 0
+  }
+}

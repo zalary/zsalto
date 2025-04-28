@@ -1,0 +1,17 @@
+jira.Screen IGODEMO__Simple_Issue_Tracking_Resolve_Issue_Screen__1_@fsssssssjk {
+  name = "IGODEMO: Simple Issue Tracking Resolve Issue Screen (1)"
+  description = ""
+  tabs = {
+    Field_Tab@s = {
+      name = "Field Tab"
+      fields = [
+        jira.Field.instance.Summary__string,
+        jira.Field.instance.Issue_Type__issuetype@suu,
+        jira.Field.instance.Reporter__user,
+        jira.Field.instance.Linked_Issues__array@suu,
+        jira.Field.instance.Resolution__resolution,
+      ]
+      position = 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty Hard_limit_for_the_number_of_issues_that_can_be_exported@s {
+  id = "jira.search.views.max.limit"
+  value = "1000"
+  name = "Hard limit for the number of issues that can be exported"
+  desc = "This number sets the absolute limit on the number of issues that can be exported from search results. Users trying to request more get a 403 (Forbidden) HTTP error code. To disable, set to '-1'. After changing it, update the value of 'jira.search.views.default.max' to a value that is lower than or equal to this one."
+  type = "uint"
+}

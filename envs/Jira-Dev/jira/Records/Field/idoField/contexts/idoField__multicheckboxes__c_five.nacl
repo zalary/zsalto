@@ -1,0 +1,14 @@
+jira.CustomFieldContext idoField__multicheckboxes__c_five {
+  name = "five"
+  description = ""
+  defaultValue = {
+    type = "option.multiple"
+  }
+  _parent = [
+    jira.Field.instance.idoField__multicheckboxes__c,
+  ]
+  _alias = "idoField context in five"
+  projectIds = [
+    jira.Project.instance.Deploy5,
+  ]
+}

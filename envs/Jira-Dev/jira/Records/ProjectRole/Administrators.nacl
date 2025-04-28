@@ -1,0 +1,11 @@
+jira.ProjectRole Administrators {
+  name = "Administrators"
+  description = "This project role was re-created by Jira Service Management for managing administrators. Please do not delete this role or edit its name."
+  actors = [
+    {
+      displayName = "jira-administrators"
+      type = "atlassian-group-role-actor"
+      name = "jira-administrators"
+    },
+  ]
+}

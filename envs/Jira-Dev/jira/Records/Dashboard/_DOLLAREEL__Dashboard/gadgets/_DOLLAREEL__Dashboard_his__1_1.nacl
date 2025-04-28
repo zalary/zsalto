@@ -1,0 +1,11 @@
+jira.DashboardGadget _DOLLAREEL__Dashboard_his__1_1@uuumuuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.streams.streams-jira-plugin:activitystream-gadget/gadgets/activitystream-gadget.xml"
+  color = "blue"
+  position = {
+    row = 1
+    column = 1
+  }
+  _parent = [
+    jira.Dashboard.instance._DOLLAREEL__Dashboard@his,
+  ]
+}

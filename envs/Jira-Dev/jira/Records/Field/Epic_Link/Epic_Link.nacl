@@ -1,0 +1,11 @@
+jira.Field Epic_Link__gh_epic_link__c@suubbuu {
+  name = "Original story points"
+  description = ""
+  searcherKey = "com.atlassian.jpo:jpo-custom-field-original-story-points-searcher"
+  isLocked = true
+  type = "com.atlassian.jpo:jpo-custom-field-original-story-points"
+  contexts = [
+    jira.CustomFieldContext.instance.Epic_Link__gh_epic_link__c_suubbuu_Default_Configuration_Scheme_for_Original_story_points@uuuuuuumussssss,
+  ]
+  _alias = "Original story points"
+}

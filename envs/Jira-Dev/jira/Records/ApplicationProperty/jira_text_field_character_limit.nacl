@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_text_field_character_limit@v {
+  id = "jira.text.field.character.limit"
+  value = "32767"
+  name = "jira.text.field.character.limit"
+  desc = "The maximum number of characters to be entered for a single field. Affects Description, Environment, Comments and Text custom fields. 0 means unlimited."
+  type = "uint"
+}

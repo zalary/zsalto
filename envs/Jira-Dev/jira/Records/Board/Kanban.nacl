@@ -1,0 +1,32 @@
+jira.Board Kanban {
+  name = "Kanban"
+  type = "kanban"
+  filterId = jira.Filter.instance.Filter_for_Kanban_10402@ssu
+  columnConfig = {
+    columns = [
+      {
+        name = "Backlog"
+      },
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.to_do@s,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.in_progress@s,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.done,
+        ]
+      },
+    ]
+    constraintType = "issueCount"
+  }
+  subQuery = "fixVersion in unreleasedVersions() OR fixVersion is EMPTY"
+}

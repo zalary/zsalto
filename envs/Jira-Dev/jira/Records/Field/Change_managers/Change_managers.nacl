@@ -1,0 +1,10 @@
+jira.Field Change_managers__multiuserpicker__c@suuuu {
+  name = "Change managers"
+  description = "Contains the change managers for the change management process."
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:userpickergroupsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker"
+  contexts = [
+    jira.CustomFieldContext.instance.Change_managers__multiuserpicker__c_suuuu_Default_context_for_Change_managers@uuuuumussss,
+  ]
+  _alias = "Change managers"
+}

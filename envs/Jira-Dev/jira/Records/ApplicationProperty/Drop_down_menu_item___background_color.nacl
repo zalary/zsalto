@@ -1,0 +1,6 @@
+jira.ApplicationProperty Drop_down_menu_item___background_color@bsssbss {
+  id = "jira.lf.menu.bgcolour"
+  value = "#ebecf0"
+  name = "Drop-down menu item - background color"
+  type = "colour"
+}

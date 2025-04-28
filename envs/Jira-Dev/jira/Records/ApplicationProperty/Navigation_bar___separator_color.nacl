@@ -1,0 +1,6 @@
+jira.ApplicationProperty Navigation_bar___separator_color@ssbss {
+  id = "jira.lf.menu.separator"
+  value = "#dfe1e6"
+  name = "Navigation bar - separator color"
+  type = "colour"
+}

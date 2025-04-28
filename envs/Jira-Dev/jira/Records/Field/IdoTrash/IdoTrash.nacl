@@ -1,0 +1,10 @@
+jira.Field IdoTrash__textfield__c {
+  name = "IdoTrash"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+  contexts = [
+    jira.CustomFieldContext.instance.IdoTrash__textfield__c_Default_context_for_IdoTrash@uuuuusss,
+  ]
+  description = ""
+  _alias = "IdoTrash"
+}

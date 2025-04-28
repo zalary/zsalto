@@ -1,0 +1,5 @@
+jira.IssueType Service_Request_with_Approvals@s {
+  description = "For requests that require approval. Created by Jira Service Management"
+  name = "Service Request with Approvals"
+  hierarchyLevel = 0
+}

@@ -1,0 +1,4 @@
+jira.WorkflowScheme IGODEMO__Simple_Issue_Tracking_Workflow_Scheme@fsssss {
+  name = "IGODEMO: Simple Issue Tracking Workflow Scheme"
+  defaultWorkflow = jira.Workflow.instance.IGODEMO__Simple_Issue_Tracking_Workflow@fssss
+}

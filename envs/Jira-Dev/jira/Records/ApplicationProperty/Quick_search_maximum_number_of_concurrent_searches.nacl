@@ -1,0 +1,7 @@
+jira.ApplicationProperty Quick_search_maximum_number_of_concurrent_searches@s {
+  id = "jira.quicksearch.max.concurrent.searches"
+  value = "20"
+  name = "Quick search maximum number of concurrent searches"
+  desc = "The maximum number of concurrent searches that you can perform on a single Jira instance by using the quick search."
+  type = "uint"
+}

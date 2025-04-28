@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_security_image_attachment_jwt_tokens_expiry_hours@v {
+  id = "jira.security.image.attachment.jwt.tokens.expiry.hours"
+  value = "168"
+  name = "jira.security.image.attachment.jwt.tokens.expiry.hours"
+  desc = "Adds a security token to every image attachment displayed in email notifications. This allows users to view images in their notifications within the expiry time, which is 168 hours (7 days) by default. Setting it to 0 disables the tokens, but users won’t see images at all."
+  type = "long"
+}

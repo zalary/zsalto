@@ -1,0 +1,11 @@
+jira.ApplicationProperty Jira_issue_actions_order@s {
+  id = "jira.issue.actions.order"
+  value = "desc"
+  name = "Jira issue actions order"
+  desc = "The default order of actions (tab items like 'Comments', 'Change History' etc) on the 'View Issue' screen, by date, from top to bottom."
+  type = "enum"
+  allowedValues = [
+    "asc",
+    "desc",
+  ]
+}

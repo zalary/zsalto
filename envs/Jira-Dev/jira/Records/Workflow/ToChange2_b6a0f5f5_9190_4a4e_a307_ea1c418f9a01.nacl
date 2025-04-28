@@ -1,0 +1,113 @@
+jira.Workflow ToChange2_b6a0f5f5_9190_4a4e_a307_ea1c418f9a01@b {
+  description = "DDDEE"
+  statuses = [
+    {
+      id = jira.Status.instance.approved
+      name = "Approved"
+      location = {
+        x = 743.068359375
+        y = -93.90000244140623
+      }
+    },
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      location = {
+        x = 779.41015625
+        y = 117.80000000000001
+      }
+    },
+  ]
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "a"
+          value = "b"
+        },
+        {
+          key = "c"
+          value = "d"
+        },
+      ]
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = 173.58804365787094
+        },
+      ]
+    }
+    Approve__From__Open__Directed@fffsff = {
+      name = "Approve"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.open
+          sourceAngle = -70.01689347810002
+          targetAngle = 78.11134196037203
+        },
+      ]
+      to = jira.Status.instance.approved
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+        ]
+      }
+    }
+  }
+  name = "ToChange2-b6a0f5f5-9190-4a4e-a307-ea1c418f9a01"
+  diagramInitialEntry = {
+    x = 804
+    y = 67.80000000000001
+  }
+}

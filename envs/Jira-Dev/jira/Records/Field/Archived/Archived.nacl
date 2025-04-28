@@ -1,0 +1,9 @@
+jira.Field Archived__datetime {
+  name = "Archived"
+  schema = {
+    type = "datetime"
+    system = "archiveddate"
+  }
+  description = ""
+  _alias = "Archived"
+}

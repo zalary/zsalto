@@ -1,0 +1,13 @@
+jira.ApplicationProperty jira_security_csp_sandbox_browser_differentiated_clauses@v {
+  id = "jira.security.csp.sandbox.browser.differentiated.clauses"
+  value = "CHROME_DESKTOP:allow-same-origin;CHROME_ANDROID:allow-same-origin;CHROME_IOS:allow-scripts;SAFARI_DESKTOP:allow-scripts;SAFARI_IOS:allow-scripts"
+  name = "jira.security.csp.sandbox.browser.differentiated.clauses"
+  desc = '''
+
+                Adds additional clauses to responses containing CSP sandbox header. It should be specified like "BROWSER:clause;BROWSER:clause".
+                Supported browsers are: "EDGE_LEGACY_DESKTOP", "FIREFOX_DESKTOP", "CHROME_DESKTOP", "CHROME_IOS", "CHROME_ANDROID", "SAFARI_DESKTOP", "SAFARI_IOS", "ANDROID", "OTHER".
+                It is related to issues with audio/video attachments playback in Chrome and Safari: https://jira.atlassian.com/browse/JRASERVER-72275.
+            
+'''
+  type = "string"
+}

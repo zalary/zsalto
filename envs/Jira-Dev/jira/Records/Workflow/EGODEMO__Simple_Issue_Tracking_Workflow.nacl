@@ -1,0 +1,438 @@
+jira.Workflow EGODEMO__Simple_Issue_Tracking_Workflow@fssss {
+  description = ""
+  statuses = [
+    {
+      id = jira.Status.instance.done
+      name = "Done"
+      location = {
+        x = 1518
+        y = 354
+      }
+    },
+    {
+      id = jira.Status.instance.in_progress@s
+      name = "In Progress"
+      location = {
+        x = 1927
+        y = 215
+      }
+    },
+    {
+      id = jira.Status.instance.to_do@s
+      name = "To Do"
+      location = {
+        x = 1512
+        y = 80
+      }
+    },
+  ]
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.to_do@s
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "common.forms.create"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "common.forms.create"
+        },
+      ]
+    }
+    Start_Progress__From__To_Do__Directed@sfffssff = {
+      name = "Start Progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.to_do@s
+        },
+      ]
+      to = jira.Status.instance.in_progress@s
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.AssignToCurrentUserFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowassigntocurrentuser-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "startprogress.title"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "startprogress.title"
+        },
+      ]
+    }
+    Done__From__To_Do__Directed@fffssff = {
+      name = "Done"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.to_do@s
+        },
+      ]
+      to = jira.Status.instance.done
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "jira.issuetracking.simple.workflow.action.done.name"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "jira.issuetracking.simple.workflow.action.done.name"
+        },
+      ]
+    }
+    Stop_Progress__From__In_Progress__Directed@sfffssff = {
+      name = "Stop Progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.in_progress@s
+        },
+      ]
+      to = jira.Status.instance.to_do@s
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "stopprogress.title"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "stopprogress.title"
+        },
+      ]
+    }
+    Done__From__In_Progress__Directed@fffssff = {
+      name = "Done"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.in_progress@s
+        },
+      ]
+      to = jira.Status.instance.done
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "jira.issuetracking.simple.workflow.action.done.name"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "jira.issuetracking.simple.workflow.action.done.name"
+        },
+      ]
+    }
+    Reopen__From__Done__Directed@fffsff = {
+      name = "Reopen"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.done
+        },
+      ]
+      to = jira.Status.instance.to_do@s
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "jira.issuetracking.simple.workflow.action.reopen.name"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "jira.issuetracking.simple.workflow.action.reopen.name"
+        },
+      ]
+    }
+    Reopen_and_start_progress__From__Done__Directed@sssfffsff = {
+      name = "Reopen and start progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.done
+        },
+      ]
+      to = jira.Status.instance.in_progress@s
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.AssignToCurrentUserFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowassigntocurrentuser-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.submit"
+          value = "jira.issuetracking.simple.workflow.action.reopenandstartprogress.name"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "jira.issuetracking.simple.workflow.action.reopenandstartprogress.name"
+        },
+      ]
+    }
+  }
+  name = "EGODEMO: Simple Issue Tracking Workflow"
+  diagramInitialEntry = {
+    x = 1512
+    y = 0
+  }
+}

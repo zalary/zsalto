@@ -1,0 +1,11 @@
+jira.Field Story_Points__float__c@suuuu {
+  name = "Team"
+  description = ""
+  searcherKey = "com.atlassian.teams:rm-teams-custom-field-team-searcher"
+  type = "com.atlassian.teams:rm-teams-custom-field-team"
+  contexts = [
+    jira.CustomFieldContext.instance.Story_Points__float__c_suuuu_Default_Configuration_Scheme_for_Team@uuuuumussss,
+  ]
+  _alias = "Team"
+  isLocked = true
+}

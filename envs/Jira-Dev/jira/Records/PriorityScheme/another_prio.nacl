@@ -1,0 +1,8 @@
+jira.PriorityScheme another_prio@s {
+  name = "another prio"
+  optionIds = [
+    jira.Priority.instance.Highest,
+    jira.Priority.instance.High,
+    jira.Priority.instance.Medium,
+  ]
+}

@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Reopened@s {
+  name = "Issue Reopened"
+  description = "This is the 'issue reopened' event."
+  templateName = "Issue Reopened"
+}

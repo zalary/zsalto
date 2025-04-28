@@ -1,0 +1,10 @@
+jira.Field Component_s__array@duu {
+  name = "Component/s"
+  schema = {
+    type = "array"
+    system = "components"
+    items = "component"
+  }
+  description = ""
+  _alias = "Component/s"
+}

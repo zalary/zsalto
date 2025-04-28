@@ -1,0 +1,15 @@
+jira.Filter Rejected__EGODEMO_@sjk {
+  name = "Rejected (EGODEMO)"
+  jql = "${ jira.Field.instance.Project__project } = ${ jira.Project.instance.Eshed_Demo_Proj } and ${ jira.Field.instance.Status__status } = \"${ jira.Status.instance.rejected.name }\" ORDER BY ${ jira.Field.instance.Updated__datetime } desc"
+  owner = {
+    id = "salto"
+  }
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.Eshed_Demo_Proj
+      }
+    },
+  ]
+}

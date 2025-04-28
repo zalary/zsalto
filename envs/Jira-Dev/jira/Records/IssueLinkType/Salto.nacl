@@ -1,0 +1,5 @@
+jira.IssueLinkType Salto {
+  name = "Salto"
+  inward = "SaltoIn"
+  outward = "SaltoOut"
+}

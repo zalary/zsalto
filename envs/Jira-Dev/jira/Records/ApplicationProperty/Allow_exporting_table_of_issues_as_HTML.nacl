@@ -1,0 +1,7 @@
+jira.ApplicationProperty Allow_exporting_table_of_issues_as_HTML@s {
+  id = "jira.export.html.enabled"
+  value = "true"
+  name = "Allow exporting table of issues as HTML"
+  desc = "Set to \"false\" to prevent users from exporting JQL search results to HTML table"
+  type = "boolean"
+}

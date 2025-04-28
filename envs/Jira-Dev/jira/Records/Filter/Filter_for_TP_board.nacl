@@ -1,0 +1,29 @@
+jira.Filter Filter_for_TP_board@s {
+  name = "Filter for TP board"
+  jql = "${ jira.Field.instance.Project__project } = PROJ ORDER BY ${ jira.Field.instance.Epic_Status__gh_epic_status__c@suubbuu.name } ASC"
+  owner = {
+    id = "salto"
+  }
+  columns = [
+    {
+      label = "Key"
+      value = "issuekey"
+    },
+    {
+      label = "Status"
+      value = "status"
+    },
+    {
+      label = "Created"
+      value = "created"
+    },
+    {
+      label = "Updated"
+      value = "updated"
+    },
+    {
+      label = "Development"
+      value = "customfield_10000"
+    },
+  ]
+}

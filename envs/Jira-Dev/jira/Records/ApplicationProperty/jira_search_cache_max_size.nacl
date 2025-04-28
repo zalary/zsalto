@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_search_cache_max_size@v {
+  id = "jira.search.cache.max.size"
+  value = "20"
+  name = "jira.search.cache.max.size"
+  desc = "The number of Issues to keep in the cache"
+  type = "uint"
+}

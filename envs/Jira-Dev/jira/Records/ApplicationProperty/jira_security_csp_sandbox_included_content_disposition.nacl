@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_security_csp_sandbox_included_content_disposition@v {
+  id = "jira.security.csp.sandbox.included.content.disposition"
+  value = "attachment"
+  name = "jira.security.csp.sandbox.included.content.disposition"
+  desc = "Content-Disposition types which should have Content-Security-Policy set to sandbox (inline, attachment or both). Divided with semicolon."
+  type = "string"
+}

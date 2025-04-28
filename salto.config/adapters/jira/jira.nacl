@@ -1,0 +1,33 @@
+jira {
+  fetch = {
+    enableNewWorkflowAPI = true
+    include = [
+      {
+        type = ".*"
+      },
+    ]
+    exclude = [
+      {
+        "type" = "Board"
+        criteria = {
+          "name" = "PROJ.*"
+        }
+      }
+    ]
+  }
+  deploy = {
+    forceDelete = false
+  }
+  apiDefinitions = { 
+    types = {
+      Filter = {
+        transformation = {
+          idFields = [
+            "name",
+            "id",
+          ]
+        }
+      }
+    }
+  }
+}

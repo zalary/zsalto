@@ -1,0 +1,7 @@
+jira.ApplicationProperty cluster_task_cleanup_offline_node_threshold@v {
+  id = "cluster.task.cleanup.offline.node.threshold"
+  value = "30"
+  name = "cluster.task.cleanup.offline.node.threshold"
+  desc = "Threshold in minutes after which a node is considered offline by the cluster task cleanup service, allowing it to delete tasks from that node. The minimum allowed value is 10 (lower values will be overwritten by Jira)."
+  type = "uint"
+}

@@ -1,0 +1,8 @@
+jira.ApplicationProperty crowd_encryption_encryptor_default@v {
+  id = "crowd.encryption.encryptor.default"
+  value = "AES_CBC_PKCS5Padding"
+  name = "crowd.encryption.encryptor.default"
+  desc = "Algorithm used to encrypt password stored in Embedded Crowd"
+  type = "string"
+  defaultValue = ""
+}

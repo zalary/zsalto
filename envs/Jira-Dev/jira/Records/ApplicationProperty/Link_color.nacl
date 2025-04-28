@@ -1,0 +1,6 @@
+jira.ApplicationProperty Link_color@s {
+  id = "jira.lf.text.linkcolour"
+  value = "#0052cc"
+  name = "Link color"
+  type = "colour"
+}

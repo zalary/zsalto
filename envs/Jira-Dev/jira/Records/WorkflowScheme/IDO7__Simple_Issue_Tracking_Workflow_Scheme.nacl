@@ -1,0 +1,5 @@
+jira.WorkflowScheme IDO7__Simple_Issue_Tracking_Workflow_Scheme@fsssss {
+  name = "IDO7: Simple Issue Tracking Workflow Scheme"
+  description = ""
+  defaultWorkflow = jira.Workflow.instance.IDO7__Simple_Issue_Tracking_Workflow@fssss
+}

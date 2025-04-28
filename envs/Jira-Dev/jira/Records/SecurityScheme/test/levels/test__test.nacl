@@ -1,0 +1,7 @@
+jira.SecurityLevel test__test {
+  description = ""
+  name = "test"
+  _parent = [
+    jira.SecurityScheme.instance.test,
+  ]
+}

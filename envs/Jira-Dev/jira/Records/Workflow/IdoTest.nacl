@@ -1,0 +1,129 @@
+jira.Workflow IdoTest {
+  description = ""
+  statuses = [
+    {
+      id = jira.Status.instance.closed
+      name = "Closed"
+      location = {
+        x = 494.515625
+        y = 251.09999755859377
+      }
+    },
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      location = {
+        x = 700.90625
+        y = -172.2
+      }
+    },
+  ]
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = 173.58734576006634
+        },
+      ]
+    }
+    Close__From__Open__Directed@fffsff = {
+      name = "Close"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.open
+          sourceAngle = -70.01689347810002
+          targetAngle = 78.11134196037203
+        },
+      ]
+      to = jira.Status.instance.closed
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueFieldFunction"
+            configuration = {
+              fieldValue = ""
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdate-issue-field-function"
+              fieldId = jira.Field.instance.Assignee__user
+            }
+          },
+          {
+            type = "com.atlassian.jirafisheyeplugin.perforce.workflow.CreateJobFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jirafisheyeplugincreatejob-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.AssignToReporterFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowassigntoreporter-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.AssignToLeadFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowassigntolead-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+        ]
+      }
+    }
+  }
+  name = "IdoTest"
+  diagramInitialEntry = {
+    x = 1116.5
+    y = 67.80000000000001
+  }
+}

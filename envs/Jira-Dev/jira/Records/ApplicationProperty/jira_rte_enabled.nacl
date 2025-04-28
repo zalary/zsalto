@@ -1,0 +1,6 @@
+jira.ApplicationProperty jira_rte_enabled@v {
+  id = "jira.rte.enabled"
+  value = "true"
+  name = "jira.rte.enabled"
+  type = "boolean"
+}

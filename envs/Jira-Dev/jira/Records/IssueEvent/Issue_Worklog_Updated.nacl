@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Worklog_Updated@s {
+  name = "Issue Worklog Updated"
+  description = "This is the 'issue worklog updated' event."
+  templateName = "Issue Worklog Updated"
+}

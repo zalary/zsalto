@@ -1,0 +1,11 @@
+jira.Field Approvals__sd_approvals__c@uubuu {
+  name = "Approvals"
+  description = "Provides search options for Jira Service Management approvals information. This custom field is created programmatically and required by Jira Service Management."
+  searcherKey = "com.atlassian.servicedesk.approvals-plugin:sd-approvals-searcher"
+  isLocked = true
+  type = "com.atlassian.servicedesk.approvals-plugin:sd-approvals"
+  contexts = [
+    jira.CustomFieldContext.instance.Approvals__sd_approvals__c_uubuu_Default_context_for_Approvals@uuuuumusss,
+  ]
+  _alias = "Approvals"
+}

@@ -1,0 +1,7 @@
+jira.ScreenScheme DTC__Request_Screen_Scheme@fsss {
+  name = "DTC: Request Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.DTC__Requests_Screen@fss
+  }
+}

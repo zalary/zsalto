@@ -1,0 +1,8 @@
+jira.ApplicationProperty Day_Month_Year_Format@dds {
+  id = "jira.lf.date.dmy"
+  value = "MM/dd/yy"
+  name = "Day/Month/Year Format"
+  type = "string"
+  defaultValue = "dd/MMM/yy"
+  example = "05/23/07"
+}

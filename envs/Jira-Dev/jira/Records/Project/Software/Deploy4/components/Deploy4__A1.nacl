@@ -1,0 +1,8 @@
+jira.ProjectComponent Deploy4__A1 {
+  name = "A1"
+  assigneeType = "PROJECT_LEAD"
+  _parent = [
+    jira.Project.instance.Deploy4,
+  ]
+  _alias = "Deploy4:A1"
+}

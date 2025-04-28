@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Archived@s {
+  name = "Issue Archived"
+  description = "This is the 'issue archived' event"
+  templateName = "Issue Archived"
+}

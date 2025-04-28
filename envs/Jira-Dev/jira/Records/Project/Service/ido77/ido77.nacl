@@ -1,0 +1,14 @@
+jira.Project ido77 {
+  key = "IDO77"
+  description = ""
+  name = "ido77"
+  projectTypeKey = "service_desk"
+  permissionScheme = jira.PermissionScheme.instance.Default_Permission_Scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.Default_Issue_Type_Screen_Scheme@s
+  issueTypeScheme = jira.IssueTypeScheme.instance.Default_Issue_Type_Scheme@s
+  priorityScheme = jira.PriorityScheme.instance.Default_priority_scheme@s
+  leadAccountId = {
+    id = "salto"
+  }
+}

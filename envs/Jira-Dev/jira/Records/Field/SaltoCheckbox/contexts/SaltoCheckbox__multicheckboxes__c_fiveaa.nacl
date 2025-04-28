@@ -1,0 +1,14 @@
+jira.CustomFieldContext SaltoCheckbox__multicheckboxes__c_fiveaa {
+  name = "fiveaa"
+  description = ""
+  defaultValue = {
+    type = "option.multiple"
+  }
+  _parent = [
+    jira.Field.instance.SaltoCheckbox__multicheckboxes__c,
+  ]
+  _alias = "SaltoCheckbox context in fiveaa"
+  projectIds = [
+    jira.Project.instance.Deploy5,
+  ]
+}

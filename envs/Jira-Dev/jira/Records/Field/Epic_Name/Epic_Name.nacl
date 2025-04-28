@@ -1,0 +1,11 @@
+jira.Field Epic_Name__gh_epic_label__c@suubbuu {
+  name = "Epic Colour"
+  description = "Epic Colour field for Jira Software use only."
+  searcherKey = "com.pyxis.greenhopper.jira:gh-epic-color-searcher"
+  isLocked = true
+  type = "com.pyxis.greenhopper.jira:gh-epic-color"
+  contexts = [
+    jira.CustomFieldContext.instance.Epic_Name__gh_epic_label__c_suubbuu_Default_Configuration_Scheme_for_Epic_Colour@uuuuuuumusssss,
+  ]
+  _alias = "Epic Colour"
+}

@@ -1,0 +1,5 @@
+jira.IssueType Change {
+  description = "Created by Jira Service Management."
+  name = "Change"
+  hierarchyLevel = 0
+}

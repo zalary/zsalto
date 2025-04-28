@@ -1,0 +1,27 @@
+jira.Project project {
+  key = "TP"
+  description = ""
+  name = "Test Project"
+  projectTypeKey = "software"
+  workflowScheme = jira.WorkflowScheme.instance.PROJ__Software_Simplified_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_software_scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.TP__Scrum_Issue_Type_Screen_Scheme@fsssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.TP__Scrum_Issue_Type_Scheme@fssss
+  priorityScheme = jira.PriorityScheme.instance.Default_priority_scheme@s
+  leadAccountId = {
+    id = "salto"
+  }
+  components = [
+    jira.ProjectComponent.instance.project__Comp1,
+    jira.ProjectComponent.instance.project__Comp11,
+    jira.ProjectComponent.instance.project__Comp2,
+    jira.ProjectComponent.instance.project__Comp3,
+    jira.ProjectComponent.instance.project__Comp4,
+    jira.ProjectComponent.instance.project__Comp5,
+    jira.ProjectComponent.instance.project__Comp6,
+    jira.ProjectComponent.instance.project__Comp7,
+    jira.ProjectComponent.instance.project__Component_18@uus,
+    jira.ProjectComponent.instance.project__Component_7@uus,
+  ]
+}

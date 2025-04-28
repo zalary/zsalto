@@ -1,0 +1,6 @@
+jira.ApplicationProperty Color_1__Default_@ssjk {
+  id = "jira.lf.gadget.color1"
+  value = "#0747a6"
+  name = "Color 1 (Default)"
+  type = "colour"
+}

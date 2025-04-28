@@ -1,0 +1,12 @@
+jira.ProjectComponent shay__Jira {
+  name = "Jira"
+  description = "Issues related to Jira. Created by Jira Service Management."
+  assigneeType = "UNASSIGNED"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.shay,
+  ]
+  _alias = "shay:Jira"
+}

@@ -1,0 +1,12 @@
+jira.ProjectComponent shay_jsm_s__Data_Center_Services@umuuss {
+  name = "Data Center Services"
+  description = "Created by Jira Service Management"
+  assigneeType = "PROJECT_DEFAULT"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.shay_jsm@s,
+  ]
+  _alias = "shay jsm:Data Center Services"
+}

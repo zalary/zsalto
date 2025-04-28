@@ -1,0 +1,5 @@
+jira.IssueType Service_Request@s {
+  description = "Created by Jira Service Management."
+  name = "Service Request"
+  hierarchyLevel = 0
+}

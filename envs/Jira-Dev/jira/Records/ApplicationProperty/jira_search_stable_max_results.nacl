@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_search_stable_max_results@v {
+  id = "jira.search.stable.max.results"
+  value = "1000"
+  name = "jira.search.stable.max.results"
+  desc = "The upper limit on the number of issues which are returned when performing a stable search. The minimum value is 1000."
+  type = "uint"
+}

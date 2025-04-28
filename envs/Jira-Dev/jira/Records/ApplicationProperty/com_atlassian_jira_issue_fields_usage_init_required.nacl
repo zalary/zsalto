@@ -1,0 +1,8 @@
+jira.ApplicationProperty com_atlassian_jira_issue_fields_usage_init_required@v {
+  id = "com.atlassian.jira.issue.fields.usage.init.required"
+  value = "false"
+  name = "com.atlassian.jira.issue.fields.usage.init.required"
+  desc = "Recalculates the custom fields usage data based only on the information from the database, and can be used as a fallback method. It’s a one-time recalculation, performed during the next run of the CustomFieldUsageRecalculationJob (see Scheduler details). Once it’s completed successfully, the property is set back to false."
+  type = "boolean"
+  defaultValue = "true"
+}

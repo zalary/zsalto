@@ -1,0 +1,9 @@
+jira.ProjectComponent project__Component_7@uus {
+  name = "Component 7"
+  description = "This is a Jira component"
+  assigneeType = "PROJECT_LEAD"
+  _parent = [
+    jira.Project.instance.project,
+  ]
+  _alias = "Test Project:Component 7"
+}

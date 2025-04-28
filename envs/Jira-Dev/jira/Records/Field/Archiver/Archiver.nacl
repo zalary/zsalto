@@ -1,0 +1,9 @@
+jira.Field Archiver__user {
+  name = "Archiver"
+  schema = {
+    type = "user"
+    system = "archivedby"
+  }
+  description = ""
+  _alias = "Archiver"
+}

@@ -1,0 +1,12 @@
+jira.ProjectComponent shay_jsm_s__Analytics_and_Reporting_Service@umuusss {
+  name = "Analytics and Reporting Service"
+  description = "Created by Jira Service Management"
+  assigneeType = "PROJECT_DEFAULT"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.shay_jsm@s,
+  ]
+  _alias = "shay jsm:Analytics and Reporting Service"
+}

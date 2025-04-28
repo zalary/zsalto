@@ -1,0 +1,15 @@
+jira.Filter Filter_for_Kanban_10402@ssu {
+  name = "Filter for Kanban"
+  jql = "${ jira.Field.instance.Project__project } = ${ jira.Project.instance.project.key } ORDER BY ${ jira.Field.instance.Epic_Status__gh_epic_status__c@suubbuu.name } ASC"
+  owner = {
+    id = "salto"
+  }
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.project
+      }
+    },
+  ]
+}

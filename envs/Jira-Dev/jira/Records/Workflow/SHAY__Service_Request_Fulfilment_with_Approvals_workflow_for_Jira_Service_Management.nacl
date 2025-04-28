@@ -1,0 +1,906 @@
+jira.Workflow SHAY__Service_Request_Fulfilment_with_Approvals_workflow_for_Jira_Service_Management@fssssssssss {
+  description = "This Jira Service Management Service Request Fulfilment with Approvals workflow was generated for Project SHAY"
+  statuses = [
+    {
+      id = jira.Status.instance.canceled
+      name = "Canceled"
+      location = {
+        x = -634.6594130975902
+        y = -8.687512382864952
+      }
+    },
+    {
+      id = jira.Status.instance.closed
+      name = "Closed"
+      location = {
+        x = -322.9651184082031
+        y = 66.18725492060184
+      }
+    },
+    {
+      id = jira.Status.instance.escalated
+      name = "Escalated"
+      location = {
+        x = -339.2385559082031
+        y = -217.80417670607568
+      }
+    },
+    {
+      id = jira.Status.instance.in_progress@s
+      name = "In progress"
+      location = {
+        x = -550.2943420410156
+        y = -105.54050539433956
+      }
+    },
+    {
+      id = jira.Status.instance.pending
+      name = "Pending"
+      location = {
+        x = -155.46875
+        y = -105.54050539433956
+      }
+    },
+    {
+      id = jira.Status.instance.resolved
+      name = "Resolved"
+      location = {
+        x = -27.245086193084717
+        y = -8.687512382864952
+      }
+    },
+    {
+      id = jira.Status.instance.waiting_for_approval@s
+      name = "Waiting for approval"
+      properties = [
+        {
+          key = "approval.active"
+          value = "true"
+        },
+        {
+          key = "approval.condition.type"
+          value = "number"
+        },
+        {
+          key = "approval.condition.value"
+          value = "1"
+        },
+        {
+          key = "approval.field.id"
+          value = jira.Field.instance.Approvers__multiuserpicker__c
+        },
+        {
+          key = "approval.transition.approved"
+          value = "901"
+        },
+        {
+          key = "approval.transition.rejected"
+          value = "911"
+        },
+      ]
+      location = {
+        x = -462.296875
+        y = -357.6687509536743
+      }
+    },
+    {
+      id = jira.Status.instance.waiting_for_customer@s
+      name = "Waiting for customer"
+      properties = [
+        {
+          key = "sd.step.key"
+          value = "sdWFCustomer"
+        },
+      ]
+      location = {
+        x = -234.27505493164062
+        y = -262.25
+      }
+    },
+    {
+      id = jira.Status.instance.waiting_for_support@s
+      name = "Waiting for support"
+      properties = [
+        {
+          key = "sd.step.key"
+          value = "sdWFSupport"
+        },
+      ]
+      location = {
+        x = -510.6604309082031
+        y = -262.25
+      }
+    },
+  ]
+  transitions = {
+    Create_issue__From__none__Initial@sfffsff = {
+      name = "Create issue"
+      description = ""
+      to = jira.Status.instance.waiting_for_approval@s
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+        {
+          key = "jira.i18n.title"
+          value = "common.forms.create"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "0"
+        },
+      ]
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = -70.01689347810002
+        },
+      ]
+    }
+    Resolve_this_issue__From__In_progress_Pending_Waiting_for_customer_Waiting_for_support__Directed@ssfffsszdzdsszdssff = {
+      name = "Resolve this issue"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_support@s
+          sourceAngle = -11.573670140269954
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.waiting_for_customer@s
+          sourceAngle = 2.347775348979277
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.pending
+          sourceAngle = 78.11134196037203
+          targetAngle = 175.41180155330412
+        },
+        {
+          id = jira.Status.instance.in_progress@s
+          sourceAngle = 78.11134196037203
+          targetAngle = 175.41180155330412
+        },
+      ]
+      to = jira.Status.instance.resolved
+      type = "common"
+      screen = {
+        id = jira.Screen.instance.Jira_Service_Management_Resolve_Issue_Screen___8@ssssssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = "sd.workflow.itsupport.v2.transition.resolve.this.issue.description"
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "sd.workflow.itsupport.v2.transition.resolve.this.issue.submit"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "sd.workflow.itsupport.v2.transition.resolve.this.issue.title"
+        },
+        {
+          key = "sd.tour.resolve.step"
+          value = "true"
+        },
+      ]
+    }
+    Respond_to_support__From__Waiting_for_customer__Directed@ssfffsssff = {
+      name = "Respond to support"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_customer@s
+          sourceAngle = 177.44278107666426
+          targetAngle = 2.4688237007158302
+        },
+      ]
+      to = jira.Status.instance.waiting_for_support@s
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = "sd.workflow.itsupport.v2.transition.respond.to.support.description"
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "sd.workflow.itsupport.v2.transition.respond.to.support.submit"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "sd.workflow.itsupport.v2.transition.respond.to.support.title"
+        },
+      ]
+    }
+    Respond_to_customer__From__Pending_Waiting_for_support__Directed@ssfffszdssff = {
+      name = "Respond to customer"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_support@s
+          sourceAngle = 2.4688237007158302
+          targetAngle = 177.44278107666426
+        },
+        {
+          id = jira.Status.instance.pending
+          sourceAngle = -19.266170022040672
+          targetAngle = 18.619149620969345
+        },
+      ]
+      to = jira.Status.instance.waiting_for_customer@s
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowupdateissuestatus-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowcreatecomment-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowgeneratechangehistory-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+            configuration = {
+              full.module.key = "com.atlassian.jira.plugin.system.workflowreindexissue-function"
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+              full.module.key = "com.atlassian.jira.plugin.system.workflowfireevent-function"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+        {
+          key = "jira.i18n.submit"
+          value = "sd.workflow.itsupport.v2.transition.respond.to.customer.submit"
+        },
+        {
+          key = "jira.i18n.title"
+          value = "sd.workflow.itsupport.v2.transition.respond.to.customer.title"
+        },
+        {
+          key = "opsbar-sequence"
+          value = "5"
+        },
+      ]
+    }
+    Pending__From__In_progress_Waiting_for_support__Directed@fffsszdssff = {
+      name = "Pending"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_support@s
+          sourceAngle = 78.11134196037203
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.in_progress@s
+        },
+      ]
+      to = jira.Status.instance.pending
+      type = "common"
+      screen = {
+        id = jira.Screen.instance.Jira_Service_Management_Pending_Reason_screen___8@ssssssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+      ]
+    }
+    In_progress__From__Escalated_Pending_Waiting_for_support__Directed@sfffszdzdssff = {
+      name = "In progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_support@s
+          sourceAngle = 78.11134196037203
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.pending
+          sourceAngle = 174.92652558324858
+          targetAngle = 2.6898407376428093
+        },
+        {
+          id = jira.Status.instance.escalated
+          sourceAngle = 78.11134196037203
+          targetAngle = 2.6898407376428093
+        },
+      ]
+      to = jira.Status.instance.in_progress@s
+      type = "common"
+      screen = {
+        id = jira.Screen.instance.Workflow_Screen___9@ssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+        {
+          key = "opsbar-sequence"
+          value = "10"
+        },
+      ]
+    }
+    Approved__From__Waiting_for_approval__Directed@fffsssff = {
+      name = "Approved"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_approval@s
+          sourceAngle = 158.28483227364637
+          targetAngle = -70.01689347810002
+        },
+      ]
+      to = jira.Status.instance.waiting_for_support@s
+      type = "ordinary"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.servicedesk.plugins.approvals.internal.workflow.BlockInProgressApprovalCondition"
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+      ]
+    }
+    Declined__From__Waiting_for_approval__Directed@fffsssff = {
+      name = "Declined"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_approval@s
+          sourceAngle = 2.3776334598428135
+          targetAngle = -70.01689347810002
+        },
+      ]
+      to = jira.Status.instance.resolved
+      type = "ordinary"
+      screen = {
+        id = jira.Screen.instance.Jira_Service_Management_Resolve_Issue_Screen___8@ssssssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueFieldFunction"
+            configuration = {
+              fieldValue = jira.Resolution.instance.Declined
+              fieldId = jira.Field.instance.Resolution__resolution
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+        conditions = {
+          operator = "AND"
+          conditions = [
+            {
+              type = "com.atlassian.servicedesk.plugins.approvals.internal.workflow.BlockInProgressApprovalCondition"
+            },
+          ]
+        }
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+      ]
+    }
+    Cancel_request__From__In_progress_Pending_Waiting_for_approval_Waiting_for_customer_Waiting_for_support__Directed@sfffsszdzdsszdsszdssff = {
+      name = "Cancel request"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_support@s
+          sourceAngle = 177.29852571380187
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.waiting_for_customer@s
+          sourceAngle = -167.19445465697783
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.pending
+          sourceAngle = 78.11134196037203
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.in_progress@s
+          sourceAngle = 177.03168023483866
+          targetAngle = -70.01689347810002
+        },
+        {
+          id = jira.Status.instance.waiting_for_approval@s
+          sourceAngle = 177.40732169058882
+          targetAngle = -70.01689347810002
+        },
+      ]
+      to = jira.Status.instance.canceled
+      type = "common"
+      screen = {
+        id = jira.Screen.instance.Jira_Service_Management_Resolve_Issue_Screen___8@ssssssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+        {
+          key = "servicedesk.customer.transition.active"
+          value = "true"
+        },
+        {
+          key = "servicedesk.customer.transition.resolution"
+          value = "10001"
+        },
+      ]
+    }
+    Escalate__From__Waiting_for_support__Directed@fffsssff = {
+      name = "Escalate"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_support@s
+          sourceAngle = 2.4688237007158302
+          targetAngle = -70.01689347810002
+        },
+      ]
+      to = jira.Status.instance.escalated
+      type = "ordinary"
+      screen = {
+        id = jira.Screen.instance.Workflow_Screen___9@ssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+        {
+          key = "servicedesk.customer.transition.active"
+          value = "true"
+        },
+        {
+          key = "servicedesk.customer.transition.resolution"
+          value = ""
+        },
+      ]
+    }
+    Escalate_this_issue__From__Waiting_for_customer__Directed@ssfffsssff = {
+      name = "Escalate this issue"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.waiting_for_customer@s
+          sourceAngle = 177.44278107666426
+          targetAngle = -70.01689347810002
+        },
+      ]
+      to = jira.Status.instance.escalated
+      type = "ordinary"
+      screen = {
+        id = jira.Screen.instance.Workflow_Screen___9@ssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+      ]
+    }
+    Back_to_in_progress__From__Resolved__Directed@sssfffsff = {
+      name = "Back to in progress"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.resolved
+          sourceAngle = 175.41180155330412
+          targetAngle = 78.11134196037203
+        },
+      ]
+      to = jira.Status.instance.in_progress@s
+      type = "ordinary"
+      screen = {
+        id = jira.Screen.instance.Workflow_Screen___9@ssbs
+      }
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueFieldFunction"
+            configuration = {
+              fieldValue = ""
+              fieldId = jira.Field.instance.Resolution__resolution
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+        {
+          key = "sd.resolution.clear"
+          value = ""
+        },
+      ]
+    }
+    Close__From__Canceled_Resolved__Directed@fffszdff = {
+      name = "Close"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.resolved
+          sourceAngle = 78.11134196037203
+          targetAngle = 4.492144589704093
+        },
+        {
+          id = jira.Status.instance.canceled
+          sourceAngle = 78.11134196037203
+          targetAngle = 174.67487281477946
+        },
+      ]
+      to = jira.Status.instance.closed
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.i18n.description"
+          value = ""
+        },
+      ]
+    }
+  }
+  name = "SHAY: Service Request Fulfilment with Approvals workflow for Jira Service Management"
+  diagramInitialEntry = {
+    x = -385
+    y = -421
+  }
+}

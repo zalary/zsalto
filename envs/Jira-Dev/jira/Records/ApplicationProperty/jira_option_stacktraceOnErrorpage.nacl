@@ -1,0 +1,6 @@
+jira.ApplicationProperty jira_option_stacktraceOnErrorpage@v {
+  id = "jira.option.stacktraceOnErrorpage"
+  value = "true"
+  name = "jira.option.stacktraceOnErrorpage"
+  type = "boolean"
+}

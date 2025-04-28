@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Deleted@s {
+  name = "Issue Deleted"
+  description = "This is the 'issue deleted' event."
+  templateName = "Issue Deleted"
+}

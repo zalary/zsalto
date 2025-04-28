@@ -1,0 +1,5 @@
+jira.WorkflowScheme DEPL2__Simple_Issue_Tracking_Workflow_Scheme@fsssss {
+  name = "DEPL2: Simple Issue Tracking Workflow Scheme"
+  description = ""
+  defaultWorkflow = jira.Workflow.instance.DEPL2__Simple_Issue_Tracking_Workflow@fssss
+}

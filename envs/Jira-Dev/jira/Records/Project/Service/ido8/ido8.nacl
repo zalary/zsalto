@@ -1,0 +1,14 @@
+jira.Project ido8 {
+  key = "IDO8"
+  description = ""
+  name = "ido8"
+  projectTypeKey = "service_desk"
+  workflowScheme = jira.WorkflowScheme.instance.IDO8__Simple_Issue_Tracking_Workflow_Scheme@fsssss
+  permissionScheme = jira.PermissionScheme.instance.Default_Permission_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.IDO8__Simple_Issue_Tracking_Issue_Type_Screen_Scheme@fsssssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.IDO8__Simple_Issue_Tracking_Issue_Type_Scheme@fssssss
+  priorityScheme = jira.PriorityScheme.instance.Default_priority_scheme@s
+  leadAccountId = {
+    id = "salto"
+  }
+}

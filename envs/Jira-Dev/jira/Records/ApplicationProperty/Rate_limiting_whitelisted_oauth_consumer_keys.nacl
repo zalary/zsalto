@@ -1,0 +1,7 @@
+jira.ApplicationProperty Rate_limiting_whitelisted_oauth_consumer_keys@s {
+  id = "com.atlassian.ratelimiting.whitelisted-oauth-consumers"
+  value = ""
+  name = "Rate limiting whitelisted oauth consumer keys"
+  desc = "Comma-separated list of oauth consumer keys that should not be affected by rate limiting."
+  type = "string"
+}

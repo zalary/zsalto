@@ -1,0 +1,6 @@
+jira.ApplicationProperty Drop_down_menu_item___text_color@bsssbss {
+  id = "jira.lf.menu.textcolour"
+  value = "#42526e"
+  name = "Drop-down menu item - text color"
+  type = "colour"
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_user_search_maxresults_limit@v {
+  id = "jira.user.search.maxresults.limit"
+  value = "2000000"
+  name = "jira.user.search.maxresults.limit"
+  desc = "The maximum number of users that can be returned by a search. A value lower than the number of users on the instance will lead to imprecise search results, while high values will lead to higher memory footprint of user searches (even if the actual number of users on the instance remains low)."
+  type = "uint"
+}

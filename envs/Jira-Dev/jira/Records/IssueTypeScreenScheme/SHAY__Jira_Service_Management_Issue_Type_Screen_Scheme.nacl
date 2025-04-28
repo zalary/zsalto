@@ -1,0 +1,10 @@
+jira.IssueTypeScreenScheme SHAY__Jira_Service_Management_Issue_Type_Screen_Scheme@fsssssss {
+  name = "SHAY: Jira Service Management Issue Type Screen Scheme"
+  description = "This Jira Service Management Issue Type Screen Scheme was generated automatically"
+  issueTypeMappings = [
+    {
+      issueTypeId = "default"
+      screenSchemeId = jira.ScreenScheme.instance.SHAY__Jira_Service_Management_Screen_Scheme@fsssss
+    },
+  ]
+}

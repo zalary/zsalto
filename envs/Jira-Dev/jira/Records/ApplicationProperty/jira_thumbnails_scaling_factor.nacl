@@ -1,0 +1,6 @@
+jira.ApplicationProperty jira_thumbnails_scaling_factor@v {
+  id = "jira.thumbnails.scaling.factor"
+  value = "4"
+  name = "jira.thumbnails.scaling.factor"
+  type = "uint"
+}

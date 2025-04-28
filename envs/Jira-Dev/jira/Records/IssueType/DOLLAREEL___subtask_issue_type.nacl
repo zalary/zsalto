@@ -1,0 +1,5 @@
+jira.IssueType DOLLAREEL___subtask_issue_type@sbsss {
+  description = ""
+  name = "DOLLAREEL - subtask issue type"
+  hierarchyLevel = -1
+}

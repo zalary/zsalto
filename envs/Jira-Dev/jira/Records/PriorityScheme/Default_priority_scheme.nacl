@@ -1,0 +1,14 @@
+jira.PriorityScheme Default_priority_scheme@s {
+  name = "Default priority scheme"
+  description = "This is default priority scheme used by all projects without any other scheme assigned"
+  optionIds = [
+    jira.Priority.instance.Highest,
+    jira.Priority.instance.High,
+    jira.Priority.instance.Medium,
+    jira.Priority.instance.Low,
+    jira.Priority.instance.Lowest,
+    jira.Priority.instance.Blocker,
+    jira.Priority.instance.Minor,
+  ]
+  defaultScheme = true
+}

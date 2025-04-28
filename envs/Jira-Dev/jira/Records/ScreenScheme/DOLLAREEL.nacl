@@ -1,0 +1,7 @@
+jira.ScreenScheme DOLLAREEL {
+  name = "DOLLAREEL"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.DOLLAREEL
+  }
+}

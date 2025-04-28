@@ -1,0 +1,5 @@
+jira.IssueEvent Generic_Event@s {
+  name = "Generic Event"
+  description = "This is the 'generic event' event."
+  templateName = "Generic Event"
+}

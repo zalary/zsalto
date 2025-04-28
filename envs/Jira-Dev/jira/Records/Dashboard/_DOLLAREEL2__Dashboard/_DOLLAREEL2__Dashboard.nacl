@@ -1,0 +1,20 @@
+jira.Dashboard _DOLLAREEL2__Dashboard@his {
+  name = "[DOLLAREEL2] Dashboard"
+  owner = {
+    id = "salto"
+  }
+  editPermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.Eshed_Demo_Proj
+      }
+    },
+  ]
+  layout = "AA"
+  gadgets = [
+    jira.DashboardGadget.instance._DOLLAREEL2__Dashboard_his__0_0@uuumuuu,
+    jira.DashboardGadget.instance._DOLLAREEL2__Dashboard_his__1_0@uuumuuu,
+    jira.DashboardGadget.instance._DOLLAREEL2__Dashboard_his__1_1@uuumuuu,
+  ]
+}

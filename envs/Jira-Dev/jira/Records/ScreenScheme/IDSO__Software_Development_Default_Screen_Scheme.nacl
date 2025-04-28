@@ -1,0 +1,7 @@
+jira.ScreenScheme IDSO__Software_Development_Default_Screen_Scheme@fsssss {
+  name = "IDSO: Software Development Default Screen Scheme"
+  description = ""
+  screens = {
+    default = jira.Screen.instance.IDSO__Software_Development_Default_Issue_Screen@fsssss
+  }
+}

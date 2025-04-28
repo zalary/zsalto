@@ -1,0 +1,11 @@
+jira.Field issueFunction__jqlFunctionsCustomFieldType__c {
+  name = "issueFunction"
+  description = "Field created by script runner plugin for advanced issue functions. Do not place on any screen."
+  searcherKey = "com.onresolve.jira.groovy.groovyrunner:jqlFunctionsSearcher"
+  isLocked = true
+  type = "com.onresolve.jira.groovy.groovyrunner:jqlFunctionsCustomFieldType"
+  contexts = [
+    jira.CustomFieldContext.instance.issueFunction__jqlFunctionsCustomFieldType__c_Default_context_for_issueFunction@uuuuusss,
+  ]
+  _alias = "issueFunction"
+}

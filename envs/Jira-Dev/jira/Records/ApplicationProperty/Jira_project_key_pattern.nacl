@@ -1,0 +1,7 @@
+jira.ApplicationProperty Jira_project_key_pattern@s {
+  id = "jira.projectkey.pattern"
+  value = "([A-Z][A-Z0-9]+)"
+  name = "Jira project key pattern"
+  desc = "A regular expression that defines a valid project key."
+  type = "string"
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty Soft_limit_for_the_number_of_issues_that_can_be_exported@s {
+  id = "jira.search.views.default.max"
+  value = "1000"
+  name = "Soft limit for the number of issues that can be exported"
+  desc = "The default maximum number of issues exported from search results. Users can override the default by changing the URL 'tempMax' parameter. This value must always be lower than or equal to the 'jira.serach.views.max.limit' value. When set to '0' there is no default limit applied, but the value of 'jira.search.views.max.limit' still applies."
+  type = "uint"
+}

@@ -1,0 +1,68 @@
+jira.Automation Project_type_scope@s {
+  name = "Project type scope3"
+  state = "DISABLED"
+  description = ""
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  authorAccountId = {
+    id = "salto"
+  }
+  actorAccountId = {
+    id = "salto"
+  }
+  trigger = {
+    component = "TRIGGER"
+    type = "jira.issue.comment.event.trigger:updated"
+    value = {
+      eventKey = "jira:issue_updated"
+      issueEvent = "issue_comment_updated"
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+    optimisedIds = [
+    ]
+    newComponent = false
+  }
+  components = [
+    {
+      component = "CONDITION"
+      type = "jira.issue.hasAttachments"
+      
+      children = [
+      ]
+      conditions = [
+      ]
+      optimisedIds = [
+      ]
+      newComponent = false
+      hasAttachmentsValue = true
+    },
+    {
+      component = "ACTION"
+      type = "jira.issue.assign"
+      value = {
+        excludedUsers = [
+        ]
+        assignee = {
+          type = "SMART"
+          value = "{{initiator}}"
+        }
+        assignType = "SPECIFY_USER"
+        userList = [
+        ]
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+      optimisedIds = [
+      ]
+      newComponent = false
+    },
+  ]
+  labels = [
+  ]
+  _alias = "Project type scope3"
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty Maximum_number_of_zip_entries_to_display@s {
+  id = "jira.attachment.number.of.zip.entries"
+  value = "30"
+  name = "Maximum number of zip entries to display"
+  desc = "The contents of zip attachments can be displayed, but often there are too many to display."
+  type = "uint"
+}

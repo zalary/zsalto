@@ -1,0 +1,10 @@
+jira.Field Attachment__array {
+  name = "Attachment"
+  schema = {
+    type = "array"
+    system = "attachment"
+    items = "attachment"
+  }
+  description = ""
+  _alias = "Attachment"
+}

@@ -1,0 +1,95 @@
+jira.Workflow DOLLAREEL {
+  description = ""
+  statuses = [
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      location = {
+        x = 1315.91015625
+        y = 117.80000000000001
+      }
+    },
+  ]
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = 173.58734576006634
+        },
+      ]
+    }
+    DOLLAREEL__From__Open__Directed@fffsff = {
+      name = "DOLLAREEL"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.open
+          sourceAngle = -70.01689347810002
+          targetAngle = 5.243034463112025
+        },
+      ]
+      to = jira.Status.instance.open
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+        ]
+      }
+    }
+  }
+  name = "DOLLAREEL"
+  diagramInitialEntry = {
+    x = 1340.5
+    y = 67.80000000000001
+  }
+}

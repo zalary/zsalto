@@ -1,0 +1,7 @@
+jira.ApplicationProperty google_site_verification_key@v {
+  id = "google.site.verification.key"
+  value = ""
+  name = "google.site.verification.key"
+  desc = "Verification key for Google Webmaster Tools"
+  type = "string"
+}

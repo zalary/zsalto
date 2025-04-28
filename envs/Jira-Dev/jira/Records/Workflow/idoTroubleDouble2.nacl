@@ -1,0 +1,122 @@
+jira.Workflow idoTroubleDouble2 {
+  description = ""
+  statuses = [
+    {
+      id = jira.Status.instance.approved
+      name = "Approved"
+      location = {
+        x = 1055.5625
+        y = -93.90000244140623
+      }
+    },
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      location = {
+        x = 1091.90625
+        y = 117.80000000000001
+      }
+    },
+  ]
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueCreateFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+        validators = [
+          {
+            type = "com.atlassian.jira.workflow.validator.PermissionValidator"
+            configuration = {
+              permission = "Create Issue"
+            }
+          },
+        ]
+      }
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = 173.58804365787094
+        },
+      ]
+    }
+    Approve__From__Open__Directed@fffsff = {
+      name = "Approve"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.open
+          sourceAngle = -70.01689347810002
+          targetAngle = 78.11134196037203
+        },
+      ]
+      to = jira.Status.instance.approved
+      type = "common"
+      rules = {
+        postFunctions = [
+          {
+            type = "com.onresolve.jira.groovy.GroovyFunctionPlugin"
+            configuration = {
+              "canned-script" = "com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CustomScriptFunction"
+              FIELD_FUNCTION_ID = "5e0b4206-81ce-400f-857e-8435a10bebcd"
+              full.module.key = "com.onresolve.jira.groovy.groovyrunnerscriptrunner-workflow-function-com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CustomScriptFunction"
+            }
+          },
+          {
+            type = "com.onresolve.jira.groovy.GroovyFunctionPlugin"
+            configuration = {
+              FIELD_FUNCTION_ID = "d38fe3f7-8805-4785-8727-80f5cce0c69b"
+              FIELD_TARGET_FIELD_ID = jira.Field.instance.Description__string
+              full.module.key = "com.onresolve.jira.groovy.groovyrunnerscriptrunner-workflow-function-com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CopyFieldInTransition"
+              "canned-script" = "com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CopyFieldInTransition"
+              FIELD_ISSUE_RELATION = "SAME_ISSUE"
+              FIELD_SOURCE_FIELD_ID = jira.Field.instance.bla__select__c
+            }
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.UpdateIssueStatusFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.misc.CreateCommentFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.GenerateChangeHistoryFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.issue.IssueReindexFunction"
+          },
+          {
+            type = "com.atlassian.jira.workflow.function.event.FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+    }
+  }
+  name = "idoTroubleDouble2"
+  diagramInitialEntry = {
+    x = 1116.5
+    y = 67.80000000000001
+  }
+}

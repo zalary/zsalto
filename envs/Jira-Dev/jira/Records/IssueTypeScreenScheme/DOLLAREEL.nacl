@@ -1,0 +1,10 @@
+jira.IssueTypeScreenScheme DOLLAREEL {
+  name = "DOLLAREEL"
+  description = ""
+  issueTypeMappings = [
+    {
+      issueTypeId = "default"
+      screenSchemeId = jira.ScreenScheme.instance.DOLLAREEL
+    },
+  ]
+}

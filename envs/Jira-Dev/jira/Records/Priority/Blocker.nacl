@@ -1,0 +1,7 @@
+jira.Priority Blocker {
+  statusColor = "#990000"
+  description = "The problem will block progress."
+  iconUrl = "/images/icons/priorities/blocker.svg"
+  name = "Blocker"
+  _alias = "Blocker"
+}

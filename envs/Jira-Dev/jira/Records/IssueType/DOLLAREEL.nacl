@@ -1,0 +1,5 @@
+jira.IssueType DOLLAREEL {
+  description = ""
+  name = "DOLLAREEL"
+  hierarchyLevel = 0
+}

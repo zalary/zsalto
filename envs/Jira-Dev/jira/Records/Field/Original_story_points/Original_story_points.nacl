@@ -1,0 +1,11 @@
+jira.Field Original_story_points__jpo_custom_field_original_story_points__c@ssuubbbbbuu {
+  name = "Epic Name"
+  searcherKey = "com.pyxis.greenhopper.jira:gh-epic-label-searcher"
+  isLocked = true
+  type = "com.pyxis.greenhopper.jira:gh-epic-label"
+  contexts = [
+    jira.CustomFieldContext.instance.Original_story_points__jpo_custom_field_original_story_points__c_ssuubbbbbuu_Default_Configuration_Scheme_for_Epic_Name@uuuuuuuuuuumusssss,
+  ]
+  description = "Provide a short name to identify this epic."
+  _alias = "Epic Name"
+}

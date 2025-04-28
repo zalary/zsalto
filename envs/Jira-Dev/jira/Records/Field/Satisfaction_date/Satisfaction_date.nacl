@@ -1,0 +1,11 @@
+jira.Field Satisfaction_date__sd_request_feedback_date__c@suubbbuu {
+  name = "Satisfaction date"
+  description = "Stores request feedback date in service project requests. This custom field is created programmatically and required by service project."
+  searcherKey = "com.atlassian.servicedesk:sd-request-feedback-date-searcher"
+  isLocked = true
+  type = "com.atlassian.servicedesk:sd-request-feedback-date"
+  contexts = [
+    jira.CustomFieldContext.instance.Satisfaction_date__sd_request_feedback_date__c_suubbbuu_Default_context_for_Satisfaction_date@uuuuuuuumussss,
+  ]
+  _alias = "Satisfaction date"
+}

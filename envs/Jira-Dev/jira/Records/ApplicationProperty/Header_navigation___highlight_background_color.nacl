@@ -1,0 +1,6 @@
+jira.ApplicationProperty Header_navigation___highlight_background_color@ssbsss {
+  id = "jira.lf.top.hilightcolour"
+  value = "#033681"
+  name = "Header navigation - highlight background color"
+  type = "colour"
+}

@@ -1,0 +1,24 @@
+jira.Filter IdoTestFilter_10400 {
+  name = "IdoTestFilter"
+  description = ""
+  jql = "${ jira.Field.instance.Issue_Type__issuetype@suu } = ${ jira.IssueType.instance.Bug.name }"
+  owner = {
+    id = "salto"
+  }
+  sharePermissions = [
+    {
+      type = "group"
+      group = {
+        name = jira.Group.instance.test_deploy@b
+      }
+    },
+  ]
+  editPermissions = [
+    {
+      type = "user"
+      user = {
+        id = "shay"
+      }
+    },
+  ]
+}

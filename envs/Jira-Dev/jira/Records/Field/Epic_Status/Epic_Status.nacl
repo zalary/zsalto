@@ -1,0 +1,11 @@
+jira.Field Epic_Status__gh_epic_status__c@suubbuu {
+  name = "Rank"
+  description = "Global rank field for Jira Software use only."
+  searcherKey = "com.pyxis.greenhopper.jira:gh-lexo-rank-searcher"
+  isLocked = true
+  type = "com.pyxis.greenhopper.jira:gh-lexo-rank"
+  contexts = [
+    jira.CustomFieldContext.instance.Epic_Status__gh_epic_status__c_suubbuu_Default_Configuration_Scheme_for_Rank@uuuuuuumussss,
+  ]
+  _alias = "Rank"
+}

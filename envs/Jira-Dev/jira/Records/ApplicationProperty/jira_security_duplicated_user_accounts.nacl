@@ -1,0 +1,13 @@
+jira.ApplicationProperty jira_security_duplicated_user_accounts@v {
+  id = "jira.security.duplicated.user.accounts"
+  value = ""
+  name = "jira.security.duplicated.user.accounts"
+  desc = '''
+
+                List of users, who should have duplicated user accounts. If you are sure that this is needed please
+                specify usernames as a list divided by ampersands. Otherwise please deactivate not needed accounts.
+                Related JAC ticket: https://jira.atlassian.com/browse/JRASERVER-68797
+            
+'''
+  type = "string"
+}

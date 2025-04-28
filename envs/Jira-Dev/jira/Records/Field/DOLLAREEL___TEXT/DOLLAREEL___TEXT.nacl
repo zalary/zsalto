@@ -1,0 +1,10 @@
+jira.Field DOLLAREEL___TEXT__textfield__c@sbsuuuu {
+  name = "DOLLAREEL - TEXT"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+  contexts = [
+    jira.CustomFieldContext.instance.DOLLAREEL___TEXT__textfield__c_sbsuuuu_Default_Configuration_Scheme_for_DOLLAREEL___TEXT@uuuuuuumusssssbs,
+  ]
+  description = ""
+  _alias = "DOLLAREEL - TEXT"
+}

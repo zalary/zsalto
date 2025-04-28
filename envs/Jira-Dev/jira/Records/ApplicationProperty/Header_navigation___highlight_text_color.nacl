@@ -1,0 +1,6 @@
+jira.ApplicationProperty Header_navigation___highlight_text_color@ssbsss {
+  id = "jira.lf.top.texthilightcolour"
+  value = "#deebff"
+  name = "Header navigation - highlight text color"
+  type = "colour"
+}

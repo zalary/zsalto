@@ -1,0 +1,12 @@
+jira.ProjectComponent shay__Public_website@uus {
+  name = "Public website"
+  description = "Issues related to the public website. Created by Jira Service Management."
+  assigneeType = "UNASSIGNED"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.shay,
+  ]
+  _alias = "shay:Public website"
+}

@@ -1,0 +1,11 @@
+jira.Field Groups__sd_request_groups__c@uubbuu {
+  name = "Groups"
+  description = "Stores the groups that are associated with a service project customer portal requests. This custom field is created programmatically and required by service project."
+  searcherKey = "com.atlassian.servicedesk:sd-request-groups-searcher"
+  isLocked = true
+  type = "com.atlassian.servicedesk:sd-request-groups"
+  contexts = [
+    jira.CustomFieldContext.instance.Groups__sd_request_groups__c_uubbuu_Default_context_for_Groups@uuuuuumusss,
+  ]
+  _alias = "Groups"
+}

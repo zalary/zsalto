@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Restored@s {
+  name = "Issue Restored"
+  description = "This is the 'issue restored' event"
+  templateName = "Issue Restored"
+}

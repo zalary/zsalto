@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Resolved@s {
+  name = "Issue Resolved"
+  description = "This is the 'issue resolved' event."
+  templateName = "Issue Resolved"
+}

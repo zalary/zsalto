@@ -1,0 +1,11 @@
+jira.Field Sprint__gh_sprint__c@uubuu {
+  name = "Target end"
+  description = "The targeted end date. This custom field is created and required by Advanced Roadmaps for Jira."
+  searcherKey = "com.atlassian.jpo:jpo-custom-field-baseline-end-searcher"
+  isLocked = true
+  type = "com.atlassian.jpo:jpo-custom-field-baseline-end"
+  contexts = [
+    jira.CustomFieldContext.instance.Sprint__gh_sprint__c_uubuu_Default_Configuration_Scheme_for_Target_end@uuuuumusssss,
+  ]
+  _alias = "Target end"
+}

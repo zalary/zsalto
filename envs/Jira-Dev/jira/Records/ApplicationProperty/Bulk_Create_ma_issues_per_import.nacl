@@ -1,0 +1,7 @@
+jira.ApplicationProperty Bulk_Create_ma_issues_per_import@s {
+  id = "jira.bulk.create.max.issues.per.import"
+  value = "250"
+  name = "Bulk Create ma issues per import"
+  desc = "The maximum number of issues that can be created via a single file in CSV Importer available for non-administrators. 0 means non-admin CSV Importer will be disabled."
+  type = "uint"
+}

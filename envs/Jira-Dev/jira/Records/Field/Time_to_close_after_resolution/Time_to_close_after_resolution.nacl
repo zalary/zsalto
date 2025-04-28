@@ -1,0 +1,11 @@
+jira.Field Time_to_close_after_resolution__sd_sla_field__c@ssssuubbuu {
+  name = "Time to close after resolution"
+  description = "This custom field was created by Jira Service Management."
+  searcherKey = "com.atlassian.servicedesk:sd-sla-field-searcher"
+  isLocked = true
+  type = "com.atlassian.servicedesk:sd-sla-field"
+  contexts = [
+    jira.CustomFieldContext.instance.Time_to_close_after_resolution__sd_sla_field__c_ssssuubbuu_Default_context_for_Time_to_close_after_resolution@uuuuuuuuuumusssssss,
+  ]
+  _alias = "Time to close after resolution"
+}

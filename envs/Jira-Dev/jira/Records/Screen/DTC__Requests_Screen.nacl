@@ -1,0 +1,15 @@
+jira.Screen DTC__Requests_Screen@fss {
+  name = "DTC: Requests Screen"
+  description = ""
+  tabs = {
+    Field_Tab@s = {
+      name = "Field Tab"
+      fields = [
+        jira.Field.instance.Summary__string,
+        jira.Field.instance.Priority__priority,
+        jira.Field.instance.Description__string,
+      ]
+      position = 0
+    }
+  }
+}

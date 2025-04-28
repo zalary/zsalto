@@ -1,0 +1,7 @@
+jira.ApplicationProperty Maximum_timeout_of_Favourite_Filters_gadget@s {
+  id = "admin.generalconfiguration.favourite.filters.jql.execution.timeout"
+  value = "5000"
+  name = "Maximum timeout of Favourite Filters gadget"
+  desc = "By default favourite filters gadget returns counts of the filters in it, sometimes it impacts performance. This settings allows admin to create global value ( for all users ) to restrict the time for filter to load. Default value is 5000 ms."
+  type = "string"
+}

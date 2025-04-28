@@ -1,0 +1,11 @@
+jira.Field Development__devsummary__c {
+  name = "Development"
+  description = "Development Summary Field for Jira Software use only."
+  searcherKey = "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummarysearcher"
+  isLocked = true
+  type = "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummary"
+  contexts = [
+    jira.CustomFieldContext.instance.Development__devsummary__c_Default_Configuration_Scheme_for_Development@uuuuussss,
+  ]
+  _alias = "Development"
+}

@@ -1,0 +1,5 @@
+jira.IssueEvent Work_Started_On_Issue@s {
+  name = "Work Started On Issue"
+  description = "This is the 'work started on issue' event."
+  templateName = "Work Started"
+}

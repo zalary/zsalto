@@ -1,0 +1,7 @@
+jira.ApplicationProperty Allow_users_to_be_renamed_even_when_Jira_is_acting_as_a_Crowd_server@s {
+  id = "jira.option.user.crowd.allow.rename"
+  value = "true"
+  name = "Allow users to be renamed even when Jira is acting as a Crowd server"
+  desc = "Controls whether or not the ability to rename a user is enabled when Jira is configured to act as a Crowd server. Some client applications depending on Jira's Crowd server implementation may misinterpret a renamed user as having been deleted and created anew, in which case you can use this flag to disallow renames in Jira."
+  type = "boolean"
+}

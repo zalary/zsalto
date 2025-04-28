@@ -1,0 +1,10 @@
+jira.Field Product_categorization__cascadingselect__c@suuuu {
+  name = "Product categorization"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselectsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:cascadingselect"
+  contexts = [
+    jira.CustomFieldContext.instance.Product_categorization__cascadingselect__c_suuuu_Default_context_for_Product_categorization@uuuuumussss,
+  ]
+  description = ""
+  _alias = "Product categorization"
+}

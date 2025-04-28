@@ -1,0 +1,6 @@
+jira.ApplicationProperty jira_enabled_dark_features@v {
+  id = "jira.enabled.dark.features"
+  value = ""
+  name = "jira.enabled.dark.features"
+  type = "string"
+}

@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Closed@s {
+  name = "Issue Closed"
+  description = "This is the 'issue closed' event."
+  templateName = "Issue Closed"
+}

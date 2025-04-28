@@ -1,0 +1,11 @@
+jira.Field Target_end__jpo_custom_field_baseline_end__c@suubbbbuu {
+  name = "Epic Status"
+  description = "Epic Status field for Jira Software use only."
+  searcherKey = "com.pyxis.greenhopper.jira:gh-epic-status-searcher"
+  isLocked = true
+  type = "com.pyxis.greenhopper.jira:gh-epic-status"
+  contexts = [
+    jira.CustomFieldContext.instance.Target_end__jpo_custom_field_baseline_end__c_suubbbbuu_Default_Configuration_Scheme_for_Epic_Status@uuuuuuuuumusssss,
+  ]
+  _alias = "Epic Status"
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_security_csp_sandbox_excluded_content_type@v {
+  id = "jira.security.csp.sandbox.excluded.content.type"
+  value = ""
+  name = "jira.security.csp.sandbox.excluded.content.type"
+  desc = "Mime types which should not have Content-Security-Policy set to sandbox. Divided with semicolon."
+  type = "string"
+}

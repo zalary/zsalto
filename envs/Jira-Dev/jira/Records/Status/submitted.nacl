@@ -1,0 +1,6 @@
+jira.Status submitted {
+  name = "Submitted"
+  statusCategory = jira.StatusCategory.instance.Done
+  description = ""
+  _alias = "Submitted"
+}

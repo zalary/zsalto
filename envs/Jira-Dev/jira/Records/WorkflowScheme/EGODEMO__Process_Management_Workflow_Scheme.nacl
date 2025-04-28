@@ -1,0 +1,4 @@
+jira.WorkflowScheme EGODEMO__Process_Management_Workflow_Scheme@fssss {
+  name = "EGODEMO: Process Management Workflow Scheme"
+  defaultWorkflow = jira.Workflow.instance.EGODEMO__Process_Management_Workflow@fsss
+}

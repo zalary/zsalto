@@ -1,0 +1,7 @@
+jira.IssueTypeScheme DOLLAREEL {
+  name = "DOLLAREEL"
+  description = ""
+  issueTypeIds = [
+    jira.IssueType.instance.DOLLAREEL,
+  ]
+}

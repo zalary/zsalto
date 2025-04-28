@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_index_snapshot_count@v {
+  id = "jira.index.snapshot.count"
+  value = "3"
+  name = "jira.index.snapshot.count"
+  desc = "The number of index snapshots to retain."
+  type = "uint"
+}

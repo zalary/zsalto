@@ -1,0 +1,17 @@
+jira.ApplicationProperty jira_safeguards_issue_comments@v {
+  id = "jira.safeguards.issue.comments"
+  value = "1000"
+  name = "jira.safeguards.issue.comments"
+  desc = '''
+
+                A DC-only setting to define the maximum number of comments that can be added to any issue in the Jira instance.
+                To maintain an instance's performance, we recommend a value of 1000. The value of "-1" will disable the limit.
+                For this to take effect, also configure the "jira.safeguards.config.restricted.groups" setting.
+
+                Once the limit is set, Jira will start sending notifications when the limit is breached or close to being breached.
+                For more information about the impact on those user accounts and recommended limits, see the Safeguards documentation:
+                https://docs.atlassian.com/jira/jadm-docs-0900/Configuring+Safeguards
+            
+'''
+  type = "int"
+}

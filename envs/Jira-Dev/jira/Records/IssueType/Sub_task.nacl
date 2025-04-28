@@ -1,0 +1,5 @@
+jira.IssueType Sub_task@b {
+  description = "The sub-task of the issue"
+  name = "Sub-task"
+  hierarchyLevel = -1
+}

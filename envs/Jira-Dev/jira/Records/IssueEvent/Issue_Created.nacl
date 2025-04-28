@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Created@s {
+  name = "Issue Created"
+  description = "This is the 'issue created' event."
+  templateName = "Issue Created"
+}

@@ -1,0 +1,10 @@
+jira.WorkflowScheme DOLLAREEL {
+  name = "DOLLAREEL"
+  defaultWorkflow = jira.Workflow.instance.jira
+  items = [
+    {
+      issueType = jira.IssueType.instance.DOLLAREEL
+      workflow = jira.Workflow.instance.jira
+    },
+  ]
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty Rate_limiting_whitelist@s {
+  id = "com.atlassian.ratelimiting.whitelisted-url-patterns"
+  value = ""
+  name = "Rate limiting whitelist"
+  desc = "Comma-separated list of URL patterns that should not be affected by rate limiting."
+  type = "string"
+}

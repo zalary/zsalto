@@ -1,0 +1,13 @@
+jira.Screen Jira_Service_Management_Pending_Reason_screen___4@ssssssbs {
+  name = "Jira Service Management Pending Reason screen - 4"
+  description = "Screen to specify the pending reason when transitioning to the Pending status"
+  tabs = {
+    Field_Tab@s = {
+      name = "Field Tab"
+      fields = [
+        jira.Field.instance.Linked_Issues__array@suu,
+      ]
+      position = 0
+    }
+  }
+}

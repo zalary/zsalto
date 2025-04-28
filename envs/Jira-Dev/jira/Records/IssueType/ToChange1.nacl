@@ -1,0 +1,5 @@
+jira.IssueType ToChange1 {
+  description = "AAAACCC"
+  name = "ToChange1"
+  hierarchyLevel = 0
+}

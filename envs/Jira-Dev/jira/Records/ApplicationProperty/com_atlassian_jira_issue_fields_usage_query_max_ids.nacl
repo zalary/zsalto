@@ -1,0 +1,7 @@
+jira.ApplicationProperty com_atlassian_jira_issue_fields_usage_query_max_ids@v {
+  id = "com.atlassian.jira.issue.fields.usage.query.max.ids"
+  value = "1000"
+  name = "com.atlassian.jira.issue.fields.usage.query.max.ids"
+  desc = "Maximum number of custom fields in one database query that retrieves custom field's usage information."
+  type = "int"
+}

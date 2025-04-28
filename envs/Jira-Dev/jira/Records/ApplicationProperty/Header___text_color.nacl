@@ -1,0 +1,6 @@
+jira.ApplicationProperty Header___text_color@sbss {
+  id = "jira.lf.top.textcolour"
+  value = "#deebff"
+  name = "Header - text color"
+  type = "colour"
+}

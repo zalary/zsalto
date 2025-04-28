@@ -1,0 +1,89 @@
+jira.Automation Sort_order@s {
+  name = "Test Single Project"
+  state = "DISABLED"
+  description = ""
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  authorAccountId = {
+    id = "salto"
+  }
+  actorAccountId = {
+    id = "salto"
+  }
+  trigger = {
+    component = "TRIGGER"
+    type = "jira.issue.field.changed"
+    value = {
+      synchronous = false
+      fields = [
+        {
+          value = jira.Field.instance.Component_s__array@duu
+          type = "field"
+        },
+      ]
+      actions = [
+        "assign",
+      ]
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+    optimisedIds = [
+    ]
+    newComponent = false
+  }
+  components = [
+    {
+      component = "CONDITION"
+      type = "jira.issue.condition"
+      value = {
+        selectedField = {
+          type = "ID"
+          value = jira.Field.instance.Status__status
+        }
+        selectedFieldType = "status"
+        comparison = "ONE_OF"
+        compareFieldValue = {
+          type = "NAME"
+          multiValue = true
+          values = [
+            jira.Status.instance.resolved.name,
+          ]
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+      optimisedIds = [
+      ]
+      newComponent = false
+    },
+    {
+      component = "ACTION"
+      type = "jira.issue.assign"
+      value = {
+        excludedUsers = [
+        ]
+        assignee = {
+          type = "SMART"
+          value = "{{issue.creator}}"
+        }
+        assignType = "SPECIFY_USER"
+        userList = [
+        ]
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+      optimisedIds = [
+      ]
+      newComponent = false
+    },
+  ]
+  labels = [
+  ]
+  _alias = "Test Single Project"
+}

@@ -1,0 +1,15 @@
+jira.Project Eshed_Demo_Proj {
+  key = "EGODEMO"
+  description = ""
+  name = "Eshed_Demo_Proj"
+  projectTypeKey = "business"
+  workflowScheme = jira.WorkflowScheme.instance.EGODEMO__Process_Management_Workflow_Scheme@fssss
+  permissionScheme = jira.PermissionScheme.instance.Default_Permission_Scheme@s
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.EGODEMO__Process_Management_Issue_Type_Screen_Scheme@fssssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.EGODEMO__Process_Management_Issue_Type_Scheme@fsssss
+  priorityScheme = jira.PriorityScheme.instance.Default_priority_scheme@s
+  leadAccountId = {
+    id = "salto"
+  }
+}

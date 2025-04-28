@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_index_background_batch_size@v {
+  id = "jira.index.background.batch.size"
+  value = "4000"
+  name = "jira.index.background.batch.size"
+  desc = "The number of issues to read from the database at once during background and foreground indexing."
+  type = "uint"
+}

@@ -1,0 +1,4 @@
+jira.ProjectRole Developers {
+  name = "Developers"
+  description = ""
+}

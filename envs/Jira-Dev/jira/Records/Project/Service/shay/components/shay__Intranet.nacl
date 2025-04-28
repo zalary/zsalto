@@ -1,0 +1,12 @@
+jira.ProjectComponent shay__Intranet {
+  name = "Intranet"
+  description = "Issues related to the intranet. Created by Jira Service Management."
+  assigneeType = "UNASSIGNED"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.shay,
+  ]
+  _alias = "shay:Intranet"
+}

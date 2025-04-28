@@ -1,0 +1,6 @@
+jira.ApplicationProperty Primary_button___text_color@ssbss {
+  id = "jira.lf.hero.button.text.colour"
+  value = "#deebff"
+  name = "Primary button - text color"
+  type = "colour"
+}

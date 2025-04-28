@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Comment_Edited@s {
+  name = "Issue Comment Edited"
+  description = "This is the 'issue comment edited' event."
+  templateName = "Issue Comment Edited"
+}

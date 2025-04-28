@@ -1,0 +1,5 @@
+jira.IssueEvent Issue_Comment_Deleted@s {
+  name = "Issue Comment Deleted"
+  description = "This is the 'issue comment deleted' event."
+  templateName = "Issue Comment Deleted"
+}
