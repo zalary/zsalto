@@ -1,0 +1,13 @@
+zendesk.macro CB___Fallback_Test@sbss {
+  title = "CB - Fallback Test"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "assignee_id"
+      value = "carl.bergenhem@salto.io"
+    },
+  ]
+  raw_title = "CB - Fallback Test"
+  _alias = "CB - Fallback Test"
+}
