@@ -76,6 +76,7 @@ zendesk.account_setting {
     ctm_auto_activation_status = 0
     ctm_operating_hours_migration_status = 0
     ctm_chat_triggers_migration_status = 0
+    ctm_default_setup_csat_status = 0
     ctm_prevent_opt_out = false
   }
   voice = {
