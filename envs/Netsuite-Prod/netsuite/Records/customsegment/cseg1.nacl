@@ -13,12 +13,26 @@ netsuite.customsegment cseg1 {
     transactionbody = {
       applications = {
         application = {
+          SALE = {
+            id = "SALE"
+            isapplied = true
+          }
           ITEMFULFILLMENT = {
             id = "ITEMFULFILLMENT"
             isapplied = true
           }
           OPPORTUNITY = {
             id = "OPPORTUNITY"
+            isapplied = true
+          }
+        }
+      }
+    }
+    transactionline = {
+      applications = {
+        application = {
+          SALE = {
+            id = "SALE"
             isapplied = true
           }
         }
@@ -45,19 +59,15 @@ netsuite.customsegment cseg1 {
     customrecords = {
       applications = {
         application = {
+          customrecord_amzn_brand_auth = {
+            id = netsuite.customrecord_amzn_brand_auth.attr.scriptid
+            isapplied = true
+          }
           customrecord_slt_testforrest = {
             id = netsuite.customrecord_slt_testforrest.attr.scriptid
             isapplied = true
           }
         }
-      }
-    }
-  }
-  permissions = {
-    permission = {
-      customrole_salto_all_permissions = {
-        role = netsuite.role.instance.customrole_salto_all_permissions.scriptid
-        valuemgmtaccesslevel = "FULL"
       }
     }
   }
