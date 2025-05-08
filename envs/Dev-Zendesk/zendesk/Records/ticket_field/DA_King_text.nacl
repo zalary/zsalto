@@ -1,7 +1,7 @@
 zendesk.ticket_field DA_King_text@su {
   type = "text"
   raw_title = "DA King"
-  raw_description = ""
+  raw_description = "Lawrence Lin"
   active = true
   required = false
   collapsed_for_agents = false
