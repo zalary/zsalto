@@ -22,6 +22,9 @@ define (['N/currentRecord', 'N/runtime', 'N/ui/serverWidget'], function (current
                     details: month + ' ' + date
                 });
 
+              log.debug('Direct in Demo1 Again!!!')
+              log.debug('For Toast!!! -- Edit')
+
                 // February
                 if (month === 1) {
                     if (date === 24 | date === 25 | date === 26 | date === 27 | date === 28 | date === 29) {
@@ -30,6 +33,7 @@ define (['N/currentRecord', 'N/runtime', 'N/ui/serverWidget'], function (current
                             label: fieldLabel,
                             type: serverWidget.FieldType.CHECKBOX
                         });
+                      log.debug('Change #3!!!')
                     }
                 // 31-day months
                 } else if (month === 0 | month === 2 | month === 4 | month === 6 | month === 7 |
