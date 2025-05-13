@@ -13,9 +13,6 @@ netsuite.file SuiteScripts_dp_dp_searchdemo_js@dduv {
     {
       reference = netsuite.customrecord_dp_prospect.attr.scriptid
     },
-    {
-      reference = netsuite.savedsearch.instance.customsearch_dp_scriptdemo.scriptid
-    },
   ]
   _alias = "dp_searchdemo.js"
 }

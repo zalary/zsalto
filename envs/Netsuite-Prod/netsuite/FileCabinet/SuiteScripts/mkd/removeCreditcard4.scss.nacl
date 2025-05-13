@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_mkd_removeCreditcard4_scss@ddv {
+  bundleable = false
+  availablewithoutlogin = false
+  generateurltimestamp = false
+  hideinbundle = false
+  path = "/SuiteScripts/mkd/removeCreditcard4.scss"
+  content = file("netsuite/FileCabinet/SuiteScripts/mkd/removeCreditcard4.scss")
+  isInactive = false
+  _parent = [
+    netsuite.folder.instance.SuiteScripts_mkd@d,
+  ]
+  _alias = "removeCreditcard4.scss"
+}
