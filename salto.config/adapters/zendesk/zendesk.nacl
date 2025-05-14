@@ -18,13 +18,7 @@ zendesk {
     exclude = [
       {
         type = "oauth_global_client"
-      },
-      {
-        type = "organization"
-        criteria = {
-          name = "DP.*"
-        }
-      },
+      }
     ]
     resolveOrganizationIDs = true
   }
