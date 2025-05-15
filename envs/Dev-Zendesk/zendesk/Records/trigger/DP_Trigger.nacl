@@ -13,6 +13,10 @@ zendesk.trigger DP_Trigger@s {
       field = zendesk.ticket_field.instance.DP_Severity_tagger@su
       value = zendesk.ticket_field__custom_field_options.instance.DP_Severity_tagger__dp_sv_critical@suuuuu
     },
+    {
+      field = zendesk.ticket_field.instance.DP___Delete_Me_text@sbssu
+      value = "Yep"
+    },
   ]
   conditions = {
     all = [
