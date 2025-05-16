@@ -7,7 +7,7 @@ okta.PasswordPolicy New_Pass_Policy@s {
     people = {
       groups = {
         include = [
-          okta.Group.instance.Okta_Administrators@s,
+          okta.Group.instance.Salto2,
         ]
       }
     }
