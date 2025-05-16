@@ -1,0 +1,79 @@
+okta.PasswordPolicy New_Pass_Policy@s {
+  status = "ACTIVE"
+  name = "New Pass Policy"
+  description = "new password policy"
+  system = false
+  conditions = {
+    people = {
+      groups = {
+        include = [
+          okta.Group.instance.Okta_Administrators@s,
+        ]
+      }
+    }
+    authProvider = {
+      provider = "OKTA"
+    }
+  }
+  settings = {
+    password = {
+      complexity = {
+        minLength = 12
+        minLowerCase = 1
+        minUpperCase = 1
+        minNumber = 1
+        minSymbol = 0
+        excludeUsername = true
+        dictionary = {
+          common = {
+            exclude = true
+          }
+        }
+      }
+      age = {
+        maxAgeDays = 0
+        expireWarnDays = 0
+        minAgeMinutes = 120
+        historyCount = 24
+      }
+      lockout = {
+        maxAttempts = 10
+        autoUnlockMinutes = 0
+        showLockoutFailures = false
+      }
+    }
+    recovery = {
+      factors = {
+        recovery_question = {
+          status = "ACTIVE"
+          properties = {
+            complexity = {
+              minLength = 4
+            }
+          }
+        }
+        okta_email = {
+          status = "ACTIVE"
+          properties = {
+            recoveryToken = {
+              tokenLifetimeMinutes = 60
+            }
+          }
+        }
+        okta_sms = {
+          status = "INACTIVE"
+        }
+        okta_call = {
+          status = "INACTIVE"
+        }
+      }
+    }
+    delegation = {
+      options = {
+        skipUnlock = false
+      }
+    }
+  }
+  type = "PASSWORD"
+  _alias = "New Pass Policy"
+}

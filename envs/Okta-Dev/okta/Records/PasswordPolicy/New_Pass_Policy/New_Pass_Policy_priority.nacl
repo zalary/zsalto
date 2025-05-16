@@ -1,0 +1,6 @@
+okta.PasswordPolicyRulePriority New_Pass_Policy_priority@ssu {
+  priorities = [
+    okta.PasswordPolicyRule.instance.New_Pass_Policy_s__Rule_1@uumuus,
+  ]
+  _parent = okta.PasswordPolicy.instance.New_Pass_Policy@s
+}

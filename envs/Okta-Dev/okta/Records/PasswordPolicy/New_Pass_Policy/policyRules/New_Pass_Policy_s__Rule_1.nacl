@@ -1,0 +1,33 @@
+okta.PasswordPolicyRule New_Pass_Policy_s__Rule_1@uumuus {
+  status = "ACTIVE"
+  name = "Rule 1"
+  system = false
+  conditions = {
+    people = {
+      users = {
+        exclude = [
+          okta.User.instance.zalary_gmail_com@mv,
+        ]
+      }
+    }
+    network = {
+      connection = "ANYWHERE"
+    }
+  }
+  actions = {
+    passwordChange = {
+      access = "DENY"
+    }
+    selfServicePasswordReset = {
+      access = "DENY"
+    }
+    selfServiceUnlock = {
+      access = "ALLOW"
+    }
+  }
+  type = "PASSWORD"
+  _parent = [
+    okta.PasswordPolicy.instance.New_Pass_Policy@s,
+  ]
+  _alias = "Rule 1"
+}
