@@ -22,10 +22,6 @@ zendesk.tag gwrdc1 {
   id = "gwrdc1"
   _alias = "gwrdc1"
 }
-zendesk.tag gwrexclude {
-  id = "gwrexclude"
-  _alias = "gwrexclude"
-}
 
 zendesk.tag ispurple {
   id = "ispurple"

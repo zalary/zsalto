@@ -1,0 +1,14 @@
+zendesk.macro GWR_agent_macro5@s {
+  title = "GWR agent macro5"
+  active = true
+  default = false
+  description = "alksdjflkasjfklja"
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>{{ticket.description}}</p><p>&nbsp;</p><p>This version is for 2026&nbsp;</p><p>&nbsp;</p><p>Sincerely yours</p><p>GWR Team</p>"
+    },
+  ]
+  raw_title = "GWR agent macro5"
+  _alias = "GWR agent macro5"
+}
