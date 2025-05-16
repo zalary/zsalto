@@ -1,0 +1,8 @@
+okta.AppLogo Okta_Github_Salto_Test@s {
+  fileName = "Okta_Github_Salto_Test.s.png"
+  contentType = "png"
+  content = file("okta/AppLogo/Okta_Github_Salto_Test.s.png")
+  _parent = [
+    okta.Application.instance.Okta_Github_Salto_Test@s,
+  ]
+}

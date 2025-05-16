@@ -1,0 +1,10 @@
+okta.Feature Enable_optional_email_enrollment_for_Okta_Identity_Engine@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Enable optional email enrollment for Okta Identity Engine"
+  description = "Supports optional email authenticator enrollment when Okta Identity Engine is enabled."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Enable optional email enrollment for Okta Identity Engine"
+}

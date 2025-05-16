@@ -1,0 +1,10 @@
+okta.Feature Google_Workspace_express_setup@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Google Workspace express setup"
+  description = "Enables a seamless and efficient integration experience by simplifying SSO setup for the GSuite application"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Google Workspace express setup"
+}

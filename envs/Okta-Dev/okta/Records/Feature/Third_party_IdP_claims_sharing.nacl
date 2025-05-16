@@ -1,0 +1,10 @@
+okta.Feature Third_party_IdP_claims_sharing@bsss {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Third-party IdP claims sharing"
+  description = "Enable the admin to configure authentication claims sharing between third-party identity providers and Okta"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Third-party IdP claims sharing"
+}

@@ -1,0 +1,16 @@
+okta.AuthorizationServer default {
+  name = "default"
+  description = "Default Authorization Server for your Applications"
+  audiences = [
+    "api://default",
+  ]
+  issuerMode = "ORG_URL"
+  status = "ACTIVE"
+  credentials = {
+    signing = {
+      rotationMode = "AUTO"
+    }
+  }
+  default = true
+  _alias = "default"
+}

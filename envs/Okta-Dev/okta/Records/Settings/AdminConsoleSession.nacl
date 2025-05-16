@@ -1,0 +1,4 @@
+okta.AdminConsoleSession {
+  sessionIdleTimeoutMinutes = 15
+  sessionMaxLifetimeMinutes = 720
+}

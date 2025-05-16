@@ -1,0 +1,10 @@
+okta.Group NewTest {
+  objectClass = [
+    "okta:user_group",
+  ]
+  type = "OKTA_GROUP"
+  profile = {
+    name = "NewTest"
+  }
+  _alias = "NewTest"
+}

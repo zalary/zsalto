@@ -1,0 +1,18 @@
+okta {
+  fetch = {
+    include = [
+      {
+        type = ".*"
+      },
+      {
+        type = "User"
+      },
+    ]
+    exclude = [
+      {
+        type = "ProfileMapping"
+      },
+    ]
+    isClassicOrg = true
+  }
+}

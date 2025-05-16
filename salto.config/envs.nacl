@@ -1,4 +1,10 @@
 envs {
   envs = [
+    {
+      name = "Okta-Dev"
+      accountToServiceName = {
+        okta = "okta"
+      }
+    },
   ]
 }

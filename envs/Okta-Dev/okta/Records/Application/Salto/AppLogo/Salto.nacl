@@ -1,0 +1,8 @@
+okta.AppLogo Salto {
+  fileName = "Salto.png"
+  contentType = "png"
+  content = file("okta/AppLogo/Salto.png")
+  _parent = [
+    okta.Application.instance.Salto,
+  ]
+}

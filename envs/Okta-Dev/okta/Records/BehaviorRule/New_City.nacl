@@ -1,0 +1,11 @@
+okta.BehaviorRule New_City@s {
+  name = "New City"
+  status = "ACTIVE"
+  settings = {
+    minEventsNeededForEvaluation = 0
+    maxEventsUsedForEvaluation = 20
+    granularity = "CITY"
+  }
+  type = "ANOMALOUS_LOCATION"
+  _alias = "New City"
+}

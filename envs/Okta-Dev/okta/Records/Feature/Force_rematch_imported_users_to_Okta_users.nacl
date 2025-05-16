@@ -1,0 +1,10 @@
+okta.Feature Force_rematch_imported_users_to_Okta_users@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Force rematch imported users to Okta users"
+  description = "Force a rematch of all the users brought in by an incremental or full import from a profile source"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Force rematch imported users to Okta users"
+}

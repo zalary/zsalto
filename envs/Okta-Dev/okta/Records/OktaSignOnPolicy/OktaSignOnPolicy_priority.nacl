@@ -1,0 +1,5 @@
+okta.OktaSignOnPolicyPriority OktaSignOnPolicy_priority {
+  priorities = [
+  ]
+  defaultPolicy = okta.OktaSignOnPolicy.instance.Default_Policy@s
+}

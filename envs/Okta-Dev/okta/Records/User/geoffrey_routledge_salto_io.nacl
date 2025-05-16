@@ -1,0 +1,25 @@
+okta.User geoffrey_routledge_salto_io@vmv {
+  status = "STAGED"
+  type = {
+    id = okta.UserType.instance.user
+  }
+  profile = {
+    firstName = "Geoff"
+    lastName = "R"
+    login = "geoffrey.routledge@salto.io"
+    email = "geoffrey.routledge@salto.io"
+  }
+  credentials = {
+    emails = [
+      {
+        value = "geoffrey.routledge@salto.io"
+        status = "VERIFIED"
+        type = "PRIMARY"
+      },
+    ]
+    provider = {
+      type = "OKTA"
+      name = "OKTA"
+    }
+  }
+}

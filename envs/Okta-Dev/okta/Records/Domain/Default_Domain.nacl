@@ -1,0 +1,7 @@
+okta.Domain Default_Domain@s {
+  domain = "dev-09198577.okta.com"
+  certificateSourceType = "OKTA_MANAGED"
+  validationStatus = "COMPLETED"
+  brandId = okta.Brand.instance.Default_Brand@s
+  _alias = "dev-09198577.okta.com"
+}

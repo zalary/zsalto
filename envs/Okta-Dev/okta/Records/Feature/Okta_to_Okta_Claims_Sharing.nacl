@@ -1,0 +1,10 @@
+okta.Feature Okta_to_Okta_Claims_Sharing@bbss {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Okta-to-Okta Claims Sharing"
+  description = "Enable the admin to configure authentication claims sharing between Okta orgs"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Okta-to-Okta Claims Sharing"
+}

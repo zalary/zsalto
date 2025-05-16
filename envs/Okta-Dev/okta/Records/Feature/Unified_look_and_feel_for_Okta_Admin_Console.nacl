@@ -1,0 +1,10 @@
+okta.Feature Unified_look_and_feel_for_Okta_Admin_Console@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Unified look and feel for Okta Admin Console"
+  description = "Okta first-party app navigation menus and page background have an updated look"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Unified look and feel for Okta Admin Console"
+}

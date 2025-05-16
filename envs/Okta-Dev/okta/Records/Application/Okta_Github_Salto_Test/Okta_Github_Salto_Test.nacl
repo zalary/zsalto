@@ -1,0 +1,61 @@
+okta.Application Okta_Github_Salto_Test@s {
+  name = "oidc_client"
+  label = "Okta Github Salto Test"
+  status = "ACTIVE"
+  accessibility = {
+    selfService = false
+  }
+  visibility = {
+    autoLaunch = false
+    autoSubmitToolbar = false
+    hide = {
+      iOS = true
+      web = true
+    }
+  }
+  signOnMode = "OPENID_CONNECT"
+  credentials = {
+    userNameTemplate = {
+      template = "\${source.login}"
+      type = "BUILT_IN"
+    }
+    oauthClient = {
+      autoKeyRotation = true
+      client_id = "0oaiuu0t0q85uQhy05d7"
+      token_endpoint_auth_method = "client_secret_basic"
+      pkce_required = false
+    }
+  }
+  settings = {
+    notifications = {
+      vpn = {
+        network = {
+          connection = "DISABLED"
+        }
+      }
+    }
+    manualProvisioning = false
+    implicitAssignment = false
+    oauthClient = {
+      redirect_uris = [
+      ]
+      response_types = [
+        "token",
+      ]
+      grant_types = [
+        "client_credentials",
+      ]
+      application_type = "service"
+      consent_method = "REQUIRED"
+      issuer_mode = "DYNAMIC"
+      idp_initiated_login = {
+        mode = "DISABLED"
+        default_scope = [
+        ]
+      }
+      wildcard_redirect = "DISABLED"
+      dpop_bound_access_tokens = true
+    }
+  }
+  _alias = "Okta Github Salto Test"
+}

@@ -1,0 +1,9 @@
+okta.BehaviorRule Velocity {
+  name = "Velocity"
+  status = "ACTIVE"
+  settings = {
+    velocityKph = 805
+  }
+  type = "VELOCITY"
+  _alias = "Velocity"
+}

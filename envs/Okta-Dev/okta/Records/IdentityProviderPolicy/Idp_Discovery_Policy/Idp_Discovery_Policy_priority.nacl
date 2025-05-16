@@ -1,0 +1,6 @@
+okta.IdentityProviderPolicyRulePriority Idp_Discovery_Policy_priority@ssu {
+  priorities = [
+  ]
+  defaultRule = okta.IdentityProviderPolicyRule.instance.Idp_Discovery_Policy_s__Default_Rule@uumuus
+  _parent = okta.IdentityProviderPolicy.instance.Idp_Discovery_Policy@s
+}

@@ -1,0 +1,10 @@
+okta.Feature Restrict_access_to_the_Admin_Console@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Restrict access to the Admin Console"
+  description = "Grant admin privileges to users without automatically assigning them the Okta Admin Console app."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Restrict access to the Admin Console"
+}

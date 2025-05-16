@@ -1,0 +1,10 @@
+okta.Feature Active_Directory_DirSync@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Active Directory DirSync"
+  description = "Enables Active Directory Integration to use AD DirSync protocol to increase the efficiency and decrease the time to complete incremental imports. Enabling the feature will not automatically enable DirSync for incremental imports. Customers will need to follow the documentation to ensure DirSync is enabled properly."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Active Directory DirSync"
+}

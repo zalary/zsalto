@@ -1,0 +1,32 @@
+okta.AppUserSchema Salto {
+  title = "Salto User"
+  definitions = {
+    custom = {
+      id = "#custom"
+      type = "object"
+    }
+    base = {
+      id = "#base"
+      type = "object"
+      properties = {
+        userName = {
+          title = "Username"
+          type = "string"
+          required = true
+          scope = "NONE"
+          maxLength = 100
+          master = {
+            type = "PROFILE_MASTER"
+          }
+        }
+      }
+      required = [
+        "userName",
+      ]
+    }
+  }
+  _parent = [
+    okta.Application.instance.Salto,
+  ]
+  _alias = "Salto User"
+}

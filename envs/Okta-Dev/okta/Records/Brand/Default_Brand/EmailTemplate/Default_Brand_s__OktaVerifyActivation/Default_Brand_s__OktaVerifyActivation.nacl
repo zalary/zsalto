@@ -1,0 +1,10 @@
+okta.EmailTemplate Default_Brand_s__OktaVerifyActivation@umuu {
+  name = "OktaVerifyActivation"
+  settings = {
+    recipients = "ALL_USERS"
+  }
+  _parent = [
+    okta.Brand.instance.Default_Brand@s,
+  ]
+  _alias = "OktaVerifyActivation"
+}

@@ -1,0 +1,10 @@
+okta.Feature Block_synced_passkeys_for_FIDO2__WebAuthn__Authenticators@sssssjks {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Block synced passkeys for FIDO2 (WebAuthn) Authenticators"
+  description = "Syncable Passkeys are FIDO credentials that are backed up and synchronized across devices."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Block synced passkeys for FIDO2 (WebAuthn) Authenticators"
+}

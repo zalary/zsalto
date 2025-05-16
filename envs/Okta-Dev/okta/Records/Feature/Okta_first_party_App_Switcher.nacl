@@ -1,0 +1,10 @@
+okta.Feature Okta_first_party_App_Switcher@sbss {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Okta first-party App Switcher"
+  description = "An admin utility for quick navigation between Okta first-party apps"
+  stage = {
+    value = "EA"
+  }
+  _alias = "Okta first-party App Switcher"
+}

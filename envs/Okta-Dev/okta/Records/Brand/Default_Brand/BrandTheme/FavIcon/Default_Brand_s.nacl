@@ -1,0 +1,9 @@
+okta.FavIcon Default_Brand_s@um {
+  fileName = "Default_Brand_s.um.ico"
+  contentType = "ico"
+  content = file("okta/FavIcon/Default_Brand_s.um.ico")
+  _parent = [
+    okta.BrandTheme.instance.Default_Brand_s@um,
+    okta.Brand.instance.Default_Brand@s,
+  ]
+}

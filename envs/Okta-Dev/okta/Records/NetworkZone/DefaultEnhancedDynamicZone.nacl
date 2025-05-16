@@ -1,0 +1,13 @@
+okta.NetworkZone DefaultEnhancedDynamicZone {
+  type = "DYNAMIC_V2"
+  name = "DefaultEnhancedDynamicZone"
+  status = "INACTIVE"
+  usage = "BLOCKLIST"
+  system = true
+  ipServiceCategories = {
+    include = [
+      "ALL_ANONYMIZERS",
+    ]
+  }
+  _alias = "DefaultEnhancedDynamicZone"
+}

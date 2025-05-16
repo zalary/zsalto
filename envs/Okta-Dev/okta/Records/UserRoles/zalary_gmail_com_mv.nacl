@@ -1,0 +1,9 @@
+okta.UserRoles zalary_gmail_com_mv@uum {
+  user = okta.User.instance.zalary_gmail_com@mv
+  roles = [
+    {
+      label = "Super Administrator"
+      type = "SUPER_ADMIN"
+    },
+  ]
+}

@@ -1,0 +1,10 @@
+okta.Feature Deactivate_App_Assignments@s {
+  type = "self-service"
+  status = "DISABLED"
+  name = "Deactivate App Assignments"
+  description = "When deactivating an Okta user, deactivate the user's individual app assignments instead of suspending them. If a user is reactivated, the individual app assignments don't reactivate."
+  stage = {
+    value = "EA"
+  }
+  _alias = "Deactivate App Assignments"
+}
