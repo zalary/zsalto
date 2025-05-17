@@ -6,7 +6,7 @@ zendesk.macro GWR_agent_macro6@s {
   actions = [
     {
       field = "comment_value_html"
-      value = "<p>{{ticket.description}}</p><p>&nbsp;</p><p>This version is for 2026&nbsp;</p><p>&nbsp;</p><p>Sincerely yours</p><p>GWR Team</p>"
+      value = "<p>{{ticket.description}}</p><p>&nbsp;</p><p>This version is for Respectfully&nbsp;</p><p>&nbsp;</p><p>Respectfully</p><p>GWR Team</p>"
     },
     {
       field = "group_id"
