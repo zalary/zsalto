@@ -1,0 +1,15 @@
+zendesk.ticket_field zgy_multi_pass_textarea {
+  type = "textarea"
+  raw_title = "zgy_multi_pass"
+  raw_description = ""
+  active = true
+  required = false
+  collapsed_for_agents = false
+  raw_title_in_portal = "zgy_multi_pass"
+  visible_in_portal = false
+  editable_in_portal = false
+  required_in_portal = false
+  agent_can_edit = true
+  removable = true
+  _alias = "zgy_multi_pass"
+}
