@@ -9,6 +9,7 @@ define([], function() {
     // this is my edit in feature_branch_1
     // this is my edit in feature_branch_3
     // this is my edit in feature_branch_5
+    // this is an example
     return {
         pageInit: showMessage
     }
