@@ -1,0 +1,12 @@
+jira.ProjectComponent ZGY_Service_Request_s__Email_and_Collaboration_Services@uumuusss {
+  name = "Email and Collaboration Services"
+  description = "Created by Jira Service Management"
+  assigneeType = "PROJECT_DEFAULT"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.ZGY_Service_Request@s,
+  ]
+  _alias = "ZGY Service Request:Email and Collaboration Services"
+}

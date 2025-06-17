@@ -1,0 +1,12 @@
+jira.ProjectComponent ZGY_Service_Request_s__Data_Center_Services@uumuuss {
+  name = "Data Center Services"
+  description = "Created by Jira Service Management"
+  assigneeType = "PROJECT_DEFAULT"
+  leadAccountId = {
+    id = "salto"
+  }
+  _parent = [
+    jira.Project.instance.ZGY_Service_Request@s,
+  ]
+  _alias = "ZGY Service Request:Data Center Services"
+}

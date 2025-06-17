@@ -1,0 +1,13 @@
+jira.IssueTypeScheme ZGYSR__Jira_Service_Management_Issue_Type_Scheme@fssssss {
+  name = "ZGYSR: Jira Service Management Issue Type Scheme"
+  description = "This Jira Service Management Issue Type Scheme was generated automatically"
+  issueTypeIds = [
+    jira.IssueType.instance.Task,
+    jira.IssueType.instance.Service_Request@s,
+    jira.IssueType.instance.Sub_task@b,
+    jira.IssueType.instance.Incident,
+    jira.IssueType.instance.Problem,
+    jira.IssueType.instance.Change,
+    jira.IssueType.instance.Service_Request_with_Approvals@s,
+  ]
+}

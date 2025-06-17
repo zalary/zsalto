@@ -1,0 +1,10 @@
+jira.PriorityScheme ZGYSR___Jira_Service_Management_Priority_Scheme@sbsssss {
+  name = "ZGYSR - Jira Service Management Priority Scheme"
+  optionIds = [
+    jira.Priority.instance.Blocker,
+    jira.Priority.instance.High,
+    jira.Priority.instance.Medium,
+    jira.Priority.instance.Low,
+    jira.Priority.instance.Minor,
+  ]
+}
