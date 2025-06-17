@@ -1,0 +1,10 @@
+jira.Field ZGYCustomeField__textfield__c {
+  name = "ZGYCustomeField"
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+  contexts = [
+    jira.CustomFieldContext.instance.ZGYCustomeField__textfield__c_Default_context_for_ZGYCustomeField@uuuuusss,
+  ]
+  description = ""
+  _alias = "ZGYCustomeField"
+}

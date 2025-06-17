@@ -204,6 +204,11 @@ What question are you looking to answer with your data
       isHidden = false
       isRequired = false
     }
+    ZGYCustomeField__textfield__c = {
+      isHidden = false
+      isRequired = false
+      renderer = "jira-text-renderer"
+    }
     idoField__multicheckboxes__c = {
       isHidden = false
       isRequired = false

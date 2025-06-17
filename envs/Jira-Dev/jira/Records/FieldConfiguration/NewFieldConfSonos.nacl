@@ -218,6 +218,11 @@ jira.FieldConfiguration NewFieldConfSonos {
       isHidden = false
       isRequired = false
     }
+    ZGYCustomeField__textfield__c = {
+      isHidden = false
+      isRequired = false
+      renderer = "jira-text-renderer"
+    }
     Approvers__multiuserpicker__c = {
       description = "Contains users needed for approval. This custom field was created by Jira Service Management."
       isHidden = false

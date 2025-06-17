@@ -200,6 +200,11 @@ jira.FieldConfiguration shayFieldConfiguration9 {
       isHidden = false
       isRequired = false
     }
+    ZGYCustomeField__textfield__c = {
+      isHidden = false
+      isRequired = false
+      renderer = "jira-text-renderer"
+    }
     idoField__multicheckboxes__c = {
       isHidden = false
       isRequired = false

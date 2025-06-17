@@ -222,5 +222,10 @@ jira.FieldConfiguration Jira_Service_Management_Field_Configuration_for_Project_
       isHidden = false
       isRequired = false
     }
+    ZGYCustomeField__textfield__c = {
+      isHidden = false
+      isRequired = false
+      renderer = "jira-text-renderer"
+    }
   }
 }
