@@ -89,6 +89,7 @@ zendesk.trigger_order {
       category = zendesk.trigger_category.instance.ZGY
       active = [
         zendesk.trigger.instance.ZGY_Orgs@s,
+        zendesk.trigger.instance.ZGY___Trigger@sbs,
         zendesk.trigger.instance.ZGY_Ticket_Trigger@s,
       ]
       inactive = [

@@ -1,0 +1,44 @@
+zendesk.trigger ZGY___Trigger@sbs {
+  title = "ZGY - Trigger"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.cb_urgent_tag,
+      ]
+    },
+    {
+      field = zendesk.ticket_field.instance.CB___Severity_tagger@sbsu
+      value = zendesk.ticket_field__custom_field_options.instance.CB___Severity_tagger__cb_sev_critical@sbsuuuuu
+    },
+    {
+      field = zendesk.ticket_field.instance.zgy_list_tagger
+      value = zendesk.ticket_field__custom_field_options.instance.zgy_list_tagger__pop
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "priority"
+        operator = "is"
+        value = "urgent"
+      },
+      {
+        field = "ticket_due_date"
+        operator = "is"
+        value = "false"
+      },
+      {
+        field = "organization_id"
+        operator = "is"
+        value = "ZGY"
+      },
+    ]
+  }
+  description = "A quick and simple trigger"
+  raw_title = "ZGY - Trigger"
+  category_id = zendesk.trigger_category.instance.ZGY
+  _alias = "ZGY - Trigger"
+}
