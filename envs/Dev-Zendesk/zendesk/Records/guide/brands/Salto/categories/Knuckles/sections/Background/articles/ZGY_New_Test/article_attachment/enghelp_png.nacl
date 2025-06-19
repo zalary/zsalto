@@ -1,0 +1,24 @@
+zendesk.article_attachment ZGY_New_Test_Background_Knuckles_Salto_ssuuu__enghelp_png_true_en_au@uuuuumuuvuub {
+  file_name = "enghelp.png"
+  locale = "en-au"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.Salto
+  content = file("zendesk/article_attachments/guide/brands/Salto/categories/Knuckles/sections/Background/articles/ZGY_New_Test/article_attachment/enghelp/42edaf14c7_28f2a53939_enghelp.png")
+  _parent = [
+    zendesk.article.instance.ZGY_New_Test_Background_Knuckles_Salto@ssuuu,
+  ]
+  _alias = "enghelp.png - ZGY New Test"
+}
+zendesk.article_attachment ZGY_New_Test_Background_Knuckles_Salto_ssuuu__enghelp_png_true_en_us@uuuuumuuvuub {
+  file_name = "enghelp.png"
+  locale = "en-us"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.Salto
+  content = file("zendesk/article_attachments/guide/brands/Salto/categories/Knuckles/sections/Background/articles/ZGY_New_Test/article_attachment/enghelp/87db62a1b1_28f2a53939_enghelp.png")
+  _parent = [
+    zendesk.article.instance.ZGY_New_Test_Background_Knuckles_Salto@ssuuu,
+  ]
+  _alias = "enghelp.png - ZGY New Test"
+}

@@ -15,4 +15,5 @@ zendesk.ticket_form SRD___Request_Form@sbss {
   default = false
   in_all_brands = true
   _alias = "SRD - Request Form"
+  form_type = "standard"
 }

@@ -17,7 +17,7 @@ zendesk.article ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand@ssuuu {
   brand = zendesk.brand.instance.AnotherSaltoBrand
   attachments = [
     zendesk.article_attachment.instance.ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand_ssuuu__Green_Watercolor_Flower_Facebook_Profile_Picture_png_false@uuuuumuusssssvu,
-    zendesk.article_attachment.instance.ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand_ssuuu__Green_Watercolor_Flower_Facebook_Profile_Picture_png_true@uuuuumuusssssvu,
+    zendesk.article_attachment.instance.ZGY_Image_Test_Introduction_Knuckles_AnotherSaltoBrand_ssuuu__Green_Watercolor_Flower_Facebook_Profile_Picture_png_true_en_us@uuuuumuusssssvuub,
   ]
   _alias = "ZGY Image Test"
 }

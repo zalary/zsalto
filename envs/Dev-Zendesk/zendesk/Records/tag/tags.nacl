@@ -93,10 +93,6 @@ zendesk.tag closed_ticket {
   id = "closed_ticket"
   _alias = "closed_ticket"
 }
-zendesk.tag isgeoff {
-  id = "isgeoff"
-  _alias = "isgeoff"
-}
 zendesk.tag knuckle {
   id = "knuckle"
   _alias = "knuckle"
@@ -137,10 +133,6 @@ zendesk.tag dp_98765@b {
   id = "dp-98765"
   _alias = "dp-98765"
 }
-zendesk.tag a10 {
-  id = "a10"
-  _alias = "a10"
-}
 zendesk.tag cb_urgent_tag {
   id = "cb_urgent_tag"
   _alias = "cb_urgent_tag"
@@ -148,4 +140,8 @@ zendesk.tag cb_urgent_tag {
 zendesk.tag ll {
   id = "ll"
   _alias = "ll"
+}
+zendesk.tag automation {
+  id = "automation"
+  _alias = "automation"
 }

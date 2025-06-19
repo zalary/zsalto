@@ -1,0 +1,22 @@
+zendesk.macro LLDiscount {
+  title = "LLDiscount"
+  active = true
+  default = false
+  description = "Discount code for late delivery"
+  actions = [
+    {
+      field = "comment_value_html"
+      value = "<p>Hi {{ticket.requester.first_name}},</p><p>&nbsp;</p><p>We're sorry your delivery arrived later than expected. Please use this discount code <strong>LLDiscount</strong> for 50% off your next order.</p><p>&nbsp;</p><p>Thanks,</p><p>Company</p>"
+    },
+    {
+      field = "comment_mode_is_public"
+      value = "true"
+    },
+    {
+      field = "status"
+      value = "solved"
+    },
+  ]
+  raw_title = "LLDiscount"
+  _alias = "LLDiscount"
+}

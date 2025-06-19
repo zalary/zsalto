@@ -16,7 +16,7 @@ zendesk.article AAAA2_Background_Knuckles_Salto {
   ]
   brand = zendesk.brand.instance.Salto
   attachments = [
-    zendesk.article_attachment.instance.AAAA2_Background_Knuckles_Salto__as_png_true@uuuuuvu,
+    zendesk.article_attachment.instance.AAAA2_Background_Knuckles_Salto__as_png_true_en_us@uuuuuvuub,
   ]
   _alias = "AAAA2"
 }

@@ -24,4 +24,5 @@ zendesk.ticket_form dge_test_form {
   default = false
   in_all_brands = true
   _alias = "dge_test_form"
+  form_type = "standard"
 }

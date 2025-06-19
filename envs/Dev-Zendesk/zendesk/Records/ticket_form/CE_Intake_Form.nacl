@@ -18,4 +18,5 @@ zendesk.ticket_form CE_Intake_Form@s {
   default = false
   in_all_brands = true
   _alias = "CE Intake Form"
+  form_type = "standard"
 }

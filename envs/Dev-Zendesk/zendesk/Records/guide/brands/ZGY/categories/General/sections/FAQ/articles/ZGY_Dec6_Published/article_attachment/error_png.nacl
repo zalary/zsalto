@@ -9,13 +9,13 @@ zendesk.article_attachment ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_f
   ]
   _alias = "error.png - ZGY Dec6 Published"
 }
-zendesk.article_attachment ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true@uuuuumuuvu {
+zendesk.article_attachment ZGY_Dec6_Published_FAQ_General_ZGY_ssuuu__error_png_true_en_us@uuuuumuuvuub {
   file_name = "error.png"
   locale = "en-us"
   content_type = "image/png"
   inline = true
   brand = zendesk.brand.instance.ZGY
-  content = file("zendesk/article_attachments/guide/brands/ZGY/categories/General/sections/FAQ/articles/ZGY_Dec6_Published/article_attachment/error/db8a4e8a76_4d1ba02ee1_error.png")
+  content = file("zendesk/article_attachments/guide/brands/ZGY/categories/General/sections/FAQ/articles/ZGY_Dec6_Published/article_attachment/error/491e5137b4_4d1ba02ee1_error.png")
   _parent = [
     zendesk.article.instance.ZGY_Dec6_Published_FAQ_General_ZGY@ssuuu,
   ]

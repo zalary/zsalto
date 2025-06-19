@@ -17,4 +17,5 @@ zendesk.ticket_form Eshed_s_Demo_Form@tss {
   default = false
   in_all_brands = true
   _alias = "Eshed's Demo Form"
+  form_type = "standard"
 }

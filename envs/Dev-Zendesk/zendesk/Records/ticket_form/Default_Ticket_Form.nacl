@@ -22,4 +22,5 @@ zendesk.ticket_form Default_Ticket_Form@s {
   default = true
   in_all_brands = true
   _alias = "Default Ticket Form"
+  form_type = "standard"
 }

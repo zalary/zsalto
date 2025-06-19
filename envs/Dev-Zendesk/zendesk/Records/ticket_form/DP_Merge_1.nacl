@@ -147,4 +147,5 @@ zendesk.ticket_form DP_Merge_1@s {
     },
   ]
   _alias = "DP Merge 1"
+  form_type = "standard"
 }

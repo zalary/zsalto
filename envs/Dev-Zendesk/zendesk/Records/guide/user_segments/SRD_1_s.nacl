@@ -1,7 +1,7 @@
 zendesk.user_segment SRD_1@s {
   user_type = "staff"
   group_ids = [
-    zendesk.group.instance.SRD___test_1@sbss,
+    zendesk.group.instance.test_SRD___test_1@ssbss,
   ]
   built_in = false
   name = "SRD 1"

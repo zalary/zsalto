@@ -1,4 +1,4 @@
-zendesk.group ZGY {
+zendesk.group ZGY_New@b {
   is_public = true
   name = "ZGY-New"
   description = ""

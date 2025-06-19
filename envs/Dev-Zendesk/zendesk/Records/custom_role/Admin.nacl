@@ -58,6 +58,7 @@ zendesk.custom_role Admin {
       ticket_access = "all"
     }
     assign_agent_statuses = true
+    assign_tickets_to_any_brand = true
     manage_malicious_attachments = true
   }
   _alias = "Admin"

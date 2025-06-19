@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options CB___Severity_tagger__cb_sev_high@sbsuuuuu {
+  raw_name = "High"
+  value = "cb_sev_high"
+  _parent = [
+    zendesk.ticket_field.instance.CB___Severity_tagger@sbsu,
+  ]
+  _alias = "cb_sev_high"
+}

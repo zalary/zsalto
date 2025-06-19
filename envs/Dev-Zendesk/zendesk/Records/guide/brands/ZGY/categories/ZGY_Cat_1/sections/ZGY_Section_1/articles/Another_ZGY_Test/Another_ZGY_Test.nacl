@@ -19,6 +19,6 @@ zendesk.article Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu@ssuuuuuuum {
   _alias = "Another ZGY Test"
   attachments = [
     zendesk.article_attachment.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__error_png_false@uuuuuuuuuumuuvu,
-    zendesk.article_attachment.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__error_png_true@uuuuuuuuuumuuvu,
+    zendesk.article_attachment.instance.Another_ZGY_Test_ZGY_Section_1_ZGY_Cat_1_ZGY_ssuuuu_ssuuuuuuum__error_png_true_en_au@uuuuuuuuuumuuvuub,
   ]
 }

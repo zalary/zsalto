@@ -1,24 +1,33 @@
 zendesk {
   fixElements = { deployArticlesAsDraft = true } 
   fetch = {
-    omitInactive = {
-      default = true
-      customizations = {
-        trigger = false
-      }
-    }
-    guide = {
+        guide = {
        brands = [".*"]
       }
     include = [
       {
         type = ".*"
-      }
+      },
     ]
+    elemID = {
+      article_attachment = {
+        parts = [
+          {
+            fieldName = "file_name"
+          },
+          {
+            fieldName = "inline"
+          },
+          {
+            fieldName = "locale"
+          },
+        ]
+      }
+  }
     exclude = [
       {
         type = "oauth_global_client"
-      }
+      },
     ]
     resolveOrganizationIDs = true
   }

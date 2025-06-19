@@ -17,4 +17,5 @@ zendesk.ticket_form Demo_ticket_form@s {
   default = false
   in_all_brands = true
   _alias = "Demo ticket form"
+  form_type = "standard"
 }

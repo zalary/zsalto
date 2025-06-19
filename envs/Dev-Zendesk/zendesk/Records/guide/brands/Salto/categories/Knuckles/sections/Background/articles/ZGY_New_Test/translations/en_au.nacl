@@ -1,0 +1,16 @@
+zendesk.article_translation ZGY_New_Test_Background_Knuckles_Salto_ssuuu__DP_Brand_s_en_au_umub@uuuuumuuuuuum {
+  locale = zendesk.guide_language_settings.instance.DP_Brand_s_en_au@umub
+  title = "ZGY New Test"
+  body = file(
+    "zendesk/translations/guide/brands/Salto/categories/Knuckles/sections/Background/articles/ZGY_New_Test/translations/be545ee024_ZGY_New_Test",
+    "template",
+  )
+  outdated = false
+  draft = false
+  hidden = false
+  brand = zendesk.brand.instance.Salto
+  _parent = [
+    zendesk.article.instance.ZGY_New_Test_Background_Knuckles_Salto@ssuuu,
+  ]
+  _alias = "en-au - ZGY New Test"
+}

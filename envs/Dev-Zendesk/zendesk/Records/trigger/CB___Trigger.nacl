@@ -10,8 +10,8 @@ zendesk.trigger CB___Trigger@sbs {
       ]
     },
     {
-      field = zendesk.ticket_field.instance.CB_Severity_tagger@su
-      value = zendesk.ticket_field__custom_field_options.instance.CB_Severity_tagger__sb_sv_critical@suuuuu
+      field = zendesk.ticket_field.instance.CB___Severity_tagger@sbsu
+      value = zendesk.ticket_field__custom_field_options.instance.CB___Severity_tagger__cb_sev_critical@sbsuuuuu
     },
   ]
   conditions = {

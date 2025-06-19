@@ -14,4 +14,5 @@ zendesk.ticket_form Nickel_form@s {
   default = false
   in_all_brands = true
   _alias = "Nickel form"
+  form_type = "standard"
 }

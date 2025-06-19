@@ -57,6 +57,7 @@ zendesk.custom_role Light_agent@s {
     explore_reports = {
       ticket_access = "all"
     }
+    assign_tickets_to_any_brand = false
     manage_malicious_attachments = false
   }
   _alias = "Light agent"

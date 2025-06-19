@@ -1,5 +1,6 @@
 zendesk.article_order Background_Knuckles_Salto {
   articles = [
+    zendesk.article.instance.ZGY_New_Test_Background_Knuckles_Salto@ssuuu,
     zendesk.article.instance.testt_Background_Knuckles_Salto,
     zendesk.article.instance.BBB3_Background_Knuckles_Salto,
     zendesk.article.instance.AAAA2_Background_Knuckles_Salto,

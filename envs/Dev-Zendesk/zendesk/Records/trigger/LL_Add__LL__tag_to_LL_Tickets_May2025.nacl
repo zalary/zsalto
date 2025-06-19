@@ -1,4 +1,4 @@
-zendesk.trigger Add__LL__tag_to_LL_Tickets@srrssss {
+zendesk.trigger LL_Add__LL__tag_to_LL_Tickets_May2025@ssrrsssss {
   title = "LL Add \"LL\" tag to LL Tickets May2025"
   active = true
   default = false

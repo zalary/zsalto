@@ -67,4 +67,5 @@ zendesk.ticket_form DP_Form@s {
       ]
     },
   ]
+  form_type = "standard"
 }

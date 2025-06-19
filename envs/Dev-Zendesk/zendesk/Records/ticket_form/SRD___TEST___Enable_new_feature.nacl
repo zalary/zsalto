@@ -48,4 +48,5 @@ zendesk.ticket_form SRD___TEST___Enable_new_feature@sbssbsss {
     },
   ]
   _alias = "SRD - TEST - Enable new feature"
+  form_type = "standard"
 }

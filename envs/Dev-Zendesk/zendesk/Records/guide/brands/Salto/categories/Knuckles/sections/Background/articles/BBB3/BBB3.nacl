@@ -15,8 +15,8 @@ zendesk.article BBB3_Background_Knuckles_Salto {
   ]
   brand = zendesk.brand.instance.Salto
   attachments = [
-    zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__as_png_true@uuuuuvu,
-    zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__re_png_true@uuuuuvu,
+    zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__as_png_true_en_us@uuuuuvuub,
+    zendesk.article_attachment.instance.BBB3_Background_Knuckles_Salto__re_png_true_en_us@uuuuuvuub,
   ]
   user_segment_id = zendesk.user_segment.instance.Everyone
   _alias = "BBB3"

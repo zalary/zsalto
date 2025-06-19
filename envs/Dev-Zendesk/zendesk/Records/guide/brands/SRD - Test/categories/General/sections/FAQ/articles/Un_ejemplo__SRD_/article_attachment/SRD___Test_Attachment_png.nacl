@@ -1,0 +1,24 @@
+zendesk.article_attachment Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum_ssjkuuuuuuuum__SRD___Test_Attachment_png_true_en_us@uuuuuuuuuuuuumuusbssvuub {
+  file_name = "SRD - Test Attachment.png"
+  locale = "en-us"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  content = file("zendesk/article_attachments/guide/brands/SRD - Test/categories/General/sections/FAQ/articles/Un_ejemplo__SRD_/article_attachment/SRD - Test Attachment/9bee654856_1fb505fd85_SRD - Test Attachment.png")
+  _parent = [
+    zendesk.article.instance.Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@ssjkuuuuuuuum,
+  ]
+  _alias = "SRD - Test Attachment.png - Un ejemplo (SRD)"
+}
+zendesk.article_attachment Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum_ssjkuuuuuuuum__SRD___Test_Attachment_png_true_es_419@uuuuuuuuuuuuumuusbssvuub {
+  file_name = "SRD - Test Attachment.png"
+  locale = "es-419"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.SRD___Test@sbs
+  content = file("zendesk/article_attachments/guide/brands/SRD - Test/categories/General/sections/FAQ/articles/Un_ejemplo__SRD_/article_attachment/SRD - Test Attachment/225bcdcc1b_1fb505fd85_SRD - Test Attachment.png")
+  _parent = [
+    zendesk.article.instance.Un_ejemplo__SRD__FAQ_General_SRD___Test_sbs_uuuum_uuuuuum@ssjkuuuuuuuum,
+  ]
+  _alias = "SRD - Test Attachment.png - Un ejemplo (SRD)"
+}

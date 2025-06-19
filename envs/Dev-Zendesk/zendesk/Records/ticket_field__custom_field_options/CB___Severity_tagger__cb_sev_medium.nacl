@@ -1,0 +1,8 @@
+zendesk.ticket_field__custom_field_options CB___Severity_tagger__cb_sev_medium@sbsuuuuu {
+  raw_name = "Medium"
+  value = "cb_sev_medium"
+  _parent = [
+    zendesk.ticket_field.instance.CB___Severity_tagger@sbsu,
+  ]
+  _alias = "cb_sev_medium"
+}

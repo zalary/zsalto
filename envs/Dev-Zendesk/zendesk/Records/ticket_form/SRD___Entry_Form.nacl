@@ -34,4 +34,5 @@ zendesk.ticket_form SRD___Entry_Form@sbss {
     },
   ]
   _alias = "SRD - Entry Form"
+  form_type = "standard"
 }

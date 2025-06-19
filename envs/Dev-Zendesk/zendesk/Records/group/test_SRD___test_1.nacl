@@ -1,4 +1,4 @@
-zendesk.group SRD___test_1@sbss {
+zendesk.group test_SRD___test_1@ssbss {
   is_public = true
   name = "test SRD - test 1"
   description = ""

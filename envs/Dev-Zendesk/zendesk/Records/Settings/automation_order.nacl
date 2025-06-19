@@ -12,6 +12,7 @@ zendesk.automation_order {
     zendesk.automation.instance.DP___Tag_Test_1@sbsss,
     zendesk.automation.instance.DP___Tag_Test_2@sbsss,
     zendesk.automation.instance.CB___Support_level_automation@sbsss,
+    zendesk.automation.instance.LL_Automation@s,
   ]
   inactive = [
   ]

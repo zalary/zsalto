@@ -14,4 +14,5 @@ zendesk.ticket_form Change_Request_for_Zendesk@s {
   default = false
   in_all_brands = true
   _alias = "Change Request for Zendesk"
+  form_type = "standard"
 }

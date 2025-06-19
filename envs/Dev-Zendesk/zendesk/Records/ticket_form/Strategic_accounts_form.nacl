@@ -15,4 +15,5 @@ zendesk.ticket_form Strategic_accounts_form@s {
   default = false
   in_all_brands = true
   _alias = "Strategic accounts form"
+  form_type = "standard"
 }

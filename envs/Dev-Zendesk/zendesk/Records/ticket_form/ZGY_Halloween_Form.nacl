@@ -35,4 +35,5 @@ zendesk.ticket_form ZGY_Halloween_Form@s {
       ]
     },
   ]
+  form_type = "standard"
 }

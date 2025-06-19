@@ -24,11 +24,9 @@ zendesk.trigger_order {
         zendesk.trigger.instance.MKD___Preview_Access_Request__Alpha_@sbssssjk,
         zendesk.trigger.instance._SRD__Product_Access_Update@jksss,
         zendesk.trigger.instance.gwr_fetch_label@s,
-        zendesk.trigger.instance.MKD___Test_Org@sbss,
+        zendesk.trigger.instance.MKD___Test_Org_for_Kirk@sbssss,
       ]
       inactive = [
-        zendesk.trigger.instance.GWR_Agent_Trigger@s,
-        zendesk.trigger.instance.GWR_a10@s,
       ]
     },
     {
@@ -94,13 +92,12 @@ zendesk.trigger_order {
         zendesk.trigger.instance.ZGY_Ticket_Trigger@s,
       ]
       inactive = [
-        zendesk.trigger.instance._Salesforce_Integration__Sync_tickets_to_Salesforce__00D5f000005tQyREAU_@jsksssssjk,
       ]
     },
     {
       category = zendesk.trigger_category.instance.LL
       active = [
-        zendesk.trigger.instance.Add__LL__tag_to_LL_Tickets@srrssss,
+        zendesk.trigger.instance.LL_Add__LL__tag_to_LL_Tickets_May2025@ssrrsssss,
       ]
       inactive = [
       ]

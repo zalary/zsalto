@@ -20,7 +20,7 @@ zendesk.article SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_u
   brand = zendesk.brand.instance.SRD___Test@sbs
   attachments = [
     zendesk.article_attachment.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__Screenshot_png_false@uuuuuuuuuuuuumuuvu,
-    zendesk.article_attachment.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__Screenshot_png_true@uuuuuuuuuuuuumuuvu,
+    zendesk.article_attachment.instance.SRD___Advanced_testing_Onboarding_General_SRD___Test_sbs_uuuum_uuuuuum_sbssuuuuuuuum__Screenshot_png_true_en_us@uuuuuuuuuuuuumuuvuub,
   ]
   _alias = "SRD - Advanced testing"
 }

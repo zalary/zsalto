@@ -14,4 +14,5 @@ zendesk.ticket_form Global_Accounts_Form@s {
   default = false
   in_all_brands = true
   _alias = "Global Accounts Form"
+  form_type = "standard"
 }

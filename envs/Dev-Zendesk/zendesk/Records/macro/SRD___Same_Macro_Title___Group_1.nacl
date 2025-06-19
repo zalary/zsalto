@@ -11,7 +11,7 @@ zendesk.macro SRD___Same_Macro_Title___Group_1@sbssssbss {
   restriction = {
     type = "Group"
     ids = [
-      zendesk.group.instance.SRD___test_1@sbss,
+      zendesk.group.instance.test_SRD___test_1@ssbss,
     ]
   }
   raw_title = "SRD - Same Macro Title - Group 1"

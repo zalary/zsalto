@@ -15,4 +15,5 @@ zendesk.ticket_form DP_Form_2@s {
   default = false
   in_all_brands = true
   _alias = "DP Form 2"
+  form_type = "standard"
 }

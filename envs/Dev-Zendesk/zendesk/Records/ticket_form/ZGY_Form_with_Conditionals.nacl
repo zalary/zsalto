@@ -18,4 +18,5 @@ zendesk.ticket_form ZGY_Form_with_Conditionals@s {
   default = false
   in_all_brands = true
   _alias = "ZGY Form with Conditionals"
+  form_type = "standard"
 }

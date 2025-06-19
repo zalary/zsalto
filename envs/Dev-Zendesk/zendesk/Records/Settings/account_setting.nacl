@@ -25,6 +25,7 @@ zendesk.account_setting {
     status_hold = false
     markdown_ticket_comments = false
     rich_text_comments = true
+    default_to_draft_mode = false
     emoji_autocompletion = true
     has_color_text = true
     assign_tickets_upon_solve = true
@@ -78,6 +79,19 @@ zendesk.account_setting {
     ctm_chat_triggers_migration_status = 0
     ctm_default_setup_csat_status = 0
     ctm_prevent_opt_out = false
+    ctm_segment = 0
+    ctm_pre_chat_form_migration_status = 0
+    ctm_offline_form_migration_status = 0
+    ctm_visitor_ip_banned_migration_status = 0
+    ctm_goals_migration_status = 0
+    ctm_chat_routing_migration_status = 0
+    ctm_device_metadata_migration_status = 0
+    ctm_reporting_migration_status = 0
+    ctm_chat_api_migration_status = 0
+    ctm_mobile_sdk_migration_status = 0
+    ctm_default_setup_end_session_status = 0
+    ctm_default_setup_auto_release_status = 0
+    ctm_default_setup_wait_time_status = 0
   }
   voice = {
     enabled = true
@@ -189,6 +203,8 @@ zendesk.account_setting {
     default_brand_id = zendesk.brand.instance.Salto
     require_brand_on_new_tickets = false
     end_user_across_brand_requests = false
+    new_agent_brand_association_behavior = "all_brands"
+    end_user_upgrade_brand_association_behavior = "previous_brands"
   }
   api = {
     accepted_api_agreement = true
@@ -346,6 +362,7 @@ zendesk.account_setting {
   messaging_inactivity = {
     timeout = 10
     enabled = false
+    end_session = false
     default_localized_messages = {
       pre_solved_message_1 = "Waiting on your response. If we don't hear from you within a few minutes, this ticket will be marked as solved."
       pre_solved_message_2 = "This ticket will be marked as solved soon. We hope to hear from you."

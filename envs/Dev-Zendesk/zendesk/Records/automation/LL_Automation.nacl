@@ -1,0 +1,36 @@
+zendesk.automation LL_Automation@s {
+  title = "LL Automation"
+  active = true
+  default = false
+  actions = [
+    {
+      field = "current_tags"
+      value = [
+        zendesk.tag.instance.automation,
+      ]
+    },
+  ]
+  conditions = {
+    all = [
+      {
+        field = "status"
+        operator = "is"
+        value = "open"
+      },
+      {
+        field = "NEW"
+        operator = "is"
+        value = "6"
+      },
+      {
+        field = "current_tags"
+        operator = "includes"
+        value = [
+          zendesk.tag.instance.ll,
+        ]
+      },
+    ]
+  }
+  raw_title = "LL Automation"
+  _alias = "LL Automation"
+}

@@ -16,4 +16,5 @@ zendesk.ticket_form DP___Missing_Test@sbss {
   default = false
   in_all_brands = true
   _alias = "DP - Missing Test"
+  form_type = "standard"
 }
