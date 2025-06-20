@@ -31,4 +31,9 @@ zendesk {
     ]
     resolveOrganizationIDs = true
   }
+    deploy = {
+    changeValidators = {
+      orderInstanceContainsAllTheInstances = false
+    }
+  }
 }
