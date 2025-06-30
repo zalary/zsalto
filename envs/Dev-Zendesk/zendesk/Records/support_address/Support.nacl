@@ -8,3 +8,14 @@ zendesk.support_address Support_dp_Salto_subdomain_zendesk_com@umvvv {
   domain_verification_status = "verified"
   _alias = "Support"
 }
+zendesk.support_address support_support_zgy_support_test_zendesk_com@umbbvv {
+  brand_id = 33157072886807
+  default = true
+  name = "support"
+  email = "support@zgy-support-test.zendesk.com"
+  forwarding_status = "verified"
+  spf_status = "verified"
+  cname_status = "verified"
+  domain_verification_status = "verified"
+  _alias = "support"
+}
