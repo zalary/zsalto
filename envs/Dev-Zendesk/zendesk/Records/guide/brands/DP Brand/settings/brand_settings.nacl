@@ -30,6 +30,7 @@ zendesk.guide_settings DP_Brand_s@um {
       service_catalog = {
         service_catalog_enabled = false
       }
+      embeddables_help_center_auth_enabled = false
     }
   }
   brand = zendesk.brand.instance.DP_Brand@s
