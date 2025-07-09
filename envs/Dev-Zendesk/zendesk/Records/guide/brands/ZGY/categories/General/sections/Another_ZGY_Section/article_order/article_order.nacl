@@ -1,4 +1,7 @@
 zendesk.article_order Another_ZGY_Section_General_ZGY_ssuu@uuuum {
+  articles = [
+    zendesk.article.instance.ZGY_Jul9_Another_ZGY_Section_General_ZGY_ssuu@suuuuum,
+  ]
   brand = zendesk.brand.instance.ZGY
   _parent = [
     zendesk.section.instance.Another_ZGY_Section_General_ZGY@ssuu,

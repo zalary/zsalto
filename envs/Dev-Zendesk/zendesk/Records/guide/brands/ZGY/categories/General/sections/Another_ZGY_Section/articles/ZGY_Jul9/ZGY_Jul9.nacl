@@ -1,0 +1,22 @@
+zendesk.article ZGY_Jul9_Another_ZGY_Section_General_ZGY_ssuu@suuuuum {
+  author_id = "zalary.young@salto.io"
+  comments_disabled = false
+  promoted = false
+  section_id = zendesk.section.instance.Another_ZGY_Section_General_ZGY@ssuu
+  source_locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  locale = zendesk.guide_language_settings.instance.ZGY_en_us@ub
+  outdated = false
+  user_segment_id = zendesk.user_segment.instance.Agents_and_admins@s
+  permission_group_id = zendesk.permission_group.instance.Admins
+  translations = [
+    zendesk.article_translation.instance.ZGY_Jul9_Another_ZGY_Section_General_ZGY_ssuu_suuuuum__ZGY_en_us_ub@uuuuuuumuuuum,
+  ]
+  user_segment_ids = [
+    zendesk.user_segment.instance.Agents_and_admins@s,
+  ]
+  brand = zendesk.brand.instance.ZGY
+  attachments = [
+    zendesk.article_attachment.instance.ZGY_Jul9_Another_ZGY_Section_General_ZGY_ssuu_suuuuum__salto_user_settings_png_true_en_us@uuuuuuumuuuuvuub,
+  ]
+  _alias = "ZGY Jul9"
+}

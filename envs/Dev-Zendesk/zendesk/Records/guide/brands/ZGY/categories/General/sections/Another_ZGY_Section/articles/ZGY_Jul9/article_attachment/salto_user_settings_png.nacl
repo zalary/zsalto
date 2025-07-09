@@ -1,0 +1,12 @@
+zendesk.article_attachment ZGY_Jul9_Another_ZGY_Section_General_ZGY_ssuu_suuuuum__salto_user_settings_png_true_en_us@uuuuuuumuuuuvuub {
+  file_name = "salto_user_settings.png"
+  locale = "en-us"
+  content_type = "image/png"
+  inline = true
+  brand = zendesk.brand.instance.ZGY
+  content = file("zendesk/article_attachments/guide/brands/ZGY/categories/General/sections/Another_ZGY_Section/articles/ZGY_Jul9/article_attachment/salto_user_settings/ff4c60de48_8243beeb4a_salto_user_settings.png")
+  _parent = [
+    zendesk.article.instance.ZGY_Jul9_Another_ZGY_Section_General_ZGY_ssuu@suuuuum,
+  ]
+  _alias = "salto_user_settings.png - ZGY Jul9"
+}

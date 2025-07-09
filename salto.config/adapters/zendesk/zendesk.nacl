@@ -32,8 +32,9 @@ zendesk {
     resolveOrganizationIDs = true
   }
     deploy = {
-    changeValidators = {
+      defaultMissingUserFallback = "##DEPLOYER##" 
+      changeValidators = {
       orderInstanceContainsAllTheInstances = false
     }
-  }
+  } 
 }
