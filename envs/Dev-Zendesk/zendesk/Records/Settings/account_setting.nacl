@@ -291,7 +291,6 @@ zendesk.account_setting {
   
   messaging = {
     messaging_end_session = false
-    messaging_ip_ban = false
   }
   email = {
     accept_wildcard_emails = false
