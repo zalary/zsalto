@@ -207,7 +207,7 @@ zendesk.account_setting {
     require_brand_on_new_tickets = false
     end_user_across_brand_requests = false
     new_agent_brand_association_behavior = "all_brands"
-    end_user_upgrade_brand_association_behavior = "previous_brands"
+    end_user_upgrade_brand_association_behavior = "all_brands"
   }
   api = {
     accepted_api_agreement = true

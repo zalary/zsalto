@@ -58,8 +58,10 @@ zendesk.custom_role Billing_admin@s {
       ticket_access = "all"
     }
     assign_agent_statuses = true
+    manage_approval_requests = true
     assign_tickets_to_any_brand = true
     manage_malicious_attachments = true
+    manage_ip_bans = "all"
   }
   _alias = "Billing admin"
 }

@@ -58,8 +58,10 @@ zendesk.custom_role Staff {
       ticket_access = "all"
     }
     assign_agent_statuses = false
+    manage_approval_requests = false
     assign_tickets_to_any_brand = false
     manage_malicious_attachments = false
+    manage_ip_bans = "none"
   }
   _alias = "Staff"
 }
