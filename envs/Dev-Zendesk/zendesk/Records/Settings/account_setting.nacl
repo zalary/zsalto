@@ -52,6 +52,7 @@ zendesk.account_setting {
     chat_sla_enablement = false
     custom_statuses_enabled = false
     modify_closed_tickets_customer_setting = false
+    only_allowed_attachment_file_types = false
   }
   agents = {
     agent_workspace = true
