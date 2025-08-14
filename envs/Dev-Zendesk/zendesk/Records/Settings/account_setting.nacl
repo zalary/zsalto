@@ -193,6 +193,7 @@ zendesk.account_setting {
     custom_object_nav_enabled = false
     release_control_enabled = true
     
+    has_ever_used_approvals = false
     benchmark_opt_out = false
     custom_dkim_domain = true
     allow_email_template_customization = true
