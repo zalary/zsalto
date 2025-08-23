@@ -10,7 +10,6 @@ netsuite.crmcustomfield custevent_slt_severity {
   checkspelling = false
   defaultchecked = true
   displaytype = "NORMAL"
-  enabletextenhance = false
   encryptatrest = false
   fieldtype = "CHECKBOX"
   globalsearch = false
