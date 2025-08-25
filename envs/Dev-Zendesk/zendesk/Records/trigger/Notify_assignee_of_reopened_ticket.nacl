@@ -25,16 +25,12 @@ This ticket (#{{ticket.id}}) has been reopened.
       },
       {
         field = "status"
-        operator = "value_previous"
-        value = "solved"
-      },
-      {
-        field = "status"
         operator = "is_not"
         value = "closed"
       },
     ]
   }
+  description = ""
   raw_title = "Notify assignee of reopened ticket"
   category_id = zendesk.trigger_category.instance.Notifications
   _alias = "Notify assignee of reopened ticket"
