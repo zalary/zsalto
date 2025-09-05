@@ -28,6 +28,10 @@ zendesk {
       {
         type = "oauth_global_client"
       },
+       {
+        type     = "ticket_form"
+        criteria = { name = "ZGY.*" }
+      }
     ]
     resolveOrganizationIDs = true
     omitInactive = {
