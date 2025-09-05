@@ -30,6 +30,9 @@ zendesk {
       },
     ]
     resolveOrganizationIDs = true
+    omitInactive = {
+      default = true
+    }
   }
     deploy = {
       defaultMissingUserFallback = "##DEPLOYER##" 
