@@ -15,7 +15,7 @@ zendesk.ticket_form ZGY_Halloween_Form@s {
     zendesk.ticket_field.instance.SRD___Shipping_Delay_Reason_tagger@sbsssu,
     zendesk.ticket_field.instance.SRD___Test_Custom_Field_tagger@sbsssu,
   ]
-  active = true
+  active = false
   default = false
   in_all_brands = true
   _alias = "ZGY Halloween Form"
