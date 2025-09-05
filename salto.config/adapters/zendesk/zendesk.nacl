@@ -30,7 +30,11 @@ zendesk {
       },
        {
         type     = "ticket_form"
-        criteria = { name = ["dge_test_form", "free"] }
+        criteria = { name = "Free" }
+      },
+      {
+        type     = "ticket_form"
+        criteria = { name = "ZGY.*" }
       }
     ]
     resolveOrganizationIDs = true
