@@ -67,6 +67,8 @@ zendesk.account_setting {
     dark_mode_terms_and_conditions_accepted = false
     example_eap_tos_accepted = false
     example_eap_enabled = false
+    ai_async_comment_translations_eap_tos_accepted = false
+    ai_async_comment_translations_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
