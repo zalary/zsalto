@@ -145,3 +145,7 @@ zendesk.tag automation {
   id = "automation"
   _alias = "automation"
 }
+zendesk.tag preview_release_request_alpha_tester@uufu {
+  id = "preview_release_request:alpha_tester"
+  _alias = "preview_release_request:alpha_tester"
+}
