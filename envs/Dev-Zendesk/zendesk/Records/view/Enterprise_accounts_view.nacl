@@ -14,7 +14,7 @@ zendesk.view Enterprise_accounts_view@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
@@ -46,7 +46,7 @@ zendesk.view Enterprise_accounts_view@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {

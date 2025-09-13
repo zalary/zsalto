@@ -15,7 +15,7 @@ zendesk.view SRD___agent_view___V2@sbsssbs {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
@@ -47,7 +47,7 @@ zendesk.view SRD___agent_view___V2@sbsssbs {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {

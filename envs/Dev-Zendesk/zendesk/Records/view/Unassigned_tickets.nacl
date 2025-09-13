@@ -16,7 +16,7 @@ zendesk.view Unassigned_tickets@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
@@ -48,7 +48,7 @@ zendesk.view Unassigned_tickets@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {

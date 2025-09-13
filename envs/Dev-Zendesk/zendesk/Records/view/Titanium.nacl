@@ -14,7 +14,7 @@ zendesk.view Titanium {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
@@ -46,7 +46,7 @@ zendesk.view Titanium {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {

@@ -15,7 +15,7 @@ zendesk.view Platinum_View@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
@@ -54,7 +54,7 @@ zendesk.view Platinum_View@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {

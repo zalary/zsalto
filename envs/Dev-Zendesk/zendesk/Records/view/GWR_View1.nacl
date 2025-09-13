@@ -14,7 +14,7 @@ zendesk.view GWR_View1@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
@@ -53,7 +53,7 @@ zendesk.view GWR_View1@s {
       {
         id = "subject"
         title = "Subject"
-        filterable = false
+        filterable = true
         sortable = false
       },
       {
