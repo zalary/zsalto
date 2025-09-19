@@ -52,6 +52,7 @@ zendesk.custom_role Light_agent@s {
     read_macro_content_suggestions = false
     view_reduced_count = false
     view_filter_tickets = true
+    export_views = false
     manage_roles = "none"
     manage_deletion_schedules = "none"
     explore_reports = {

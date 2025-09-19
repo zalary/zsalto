@@ -42,6 +42,7 @@ zendesk.custom_role Team_lead@s {
     manage_ticket_forms = false
     manage_user_fields = false
     ticket_redaction = true
+    export_views = false
     manage_roles = "none"
     manage_groups = true
     manage_group_memberships = true

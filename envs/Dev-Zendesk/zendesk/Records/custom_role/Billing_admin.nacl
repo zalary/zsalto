@@ -42,6 +42,7 @@ zendesk.custom_role Billing_admin@s {
     manage_ticket_forms = true
     manage_user_fields = true
     ticket_redaction = true
+    export_views = true
     manage_roles = "all"
     manage_groups = true
     manage_group_memberships = true
