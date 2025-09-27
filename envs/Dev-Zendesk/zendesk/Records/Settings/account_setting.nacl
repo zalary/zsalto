@@ -112,6 +112,8 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     example_eap_enabled = false
     ai_async_comment_translations_eap_tos_accepted = false
     ai_async_comment_translations_eap_enabled = false
+    it_asset_management_eap_tos_accepted = false
+    it_asset_management_eap_enabled = false
   }
   groups = {
     check_group_name_uniqueness = true
