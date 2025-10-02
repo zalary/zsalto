@@ -106,12 +106,12 @@ You are a follower on this request ({{ticket.id}}). {{ticket.follower_reply_type
     agent_as_a_requester = "private-groups"
     idle_timeout_enabled = false
     agent_home = true
+    split_view_enabled = false
+    split_view_tos_accepted = false
     dark_mode_agent_workspace = true
     dark_mode_terms_and_conditions_accepted = false
     example_eap_tos_accepted = false
     example_eap_enabled = false
-    ai_async_comment_translations_eap_tos_accepted = false
-    ai_async_comment_translations_eap_enabled = false
     it_asset_management_eap_tos_accepted = false
     it_asset_management_eap_enabled = false
   }

@@ -56,8 +56,6 @@ zendesk.custom_role Admin2 {
     manage_deletion_schedules = "none"
     explore_reports = {
       ticket_access = "all"
-      groups_ticket_access = "all"
-      brands_ticket_access = "all"
     }
     assign_agent_statuses = false
     manage_approval_requests = false
