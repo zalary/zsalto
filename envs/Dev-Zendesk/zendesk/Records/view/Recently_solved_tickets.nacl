@@ -25,7 +25,7 @@ zendesk.view Recently_solved_tickets@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
@@ -63,7 +63,7 @@ zendesk.view Recently_solved_tickets@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"

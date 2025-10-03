@@ -15,7 +15,7 @@ zendesk.view Str_accounts_view@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
@@ -47,7 +47,7 @@ zendesk.view Str_accounts_view@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"

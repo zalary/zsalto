@@ -16,7 +16,7 @@ zendesk.view Free_view@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
@@ -48,7 +48,7 @@ zendesk.view Free_view@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"

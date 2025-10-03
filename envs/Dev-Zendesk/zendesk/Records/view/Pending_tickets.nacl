@@ -25,7 +25,7 @@ zendesk.view Pending_tickets@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
@@ -70,7 +70,7 @@ zendesk.view Pending_tickets@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"

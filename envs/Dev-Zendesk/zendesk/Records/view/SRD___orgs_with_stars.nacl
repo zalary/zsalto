@@ -15,7 +15,7 @@ zendesk.view SRD___orgs_with_stars@sbsss {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
@@ -47,7 +47,7 @@ zendesk.view SRD___orgs_with_stars@sbsss {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"

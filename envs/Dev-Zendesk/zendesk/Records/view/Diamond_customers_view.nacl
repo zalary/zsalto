@@ -24,7 +24,7 @@ zendesk.view Diamond_customers_view@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
@@ -56,7 +56,7 @@ zendesk.view Diamond_customers_view@s {
         id = "subject"
         title = "Subject"
         filterable = true
-        sortable = false
+        sortable = true
       },
       {
         id = "requester"
