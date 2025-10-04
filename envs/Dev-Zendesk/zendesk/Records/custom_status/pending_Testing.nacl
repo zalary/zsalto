@@ -1,0 +1,9 @@
+zendesk.custom_status pending_Testing {
+  status_category = "pending"
+  raw_agent_label = "Testing"
+  raw_end_user_label = "Testing"
+  raw_description = "Request is being tested by developers."
+  raw_end_user_description = "Request is being tested by developers."
+  active = true
+  _alias = "Testing"
+}

@@ -8,7 +8,7 @@ zendesk.view Recently_updated_tickets@s {
     sort_order = "desc"
     group = {
       id = "status"
-      title = "Status"
+      title = "Status category"
       filterable = true
       sortable = true
       order = "asc"

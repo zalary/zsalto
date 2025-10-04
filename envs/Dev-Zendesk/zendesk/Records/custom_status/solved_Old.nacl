@@ -1,0 +1,9 @@
+zendesk.custom_status solved_Old {
+  status_category = "solved"
+  raw_agent_label = "Old"
+  raw_end_user_label = "Old"
+  raw_description = "This is an Old ticket"
+  raw_end_user_description = "Your ticket has aged out"
+  active = true
+  _alias = "Old"
+}

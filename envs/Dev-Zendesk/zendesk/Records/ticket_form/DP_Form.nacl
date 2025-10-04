@@ -45,6 +45,9 @@ zendesk.ticket_form DP_Form@s {
             statuses = [
               "new",
             ]
+            custom_statuses = [
+              zendesk.custom_status.instance.new___zd_status_new__@u_00123_00123vu_00125_00125,
+            ]
           }
         },
       ]
@@ -61,6 +64,9 @@ zendesk.ticket_form DP_Form@s {
             type = "SOME_STATUSES"
             statuses = [
               "new",
+            ]
+            custom_statuses = [
+              zendesk.custom_status.instance.new___zd_status_new__@u_00123_00123vu_00125_00125,
             ]
           }
         },

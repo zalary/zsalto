@@ -58,7 +58,7 @@ zendesk.account_setting {
     auto_translation_enabled = false
     agent_invitation_enabled = false
     chat_sla_enablement = false
-    custom_statuses_enabled = false
+    custom_statuses_enabled = true
     modify_closed_tickets_customer_setting = false
     help_center_enabled = true
     display_fcp_setting = false

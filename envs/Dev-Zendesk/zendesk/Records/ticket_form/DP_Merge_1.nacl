@@ -131,6 +131,9 @@ zendesk.ticket_form DP_Merge_1@s {
             statuses = [
               "pending",
             ]
+            custom_statuses = [
+              zendesk.custom_status.instance.pending___zd_status_pending__@u_00123_00123vu_00125_00125,
+            ]
           }
         },
         {
@@ -140,6 +143,9 @@ zendesk.ticket_form DP_Merge_1@s {
             type = "SOME_STATUSES"
             statuses = [
               "open",
+            ]
+            custom_statuses = [
+              zendesk.custom_status.instance.open___zd_status_open__@u_00123_00123vu_00125_00125,
             ]
           }
         },
